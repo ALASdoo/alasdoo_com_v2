@@ -1,61 +1,115 @@
 ---
 ####################### Banner #########################
 banner:
-  title: 'Let us solve your critical website development challenges'
+  title: 'Customized, adaptable, cost-effective, and reliable solutions for software development and quality assurance outsourcing'
   image: 'images/banner-art.svg'
-  content: 'Create a best strategic tool, share it with your team and ensure it’s on track with intuitive dashboards. <br> Simple enough with the sophistication and flexibility to meet the needs of large enterprises'
+  content: ''
   button:
     enable: true
-    label: 'Get started for Free'
-    link: 'get-demo/'
+    label: 'More about our services'
+    link: 'what-we-do/'
 
-########################## Clients Logo Slider #########################
-clients_logo_slider:
+####################### About #########################
+about:
   enable: true
-  title: 'The best customer experiences are built with ALAS'
-  logos:
-    - 'images/brands/01-colored.png'
-    - 'images/brands/02-colored.png'
-    - 'images/brands/03-colored.png'
-    - 'images/brands/04-colored.png'
-    - 'images/brands/05-colored.png'
-    - 'images/brands/06-colored.png'
-    - 'images/brands/03-colored.png'
-    - 'images/brands/01-colored.png'
-    - 'images/brands/02-colored.png'
-    - 'images/brands/04-colored.png'
-    - 'images/brands/05-colored.png'
-    - 'images/brands/06-colored.png'
-
-##################### Feature ##########################
-feature:
-  enable: true
-  title: 'The ultimate platform for creating, sharing, and executing.'
-  content: 'We are helping thousands of organizations run their business strategies and achieve their ambitious results! We make big plans happen.'
+  title: 'About us'
+  content: 'ALAS d.o.o. is a Software Development and Quality Assurance outsourcing company with extensive experience in web development, project management, manual and automated testing. As a well-known Dev & QA supplier worldwide, alongside our "[WeDoQa](https://www.wedoqa.com)" brand, we collaborate with multinational clientele from many global businesses.'
   button:
     enable: true
-    label: 'Try for Free'
-    link: 'get-demo/'
-  feature_item:
-    # feature item loop
-    - name: 'Cloud Support'
+    label: 'Learn more about who we are'
+    link: 'who-we-are/'
+
+##################### Numbers ##########################
+numbers:
+  enable: true
+  numbers_item:
+    # numbers item loop
+    - icon: 'fas fa-fighter-jet'
+      counter: '17'
+      counter_suffix: '+'
+      content: 'Years of experience'
+
+    # numbers item loop
+    - icon: 'far fa-dot-circle'
+      counter: '200'
+      counter_suffix: '+'
+      content: 'Satisfied customers'
+
+    # numbers item loop
+    - icon: 'fas fa-dice-d6'
+      counter: '1000'
+      counter_suffix: '+'
+      content: 'Tickets per week'
+
+##################### What we do ##########################
+services:
+  enable: true
+  title: 'What we do'
+  content: 'The website solutions we develop at ALAS doo provide a smooth user experience for your target audience while our quality assurance team has the necessary training, knowledge, and enthusiasm to guarantee that your software satisfies the highest requirements. We can help at any point of the development process and collaborate with your team utilizing the Agile, Scrum, Kanban, or Traditional methodology that you select for your PM workflow. We offer services that are specific to your requirements.'
+  button:
+    enable: true
+    label: 'Services'
+    link: 'what-we-do/'
+  services_item:
+    # services item loop
+    - name: 'Frontend and backend staff augmentation and dedicated teams'
       icon: 'fab fa-mixcloud'
-      content: 'Fugiat similique nobis porro cumque stinctio iusto quaerat corrupti.'
+      link: 'what-we-do#dev/'
 
-    # feature item loop
-    - name: 'Object Oriented'
+    # services item loop
+    - name: 'Manual and automated software QA services'
       icon: 'far fa-dot-circle'
-      content: 'Fugiat similique nobis porro cumque voluptates tempus eupo stinctio.'
+      link: 'what-we-do#qa/'
 
-    # feature item loop
-    - name: '24h Service'
+    # services item loop
+    - name: 'IT consulting and project management'
       icon: 'fas fa-headphones-alt'
-      content: 'Fugiat similique nobis porro cumque voluptates tempus eupo stinctio.'
+      link: 'what-we-do#pm/'
 
-    # feature item loop
-    - name: 'Faster Response'
-      icon: 'far fa-thumbs-up'
-      content: 'Fugiat similique nobis porro cumque voluptates tempus eupo stinctio.'
+######################### Consulting #####################
+consulting:
+  enable: true
+  title: 'We offer free advising on what you need for your project to skyrocket'
+  button:
+    enable: true
+    label: 'Schedule a meeting'
+    link: 'contact/'
+
+######################### Clients #####################
+clients:
+  enable: true
+  title: 'We offer free advising on what you need for your project to skyrocket'
+  content: 'From tiny enterprises and startups to well-established international corporations, we work with a wide range of industries. We have developed trustworthy connections with [clients](clients/) and their development teams all across the world. Check out our [case studies](case-studies/) to learn more about how our clients were able to upgrade their company practices with our assistance.'
+
+######################### Case studies #####################
+case_studies:
+  enable: true
+  title: 'Explore our most recent case studies'
+  section: 'case-studies'
+
+######################### Jobs #####################
+jobs:
+  enable: true
+  title: 'Working in ALAS'
+  content: 'Alas is all about providing each individual with a distraction-free atmosphere, and possibilities for enjoyment, relaxation, and social interaction. We encourage people to live a healthy and active lifestyle, frequently cross items off their travel wish lists, and devote time and energy to their families and hobbies in order to create a community of inspired people who feel respected, driven, and accomplished. As crazy as it may sound, we actually do look forward to Mondays!'
+  button:
+    enable: true
+    label: 'Check out the most recent job openings'
+    link: 'careers/'
+
+######################### Case studies #####################
+articles:
+  enable: true
+  title: 'Discover the best practices'
+  section: 'blog'
+  # section: 'articles'
+  # TODO: change to articles once we have them set up
+
+#######
+#######
+#######
+#######
+#######
 
 ######################### Intro Video #####################
 intro_video:
