@@ -13,7 +13,7 @@ logo_webp = true
 logo_text = "ALAS doo"
 # theme-mode
 theme_switcher = false
-theme_default = "automatic" # available options [light/dark/automatic]
+theme_default = "light" # available options [light/dark/automatic]
 # Main Sections
 mainSections = ["blog"]
 # contact form action
@@ -36,20 +36,20 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [navigation_button]
 enable = true
-label = "Get a Demo"
-link = "get-demo/"
+label = "Contact"
+link = "contact/"
 
 # contact info
 [contact_info]
-address = "9567 Turner Trace Apt. BC C3G8A4"
-mobile = "+211234565523"
-email = "info@email.com"
+address = "Rudjera Boskovica 20, 21000 Novi Sad, Serbia"
+mobile = ""
+email = "info@alasdoo.com"
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
 keywords = ["Hugo", "Themefisher", "GetHugoThemes"]
 description = "This is meta description"
-author = "Themefisher"
+author = "ALAS doo"
 image = "images/logo.png"                           # this image will be used as fallback if a page has no image of its own
 
 # matomo tracking: see https://matomo.org/
@@ -93,20 +93,20 @@ title = "facebook"
 icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
 link = "#!"
 
-[[social]]
-title = "twitter"
-icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#!"
+# [[social]]
+# title = "twitter"
+# icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
+# link = "#!"
 
 [[social]]
 title = "instagram"
 icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
 link = "#!"
 
-[[social]]
-title = "github"
-icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#!"
+# [[social]]
+# title = "github"
+# icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
+# link = "#!"
 
 [[social]]
 title = "linkedin"
