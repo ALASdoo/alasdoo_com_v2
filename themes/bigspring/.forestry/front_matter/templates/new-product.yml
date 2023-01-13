@@ -1,0 +1,174 @@
+---
+label: new-product
+hide_body: true
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: text
+  name: icon
+  label: icon
+- type: field_group
+  name: banner
+  label: banner
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: file
+    name: image
+    label: image
+  - type: textarea
+    name: content
+    label: content
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: link
+      label: link
+  - type: text
+    name: background_class
+    label: background_class
+- type: field_group
+  name: about_this_product
+  label: about_this_product
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: content
+    label: content
+  - type: text
+    name: background_class
+    label: background_class
+  - type: field_group_list
+    name: features
+    label: features
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: icon
+      label: icon
+    - type: textarea
+      name: content
+      label: content
+- type: field_group
+  name: product_info
+  label: product_info
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: content
+    label: content
+  - type: text
+    name: background_class
+    label: background_class
+  - type: field_group_list
+    name: features
+    label: features
+    fields:
+    - type: file
+      name: image
+      label: image
+    - type: textarea
+      name: content
+      label: content
+- type: field_group
+  name: intro_video
+  label: intro_video
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: content
+    label: content
+  - type: text
+    name: video_url
+    label: video_url
+  - type: file
+    name: video_thumbnail
+    label: video_thumbnail
+  - type: text
+    name: background_class
+    label: background_class
+- type: field_group
+  name: content_and_image_ordered
+  label: content_and_image_ordered
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: field_group_list
+    name: block
+    label: block
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: background_class
+      label: background_class
+    - type: image_gallery
+      name: images
+      label: images
+    - type: textarea
+      name: content
+      label: content
+- type: field_group
+  name: cta
+  label: cta
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: content
+    label: content
+  - type: text
+    name: background_class
+    label: background_class
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: link
+      label: link
