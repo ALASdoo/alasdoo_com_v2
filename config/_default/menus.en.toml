@@ -17,8 +17,8 @@ hasChildren = true
 
 [[main]]
 parent = "Who we are"
-name = "About"
-url = "about/"
+name = "Our story"
+url = "our-story/"
 weight = 1
 
 [[main]]
@@ -26,6 +26,12 @@ parent = "Who we are"
 name = "Team"
 url = "team/"
 weight = 2
+
+[[main]]
+parent = "Who we are"
+name = "Clients"
+url = "clients/"
+weight = 3
 
 
 [[main]]
@@ -50,23 +56,23 @@ url = "/"
 weight = 1
 
 [[footer_menu]]
-name = "What We Do"
-url = "what-we-do/"
+name = "Who We Are"
+url = "who-we-are/"
 weight = 2
 
 [[footer_menu]]
-name = "Who We Are"
-url = "who-we-are/"
+name = "What We Do"
+url = "what-we-do/"
 weight = 3
 
 [[footer_menu]]
-name = "Workplace"
-url = "products/product-3/"
+name = "Case Studies"
+url = "case-studies/"
 weight = 4
 
 [[footer_menu]]
-name = "Analytics"
-url = "products/product-4/"
+name = "Careers"
+url = "careers/"
 weight = 5
 
 # # footer menu left

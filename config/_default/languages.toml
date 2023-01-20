@@ -5,10 +5,12 @@ languageCode = "en-US"
 contentDir = "content/english"
 weight = 1
 ########### footer content ##########
-# footer_menu_left = "Company"
-# footer_menu_middle = "Products"
-# footer_menu_right = "Support"
-# footer_content = "Lorem ipsum dolor sit amet, consectetur elit consjat tristique eget amet."
+footer_contact_title = "Contact Info"
+footer_content = """
+Rudjera Boskovica 20
+21000 Novi Sad, Serbia
+[info@alasdoo.com](mailto:info@alasdoo.com)
+"""
 
 
 ################################### Deutsch language #####################################

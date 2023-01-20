@@ -88,20 +88,20 @@ content = "This site uses cookies. By continuing to use this website, you agree 
 button = "I Accept"
 
 ############################# social site ########################
-[[social]]
-title = "facebook"
-icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#!"
-
 # [[social]]
 # title = "twitter"
 # icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
 # link = "#!"
 
 [[social]]
+title = "linkedin"
+icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.linkedin.com/company/alas-doo"
+
+[[social]]
 title = "instagram"
 icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#!"
+link = "https://www.instagram.com/alasdoocom/"
 
 # [[social]]
 # title = "github"
@@ -109,6 +109,7 @@ link = "#!"
 # link = "#!"
 
 [[social]]
-title = "linkedin"
-icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#!"
+title = "facebook"
+icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.facebook.com/ALASdoocom"
+
