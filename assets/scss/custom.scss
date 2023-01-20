@@ -1,0 +1,69 @@
+$alas-color-yellow: #ffb81d;
+$alas-color-orange: #ff8506;
+$alas-color-blue: #00a1a3;
+
+
+.contact-img {
+  border-bottom: 10px solid;
+}
+
+.contact {
+  .nav-tabs {
+    border: 0;
+    padding: 0;
+  }
+  .nav-item {
+    border: 0;
+    border-radius: 0;
+    border-top: 5px solid;
+  }
+  .tab-content {
+    border: 0;
+  }
+  .nav-link {
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .services {
+    background-color: $alas-color-yellow;
+    border-color: $alas-color-yellow;
+    .active {
+      color: $alas-color-yellow;
+      background-color: #fff;
+    }
+  }
+  .jobs {
+    background-color: $alas-color-orange;
+    border-color: $alas-color-orange;
+    .active {
+      color: $alas-color-orange;
+      background-color: #fff;
+    }
+  }
+  .other {
+    background-color: $alas-color-blue;
+    border-color: $alas-color-blue;
+    .active {
+      color: $alas-color-blue;
+      background-color: #fff;
+    }
+  }
+}
+
+#services-tab-pane {
+  .contact-img {
+    border-color: $alas-color-yellow;
+  }
+}
+#jobs-tab-pane {
+  .contact-img {
+    border-color: $alas-color-orange;
+  }
+}
+#other-tab-pane {
+  .contact-img {
+    border-color: $alas-color-blue;
+  }
+}

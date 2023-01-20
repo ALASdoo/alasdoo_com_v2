@@ -8742,3 +8742,54 @@ iframe.wait-autoplay {
   .dark #TableOfContents li,
   .dark #TableOfContents a {
     color: #fff !important; }
+
+.contact-img {
+  border-bottom: 10px solid; }
+
+.contact .nav-tabs {
+  border: 0;
+  padding: 0; }
+
+.contact .nav-item {
+  border: 0;
+  border-radius: 0;
+  border-top: 5px solid; }
+
+.contact .tab-content {
+  border: 0; }
+
+.contact .nav-link {
+  border: 0;
+  border-radius: 0;
+  color: #fff;
+  text-transform: uppercase; }
+
+.contact .services {
+  background-color: #ffb81d;
+  border-color: #ffb81d; }
+  .contact .services .active {
+    color: #ffb81d;
+    background-color: #fff; }
+
+.contact .jobs {
+  background-color: #ff8506;
+  border-color: #ff8506; }
+  .contact .jobs .active {
+    color: #ff8506;
+    background-color: #fff; }
+
+.contact .other {
+  background-color: #00a1a3;
+  border-color: #00a1a3; }
+  .contact .other .active {
+    color: #00a1a3;
+    background-color: #fff; }
+
+#services-tab-pane .contact-img {
+  border-color: #ffb81d; }
+
+#jobs-tab-pane .contact-img {
+  border-color: #ff8506; }
+
+#other-tab-pane .contact-img {
+  border-color: #00a1a3; }
