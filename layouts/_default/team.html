@@ -1,0 +1,85 @@
+{{define "main"}}
+
+{{with .Params}}
+<section class="section">
+  <div class="container">
+    <div class="row text-center">
+      <h3>{{.hero}}</h3>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  {{ partial "page-header.html" .}}
+  <div class="container">
+    <div class="row">
+      <p>{{.description | markdownify}}</p>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-light">
+  <div class="container">
+    <div class="row">
+      <p>{{.cta.content | markdownify}}</p>
+    </div>
+    <div class="row">
+      {{ if .cta.button.enable }}
+      {{ with .cta.button }}
+      <a href="{{ .link | relLangURL }}" title="{{ .label }}" class="btn btn-sm btn-outline-primary">{{ .label }}</a>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="row text-center">
+      <h2>{{.team_members_title}}</h2>
+    </div>
+    <div class="row gy-5">
+      {{range .team_members}}
+      <div class="col-xl-3 col-lg-4">
+        <div class="card bg-transparent border-0 text-center">
+          {{ partial "image" (dict "Src" .image "Alt" .name "Class" "card-img-top rounded-2" "Size" "360x") }}
+          <div class="card-body px-0">
+            {{with .name}}<h3 class="h5 mb-1">{{. | markdownify }}</h3>{{end}}
+            {{with .designation}}<p class="mb-0">{{. | markdownify }}</p>{{end}}
+          </div>
+        </div>
+      </div>
+      {{end}}
+    </div>
+  </div>
+</section>
+
+<section class="section bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h3>{{.join.title | markdownify}}</h3>
+        <p>{{.join.content | markdownify}}</p>
+        {{ if .join.button.enable }}
+        {{ with .join.button }}
+        <a href="{{ .link | relLangURL }}" title="{{ .label }}" class="btn btn-sm btn-outline-primary">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+      <div class="col-lg-6">
+        <div class="swiper single-slider">
+          <div class="swiper-wrapper single-slider">
+            {{range .join.image_item}}
+            <div class="swiper-slide">
+              {{ partial "image" (dict "Src" .image "Alt" "Team photo") }}
+            </div>
+            {{end}}
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}
+{{end}}
