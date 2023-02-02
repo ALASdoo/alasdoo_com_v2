@@ -1,0 +1,147 @@
+{{ define "main" }}
+
+{{with .Params.hero}}
+<section class="section">
+  <div class="container">
+    <div class="row g-6 align-items-center justify-content-between">
+      <div class="col-lg-6">
+        <div class="pe-0 pe-lg-5">
+          <h1 class="section-title h2">{{.title | markdownify}}</h1>
+          <p class="mb-0">{{.content | markdownify}}</p>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | relLangURL }}" title="{{ .label }}" class="btn btn-outline-primary">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+      <div class="col-lg-6">
+        {{ partial "image" (dict "Src" .image "alt" "About image" "Class" "w-100 rounded-1") }}
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}
+
+{{with .Params.culture}}
+<section class="section">
+  <div class="container">
+    <div class="row g-6 align-items-center justify-content-between">
+      <div class="col-lg-6">
+        <div class="pe-0 pe-lg-5">
+          <h2 class="section-title h3">{{.title | markdownify}}</h2>
+          <h3 class="section-title h2">{{.subtitle | markdownify}}</h3>
+          <p class="mb-0">{{.content | markdownify}}</p>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | relLangURL }}" title="{{ .label }}" class="btn btn-outline-primary">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+      <div class="col-lg-6">
+        {{ partial "image" (dict "Src" .image "alt" "About image" "Class" "w-100 rounded-1") }}
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}
+
+{{with .Params.benefits}}
+<section class="section bg-light">
+  <div class="container">
+    <div class="row gy-5 justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <h2 class="section-title h3">{{.title | markdownify}}</h2>
+        <h3 class="section-title h2">{{.subtitle | markdownify}}</h3>
+        <p class="mb-0">{{.content | markdownify}}</p>
+      </div>
+    </div>
+    {{with .perks}}
+    <div class="row">
+      <h2 class="section-title h3">{{.title | markdownify}}</h2>
+
+      {{range .perks_item}}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        {{ partial "image" (dict "Src" .image "alt" "About image" "Class" "w-100 rounded-1") }}
+
+        <p class="mb-0">{{.content | markdownify}}</p>
+      </div>
+      {{end}}
+    </div>
+    {{end}}
+  </div>
+</section>
+{{end}}
+
+{{ with .Params.process }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title h3">{{.title | markdownify}}</h2>
+        <h3 class="section-title h2">{{.subtitle | markdownify}}</h3>
+      </div>
+    </div>
+    {{ range $i, $p := .process_item }}
+    <div class="row {{if not (modBool $i 2)}}justify-content-end{{end}}">
+      <div class="col-6">
+        <h3 class="section-title">{{.title | markdownify}}</h3>
+        <p class="mb-0">{{.content | markdownify}}</p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.onboarding }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title h3">{{.title | markdownify}}</h2>
+        <h3 class="section-title h2">{{.subtitle | markdownify}}</h3>
+        <p class="mb-0">{{.content | markdownify}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.jobs }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title">{{.title | markdownify}}</h2>
+      </div>
+    </div>
+    <div class="row">
+      {{range where site.RegularPages "Section" .section}}
+      <div class="col-xl-3 col-lg-4 col-sm-6">
+        <a href="{{.RelPermalink}}" class="d-block text-reset h-100">
+          <div class="card bg-transparent shadow border-0 is-hoverable h-100">
+            <div class="card-img-top" style="background:#f9f9f9">
+              {{ partial "image" (dict "Src" .Params.image "Alt" .Title "Size" "x220")}}
+            </div>
+            <div class="card-body p-5 pb-0">
+              <h3 class="h5">{{.Title | markdownify}}</h3>
+              <div class="mt-3">
+                <div class="content mb-4">{{.Summary | truncate 70}}</div>
+              </div>
+            </div>
+            <div class="card-footer p-5 pt-0 border-0 bg-transparent">
+              <span class="text-primary fw-500">{{i18n `read_case_study`}} <i class="fas fa-arrow-right small ms-1"></i> </span>
+            </div>
+          </div>
+        </a>
+      </div>
+      {{end}}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+
+{{ end }}

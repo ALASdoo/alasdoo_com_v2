@@ -8778,10 +8778,10 @@ iframe.wait-autoplay {
     color: #ff8506;
     background-color: #fff; }
 
-.contact .other {
+.contact .partnerships {
   background-color: #00a1a3;
   border-color: #00a1a3; }
-  .contact .other .active {
+  .contact .partnerships .active {
     color: #00a1a3;
     background-color: #fff; }
 
@@ -8791,5 +8791,5 @@ iframe.wait-autoplay {
 #jobs-tab-pane .contact-img {
   border-color: #ff8506; }
 
-#other-tab-pane .contact-img {
+#partnerships-tab-pane .contact-img {
   border-color: #00a1a3; }
