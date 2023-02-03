@@ -1,0 +1,128 @@
+{{define "main"}}
+
+{{with .Params}}
+<section class="section">
+  <div class="container">
+    <div class="row text-center">
+      <h3>{{.cta.content | markdownify}}</h3>
+      {{ partial "image" (dict "Src" .cta.image "Alt" .title "Class" "card-img-top rounded-2" "Size" "360x") }}
+    </div>
+  </div>
+</section>
+
+{{with .relationships}}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <h2 class="text-center">{{.title | markdownify}}</h2>
+      <p>{{.content | markdownify}}</p>
+      </p>
+    </div>
+  </div>
+</section>
+{{end}}
+
+{{with .clients}}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <h3 class="text-center">{{.title | markdownify}}</h3>
+    </div>
+    <div class="row justify-content-center">
+      {{range .clients_item}}
+      <div class="col-3 p-5">
+        {{ partial "image" (dict "Src" .image "Alt" .title) }}
+      </div>
+      {{end}}
+    </div>
+  </div>
+</section>
+{{end}}
+
+{{with .industries}}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <h3 class="text-center">{{.title | markdownify}}</h3>
+      <p>{{.content | markdownify}}</p>
+    </div>
+    <div class="row justify-content-center">
+      {{range .industries_item}}
+      <div class="col-3 p-5">
+        {{ partial "image" (dict "Src" .image "Alt" .title) }}
+      </div>
+      {{end}}
+    </div>
+  </div>
+</section>
+{{end}}
+
+{{with .testimonials}}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <h3 class="text-center">{{.title | markdownify}}</h3>
+      <p>{{.content | markdownify}}</p>
+    </div>
+    <div class="row">
+      <div class="swiper testimonial-carousel">
+        <div class="swiper-wrapper mb-3">
+          {{range .testimonials_item}}
+          <div class="swiper-slide text-center">
+            <p class="lead mb-5">{{.content}}</p>
+            <h5 class="mb-1">{{.name | markdownify}}</h5>
+          </div>
+          {{end}}
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}
+
+{{ with .casestudies }}
+<section class="section" id="case-studies">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <h2 class="h2">{{.title | markdownify}}</h2>
+      </div>
+    </div>
+    <div class="row gy-5 justify-content-center pb-5">
+      {{range first 3 (where site.RegularPages "Section" .section)}}
+      <div class="col-xl-3 col-lg-4 col-sm-6">
+        <a href="{{.RelPermalink}}" class="d-block text-reset h-100">
+          <div class="card bg-transparent shadow border-0 is-hoverable h-100">
+            <div class="card-img-top" style="background:#f9f9f9">
+              {{ partial "image" (dict "Src" .Params.logo "Alt" .Title "Size" "x220")}}
+            </div>
+            <div class="card-body p-5 pb-0">
+              <h3 class="h5">{{.Title | markdownify}}</h3>
+              <div class="mt-3">
+                <div class="content mb-4">{{.Summary | truncate 70}}</div>
+              </div>
+            </div>
+            <div class="card-footer p-5 pt-0 border-0 bg-transparent">
+              <span class="text-primary fw-500">{{i18n `read_case_study`}} <i class="fas fa-arrow-right small ms-1"></i> </span>
+            </div>
+          </div>
+        </a>
+      </div>
+      {{end}}
+    </div>
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | relLangURL }}" title="{{ .label }}" class="btn btn-outline-primary">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{end}}
+{{end}}
