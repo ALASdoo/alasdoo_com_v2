@@ -1,0 +1,67 @@
+{{define "main"}}
+
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-md-10">
+        <p class="h6 opacity-50 mb-1">{{i18n `article`}}<span class="mx-1 text-dark-50 fw-500">|</span> <i class="far fa-clock text-dark me-1"></i> {{.ReadingTime}} {{i18n `min_read`}}</span></p>
+        <h1 class="h2 mb-0 text-primary">{{.Title | markdownify}}</h1>
+        <div class="content border-top pt-5 mt-5">
+          {{.Content}}
+        </div>
+
+        {{ with site.GetPage (string .Params.Author | urlize | lower) }}
+        {{if .Title}}
+        <div class="d-block d-sm-flex border p-5 pb-4 rounded-2 mt-5">
+          <div class="mb-3" style="min-width: 110px">
+            {{ partial "image" (dict "Src" .Params.image "Alt" .Title "Class" "rounded-circle" "Command" "Fill" "Size" "80x80") }}
+          </div>
+          <div>
+            <h3 class="h5 title mb-1">{{ .Title }}</h3>
+            <div class="content">{{ .Content | markdownify}}</div>
+          </div>
+        </div>
+        {{ end }}
+        {{ end }}
+
+        <hr class="my-5">
+        <div class="row">
+          <div class="col-6 text-center text-md-start">
+            {{with .NextInSection }}
+            <a href="{{.RelPermalink}}" class="d-inline-block text-reset is-hoverable shadow-none">
+              {{ $title:= .Title }}
+              {{ with .Params.image }}
+              <div class="rounded-2" style="background:#f9f9f9">
+                {{ partial "image" (dict "Src" . "Alt" $title "Size" "x100")}}
+              </div>
+              {{end}}
+              <p class="mt-2 mb-0 text-center">{{i18n `prev_article`}}</p>
+              <p class="h5 mb-0 text-center">{{.Title}}</p>
+            </a>
+            {{end}}
+          </div>
+          <div class="col-6 text-center text-md-end">
+            {{with .PrevInSection }}
+            <a href="{{.RelPermalink}}" class="d-inline-block text-reset is-hoverable shadow-none">
+              {{with .Params.image}}
+              {{ if fileExists (add `assets/` .) }}
+              {{$img:= resources.Get . }}
+              {{$img:= $img.Resize "x100 "}}
+              {{$imgWebp:= $img.Resize "x100 webp"}}
+              <div class="rounded-2" style="background:#f9f9f9">
+                <img loading="lazy" decoding="async" class="img-fluid" width="{{$img.Width}}" height="{{$img.Height}}" src="{{$imgWebp.RelPermalink}}" alt="image" onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'">
+              </div>
+              {{end}}
+              {{end}}
+              <p class="mt-2 mb-0 text-center">{{i18n `next_article`}}</p>
+              <p class="h5 mb-0 text-center">{{.Title}}</p>
+            </a>
+            {{end}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{end}}

@@ -30,7 +30,7 @@
               <h2>{{.form_title}}</h2>
               <p>{{.form_content}}</p>
 
-              <form method="POST" class="row g-4" action="{{site.Params.contact_form_action | safeURL}}">
+              <form method="POST" class="row g-4" action="{{site.Params.contact_form_action | safeURL}}" data-netlify="true" name="{{.id}}">
                 <div class="col-lg-6">
                   <label class="mb-1" for="fname">{{ i18n "fname"}} <span class="text-danger">*</span></label>
                   <input class="form-control shadow-none" type="text" name="first_name" placeholder="{{ i18n `fname`}}" required>

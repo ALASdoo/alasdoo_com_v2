@@ -107,8 +107,7 @@ jobs:
 articles:
   enable: true
   title: 'Discover the best practices'
-  section: 'blog'
-  # section: 'articles'
+  section: 'articles'
   # TODO: change to articles once we have them set up
   button:
     enable: true
