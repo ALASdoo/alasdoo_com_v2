@@ -6985,6 +6985,12 @@ a:hover {
 .bg-light {
   background-color: #EDF6F5 !important; }
 
+.bg-light-yellow {
+  background-color: #fff3e6 !important; }
+
+.bg-light-gray {
+  background-color: #f4f4f4 !important; }
+
 .fw-500 {
   font-weight: 500 !important; }
 

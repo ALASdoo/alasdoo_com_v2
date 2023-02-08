@@ -1,0 +1,15 @@
+{{ if .enable }}
+<a
+  href="{{ .link | safeURL }}"
+  title="{{ .label }}"
+  class='
+    {{ if eq .type "primary" }}btn btn-primary{{ end }}
+    {{ if eq .type "primary-outline" }}btn btn-outline-primary{{ end }}
+    {{ if eq .type "secondary" }}btn btn-secondary{{ end }}
+    {{ if eq .type "secondary-outline" }}btn btn-outline-secondary{{ end }}
+    {{ if eq .type "link" }}btn-link stretched-link{{ end }}
+    m-2'>
+  {{ .label }}
+  {{ if eq .type "link" }}<i class="fas fa-arrow-right"></i>{{ end }}
+</a>
+{{ end }}

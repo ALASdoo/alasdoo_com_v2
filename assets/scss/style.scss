@@ -16,7 +16,8 @@ $black: {{.black | default "#000"}};
 $white: {{.white | default "#fff"}};
 $light: {{.light | default "#EDF6F5"}};
 $dark: {{.dark | default "#1b2229"}};
-
+$bg-light-yellow: {{.bg_light_yellow | default "#fff3e6"}};
+$bg-light-gray: {{.bg_light_gray | default "#f4f4f4"}};
 
 // Font Variables
 $font-size: {{.font_size | default "16px"}};
