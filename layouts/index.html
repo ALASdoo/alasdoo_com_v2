@@ -2,7 +2,7 @@
 
 <!-- banner -->
 {{ with .Params.banner }}
-<section class="banner">
+<section class="banner" {{ partial "bg-image" (dict "Src" .image "Position" "top center" "Webp" false) | safeHTMLAttr }}>
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto text-center">
@@ -15,7 +15,6 @@
           {{ end }}
           {{ end }}
         </div>
-        {{ partial "image" (dict "Src" .image "Alt" "banner image" "Size" "750x") }}
       </div>
     </div>
   </div>
@@ -29,7 +28,7 @@
 <section class="section" id="about">
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center mb-5">
+      <div class="col-12 text-center">
         <h2 class="h2">{{.title | markdownify}}</h2>
       </div>
       <div class="col-12 text-center">
@@ -52,17 +51,17 @@
 <!-- numbers -->
 {{ with .Params.numbers }}
 {{ if .enable }}
-<section class="section">
-  <div class="container container-delta">
+<section class="section p-5 bg-primary">
+  <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-lg-10">
-        <div class="row gy-5 justify-content-center">
+        <div class="row justify-content-center">
           {{range .numbers_item}}
           <div class="col-lg-3 col-sm-6">
             <div class="block">
-              <span class="h3 text-primary"><i class="{{.icon}}"></i></span>
-              <h3 class="mt-2 mt-lg-4 mb-1 mb-lg-3"><span class="counter" data-counter-time="1000">{{.counter}}</span>{{.counter_suffix}}</h3>
-              <p class="mb-0 lead">{{.content | markdownify}}</p>
+              <span class="h3 text-white"><i class="{{.icon}}"></i></span>
+              <h3 class="text-white mt-2 mt-lg-4 mb-1 mb-lg-3"><span class="counter" data-counter-time="1000">{{.counter}}</span>{{.counter_suffix}}</h3>
+              <p class="text-white mb-0">{{.content | markdownify}}</p>
             </div>
           </div>
           {{end}}
@@ -85,31 +84,23 @@
         <h2 class="h2">{{.title | markdownify}}</h2>
         <p class="mb-4">{{ .content | markdownify }}</p>
       </div>
-      <div class="col-12 text-center">
-        <div class="mb-5">
-          {{ if .button.enable }}
-          {{ with .button }}
-          <a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-outline-primary m-2">{{ .label }}</a>
-          {{ end }}
-          {{ end }}
-        </div>
-      </div>
     </div>
     <div class="row">
       <div class="col-12">
         <div class="row">
           {{ range .services_item }}
             <div class="col-4">
-              <a href="{{ .link | safeURL }}" title="{{ .label }}" class="m-2">
-                <div class="card services-card is-hoverable bg-white rounded-1 d-block p-4">
-                  <div class="block h3">
-                    <i class="icon {{.icon}} text-primary mb-4"></i>
-                  </div>
-                  <div class="block">
-                    <h4 class="mb-3 h5">{{ .name | title }}</h4>
+              <div class="card is-hoverable bg-white rounded-1 d-block p-4">
+                <div class="block h3">
+                  <i class="icon {{.icon}} text-primary mb-4"></i>
+                </div>
+                <div class="block">
+                  <h4 class="mb-3 h5">{{ .name | title }}</h4>
+                  <a href="{{ .link | safeURL }}" title="{{ .label }}" class="m-2">
+                    DDDDD
+                  </a>
                   </div>
                 </div>
-              </a>
             </div>
           {{ end }}
         </div>

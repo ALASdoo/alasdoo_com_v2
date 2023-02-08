@@ -2,7 +2,7 @@
 ####################### Banner #########################
 banner:
   title: 'Customized, adaptable, cost-effective, and reliable solutions for software development and quality assurance outsourcing'
-  image: 'images/banner-art.svg'
+  image: 'images/hero-home.png'
   content: ''
   button:
     enable: true
@@ -50,10 +50,6 @@ services:
   enable: true
   title: 'What we do'
   content: 'Our top focus is to write code that meets the highest standards, while our quality assurance team has the skills and enthusiasm to ensure that the software satisfies the strictest criteria. Each project is unique and requires a customized approach. With our knowledge, experience, and the technologies we use, we supply [a vast range of services](services/) to provide the most efficient solution for the unique demands and requirements of our clients.'
-  button:
-    enable: true
-    label: 'Services'
-    link: 'what-we-do/'
   services_item:
     # services item loop
     - name: 'Frontend and backend staff augmentation and dedicated teams'

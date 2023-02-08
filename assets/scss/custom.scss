@@ -2,6 +2,14 @@ $alas-color-yellow: #ffb81d;
 $alas-color-orange: #ff8506;
 $alas-color-blue: #00a1a3;
 
+.navigation {
+  min-height: 85px;
+}
+
+.banner {
+  aspect-ratio: 16 / 9;
+  background-size: contain !important;
+}
 
 .contact-img {
   border-bottom: 10px solid;
