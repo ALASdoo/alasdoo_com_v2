@@ -2,11 +2,11 @@
 # favicon
 favicon = "images/favicon.png"
 # logo
-logo = "images/logo.png"
+logo = "images/logo.svg"
 logo_dark = "images/logo-w.png"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
-logo_width = "180px"
+logo_width = "220px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.

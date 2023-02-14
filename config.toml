@@ -12,16 +12,18 @@ title = 'ALAS d.o.o. website'
 ######################### site variables ##############################
 # customize your color and font from here.
 [params.variables]
-alas_color_yellow = "#ffb81d"
-alas_color_orange = "#ff8506"
-alas_color_blue = "#00a1a3"
+alas_color_yellow = "#FFB81F"
+alas_color_orange = "#FF8602"
+alas_color_blue = "#00A0A3"
 
-color_primary = "#00a1a3"
+color_primary = "#00A0A3"
 color_secondary = "#376f92"
 body_color = "#fff"
 text_color = "#777"
 text_dark = "#222"
 text_light = "#959595"
+link_color = "#009598"
+link_hover_color = "#008083"
 border_color = "#ECECEC"
 dark_body_color = "#1E262C"
 dark_text_color = "#cbcbcb"
@@ -32,6 +34,8 @@ black = "#101418"
 white = "#fff"
 light = "#EDF6F5"
 dark = "#1b2229"
+bg_orange = "#FF8602"
+bg_light_blue = "#e6f6f5"
 bg_light_yellow = "#fff3e6"
 bg_light_gray = "#f4f4f4"
 

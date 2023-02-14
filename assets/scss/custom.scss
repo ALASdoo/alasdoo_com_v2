@@ -1,14 +1,42 @@
-$alas-color-yellow: #ffb81d;
-$alas-color-orange: #ff8506;
-$alas-color-blue: #00a1a3;
+$alas-color-yellow: #FFB81F;
+$alas-color-orange: #FF8602;
+$alas-color-blue: #00A0A3;
 
 .navigation {
   min-height: 85px;
+
+  .nav-item {
+    .nav-link:hover,
+    &.active .nav-link {
+      color: $link-color !important;
+    }
+  }
 }
+
 
 .banner {
   aspect-ratio: 16 / 9;
   background-size: contain !important;
+}
+
+.numbers-icon img {
+  max-height: 100px;
+}
+
+.service-card {
+  .btn-link {
+    margin-left: 0 !important;
+    font-size: 20px;
+  }
+}
+
+.service-image img {
+  height: 255px;
+  padding: 40px 0 15px;
+}
+
+.what-we-do-img img {
+  max-height: 420px;
 }
 
 .contact-img {

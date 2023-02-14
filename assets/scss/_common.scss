@@ -34,11 +34,16 @@ img {
 a,
 a:hover,
 a:focus {
+  color: $link-color;
   text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: $link-hover-color;
 }
 
 a.text-dark:hover {
-  color: $color-primary !important;
+  color: $link-hover-color !important;
 }
 
 a,
@@ -50,10 +55,6 @@ select {
   &:focus {
     outline: 0;
   }
-}
-
-a:hover {
-  color: $color-primary;
 }
 
 .section {
@@ -178,6 +179,12 @@ a:hover {
 }
 .bg-light-yellow {
   background-color: $bg-light-yellow !important;
+}
+.bg-light-blue {
+  background-color: $bg-light-blue !important;
+}
+.bg-orange {
+  background-color: $bg-orange !important;
 }
 .bg-light-gray {
   background-color: $bg-light-gray !important;

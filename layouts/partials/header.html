@@ -2,7 +2,7 @@
 <header class="navigation">
   <div class="container">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+    <nav class="navbar navbar-expand-xl navbar-light fixed-top bg-white">
       <div class="container">
       <!-- navbar brand/logo -->
       <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
@@ -52,8 +52,8 @@
         {{ end }}
       </div>
 
-      <div class="collapse navbar-collapse text-center" id="navigation">
-        <ul class="navbar-nav mx-auto">
+      <div class="collapse navbar-collapse text-center justify-content-end" id="navigation">
+        <ul class="navbar-nav">
           <!-- menu active -->
           {{ $currentPage := . }}
           {{ range site.Menus.main }}

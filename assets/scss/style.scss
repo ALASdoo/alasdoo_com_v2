@@ -5,6 +5,8 @@ $color-secondary: {{.color_secondary | default "#376f92"}};
 $text-color: {{.text_color | default "#777"}};
 $text-dark: {{.text_dark | default "#222"}};
 $text-light: {{.text_light | default "#999"}};
+$link-color: {{.link_color | default "#009598"}};
+$link-hover-color: {{.link_hover_color | default "#008083"}};
 $body-bg: {{.body_color | default "#fff"}};
 $border-color: {{.border_color | default "#ECECEC"}};
 $dark-body-bg: {{.dark_body_color | default "#1e262c"}};
@@ -16,6 +18,8 @@ $black: {{.black | default "#000"}};
 $white: {{.white | default "#fff"}};
 $light: {{.light | default "#EDF6F5"}};
 $dark: {{.dark | default "#1b2229"}};
+$bg-orange: {{.bg_orange | default "#FF8602"}};
+$bg-light-blue: {{.bg_light_blue | default "#E6FFFF"}};
 $bg-light-yellow: {{.bg_light_yellow | default "#fff3e6"}};
 $bg-light-gray: {{.bg_light_gray | default "#f4f4f4"}};
 

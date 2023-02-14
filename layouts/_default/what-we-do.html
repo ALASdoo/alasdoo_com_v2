@@ -29,10 +29,10 @@
 {{ $list := .blocks }}
 {{ $len := (len $list) }}
 {{ range $i, $p := $list }}
-<section class="section what-we-do {{if eq $i 0}} first-element {{end}} {{if eq (add $i 1) $len}} last-element {{if modBool $i 2}} has-bg-light {{end}} {{end}} overflow-hidden {{if modBool $i 2}}bg-light {{end}}">
+<section class="section what-we-do {{if eq $i 0}} first-element {{end}} {{if eq (add $i 1) $len}} last-element {{end}} overflow-hidden">
   <div class="container">
-    <div class="block {{if modBool $i 2}}block-right-image{{end}} row align-items-center g-5">
-      <div class="col-lg-6 {{if modBool $i 2}}order-lg-0 text-lg-end{{end}} order-1">
+    <div class="block {{if not (modBool $i 2)}}block-right-image{{end}} row align-items-center g-5">
+      <div class="col-lg-6 {{if not (modBool $i 2)}}order-lg-0 text-lg-end{{end}} order-1">
         <div class="px-0 px-lg-4">
           <h2 class="section-title h3">{{ .title | markdownify }}</h2>
           <p class="mb-4">{{ .content | markdownify }}</p>
@@ -43,10 +43,10 @@
           {{ end }}
         </div>
       </div>
-      <div class="col-lg-6 {{if modBool $i 2}}order-lg-1{{end}} order-0">
+      <div class="col-lg-6 {{if not (modBool $i 2)}}order-lg-1{{end}} order-0">
         <div class="px-0 px-lg-4">
-          <div class="swiper-slide">
-            {{ partial "image" (dict "Src" .image "Alt" "image" "Class" "w-100 rounded-2") }}
+          <div class="swiper-slide text-center what-we-do-img">
+            {{ partial "image" (dict "Src" .image "Alt" "image") }}
           </div>
         </div>
       </div>
