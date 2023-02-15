@@ -47,7 +47,7 @@
   }
 
   .nav-item {
-    font-size: 1rem;
+    font-size: 0.9rem;
     .nav-link {
       display: inline-block;
       line-height: 1;
@@ -130,7 +130,7 @@
       @include desktop {
         padding: 6px;
       }
-      font-size: 15px;
+      font-size: 0.9rem;
       color: $text-dark !important;
       border-radius: 6px;
 

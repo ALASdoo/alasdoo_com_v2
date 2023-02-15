@@ -2,18 +2,23 @@
 
 <!-- banner -->
 {{ with .Params.banner }}
-<section class="banner" {{ partial "bg-image" (dict "Src" .image "Position" "top center" "Webp" false) | safeHTMLAttr }}>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 mx-auto text-center">
-        <h1 class="mb-4 pb-2">{{ .title | markdownify }}</h1>
-        <p class="mb-4">{{ .content | markdownify }}</p>
-        <div class="mb-5">
-          {{ partial "button" .button }}
+<section class="hero">
+  <div class="hero-container p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 col-lg-8 mx-auto text-center">
+          <p class="hero-text">{{ .title | markdownify }}</p>
+          <div>
+            {{ partial "button" .button }}
+          </div>
         </div>
       </div>
     </div>
   </div>
+  <!-- {{ partial "image" (dict "Src" .image "Alt" "Hero" "Class" "w-100" "Webp" false) }} -->
+
+  <div class="banner" {{ partial "bg-image" (dict "Src" .image "Position" "top center" "Webp" false) | safeHTMLAttr }}></div>
+
 </section>
 {{ end }}
 <!-- /banner -->
@@ -25,11 +30,8 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-xl-8 text-center">
-        <h2 class="h2">{{.title | markdownify}}</h2>
-        <p class="mb-4">{{ .content | markdownify }}</p>
-        <div class="">
-          {{ partial "button" .button }}
-        </div>
+        <h1 class="h2">{{.title | markdownify}}</h1>
+        {{ .content | markdownify }}
       </div>
     </div>
   </div>
@@ -47,27 +49,25 @@
       <div class="col-xl-8 text-center mb-5">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
         <h3 class="h2">{{.title | markdownify}}</h3>
-        <p class="mb-4">{{ .content | markdownify }}</p>
+        <p>{{ .content | markdownify }}</p>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="row">
-          {{ range .services_item }}
-            <div class="col-lg-4 col-sm-12 pb-5 d-lg-flex">
-              <div class="service-card card is-hoverable shadow bg-white rounded-2 border-0 d-block p-5">
-                <div class="block h3 service-image text-center">
-                  {{ partial "image" (dict "Src" .image "alt" "") }}
-                </div>
-                <div class="block pb-4">
-                  <h4 class="mb-3 h5 pb-4">{{ .name | title }}</h4>
-                  {{ partial "button" .button }}
-                  </div>
-                </div>
+    <div class="row gy-5">
+      {{ range .services_item }}
+        <div class="col-lg-4 col-sm-12 d-lg-flex">
+          <div class="card service-card is-hoverable shadow bg-white rounded-2 border-0">
+            <div class="card-header service-image text-center bg-white rounded-2 border-0">
+              {{ partial "image" (dict "Src" .image "alt" "") }}
             </div>
-          {{ end }}
+            <div class="card-body">
+              <h4 class="mb-3 h5 pb-4">{{ .name | title }}</h4>
+            </div>
+            <div class="card-footer bg-white rounded-2 border-0">
+              {{ partial "button" .button }}
+            </div>
+          </div>
         </div>
-      </div>
+      {{ end }}
     </div>
   </div>
 </section>
@@ -98,9 +98,11 @@
 <section class="section bg-light-blue pb-5" id="clients">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-xl-8 text-center">
+      <div class="col-xl-10 text-center">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
         <h3 class="h2">{{.title | markdownify}}</h3>
+      </div>
+      <div class="col-xl-6 text-center">
         <p class="mb-4">{{ .content | markdownify }}</p>
       </div>
     </div>
@@ -183,8 +185,7 @@
       <div class="col-lg-6 pb-4">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
         <h3 class="h2">{{.title | markdownify}}</h3>
-        <p class="mb-4">{{ .content | markdownify }}</p>
-        {{ partial "button" .button }}
+        {{ .content | markdownify }}
       </div>
       <div class="col-lg-6 pb-4">
         <div class="swiper single-slider">
@@ -199,6 +200,11 @@
         <div class="swiper-pagination swiper-pagination-outer"></div>
       </div>
     </div>
+    <div class="row text-center">
+      <div class="pt-4">
+        {{ partial "button" .button }}
+      </div>
+    </div>
   </div>
 </section>
 {{ end }}
@@ -211,7 +217,7 @@
 <section class="section" id="articles">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-xl-8 text-center">
+      <div class="col-xl-10 text-center">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
         <h3 class="h2">{{.title | markdownify}}</h3>
       </div>

@@ -13,13 +13,28 @@ $alas-color-blue: #00A0A3;
   }
 }
 
+.hero-text {
+  font-size: 32px;
+}
+
 .subtitle {
   font-size: 24px !important;
+}
+.hero {
+  background: #e1fdff;
+}
+.hero-container {
+  margin-bottom: -20vw;
+  padding-top: 8vw !important;
+  background: rgba(255,255,255,.5);
+  position: relative;
 }
 
 .banner {
   aspect-ratio: 16 / 9;
   background-size: contain !important;
+  background-color: #dffcff;
+  padding: 7vw 0 0;
 }
 
 .numbers-icon img {
@@ -33,6 +48,15 @@ $alas-color-blue: #00A0A3;
     i,
     svg {
       font-size: 18px;
+    }
+  }
+}
+
+.card.is-hoverable {
+  &:hover {
+    .service-image img {
+      transition: 0.2s ease;
+      transform: scale3d(1.02,1.02,1.02);
     }
   }
 }

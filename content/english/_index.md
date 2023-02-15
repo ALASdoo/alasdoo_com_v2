@@ -54,7 +54,7 @@ services:
   enable: true
   title: 'What we do'
   subtitle: 'Services'
-  content: 'Our top focus is writing code that meets the highest standards, while our quality assurance team has the skills and enthusiasm to ensure that the software satisfies the strictest criteria. Each project is unique and requires a customized approach. We supply [a vast range of services](services/) to provide the most efficient solution for the unique demands and requirements of our clients.'
+  content: 'Our top focus is writing code that meets the highest standards, while our quality assurance team has the skills and enthusiasm to ensure that the software satisfies the strictest criteria. Each project is unique and requires a customized approach. We supply [a vast range of services](what-we-do/) to provide the most efficient solution for the unique demands and requirements of our clients.'
   services_item:
     # services item loop
     - name: 'Frontend and backend staff augmentation'
@@ -98,7 +98,7 @@ consulting:
 ######################### Clients #####################
 clients:
   enable: true
-  title: 'We have proven track record'
+  title: 'We have a proven track record'
   subtitle: 'Clients'
   content: 'From small businesses and startups to well-established international corporations, we work with a wide range of industries. We have developed trustworthy relationships with [clients](clients/) and their development teams from all over the world.
 
@@ -116,10 +116,13 @@ jobs:
   enable: true
   title: 'Working at ALAS'
   subtitle: 'Careers'
-  content: 'ALAS is all about providing [a vibrant culture](culture/) through a pleasant atmosphere, possibilities for professional growth, entertainment, relaxation, and social interaction. We encourage people to have a healthy work/life balance, and devote time and energy to their families and hobbies. We are nurturing a community of inspired people who feel respected, driven, and accomplished.
+  content: 'ALAS is all about providing [a vibrant culture](culture/) through a pleasant atmosphere, possibilities for professional growth, relaxation, entertainment, and social interaction.
 
 
-  As crazy as it may sound, we do look forward to Mondays!'
+  We encourage people to have a healthy work/life balance, and devote time and energy to their families and hobbies.
+
+
+  As crazy as it may sound, we look forward to Mondays!'
   button:
     enable: true
     type: 'primary'

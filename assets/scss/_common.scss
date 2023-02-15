@@ -140,12 +140,13 @@ select {
   color: transparent;
   margin: 0 6px !important;
   padding: 7px;
-  border: 1px solid $color-primary;
+  border: 1px solid $text-dark;
   background-color: transparent;
   transition: 0.2s ease;
 
   &-active {
-    background-color: $color-primary;
+    background-color: $text-dark;
+    opacity: .5;
   }
 }
 

@@ -6809,7 +6809,7 @@ body.dark {
   transition: 0.3s ease; }
   .btn-sm {
     padding: 0.9em 1.6em;
-    font-size: 1em; }
+    font-size: 0.9em; }
   .btn:hover, .btn:focus, .btn.focus {
     outline: 0;
     background: #009598 !important;
@@ -6969,11 +6969,12 @@ select {
   color: transparent;
   margin: 0 6px !important;
   padding: 7px;
-  border: 1px solid #00A0A3;
+  border: 1px solid rgba(49, 49, 49, 0.85);
   background-color: transparent;
   transition: 0.2s ease; }
   .swiper-pagination-bullet-active {
-    background-color: #00A0A3; }
+    background-color: rgba(49, 49, 49, 0.85);
+    opacity: .5; }
 
 .text-primary {
   color: #00A0A3 !important; }
@@ -7347,7 +7348,7 @@ body.dark {
     .navigation .navbar-light .navbar-toggler:hover {
       color: #00A0A3; }
   .navigation .nav-item {
-    font-size: 1rem; }
+    font-size: 0.9rem; }
     .navigation .nav-item .nav-link {
       display: inline-block;
       line-height: 1;
@@ -7410,7 +7411,7 @@ body.dark {
     .navigation .dropdown-menu .dropdown-item {
       padding: 8px 15px;
       display: inline-block;
-      font-size: 15px;
+      font-size: 0.9rem;
       color: rgba(49, 49, 49, 0.85) !important;
       border-radius: 6px; }
       @media (max-width: 991px) {
@@ -8775,12 +8776,26 @@ iframe.wait-autoplay {
   .navigation .nav-item .nav-link:hover, .navigation .nav-item.active .nav-link {
     color: #009598 !important; }
 
+.hero-text {
+  font-size: 32px; }
+
 .subtitle {
   font-size: 24px !important; }
 
+.hero {
+  background: #e1fdff; }
+
+.hero-container {
+  margin-bottom: -20vw;
+  padding-top: 8vw !important;
+  background: rgba(255, 255, 255, 0.5);
+  position: relative; }
+
 .banner {
   aspect-ratio: 16 / 9;
-  background-size: contain !important; }
+  background-size: contain !important;
+  background-color: #dffcff;
+  padding: 7vw 0 0; }
 
 .numbers-icon img {
   max-height: 60px; }
@@ -8791,6 +8806,10 @@ iframe.wait-autoplay {
   .card .btn-link i,
   .card .btn-link svg {
     font-size: 18px; }
+
+.card.is-hoverable:hover .service-image img {
+  transition: 0.2s ease;
+  transform: scale3d(1.02, 1.02, 1.02); }
 
 .service-image img {
   height: 255px;
