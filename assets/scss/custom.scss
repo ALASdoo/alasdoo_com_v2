@@ -13,6 +13,9 @@ $alas-color-blue: #00A0A3;
   }
 }
 
+.subtitle {
+  font-size: 24px !important;
+}
 
 .banner {
   aspect-ratio: 16 / 9;
@@ -20,13 +23,17 @@ $alas-color-blue: #00A0A3;
 }
 
 .numbers-icon img {
-  max-height: 100px;
+  max-height: 60px;
 }
 
-.service-card {
+.card {
   .btn-link {
     margin-left: 0 !important;
     font-size: 20px;
+    i,
+    svg {
+      font-size: 18px;
+    }
   }
 }
 
@@ -37,6 +44,11 @@ $alas-color-blue: #00A0A3;
 
 .what-we-do-img img {
   max-height: 420px;
+}
+
+.swiper-pagination-outer {
+  position: relative;
+  margin-top: 20px;
 }
 
 .contact-img {

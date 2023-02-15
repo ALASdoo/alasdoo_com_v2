@@ -60,9 +60,14 @@ join:
     label: 'View open positions'
     link: 'jobs/'
   image_item:
-  - image: "images/team/team-member-1.jpg"
-  - image: "images/team/team-member-2.jpg"
-  - image: "images/team/team-member-3.jpg"
-  - image: "images/team/team-member-4.jpg"
+  - image: "images/home-gallery/01.jpg"
+  - image: "images/home-gallery/02.jpg"
+  - image: "images/home-gallery/03.jpg"
+  - image: "images/home-gallery/04.jpg"
+  - image: "images/home-gallery/05.jpg"
+  - image: "images/home-gallery/06.jpg"
+  - image: "images/home-gallery/07.jpg"
+  - image: "images/home-gallery/08.jpg"
+  - image: "images/home-gallery/09.jpg"
 
 ---

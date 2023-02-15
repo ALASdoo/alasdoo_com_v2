@@ -1,14 +1,14 @@
 - id: read_more
   translation: Read More
 
-- id: read_case_study
-  translation: Read the full case study
+- id: learn_more
+  translation: Learn more
 
 - id: article
   translation: Article
 
 - id: read_article
-  translation: Read the full article
+  translation: Read article
 
 - id: prev_article
   translation: Previous article

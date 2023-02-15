@@ -19,8 +19,8 @@ alas_color_blue = "#00A0A3"
 color_primary = "#00A0A3"
 color_secondary = "#376f92"
 body_color = "#fff"
-text_color = "#777"
-text_dark = "#222"
+text_color = "rgba(0,0,0,.8)"
+text_dark = "rgba(49,49,49,.85)"
 text_light = "#959595"
 link_color = "#009598"
 link_hover_color = "#008083"
@@ -42,7 +42,7 @@ bg_light_gray = "#f4f4f4"
 
 # font variables
 # base font size for full website,
-font_size = "16px" # default is 16px
+font_size = "20px" # default is 16px
 
 # Font Scale Sizes
 # "minorSecond": 1.067,

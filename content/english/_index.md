@@ -53,6 +53,7 @@ numbers:
 services:
   enable: true
   title: 'What we do'
+  subtitle: 'Services'
   content: 'Our top focus is writing code that meets the highest standards, while our quality assurance team has the skills and enthusiasm to ensure that the software satisfies the strictest criteria. Each project is unique and requires a customized approach. We supply [a vast range of services](services/) to provide the most efficient solution for the unique demands and requirements of our clients.'
   services_item:
     # services item loop
@@ -61,7 +62,7 @@ services:
       button:
         enable: true
         type: 'link'
-        label: 'Read more'
+        label: 'Learn more'
         link: 'what-we-do#dev/'
 
     # services item loop
@@ -70,7 +71,7 @@ services:
       button:
         enable: true
         type: 'link'
-        label: 'Read more'
+        label: 'Learn more'
         link: 'what-we-do#qa/'
 
 
@@ -80,7 +81,7 @@ services:
       button:
         enable: true
         type: 'link'
-        label: 'Read more'
+        label: 'Learn more'
         link: 'what-we-do#pm/'
 
 
@@ -97,37 +98,49 @@ consulting:
 ######################### Clients #####################
 clients:
   enable: true
-  title: 'Proven track record'
-  content: 'From small businesses and startups to well-established international corporations, we work with a wide range of industries. We have developed trustworthy relationships with [clients](clients/) and their development teams from all over the world. In our case studies, you can read more about how we were able to help them improve company practices and increase revenue.'
+  title: 'We have proven track record'
+  subtitle: 'Clients'
+  content: 'From small businesses and startups to well-established international corporations, we work with a wide range of industries. We have developed trustworthy relationships with [clients](clients/) and their development teams from all over the world.
+
+
+  In our [case studies](case-studies/), you can read more about how we were able to help them improve company practices and increase revenue.'
 
 ######################### Case studies #####################
 case_studies:
   enable: true
-  title: 'Explore our most recent case studies'
+  title: 'Recent case studies'
   section: 'case-studies'
 
 ######################### Jobs #####################
 jobs:
   enable: true
   title: 'Working at ALAS'
+  subtitle: 'Careers'
   content: 'ALAS is all about providing [a vibrant culture](culture/) through a pleasant atmosphere, possibilities for professional growth, entertainment, relaxation, and social interaction. We encourage people to have a healthy work/life balance, and devote time and energy to their families and hobbies. We are nurturing a community of inspired people who feel respected, driven, and accomplished.
+
 
   As crazy as it may sound, we do look forward to Mondays!'
   button:
     enable: true
     type: 'primary'
-    label: 'Check out job openings'
+    label: 'See job openings'
     link: 'careers/'
   image_item:
-  - image: "images/team/team-member-1.jpg"
-  - image: "images/team/team-member-2.jpg"
-  - image: "images/team/team-member-3.jpg"
-  - image: "images/team/team-member-4.jpg"
+  - image: "images/home-gallery/01.jpg"
+  - image: "images/home-gallery/02.jpg"
+  - image: "images/home-gallery/03.jpg"
+  - image: "images/home-gallery/04.jpg"
+  - image: "images/home-gallery/05.jpg"
+  - image: "images/home-gallery/06.jpg"
+  - image: "images/home-gallery/07.jpg"
+  - image: "images/home-gallery/08.jpg"
+  - image: "images/home-gallery/09.jpg"
 
 ######################### Case studies #####################
 articles:
   enable: true
   title: 'Discover the best practices'
+  subtitle: 'Articles'
   section: 'articles'
   # TODO: change to articles once we have them set up
   button:

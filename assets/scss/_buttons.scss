@@ -3,7 +3,7 @@
   font-size: 1em;
   font-family: $font-primary;
   font-weight: 500;
-  padding: 1.1em 1.8em;
+  padding: 1.1em 2.2em;
   line-height: 1;
   border-radius: 50px;
   border: 2px solid;
@@ -15,14 +15,24 @@
   }
 
   &:hover,
-  &:active,
-  &.active,
   &:focus,
   &.focus {
     outline: 0;
-    @extend .shadow;
-    background: darken($color-primary, 5) !important;
-    border-color: darken($color-primary, 5) !important;
+    // @extend .shadow;
+    background: $link-color !important;
+    border-color: $link-color !important;
+    // transform: translateY(-1px);
+    transform: scale3d(1.005,1.005,1.005);
+    box-shadow: 0px 8px 15px rgba(0,160,163,.50) !important;
+  }
+
+  &:active,
+  &.active {
+    outline: 0;
+    background: $color-primary !important;
+    border-color: $color-primary !important;
+    transform: translateY(0px);
+    box-shadow: 0px 5px 7px rgba(0,160,163,.50) !important;
   }
 }
 
@@ -71,7 +81,7 @@
   i,
   svg {
     font-size: 12px;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-bottom: 1px;
     transition: 0.2s ease;
   }
@@ -80,11 +90,11 @@
   &:hover,
   &.focus,
   &.active {
-    color: $color-primary;
+    color: $link-color;
 
     i,
     svg {
-      margin-left: 10px;
+      margin-left: 15px;
     }
   }
 }

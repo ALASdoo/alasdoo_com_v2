@@ -45,7 +45,8 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-xl-8 text-center mb-5">
-        <h2 class="h2">{{.title | markdownify}}</h2>
+        <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
+        <h3 class="h2">{{.title | markdownify}}</h3>
         <p class="mb-4">{{ .content | markdownify }}</p>
       </div>
     </div>
@@ -54,7 +55,7 @@
         <div class="row">
           {{ range .services_item }}
             <div class="col-lg-4 col-sm-12 pb-5 d-lg-flex">
-              <div class="service-card card is-hoverable bg-white rounded-1 d-block p-5">
+              <div class="service-card card is-hoverable shadow bg-white rounded-2 border-0 d-block p-5">
                 <div class="block h3 service-image text-center">
                   {{ partial "image" (dict "Src" .image "alt" "") }}
                 </div>
@@ -94,11 +95,12 @@
 <!-- clients -->
 {{ if .Params.clients.enable }}
 {{ with .Params.clients }}
-<section class="section bg-light-blue" id="clients">
+<section class="section bg-light-blue pb-5" id="clients">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-xl-8 text-center">
-        <h2 class="h2">{{.title | markdownify}}</h2>
+        <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
+        <h3 class="h2">{{.title | markdownify}}</h3>
         <p class="mb-4">{{ .content | markdownify }}</p>
       </div>
     </div>
@@ -111,31 +113,29 @@
 <!-- case_studies -->
 {{ if .Params.case_studies.enable }}
 {{ with .Params.case_studies }}
-<section class="section bg-light-blue" id="case-studies">
+<section class="section bg-light-blue pt-0" id="case-studies">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-xl-8 text-center">
         <h2 class="h3">{{.title | markdownify}}</h2>
       </div>
-      <div class="row gy-5 justify-content-center">
+      <div class="row justify-content-center">
         {{range first 3 (where site.RegularPages "Section" .section)}}
-        <div class="col-xl-3 col-lg-4 col-sm-6">
-          <a href="{{.RelPermalink}}" class="d-block text-reset h-100">
-            <div class="card bg-transparent shadow border-0 is-hoverable h-100">
-              <div class="card-img-top" style="background:#f9f9f9">
-                {{ partial "image" (dict "Src" .Params.logo "Alt" .Title "Size" "x220")}}
-              </div>
-              <div class="card-body p-5 pb-0">
-                <h3 class="h5">{{.Title | markdownify}}</h3>
-                <div class="mt-3">
-                  <div class="content mb-4">{{.Summary | truncate 70}}</div>
-                </div>
-              </div>
-              <div class="card-footer p-5 pt-0 border-0 bg-transparent">
-                <span class="text-primary fw-500">{{i18n `read_case_study`}} <i class="fas fa-arrow-right small ms-1"></i> </span>
-              </div>
+        <div class="col-lg-4 col-sm-12 pb-5 d-lg-flex">
+          <div class="case-study-card card is-hoverable shadow bg-white rounded-2 border-0 d-block p-5">
+            <div class="card-img-top case-study-image text-center">
+              {{ partial "image" (dict "Src" .Params.logo "Alt" .Title "Size" "x220")}}
             </div>
-          </a>
+            <div class="card-body">
+              <h4 class="mb-3 h5 pb-4">{{.Title | markdownify}}</h4>
+              <div class="mt-3">
+                <div class="content mb-4">{{.Summary | truncate 70}}</div>
+              </div>
+              <a href="{{.RelPermalink}}" title="{{ .Title }}" class="btn-link m-2">
+                {{i18n `read_more`}}<i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
         </div>
         {{end}}
         </div>
@@ -179,23 +179,24 @@
 {{ with .Params.jobs }}
 <section class="section bg-light-gray" id="jobs">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-6 text-center">
-        <h2 class="h2">{{.title | markdownify}}</h2>
+    <div class="row gx-5 align-items-center">
+      <div class="col-lg-6 pb-4">
+        <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
+        <h3 class="h2">{{.title | markdownify}}</h3>
         <p class="mb-4">{{ .content | markdownify }}</p>
         {{ partial "button" .button }}
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6 pb-4">
         <div class="swiper single-slider">
           <div class="swiper-wrapper">
             {{range .image_item}}
             <div class="swiper-slide">
-              {{ partial "image" (dict "Src" .image "Alt" "Team photo") }}
+              {{ partial "image" (dict "Src" .image "Alt" "Team photo" "Class" "rounded-2") }}
             </div>
             {{end}}
           </div>
-          <div class="swiper-pagination"></div>
         </div>
+        <div class="swiper-pagination swiper-pagination-outer"></div>
       </div>
     </div>
   </div>
@@ -211,24 +212,23 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-xl-8 text-center">
-        <h2 class="h2">{{.title | markdownify}}</h2>
+        <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
+        <h3 class="h2">{{.title | markdownify}}</h3>
       </div>
-      <div class="row gy-5 justify-content-center pb-5">
+      <div class="row justify-content-center">
         {{range first 3 (where site.RegularPages "Section" .section)}}
-        <div class="col-xl-3 col-lg-4 col-sm-6">
-          <a href="{{.RelPermalink}}" class="d-block text-reset h-100">
-            <div class="card bg-transparent shadow border-0 is-hoverable h-100">
-              <div class="card-img-top" style="background:#f9f9f9">
-                {{ partial "image" (dict "Src" .Params.image "Alt" .Title "Size" "x220")}}
-              </div>
-              <div class="card-body p-5 pb-0">
-                <h3 class="h5">{{.Title | markdownify}}</h3>
-              </div>
-              <div class="card-footer p-5 pt-0 border-0 bg-transparent">
-                <span class="text-primary fw-500">{{i18n `read_article`}} <i class="fas fa-arrow-right small ms-1"></i> </span>
-              </div>
+        <div class="col-lg-4 col-sm-12 pb-5 d-lg-flex">
+          <div class="article-card card is-hoverable shadow bg-white rounded-2 border-0 d-block p-5">
+            <div class="card-img-top article-image text-center">
+              {{ partial "image" (dict "Src" .Params.image "Alt" .Title "Size" "x220")}}
             </div>
-          </a>
+            <div class="card-body">
+              <h4 class="mb-3 h5 pb-4">{{.Title | markdownify}}</h4>
+              <a href="{{.RelPermalink}}" title="{{ .Title }}" class="btn-link m-2">
+                {{i18n `read_article`}}<i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
         </div>
         {{end}}
       </div>
