@@ -24,12 +24,14 @@ what_we_do:
   enable: true
   blocks:
     - title: 'Augmenting development teams with experienced experts'
+      id: 'dev'
       image: 'images/dev_anim.gif'
       content: 'We can provide both staff augmentation and dedicated teams, depending on your needs. Our competent and reliable frontend and backend developers can help your ideas come to life and create top quality web solutions. Our DevOps engineers are experienced in providing a set of flexible services designed to enable you to build and deliver products faster and more reliably.
 
       From assessments and consulting to actual implementations, we deliver the most powerful development solutions.'
 
     - title: 'Providing full software quality assurance'
+      id: 'qa'
       image: 'images/qa_anim.gif'
       content: 'Worldwide software development teams recognize our brand, [WeDoQA](https://www.wedoqa.com), as a reputable international supplier of QA services. Our experience with a variety of technologies guarantees that you have access to the finest options for any type of project.
 
@@ -38,6 +40,7 @@ what_we_do:
       We understand that project plans change, so we can start from scratch or jump in when you hit a rough patch.'
 
     - title: 'Consulting and project management for full empowerment'
+      id: 'pm'
       image: 'images/pm_anim.gif'
       content: 'In the fast pace of the IT industry, we are devoted to helping our clients use their resources as efficiently as possible. Quality is our top priority, not just the quality of the end product but also the quality of the entire process and collaboration. We are passionate about making your ideas come to life while taking the business side of the project into account too.
 

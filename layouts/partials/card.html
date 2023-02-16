@@ -1,0 +1,13 @@
+<div class="col-lg-4 col-sm-12 d-lg-flex">
+  <div class="card {{.type}}-card is-hoverable shadow bg-white rounded-2 border-0">
+    <div class="card-header {{.type}}-image text-center bg-white rounded-2 border-0 p-4">
+      {{ partial "image" (dict "Src" .image "alt" "") }}
+    </div>
+    <div class="card-body p-4">
+      <h4 class="h6">{{ .name | title }}</h4>
+    </div>
+    <div class="card-footer bg-white rounded-2 border-0 p-4">
+      {{ partial "button" .button }}
+    </div>
+  </div>
+</div>

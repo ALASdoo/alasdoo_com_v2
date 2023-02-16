@@ -6,13 +6,13 @@ weight = 1
 
 [[main]]
 name = "What we do"
-url = "what-we-do/"
+url = "/what-we-do/"
 weight = 2
 
 [[main]]
 weight = 3
 name = "Who we are"
-url = "who-we-are/"
+url = "/who-we-are/"
 hasChildren = true
 
 [[main]]
@@ -36,17 +36,17 @@ weight = 3
 
 [[main]]
 name = "Case Studies"
-url = "case-studies/"
+url = "/case-studies/"
 weight = 4
 
 [[main]]
 name = "Careers"
-url = "careers/"
+url = "/careers/"
 weight = 5
 
 [[main]]
 name = "Articles"
-url = "articles/"
+url = "/articles/"
 weight = 6
 
 # footer menu
@@ -57,22 +57,22 @@ weight = 1
 
 [[footer_menu]]
 name = "Who We Are"
-url = "who-we-are/"
+url = "/our-story/"
 weight = 2
 
 [[footer_menu]]
 name = "What We Do"
-url = "what-we-do/"
+url = "/what-we-do/"
 weight = 3
 
 [[footer_menu]]
 name = "Case Studies"
-url = "case-studies/"
+url = "/case-studies/"
 weight = 4
 
 [[footer_menu]]
 name = "Careers"
-url = "careers/"
+url = "/careers/"
 weight = 5
 
 # # footer menu left

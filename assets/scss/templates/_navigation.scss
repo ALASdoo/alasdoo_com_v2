@@ -114,7 +114,7 @@
     border: 0;
     padding: 10px;
     border-radius: 6px;
-    @include desktop {
+    @include desktop-lg {
       text-align: center;
       border: 1px solid $light;
       padding: 12px;
@@ -127,7 +127,7 @@
     .dropdown-item {
       padding: 8px 15px;
       display: inline-block;
-      @include desktop {
+      @include desktop-lg {
         padding: 6px;
       }
       font-size: 0.9rem;
@@ -144,7 +144,7 @@
     }
   }
 
-  @media (min-width: 992px) {
+  @media (min-width: 1200px) {
     .navbar .dropdown-menu {
       display: block;
       height: 0;

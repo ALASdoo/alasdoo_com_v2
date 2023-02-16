@@ -52,6 +52,7 @@
     display: inline-block;
     padding: 5px 0;
     color: $text-color;
+    font-size: 16px;
 
     &:hover {
       color: $color-primary;
@@ -64,6 +65,20 @@
     &:hover {
       color: $color-primary;
     }
+  }
+}
+
+// footer-contact
+.footer-contact {
+  color: rgba($black, 0.7);
+  font-size: 16px;
+}
+
+// footer-copyright
+.footer-copyright {
+  color: rgba($black, 0.5);
+  small {
+    font-size: 12px !important;
   }
 }
 

@@ -29,7 +29,7 @@
 {{ $list := .blocks }}
 {{ $len := (len $list) }}
 {{ range $i, $p := $list }}
-<section class="section what-we-do {{if eq $i 0}} first-element {{end}} {{if eq (add $i 1) $len}} last-element {{end}} overflow-hidden">
+<section id="{{.id}}" class="section what-we-do {{if eq $i 0}} first-element {{end}} {{if eq (add $i 1) $len}} last-element {{end}} overflow-hidden">
   <div class="container">
     <div class="block {{if not (modBool $i 2)}}block-right-image{{end}} row align-items-center g-5">
       <div class="col-lg-6 {{if not (modBool $i 2)}}order-lg-0 text-lg-end{{end}} order-1">

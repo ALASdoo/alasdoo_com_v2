@@ -58,31 +58,34 @@ services:
   services_item:
     # services item loop
     - name: 'Frontend and backend staff augmentation'
+      type: 'service'
       image: 'images/development.svg'
       button:
         enable: true
         type: 'link'
         label: 'Learn more'
-        link: 'what-we-do#dev/'
+        link: '/what-we-do#dev'
 
     # services item loop
     - name: 'Manual and automated software QA services'
+      type: 'service'
       image: 'images/QA.svg'
       button:
         enable: true
         type: 'link'
         label: 'Learn more'
-        link: 'what-we-do#qa/'
+        link: '/what-we-do#qa'
 
 
     # services item loop
     - name: 'IT consulting and project management'
+      type: 'service'
       image: 'images/PM.svg'
       button:
         enable: true
         type: 'link'
         label: 'Learn more'
-        link: 'what-we-do#pm/'
+        link: '/what-we-do#pm'
 
 
 ######################### Consulting #####################
@@ -116,7 +119,7 @@ jobs:
   enable: true
   title: 'Working at ALAS'
   subtitle: 'Careers'
-  content: 'ALAS is all about providing [a vibrant culture](culture/) through a pleasant atmosphere, possibilities for professional growth, relaxation, entertainment, and social interaction.
+  content: 'ALAS is all about providing [a vibrant culture](/careers#culture) through a pleasant atmosphere, possibilities for professional growth, relaxation, entertainment, and social interaction.
 
 
   We encourage people to have a healthy work/life balance, and devote time and energy to their families and hobbies.
@@ -127,7 +130,7 @@ jobs:
     enable: true
     type: 'primary'
     label: 'See job openings'
-    link: 'careers/'
+    link: 'careers#jobs'
   image_item:
   - image: "images/home-gallery/01.jpg"
   - image: "images/home-gallery/02.jpg"
