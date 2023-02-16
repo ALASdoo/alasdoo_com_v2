@@ -1,7 +1,7 @@
 ---
 ####################### Banner #########################
 banner:
-  title: 'Customized, adaptable, cost-effective, and reliable solutions for software development and quality assurance outsourcing'
+  title: 'Tailored software development and quality assurance outsourcing.'
   image: 'images/hero-home.png'
   content: ''
   button:
@@ -91,11 +91,12 @@ services:
 ######################### Consulting #####################
 consulting:
   enable: true
-  title: 'We offer free-of-charge advice on how to set up your software development and QA for your project to skyrocket'
+  title: 'Looking to outsource your software development and QA needs?'
+  content: 'Contact us to learn how we can help your project skyrocket!'
   button:
     enable: true
     type: 'primary'
-    label: 'Schedule a meeting'
+    label: 'Get a free assessment'
     link: 'contact/'
 
 ######################### Clients #####################
@@ -148,7 +149,6 @@ articles:
   title: 'Discover the best practices'
   subtitle: 'Articles'
   section: 'articles'
-  # TODO: change to articles once we have them set up
   button:
     enable: true
     type: 'primary'

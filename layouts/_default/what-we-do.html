@@ -8,11 +8,7 @@
         <div class="pe-0 pe-lg-5 text-center text-lg-start">
           <h1 class="section-title h2">{{ .title | markdownify }}</h1>
           <p class="mb-5">{{ .content | markdownify }}</p>
-          {{ if .button.enable }}
-          {{ with .button }}
-          <a href="{{ .link | relLangURL }}" title="{{ .label }}" class="btn btn-outline-primary">{{ .label }}</a>
-          {{ end }}
-          {{ end }}
+          {{ partial "button" .button }}
         </div>
       </div>
       <div class="col-lg-6 text-center">
@@ -29,25 +25,17 @@
 {{ $list := .blocks }}
 {{ $len := (len $list) }}
 {{ range $i, $p := $list }}
-<section id="{{.id}}" class="section what-we-do {{if eq $i 0}} first-element {{end}} {{if eq (add $i 1) $len}} last-element {{end}} overflow-hidden">
+<section id="{{.id}}" class="section what-we-do overflow-hidden">
   <div class="container">
     <div class="block {{if not (modBool $i 2)}}block-right-image{{end}} row align-items-center g-5">
-      <div class="col-lg-6 {{if not (modBool $i 2)}}order-lg-0 text-lg-end{{end}} order-1">
-        <div class="px-0 px-lg-4">
-          <h2 class="section-title h3">{{ .title | markdownify }}</h2>
-          <p class="mb-4">{{ .content | markdownify }}</p>
-          {{ if .button.enable }}
-          {{ with .button }}
-          <a href="{{ .link | relLangURL }}" title="{{ .label }}" class="btn-link">{{ .label }} <i class="fas fa-arrow-right"></i></a>
-          {{ end }}
-          {{ end }}
-        </div>
+      <div class="col-lg-6 {{if not (modBool $i 2)}}order-lg-0{{end}} order-1 pe-lg-0">
+        <h2 class="section-title h4">{{ .title | markdownify }}</h2>
+        <p class="mb-4">{{ .content | markdownify }}</p>
+        {{ partial "button" .button }}
       </div>
-      <div class="col-lg-6 {{if not (modBool $i 2)}}order-lg-1{{end}} order-0">
-        <div class="px-0 px-lg-4">
-          <div class="swiper-slide text-center what-we-do-img">
-            {{ partial "image" (dict "Src" .image "Alt" "image") }}
-          </div>
+      <div class="col-lg-6 {{if not (modBool $i 2)}}order-lg-1{{end}} order-0 pe-lg-0">
+        <div class="what-we-do-img">
+          {{ partial "image" (dict "Src" .image "Alt" "image") }}
         </div>
       </div>
     </div>
@@ -61,21 +49,22 @@
 <!-- technologies -->
 {{ with .Params.technologies }}
 {{ if .enable }}
-<section class="section pb-5">
+<section class="section bg-light-blue">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 text-center mx-auto">
+      <div class="col-lg-10 text-center mx-auto">
         <h2 class="section-title h3">{{ .title | markdownify }}</h2>
+      </div>
+      <div class="col-12 text-center pb-4">
+        <p>{{.content | markdownify}}</p>
       </div>
       <div class="col-12 text-center">
         {{ range .technology_list }}
-        <div class="is-hoverable p-4 shadow rounded-2 d-inline-block m-3" style="background-color: #fff;">
-          {{ partial "image" (dict "Src" .image "Alt" "Technology" "Size" "x45" "Class" "w-100 rounded-2") }}
+        <div class="p-4 d-inline-block">
+          <div class="technology-logo">{{ partial "image" (dict "Src" .image "Alt" .title) }}</div>
+          <div class="technology-name">{{ .title }}</div>
         </div>
         {{ end }}
-      </div>
-      <div class="col-12 text-center">
-        <p>{{.content | markdownify}}</p>
       </div>
     </div>
   </div>
@@ -87,21 +76,28 @@
 <!-- approach -->
 {{ with .Params.approach }}
 {{ if .enable }}
-<section class="section pb-5">
+<section class="section">
   <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
+    <div class="row justify-content-center">
+      <div class="col-xl-10 text-center">
         <h2 class="section-title h3">{{ .title | markdownify }}</h2>
       </div>
-      <div class="col-12 text-center">
-        <p>{{.content | markdownify}}</p>
+      <div class="col-lg-8 text-center">
+        {{.content | markdownify}}
       </div>
     </div>
     <div class="row">
       {{ range .workflow_item }}
-      <h3 class="section-title h4">{{ .title | markdownify }}</h3>
-      <p>{{.content | markdownify}}</p>
+      <div class="col-2 gy-5 approach-text">
+        <h3 class="section-title">{{ .title | markdownify }}</h3>
+        <p>{{.content | markdownify}}</p>
+      </div>
       {{ end }}
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        {{.content_bottom | markdownify}}
+      </div>
     </div>
   </div>
 </section>
@@ -112,19 +108,15 @@
 <!-- cta -->
 {{ with .Params.cta }}
 {{ if .enable }}
-<section class="section pb-5">
+<section class="section bg-light-yellow">
   <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title h3">{{ .title | markdownify }}</h2>
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h3 class="section-title h4">{{ .title | markdownify }}</h3>
       </div>
-      <div class="col-12 text-center">
+      <div class="col-8 text-center">
         <p>{{.content | markdownify}}</p>
-        {{ if .button.enable }}
-        {{ with .button }}
-        <a href="{{ .link | relLangURL }}" title="{{ .label }}" class="btn btn-outline-primary">{{ .label }}</a>
-        {{ end }}
-        {{ end }}
+        {{ partial "button" .button }}
       </div>
     </div>
   </div>

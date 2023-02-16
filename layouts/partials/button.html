@@ -2,6 +2,7 @@
 <a
   href="{{ .link | safeURL }}"
   title="{{ .label }}"
+  target="{{ if .external }} _blank {{end}}"
   class='
     {{ if eq .type "primary" }}btn btn-primary{{ end }}
     {{ if eq .type "primary-outline" }}btn btn-outline-primary{{ end }}

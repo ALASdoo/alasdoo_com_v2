@@ -1,6 +1,6 @@
 ---
-title: 'Contact Us'
-subtitle: ''
+title: 'Contact us'
+subtitle: 'We appreciate your interest...'
 # meta description
 description: 'This is meta description'
 draft: false

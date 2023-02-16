@@ -139,7 +139,8 @@ casestudies:
   section: "case-studies"
   button:
     enable: true
+    type: 'primary'
     label: "Browse all case studies"
-    link: 'casestudies/'
+    link: '/case-studies'
 
 ---

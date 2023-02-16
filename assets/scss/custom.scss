@@ -14,7 +14,7 @@ $alas-color-blue: #00A0A3;
 }
 
 .hero-text {
-  font-size: 32px;
+  font-size: 42px;
 }
 
 .subtitle {
@@ -26,8 +26,9 @@ $alas-color-blue: #00A0A3;
 .hero-container {
   margin-bottom: -20vw;
   padding-top: 8vw !important;
-  background: rgba(255,255,255,.5);
+  // background: rgba(255,255,255,.5);
   position: relative;
+  z-index: 2;
 }
 
 .banner {
@@ -35,20 +36,20 @@ $alas-color-blue: #00A0A3;
   background-size: contain !important;
   background-color: #dffcff;
   padding: 7vw 0 0;
+  opacity: .75;
+  z-index: 1;
 }
 
 .numbers-icon img {
   max-height: 60px;
 }
 
-.card {
-  .btn-link {
-    margin-left: 0 !important;
-    font-size: 20px;
-    i,
-    svg {
-      font-size: 18px;
-    }
+.btn-link {
+  margin-left: 0 !important;
+  font-size: 20px;
+  i,
+  svg {
+    font-size: 18px;
   }
 }
 
@@ -66,10 +67,26 @@ $alas-color-blue: #00A0A3;
   padding: 40px 0 15px;
 }
 
-.what-we-do-img img {
-  max-height: 420px;
+.technology-name {
+  color: rgba($black, .6);
+  font-size: 14px;
+  padding-top: 10px;
+}
+.technology-logo {
+  img {
+    height: 50px;
+    max-width: 100px;
+  }
 }
 
+.approach-text {
+  h3 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
 .swiper-pagination-outer {
   position: relative;
   margin-top: 20px;
@@ -86,8 +103,8 @@ $alas-color-blue: #00A0A3;
   }
   .nav-item {
     border: 0;
+    border-bottom: 1px solid rgba($black, .2);
     border-radius: 0;
-    border-top: 5px solid;
   }
   .tab-content {
     border: 0;
@@ -95,31 +112,47 @@ $alas-color-blue: #00A0A3;
   .nav-link {
     border: 0;
     border-radius: 0;
-    color: #fff;
+    color: $text-dark;
     text-transform: uppercase;
+    margin-bottom: -1px;
+    &.active {
+      border-bottom: 5px solid;
+    }
   }
   .services {
-    background-color: $alas-color-yellow;
-    border-color: $alas-color-yellow;
+    .nav-link:hover {
+      background-color: rgba($alas-color-yellow, .1);
+    }
+    .nav-link:active {
+      background-color: rgba($alas-color-yellow, .2);
+    }
+    .nav-link:hover,
     .active {
-      color: $alas-color-yellow;
-      background-color: #fff;
+      border-color: $alas-color-yellow;
     }
   }
   .jobs {
-    background-color: $alas-color-orange;
-    border-color: $alas-color-orange;
+    .nav-link:hover {
+      background-color: rgba($alas-color-blue, .1);
+    }
+    .nav-link:active {
+      background-color: rgba($alas-color-blue, .2);
+    }
+    .nav-link:hover,
     .active {
-      color: $alas-color-orange;
-      background-color: #fff;
+      border-color: $alas-color-blue;
     }
   }
   .partnerships {
-    background-color: $alas-color-blue;
-    border-color: $alas-color-blue;
+    .nav-link:hover {
+      background-color: rgba($alas-color-orange, .1);
+    }
+    .nav-link:active {
+      background-color: rgba($alas-color-orange, .2);
+    }
+    .nav-link:hover,
     .active {
-      color: $alas-color-blue;
-      background-color: #fff;
+      border-color: $alas-color-orange;
     }
   }
 }
@@ -131,11 +164,11 @@ $alas-color-blue: #00A0A3;
 }
 #jobs-tab-pane {
   .contact-img {
-    border-color: $alas-color-orange;
+    border-color: $alas-color-blue;
   }
 }
 #partnerships-tab-pane {
   .contact-img {
-    border-color: $alas-color-blue;
+    border-color: $alas-color-orange;
   }
 }
