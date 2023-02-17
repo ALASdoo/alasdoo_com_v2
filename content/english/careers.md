@@ -8,16 +8,17 @@ layout: "careers"
 
 
 hero:
-  content: "We are always looking for individuals that are passionate, kind, and joyful in their pursuit of success."
+  title: "We are always looking for individuals that are passionate, kind, and joyful in their pursuit of success."
   image: "images/about.jpg"
   button:
     enable : true
+    type: 'primary'
     label : "Are we sharing the same values?"
-    link : "career/"
+    link : "/our-story#values"
 
 culture:
-  title: "Culture"
-  subtitle: "We take great pride in our culture"
+  subtitle: "Culture"
+  title: "We take great pride in our culture"
   content: "We are not corporate. We were founded as a small family company, and although we have significantly grown, our business approach still integrates family values.
 
 
@@ -35,47 +36,47 @@ culture:
     link : "articles/why-culture-metters"
 
 benefits:
-  title: "Benefits"
-  subtitle: "Charrished employee is the best employee"
+  subtitle: "Benefits"
+  title: "Charrished employee is the best employee"
   content: "We work in a homey atmosphere, without cubicles and open space areas, with enough comfortable room for peace and quiet, which are necessary for work, and a friendly and fun atmosphere to relax. We develop fantastic software solutions while also learning some fairly practical skills, consuming copious amounts of coffee, and playing PS5, darts, table tennis, and board games. Everybody is given the freedom and flexibility to create a healthy work-life balance that reflects the demands of their lifestyles while enabling them to work as productively as possible."
   perks:
     title: "Some of the perks our employees enjoy"
     perks_item:
-    - icon: "images/perk1.jpg"
+    - icon: "images/logo.svg"
       content: "at the office, hybrid, or remote work models
 
       flexible work hours"
-    - icon: "images/perk2.jpg"
+    - icon: "images/logo.svg"
       content: "snacks & drinks
 
       sponsored lunch
 
       Friday bar once a month"
-    - icon: "images/perk3.jpg"
+    - icon: "images/logo.svg"
       content: "massage therapies
 
       small gym"
-    - icon: "images/perk4.jpg"
+    - icon: "images/logo.svg"
       content: "English/German language course
 
       Udemy & other courses"
-    - icon: "images/perk5.jpg"
+    - icon: "images/logo.svg"
       content: "corporate gifts
 
       customized bonus
 
       team buildings"
-    - icon: "images/perk6.jpg"
+    - icon: "images/logo.svg"
       content: "investment in your ideas
 
       yearly performance and salary reviews"
 
 process:
-  title: "Hiring Process"
-  subtitle: "How to join us?"
+  subtitle: "Hiring Process"
+  title: "How to join us?"
   process_item:
   - title: "1. Application"
-    content: "Detailed [descriptions for current job openings](careers#jobs) are available on our website. Your application will be assessed as quickly as possible, and our HR will get in touch with you to set up a time for the next step if you are a qualified applicant."
+    content: "Detailed [descriptions for current job openings](#jobs) are available on our website. Your application will be assessed as quickly as possible, and our HR will get in touch with you to set up a time for the next step if you are a qualified applicant."
   - title: "2. Initial interview"
     content: "This is a general “get to know each other” type of interview. Our HR will give you more information about the company, our culture, benefits, and opportunities for professional development. A part of the interview is conducted in English. You will also have a chance to introduce yourself and ask what interests you."
   - title: "3. Test assignment"
@@ -86,8 +87,8 @@ process:
     content: "Here, you can go over the final details with our top management. If everything goes well, you can expect an offer soon after."
 
 onboarding:
-  title: "Onboarding"
-  subtitle: "Knowledge sharing, support, and open communication from day one"
+  subtitle: "Onboarding"
+  title: "Knowledge sharing, support, and open communication from day one"
   content: "We strive to have a bureaucracy- and ego-free hiring process that provides a welcoming experience for new employees. It's impossible to test everything with interviews and general tests, so instead of overcomplicating the process itself, if a candidate seems like a good fit, we take them on for a trial period of 3 months, with an extension being discussed after 2 months.
 
 

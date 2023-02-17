@@ -49,6 +49,13 @@ team_members:
   content: Always curious about what makes people tick; intentional designer, arts and crafts enthusiast, foodie, hiker, Tribal Fusion dancer
   link: ''
 
+- name: Jelena Obradović
+  image: images/team/jelena_obradovic.jpg
+  categories: ['Management']
+  designation: Employer Branding Specialist
+  content: Lover of the written word, good listener and assertive communicator, master surprise maker
+  link: ''
+
 - name: Ákos Szabó
   image: images/team/akos.jpg
   categories: ['Manual QA']
@@ -197,13 +204,6 @@ team_members:
   categories: ['Manual QA']
   designation: QA Engineer
   content: Milonguero, Hiker, Biker
-  link: ''
-
-- name: Jelena Obradović
-  image: images/team/jelena_obradovic.jpg
-  categories: ['Management']
-  designation: Employer Branding Specialist
-  content: Lover of the written word, good listener and assertive communicator, master surprise maker
   link: ''
 
 - name: Jelena Petrović
@@ -371,7 +371,7 @@ join:
     enable: true
     type: 'primary'
     label: 'View open positions'
-    link: '/jobs'
+    link: '/careers#jobs'
   image_item:
   - image: "images/home-gallery/01.jpg"
   - image: "images/home-gallery/02.jpg"

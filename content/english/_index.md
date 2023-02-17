@@ -131,7 +131,7 @@ jobs:
     enable: true
     type: 'primary'
     label: 'See job openings'
-    link: 'careers#jobs'
+    link: '/careers#jobs'
   image_item:
   - image: "images/home-gallery/01.jpg"
   - image: "images/home-gallery/02.jpg"
