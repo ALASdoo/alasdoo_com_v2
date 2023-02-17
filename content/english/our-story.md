@@ -86,51 +86,57 @@ specialites:
   title: "Why clients choose us"
   content: "We are committed to providing our very best effort, upholding rigorous standards, and accepting responsibility for the outcomes, regardless of how big or small the project is."
   specialites_list:
-  - title: "Proven record"
+  - name: "Proven record"
     content: "We have extensive knowledge in a variety of industries and have worked with clients from all over the world for more than 17 years."
     image: 'images/favicon.png'
     button:
       enable: true
+      type: 'link'
       label: 'Meet our clients'
       link: 'clients/'
 
-  - title: "Long-term partnerships"
+  - name: "Long-term partnerships"
     content: "We establish enduring partnerships by conducting business with uncompromising honesty and integrity, open communication, and thorough documentation."
     image: 'images/favicon.png'
     button:
       enable: true
+      type: 'link'
       label: 'View case studies'
       link: 'case-studies/'
 
-  - title: "Young and creative"
+  - name: "Young and creative"
     content: "We are young, ambitious, and take a unique, original approach. We constantly use the most effective tools and techniques on the market while also keeping up with the most recent IT trends."
     image: 'images/favicon.png'
     button:
       enable: true
+      type: 'link'
       label: 'Read our articles'
       link: 'articles/'
 
-  - title: "Being proactive"
+  - name: "Being proactive"
     content: "We do not just blindly follow but think, suggest, and challenge clients’ requests to strengthen them and produce more value."
     image: 'images/favicon.png'
     button:
       enable: true
+      type: 'link'
       label: 'View our approach'
       link: 'how-we-work/'
 
-  - title: "Always improving"
+  - name: "Always improving"
     content: "We are creating a culture of ongoing learning with dedicated time for knowledge exchange and self-improvement."
     image: 'images/favicon.png'
     button:
       enable: true
+      type: 'link'
       label: 'Learn more about our culture'
       link: 'our-story/'
 
-  - title: "Quality over quantity"
+  - name: "Quality over quantity"
     content: "We hire only the most talented developers and testers and we constantly work on improving their knowledge and skill set."
     image: 'images/favicon.png'
     button:
       enable: true
+      type: 'link'
       label: 'Meet our team'
       link: 'team/'
 

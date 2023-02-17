@@ -4,48 +4,48 @@
 <section class="section">
   <div class="container">
     <div class="row text-center">
-      <h3>{{.hero}}</h3>
+      <h2 class="h3">{{.hero}}</h2>
     </div>
   </div>
 </section>
 
 <section class="section">
-  {{ partial "page-header.html" .}}
   <div class="container">
-    <div class="row">
-      <p>{{.description | markdownify}}</p>
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h1 class="h2">{{.title | markdownify}}</h1>
+        {{ .description | markdownify }}
+      </div>
     </div>
   </div>
 </section>
 
-<section class="section bg-light">
+<section class="section bg-light-blue">
   <div class="container">
-    <div class="row">
-      <p>{{.cta.content | markdownify}}</p>
-    </div>
-    <div class="row">
-      {{ if .cta.button.enable }}
-      {{ with .cta.button }}
-      <a href="{{ .link | relLangURL }}" title="{{ .label }}" class="btn btn-sm btn-outline-primary">{{ .label }}</a>
-      {{ end }}
-      {{ end }}
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h3 class="h4">{{.cta.content | markdownify}}</h3>
+        {{ partial "button" .cta.button }}
+      </div>
     </div>
   </div>
 </section>
 
-<section>
+<section class="section">
   <div class="container">
-    <div class="row text-center">
-      <h2>{{.team_members_title}}</h2>
+    <div class="row justify-content-center pb-5">
+      <div class="col-lg-10 text-center">
+        <h2 class="h4">{{.team_members_title}}</h2>
+      </div>
     </div>
-    <div class="row gy-5">
+    <div class="row gy-5 team">
       {{range .team_members}}
       <div class="col-xl-3 col-lg-4">
         <div class="card bg-transparent border-0 text-center">
-          {{ partial "image" (dict "Src" .image "Alt" .name "Class" "card-img-top rounded-2" "Size" "360x") }}
+          {{ partial "image" (dict "Src" .image "Alt" .name "Class" "card-img-top rounded-2") }}
           <div class="card-body px-0">
-            {{with .name}}<h3 class="h5 mb-1">{{. | markdownify }}</h3>{{end}}
-            {{with .designation}}<p class="mb-0">{{. | markdownify }}</p>{{end}}
+            <h3 class="h6 mb-1">{{.name | markdownify }}</h3>
+            <p class="designation mb-0">{{.designation | markdownify }}</p>
           </div>
         </div>
       </div>
@@ -54,29 +54,29 @@
   </div>
 </section>
 
-<section class="section bg-light">
+<section class="section bg-light-blue">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <h3>{{.join.title | markdownify}}</h3>
-        <p>{{.join.content | markdownify}}</p>
-        {{ if .join.button.enable }}
-        {{ with .join.button }}
-        <a href="{{ .link | relLangURL }}" title="{{ .label }}" class="btn btn-sm btn-outline-primary">{{ .label }}</a>
-        {{ end }}
-        {{ end }}
+    <div class="row gx-5 align-items-center">
+      <div class="col-xl-6 pb-4">
+        <h2 class="h3">{{.join.title | markdownify}}</h2>
+        {{.join.content | markdownify}}
+        <div class="row text-center">
+          <div class="pt-4">
+            {{ partial "button" .join.button }}
+          </div>
+        </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-xl-6 pb-4">
         <div class="swiper single-slider">
           <div class="swiper-wrapper">
             {{range .join.image_item}}
             <div class="swiper-slide">
-              {{ partial "image" (dict "Src" .image "Alt" "Team photo") }}
+              {{ partial "image" (dict "Src" .image "Alt" "Team photo" "Class" "rounded-2") }}
             </div>
             {{end}}
           </div>
-          <div class="swiper-pagination"></div>
         </div>
+        <div class="swiper-pagination swiper-pagination-outer"></div>
       </div>
     </div>
   </div>

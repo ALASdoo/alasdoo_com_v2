@@ -53,11 +53,14 @@ $alas-color-blue: #00A0A3;
   }
 }
 
-.card.is-hoverable {
-  &:hover {
-    .service-image img {
-      transition: 0.2s ease;
-      transform: scale3d(1.02,1.02,1.02);
+.card {
+  width: 100%;
+  &.is-hoverable {
+    &:hover {
+      .service-image img {
+        transition: 0.2s ease;
+        transform: scale3d(1.02,1.02,1.02);
+      }
     }
   }
 }
@@ -90,6 +93,11 @@ $alas-color-blue: #00A0A3;
 .swiper-pagination-outer {
   position: relative;
   margin-top: 20px;
+}
+
+.designation {
+  font-size: 14px;
+  color: rgba($black, .5);
 }
 
 .contact-img {

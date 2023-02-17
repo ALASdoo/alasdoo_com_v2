@@ -23,18 +23,13 @@
 {{ $list := .blocks }}
 {{ $len := (len $list) }}
 {{ range $i, $p := $list }}
-<section class="section history how-it-works {{if eq $i 0}} first-element {{end}} {{if eq (add $i 1) $len}} last-element {{if modBool $i 2}} has-bg-light {{end}} {{end}} overflow-hidden {{if modBool $i 2}}bg-light {{end}}">
+<section class="section history {{if eq $i 0}} first-element {{end}} {{if eq (add $i 1) $len}} last-element {{if modBool $i 2}} has-bg-light {{end}} {{end}} overflow-hidden {{if modBool $i 2}}bg-light {{end}}">
   <div class="container">
     <div class="block {{if modBool $i 2}}block-right-image{{end}} row align-items-center g-5">
       <div class="col-lg-6 {{if modBool $i 2}}order-lg-0 text-lg-end{{end}} order-1">
         <div class="px-0 px-lg-4">
-          <h2 class="section-title h3">{{ .title | markdownify }}</h2>
-          <p class="mb-4">{{ .content | markdownify }}</p>
-          {{ if .button.enable }}
-          {{ with .button }}
-          <a href="{{ .link | relLangURL }}" title="{{ .label }}" class="btn-link">{{ .label }} <i class="fas fa-arrow-right"></i></a>
-          {{ end }}
-          {{ end }}
+          <h2 class="section-title h4">{{ .title | markdownify }}</h2>
+          {{ .content | markdownify }}
         </div>
       </div>
       <div class="col-lg-6 {{if modBool $i 2}}order-lg-1{{end}} order-0">
@@ -55,19 +50,12 @@
 <!-- mission -->
 {{ if .Params.mission.enable }}
 {{ with .Params.mission }}
-<section class="section" id="mission">
+<section class="section bg-light-gray" id="mission">
   <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
         <h2 class="h2">{{.title | markdownify}}</h2>
-      </div>
-      <div class="col-12 text-center">
-        <p class="mb-4">{{ .content | markdownify }}</p>
-        {{ if .button.enable }}
-        {{ with .button }}
-        <a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-outline-primary m-2">{{ .label }}</a>
-        {{ end }}
-        {{ end }}
+        {{ .content | markdownify }}
       </div>
     </div>
   </div>
@@ -81,14 +69,12 @@
 {{ with .Params.values }}
 <section class="section" id="values">
   <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center pb-5">
         <h2 class="h2">{{.title | markdownify}}</h2>
+        {{ .content | markdownify }}
       </div>
-      <div class="col-12 text-center">
-        <p class="mb-4">{{ .content | markdownify }}</p>
-      </div>
-      <div class="col-lg-10 mx-auto">
+      <div class="col-lg-8 mx-auto">
         <div class="accordion" id="values-list">
           {{ range $i, $e := .values_list }}
           <div class="accordion-item bg-light border-0 mb-3 rounded-1">
@@ -115,34 +101,16 @@
 <!-- specialites -->
 {{ if .Params.specialites.enable }}
 {{ with .Params.specialites }}
-<section class="section" id="specialites">
+<section class="section bg-light-blue" id="specialites">
   <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
         <h2 class="h2">{{.title | markdownify}}</h2>
-      </div>
-      <div class="col-12 text-center">
-        <p class="mb-4">{{ .content | markdownify }}</p>
+        {{ .content | markdownify }}
       </div>
       <div class="row gy-5 justify-content-center">
         {{range .specialites_list}}
-        <div class="col-4">
-          <div class="card speciality-card is-hoverable bg-white rounded-1 d-block p-4">
-            <div class="block">
-              {{ partial "image" (dict "Src" .image "alt" "speciality image" "Class" "w-100 rounded-1") }}
-            </div>
-            <div class="block">
-              <h4 class="mb-3 h5">{{ .title | markdownify }}</h4>
-              <p class="mb-4">{{ .content | markdownify }}</p>
-              {{ if .button.enable }}
-              {{ with .button }}
-              <a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-outline-primary m-2">{{ .label }}</a>
-              {{ end }}
-              {{ end }}
-            </div>
-
-          </div>
-        </div>
+          {{ partial "card" . }}
         {{end}}
         </div>
     </div>

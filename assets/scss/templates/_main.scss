@@ -206,15 +206,15 @@
   }
 }
 
-// how-it-works
-.how-it-works {
+// history
+.history {
   .block {
     z-index: 1;
     position: relative;
     &::after {
       position: absolute;
       content: "";
-      height: calc(100% + 168px);
+      height: calc(100% + 193px);
       width: 2px;
       top: -68px;
       left: calc(50% - 1px);
@@ -227,13 +227,13 @@
     .section-title {
       position: relative;
       z-index: 3;
-      &::after {
+      &:after {
         position: absolute;
         content: "";
         height: 25px;
         width: 25px;
         top: 12px;
-        left: -60px;
+        left: -73px;
         border: 5px solid lighten($color-primary, 3);
         background-color: darken($color-primary, 3);
         border-radius: 50%;
@@ -246,7 +246,7 @@
     &.block-right-image {
       .section-title::after {
         left: auto;
-        right: -60px;
+        right: -72px;
         @include desktop {
           right: auto;
           left: -50px;
@@ -261,7 +261,7 @@
       height: 1500px;
       width: 5px;
       bottom: calc(100% - 13px);
-      right: -50px;
+      right: -62px;
       background-color: $light;
       z-index: 1;
     }
@@ -273,14 +273,14 @@
       height: 1500px;
       width: 5px;
       top: 15px;
-      left: -50px;
+      left: -63px;
       background-color: $white;
       z-index: 1;
     }
     &.has-bg-light .section-title::before {
       background-color: $light;
       left: auto;
-      right: -50px;
+      right: -63px;
     }
   }
 }

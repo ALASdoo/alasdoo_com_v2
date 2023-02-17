@@ -104,10 +104,10 @@ clients:
   enable: true
   title: 'We have a proven track record'
   subtitle: 'Clients'
-  content: 'From small businesses and startups to well-established international corporations, we work with a wide range of industries. We have developed trustworthy relationships with [clients](clients/) and their development teams from all over the world.
+  content: 'From small businesses and startups to well-established international corporations, we work with a wide range of [industries](/clients#industries). We have developed trustworthy relationships with [clients](/clients) and their development teams from all over the world.
 
 
-  In our [case studies](case-studies/), you can read more about how we were able to help them improve company practices and increase revenue.'
+  In our [case studies](/case-studies), you can read more about how we were able to help them improve company practices and increase revenue.'
 
 ######################### Case studies #####################
 case_studies:
