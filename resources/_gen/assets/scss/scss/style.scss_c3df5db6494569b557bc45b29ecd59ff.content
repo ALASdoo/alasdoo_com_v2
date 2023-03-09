@@ -8830,6 +8830,9 @@ iframe.wait-autoplay {
     transition: 0.2s ease;
     transform: scale3d(1.02, 1.02, 1.02); }
 
+.accordion-button.collapsed:hover {
+  background-color: #e6f6f5; }
+
 .service-image img {
   height: 255px;
   padding: 40px 0 15px; }
@@ -8919,3 +8922,12 @@ iframe.wait-autoplay {
 
 #partnerships-tab-pane .contact-img {
   border-color: #FF8602; }
+
+.article h2, .article .h2 {
+  font-size: 35px; }
+
+.article h3, .article .h3 {
+  font-size: 32px; }
+
+.article h4, .article .h4 {
+  font-size: 28px; }

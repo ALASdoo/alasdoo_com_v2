@@ -15,7 +15,7 @@ It is crucial to come up with a rebranding strategy that seeks to create a disti
 
 ## What was the trigger for our rebranding?
 
-Our story began in 1988 when the company was founded as the main information systems provider for huge manufacturing processes, and it was based on the right and strong beliefs that were nurtured to this day. Vilmos Somogyi and Tibor Dudjik have transferred these values of conducting business on a more personal level, creating a pleasant environment for the most productive work, and promoting the best practices in the industry to a modern Alas company that is focused on IT outsourcing and software QA.
+Our story began in 1988 when the company was founded as the main information systems provider for huge manufacturing processes, and it was based on the right and strong beliefs that were nurtured to this day. Vilmos Somogyi and Tibor Dudjik have transferred these values of conducting business on a more personal level, creating a pleasant environment for the most productive work, and promoting the best practices in the industry to a modern ALAS company that is focused on IT outsourcing and software QA.
 
 In the beginning, it was easy to communicate these shared goals on a small scale, as there were not so many employees. Some of the procedures were established but not cemented, and in some cases, it was possible to play it by ear.
 
@@ -78,13 +78,8 @@ Having the visual identity built, we could also upgrade our employer branding st
 
 Renovating the workspace in new colors and spirit was extremely fun and has brought a sense of inspiration and anticipation for all. Through the design of the new workspace, we have communicated our ideas, the sentiment, and the values we want to promote. We even put up our values on a wall to be the first thing that any potential employee who comes on the premises for a job interview sees.
 
-A family, which also includes our work family, always celebrates their successes. That is why we had a rebranding party to mark this milestone and have the opportunity to share the meaning and spirit of it with all the employees. We even had a signature cocktail named “Alas” to promote what is the most important to us: napisati sastojke
+A family, which also includes our work family, always celebrates their successes. That is why we had a rebranding party to mark this milestone and have the opportunity to share the meaning and spirit of it with all the employees. We even had a signature cocktail named “ALAS” to promote what is the most important to us: napisati sastojke
 
 # SLIKA KOKTEL LISTE
 
-We believe that we have made huge progress in being better recognized by potential employees and clients, and our brand being associated with the values that built Alas into the company it is today.
-
-About the author
-Tajana Somogyi
-Chief Brand Officer
-Whether it is just a graphic design for company gifts and wallpapers or complex UX and branding projects, Tajana approaches every task studiously. She aims to fully understand the business goals behind the decision and, on the other hand, how users will receive the final result and what pain points are solved by it. Design with intention and thorough research is what she is passionate about.
+We believe that we have made huge progress in being better recognized by potential employees and clients, and our brand being associated with the values that built ALAS into the company it is today.

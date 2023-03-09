@@ -10,7 +10,7 @@ contacts:
   contact_item:
     - title: 'Our services'
       id: 'services'
-      name: 'Vilmos Somogyi, CEO'
+      name: 'Vilmos Somogyi'
       image: 'images/team/vilmos.jpg'
       content: 'I have built on the foundations of an IT firm founded by my father. Tibor Dudjik and I are co-founders of ALAS, a modern IT outsourcing and consulting firm with family values at its core. Feel free to contact me via the form, and I will be happy to be of help in the shortest notice possible.'
       form_title: 'Are you looking to add value to your business?'
@@ -28,7 +28,7 @@ contacts:
       form_content: 'I can tell you more about working at ALAS and our company culture. Feel free to contact me via the form, and I will be glad to answer any questions you may have.'
     - title: 'Partnerships'
       id: 'partnerships'
-      name: 'Tibor Dudjik, co-founder'
+      name: 'Tibor Dudjik'
       image: 'images/team/tibor.jpg'
       content: 'As our main advisor, Tibor plays a crucial role in our decision-making processes, shaping the culture of the company, managing hiring procedures, supervising projects and client relationships, and ensuring that the business operations are efficient and compliant with all applicable regulations and laws.'
       form_title: 'Interested in hearing more about our company’s best practices?'

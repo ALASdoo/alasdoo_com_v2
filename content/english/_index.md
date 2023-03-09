@@ -102,7 +102,7 @@ consulting:
 ######################### Clients #####################
 clients:
   enable: true
-  title: 'We have a proven track record'
+  title: 'Proven track record'
   subtitle: 'Clients'
   content: 'From small businesses and startups to well-established international corporations, we work with a wide range of [industries](/clients#industries). We have developed trustworthy relationships with [clients](/clients) and their development teams from all over the world.
 

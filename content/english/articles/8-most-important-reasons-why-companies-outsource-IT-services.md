@@ -11,7 +11,7 @@ At ALAS doo, we understand the importance of technology in today's fast-paced bu
 
 One of the main goals of outsourcing IT services is obviously to boost efficiency and reduce costs, but there are other underlying benefits to take into account.
 
-Infographic
+# Infographic
 
 ## 1. Enabling focus on key competences
 
@@ -45,7 +45,7 @@ Outsourcing IT services can provide companies with access to a global talent poo
 
 Incorporating diverse perspectives and cultural backgrounds into your project can also bring fresh ideas and improve its overall quality. This can be particularly valuable for companies looking to expand their operations into new markets.
 
-The question of cultural competence can be raised, of course. Many of the outsourcing companies, including Alas, have a high level of multicultural competence and possess a positive attitude toward cultural differences, as our clients come from a great number of countries and cultures.
+The question of cultural competence can be raised, of course. Many of the outsourcing companies, including ALAS, have a high level of multicultural competence and possess a positive attitude toward cultural differences, as our clients come from a great number of countries and cultures.
 
 ## 5. Access to the latest trends, methods, and tools
 
@@ -59,7 +59,7 @@ Yesterday, outsourcing was all about cutting costs and reducing back-office serv
 
 With the fast pace of IT innovations, many companies need to upgrade outdated infrastructure and do it fast in order to sustain a competitive advantage. This also needs to be done to ensure compliance with new regulations, improve security, and enhance the user experience.
 
-We, in Alas, always keep up to date with the newest technologies and best practices, use the best-proven tools and methods in the industry, and constantly improve our workflows.
+We, in ALAS, always keep up to date with the newest technologies and best practices, use the best-proven tools and methods in the industry, and constantly improve our workflows.
 
 ## 6. Improved efficiency
 
@@ -85,11 +85,6 @@ Assigning certain functions to a third party can actually boost the morale of yo
 
 Outsourcing eliminates those times of watering down the core assignments of your in-house employees, which keeps them more focused, productive, and happy. You are provided with an ongoing service and don’t have to think about how to cover days off.
 
-## How Alas can help you accelerate your business
+## How ALAS can help you accelerate your business
 
 If you are a small, medium, or large company that wants to gain an edge over the competition, but you're uncertain about what areas need improvement, we can evaluate your specific circumstances and provide an extensive range of services to help you achieve this goal:: customized project management solutions, software developers with the required expertise, manual and automated quality assurance. Contact us to schedule a meeting for a free initial assessment.
-
-Tibor Dudjik
-Co-founder
-
-With 17 years of experience in remote work and possessing excellent communication skills and a deep understanding of diverse cultural backgrounds, Tibor is a dedicated team player who has progressed through various roles in software development, including coding and leadership. Having participated in all software development cycles throughout his career, he can effectively handle fast-paced environments. His expertise is in building outsourced teams and taking over company operations, including development, marketing, finance, and leadership.

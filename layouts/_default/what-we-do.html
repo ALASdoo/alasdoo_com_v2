@@ -33,7 +33,7 @@
         <p class="mb-4">{{ .content | markdownify }}</p>
         {{ partial "button" .button }}
       </div>
-      <div class="col-lg-6 {{if not (modBool $i 2)}}order-lg-1{{end}} order-0 pe-lg-0">
+      <div class="col-lg-6 gx-5 {{if not (modBool $i 2)}}order-lg-1{{end}} order-0 pe-lg-0">
         <div class="what-we-do-img">
           {{ partial "image" (dict "Src" .image "Alt" "image") }}
         </div>

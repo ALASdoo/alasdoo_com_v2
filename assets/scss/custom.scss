@@ -65,6 +65,12 @@ $alas-color-blue: #00A0A3;
   }
 }
 
+.accordion-button.collapsed {
+  &:hover {
+    background-color: $bg-light-blue;
+  }
+}
+
 .service-image img {
   height: 255px;
   padding: 40px 0 15px;
@@ -178,5 +184,17 @@ $alas-color-blue: #00A0A3;
 #partnerships-tab-pane {
   .contact-img {
     border-color: $alas-color-orange;
+  }
+}
+
+.article {
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+  h4 {
+    font-size: 28px;
   }
 }

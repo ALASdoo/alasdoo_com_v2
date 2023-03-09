@@ -74,10 +74,10 @@
         <h2 class="h2">{{.title | markdownify}}</h2>
         {{ .content | markdownify }}
       </div>
-      <div class="col-lg-8 mx-auto">
+      <div class="col-12 mx-auto">
         <div class="accordion" id="values-list">
           {{ range $i, $e := .values_list }}
-          <div class="accordion-item bg-light border-0 mb-3 rounded-1">
+          <div class="accordion-item border-0 mb-3 rounded-1">
             <h4 class="accordion-header mb-0" id="heading-{{ sha1 .title | urlize }}_">
               <button class="accordion-button border rounded-1 shadow-none h6 mb-0 p-4 {{if ne $i 0 }}collapsed{{end}}" type="button" data-bs-toggle="collapse" data-bs-target="#id-{{ sha1 .title | urlize }}_" aria-expanded="{{if eq $i 0 }}true{{else}}false{{end}}" aria-controls="id-{{ sha1 .title | urlize }}_">
                 {{.title | markdownify}}
@@ -85,7 +85,14 @@
             </h4>
             <div id="id-{{ sha1 .title | urlize }}_" class="accordion-collapse collapse {{if eq $i 0 }}show{{end}}" aria-labelledby="heading-{{ sha1 .title | urlize }}_" data-bs-parent="#faq">
               <div class="accordion-body p-4 content">
-                {{.content | markdownify}}
+                <div class="row">
+                  <div class="col-6 d-flex align-items-center fs-5 p-4">
+                    {{.content | markdownify}}
+                  </div>
+                  <div class="col-6 text-center">
+                    {{ partial "image" (dict "Src" .image "Alt" "image" "Class" "w-75 rounded-2") }}
+                  </div>
+                </div>
               </div>
             </div>
           </div>

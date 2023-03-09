@@ -1,6 +1,6 @@
 ---
 title: 'Tajana Somogyi'
-image: 'images/avatar/02.jpg'
+image: 'images/team/tajana.jpg'
 position: 'Chief Brand Officer'
 ---
 

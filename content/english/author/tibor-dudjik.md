@@ -1,6 +1,6 @@
 ---
 title: 'Tibor Dudjik'
-image: 'images/avatar/03.jpg'
+image: 'images/team/tibor.jpg'
 position: 'Co-founder'
 ---
 

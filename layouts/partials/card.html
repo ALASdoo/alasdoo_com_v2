@@ -5,6 +5,7 @@
     </div>
     <div class="card-body p-4">
       <h4 class="h6">{{ .name | title }}</h4>
+      <p>{{ .content | markdownify }}</p>
     </div>
     <div class="card-footer bg-white rounded-2 border-0 p-4">
       {{ partial "button" .button }}

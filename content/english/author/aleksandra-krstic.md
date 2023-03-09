@@ -1,6 +1,6 @@
 ---
 title: 'Aleksandra Krstic'
-image: 'images/avatar/04.jpg'
+image: 'images/team/anja.jpg'
 position: 'QA Engineer'
 ---
 

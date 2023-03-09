@@ -17,7 +17,7 @@
         {{range $i, $e := .contact_item}}
         <div class="tab-pane fade {{if eq $i 0 }}show active{{end}}" id="{{.id}}-tab-pane" role="tabpanel" aria-labelledby="{{.id}}-tab" tabindex="0">
           <div class="row">
-            <div class="col-lg-5">
+            <div class="col-lg-5 gx-5">
               <div class="pb-4">
                 {{ partial "image" (dict "Src" .image "Alt" ".name" "Class" "contact-img d-block w-100") }}
               </div>

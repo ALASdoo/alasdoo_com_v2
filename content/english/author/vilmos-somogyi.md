@@ -1,6 +1,6 @@
 ---
 title: 'Vilmos Somogyi'
-image: 'images/avatar/02.jpg'
+image: 'images/team/vilmos.jpg'
 position: 'CEO'
 ---
 
