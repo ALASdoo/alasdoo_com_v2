@@ -46,6 +46,9 @@
 - id: next_case
   translation: Next Case
 
+- id: industry
+  translation: INDUSTRY
+
 - id: apply_for_position
   translation: Apply for Position
 

@@ -1,18 +1,21 @@
 {{define "main"}}
 
-<section class="section">
+<section class="section pt-3">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8 col-md-10">
-        <p class="h6 opacity-50 mb-1">{{i18n `lets_meet`}}</p>
-        <h1 class="h2 mb-0 text-primary">{{.Title | markdownify}}</h1>
-        <div class="content border-top pt-5 mt-5">
+        {{ partial "image" (dict "Src" .Params.image "Alt" "Team photo" "Class" "rounded-2 mb-4") }}
+
+        <p class="opacity-50">{{i18n `industry`}}: {{.Params.industry | markdownify}}</p>
+        <h1 class="h2 text-primary mb-3">{{.Title | markdownify}}</h1>
+        <p class="h5">{{.Params.subtitle | markdownify}}</p>
+        <div class="case-study content pt-5">
           {{.Content}}
         </div>
         <hr class="my-5">
         <div class="row">
           <div class="col-6 text-center text-md-start">
-            {{with .NextInSection }} 
+            {{with .NextInSection }}
             <a href="{{.RelPermalink}}" class="d-inline-block text-reset is-hoverable shadow-none">
               {{ $title:= .Title }}
               {{ with .Params.logo }}

@@ -63,6 +63,10 @@ $alas-color-blue: #00A0A3;
       }
     }
   }
+  &-header img {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
 }
 
 .accordion-button.collapsed {
@@ -187,7 +191,8 @@ $alas-color-blue: #00A0A3;
   }
 }
 
-.article {
+.article,
+.case-study {
   h2 {
     font-size: 35px;
   }

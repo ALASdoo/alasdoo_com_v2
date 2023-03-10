@@ -8829,6 +8829,9 @@ iframe.wait-autoplay {
   .card.is-hoverable:hover .service-image img {
     transition: 0.2s ease;
     transform: scale3d(1.02, 1.02, 1.02); }
+  .card-header img {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important; }
 
 .accordion-button.collapsed:hover {
   background-color: #e6f6f5; }
@@ -8923,11 +8926,17 @@ iframe.wait-autoplay {
 #partnerships-tab-pane .contact-img {
   border-color: #FF8602; }
 
-.article h2, .article .h2 {
+.article h2, .article .h2,
+.case-study h2,
+.case-study .h2 {
   font-size: 35px; }
 
-.article h3, .article .h3 {
+.article h3, .article .h3,
+.case-study h3,
+.case-study .h3 {
   font-size: 32px; }
 
-.article h4, .article .h4 {
+.article h4, .article .h4,
+.case-study h4,
+.case-study .h4 {
   font-size: 28px; }

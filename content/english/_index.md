@@ -20,7 +20,7 @@ about:
   Aligning the product vision with the technical team is our specialty. Through open communication and a personal approach, we consider every aspect of the project so that we are empowered to assist and consult in every step of the development process.
 
 
-  Our software QA services are recognized worldwide under the [WeDoQa](https://www.wedoqa.com).'
+  Our software QA services are recognized worldwide under [the WeDoQA brand](https://www.wedoqa.com).'
   button:
     enable: false
     type: 'primary'
@@ -54,7 +54,7 @@ services:
   enable: true
   title: 'What we do'
   subtitle: 'Services'
-  content: 'Our top focus is writing code that meets the highest standards, while our quality assurance team has the skills and enthusiasm to ensure that the software satisfies the strictest criteria. Each project is unique and requires a customized approach. We supply [a vast range of services](what-we-do/) to provide the most efficient solution for the unique demands and requirements of our clients.'
+  content: 'Our top focus is writing code that meets the highest standards, while our quality assurance team has the skills and experience to ensure that the software satisfies the strictest criteria. Each project is unique and requires a customized approach. We supply [a vast range of services](what-we-do/) to provide the most efficient solution for the unique demands and requirements of our clients.'
   services_item:
     # services item loop
     - name: 'Frontend and backend staff augmentation'
