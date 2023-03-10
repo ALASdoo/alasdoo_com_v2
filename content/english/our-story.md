@@ -63,7 +63,7 @@ values:
 
   - title: "Diversity and inclusion"
     content: "Not having our focus on “culture fit” but on “values fit” and “culture contribution” helps us hire people who share our goals, not necessarily our viewpoints or backgrounds. Our philosophy is that bringing your authentic self to work, helps build a vibrant community that can move mountains."
-    image: "images/values/diversity-and-inclusion.svg"
+    image: "images/values/diversity.svg"
 
   - title: "Team spirit"
     content: "We are aware that our best work is not produced by individuals but by collaboration, dependability of each member, putting “us” before “me”, selfless knowledge sharing, everyday encouragement, and support.
@@ -80,7 +80,7 @@ values:
 
   - title: "Work hard, play harder"
     content: "An environment with less stress and more positive energy is what we all strive for. Alas is about giving everybody their space and a distraction-free environment, as well as opportunities for fun, relaxation, and socializing."
-    image: "images/values/work-hard-play-harder.svg"
+    image: "images/values/play-harder.svg"
 
 ######################### specialites #####################
 specialites:
