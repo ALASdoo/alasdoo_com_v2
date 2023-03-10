@@ -3,13 +3,13 @@
 <section class="section pt-3">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-8 col-md-10">
+      <div class="case-study col-lg-8 col-md-10">
         {{ partial "image" (dict "Src" .Params.image "Alt" "Team photo" "Class" "rounded-2 mb-4") }}
 
-        <p class="opacity-50">{{i18n `industry`}}: {{.Params.industry | markdownify}}</p>
-        <h1 class="h2 text-primary mb-3">{{.Title | markdownify}}</h1>
-        <p class="h5">{{.Params.subtitle | markdownify}}</p>
-        <div class="case-study content pt-5">
+        <p class="">{{.Params.industry | markdownify}}</p>
+        <h1 class="h1 text-primary mb-2">{{.Title | markdownify}}</h1>
+        <p class="h6 opacity-75">{{.Params.subtitle | markdownify}}</p>
+        <div class="content pt-3">
           {{.Content}}
         </div>
         <hr class="my-5">

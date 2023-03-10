@@ -8940,3 +8940,8 @@ iframe.wait-autoplay {
 .case-study h4,
 .case-study .h4 {
   font-size: 28px; }
+
+.case-study h1, .case-study .h1 {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif; }
