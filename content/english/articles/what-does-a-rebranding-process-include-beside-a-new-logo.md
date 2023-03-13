@@ -2,7 +2,7 @@
 date: '2021-07-12'
 draft: false
 title: 'What does a rebranding process include beside a new logo?'
-image: 'images/case-studies/03.png'
+image: 'images/articles/Tajana.jpg'
 author: 'Tajana Somogyi'
 description: '' # meta description
 ---

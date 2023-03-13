@@ -89,6 +89,7 @@ specialites:
   content: "We are committed to providing our very best effort, upholding rigorous standards, and accepting responsibility for the outcomes, regardless of how big or small the project is."
   specialites_list:
   - name: "Proven track record"
+    type: "illustration"
     content: "
     * experience with a variety of industries
 
@@ -103,6 +104,7 @@ specialites:
       link: 'clients/'
 
   - name: "Long-term partnerships"
+    type: "illustration"
     content: "
     * uncompromising honesty and integrity
 
@@ -118,6 +120,7 @@ specialites:
       link: 'case-studies/'
 
   - name: "Young and creative"
+    type: "illustration"
     content: "
     * original approach
 
@@ -133,6 +136,7 @@ specialites:
       link: 'articles/'
 
   - name: "Being proactive"
+    type: "illustration"
     content: "
     * offering new ideas
 
@@ -148,6 +152,7 @@ specialites:
       link: 'how-we-work/'
 
   - name: "Always improving"
+    type: "illustration"
     content: "
     * a culture of ongoing learning
 
@@ -165,6 +170,7 @@ specialites:
       link: 'our-story/'
 
   - name: "Quality over quantity"
+    type: "illustration"
     content: "
     * hiring only the most talented developers and testers
 

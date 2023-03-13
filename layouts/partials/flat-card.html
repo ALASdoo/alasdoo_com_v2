@@ -1,0 +1,18 @@
+<div class="col-lg-6 col-sm-12 d-lg-flex">
+  <div class="card {{.type}}-card bg-white rounded-2 border-0">
+    {{ if .image }}
+    <div class="card-header {{.type}}-image text-center bg-white rounded-2 border-0 p-0">
+      {{ partial "image" (dict "Src" .image "alt" "" "Class" "rounded-2") }}
+    </div>
+    {{ end }}
+    <div class="card-body p-4">
+      <h4 class="h6">{{ .name | title }}</h4>
+      <p class="m-0">{{ .content | markdownify }}</p>
+    </div>
+    {{ if .button }}
+    <div class="card-footer bg-white rounded-2 border-0 p-4">
+      {{ partial "button" .button }}
+    </div>
+    {{ end }}
+  </div>
+</div>

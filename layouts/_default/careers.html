@@ -37,7 +37,7 @@
 {{end}}
 
 {{with .Params.benefits}}
-<section class="section bg-light">
+<section class="section">
   <div class="container">
     <div class="row justify-content-center pb-5">
       <div class="col-lg-10 text-center">
@@ -68,22 +68,20 @@
 {{end}}
 
 {{ with .Params.process }}
-<section class="section">
+<section class="section bg-light">
   <div class="container">
     <div class="row justify-content-center pb-5">
       <div class="col-lg-10 text-center">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
         <h3 class="h2">{{.title | markdownify}}</h3>
+        {{ .content | markdownify }}
       </div>
     </div>
-    {{ range $i, $p := .process_item }}
-    <div class="row {{if not (modBool $i 2)}}justify-content-end{{end}}">
-      <div class="col-6">
-        <h3 class="section-title h5">{{.title | markdownify}}</h3>
-        <p class="mb-0">{{.content | markdownify}}</p>
-      </div>
-    </div>
+    <div class="row gy-4">
+    {{ range .process_item }}
+      {{ partial "flat-card" . }}
     {{ end }}
+    </div>
   </div>
 </section>
 {{ end }}

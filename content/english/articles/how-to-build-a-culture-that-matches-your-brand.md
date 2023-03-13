@@ -2,7 +2,7 @@
 date: '2021-07-11'
 draft: false
 title: 'How to build a culture that matches your brand?'
-image: 'images/case-studies/04.png'
+image: 'images/articles/Anja.jpg'
 author: 'Aleksandra Krstic'
 description: '' # meta description
 ---

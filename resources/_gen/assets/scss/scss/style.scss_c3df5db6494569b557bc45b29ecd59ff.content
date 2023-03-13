@@ -8833,6 +8833,9 @@ iframe.wait-autoplay {
     border-bottom-left-radius: 0 !important;
     border-bottom-right-radius: 0 !important; }
 
+.illustration-card .card-header {
+  padding: 1.5rem !important; }
+
 .accordion-button.collapsed:hover {
   background-color: #e6f6f5; }
 
@@ -8945,3 +8948,6 @@ iframe.wait-autoplay {
   font-size: 40px;
   font-weight: 400;
   font-family: "Inter", sans-serif; }
+
+.process-step {
+  background: #FFF; }

@@ -69,6 +69,12 @@ $alas-color-blue: #00A0A3;
   }
 }
 
+.illustration-card {
+  .card-header {
+    padding: 1.5rem !important;
+  }
+}
+
 .accordion-button.collapsed {
   &:hover {
     background-color: $bg-light-blue;
@@ -210,4 +216,8 @@ $alas-color-blue: #00A0A3;
     font-weight: 400;
     font-family: $font-primary;
   }
+}
+
+.process-step {
+  background: #FFF;
 }

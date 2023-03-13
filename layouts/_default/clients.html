@@ -15,13 +15,34 @@
 </section>
 
 {{with .relationships}}
-<section class="section pb-5">
+<section class="section">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
         <h1 class="h2">{{.title | markdownify}}</h1>
         {{.content | markdownify}}
       </div>
+    </div>
+  </div>
+</section>
+{{end}}
+
+{{with .industries}}
+<section id="industries" class="section bg-light-gray">
+  <div class="container">
+    <div class="row justify-content-center p-5">
+      <div class="col-lg-10 text-center">
+        <h2 class="h3">{{.title | markdownify}}</h2>
+        {{.content | markdownify}}
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      {{range .industries_item}}
+      <div class="col-sm-6 col-md-4 col-lg-3 p-4 text-center">
+        {{ partial "image" (dict "Src" .image "Alt" .title "Class" "w-50") }}
+        <p class="mt-2">{{.title}}</p>
+      </div>
+      {{end}}
     </div>
   </div>
 </section>
@@ -37,26 +58,6 @@
     </div>
     <div class="row justify-content-center">
       {{range .clients_item}}
-      <div class="col-3 p-5">
-        {{ partial "image" (dict "Src" .image "Alt" .title) }}
-      </div>
-      {{end}}
-    </div>
-  </div>
-</section>
-{{end}}
-
-{{with .industries}}
-<section id="industries" class="section bg-light-gray">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-10 text-center">
-        <h2 class="h2">{{.title | markdownify}}</h2>
-        {{.content | markdownify}}
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      {{range .industries_item}}
       <div class="col-3 p-5">
         {{ partial "image" (dict "Src" .image "Alt" .title) }}
       </div>
@@ -107,7 +108,7 @@
           "link" .RelPermalink
         }}
         {{ $card := dict
-          "image" .Params.logo
+          "image" .Params.image
           "name" .Title
           "button" $button
         }}
