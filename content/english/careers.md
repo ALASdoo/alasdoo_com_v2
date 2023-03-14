@@ -39,34 +39,40 @@ benefits:
   perks:
     title: "Some of the perks our employees enjoy"
     perks_item:
-    - icon: "images/benefits/flexible.svg"
-      content: "at the office, hybrid, or remote work models
+    - image: "images/benefits/flexible.svg"
+      name: "
+      * at the office, hybrid, or remote work models
 
-      flexible work hours"
-    - icon: "images/benefits/snacks.svg"
-      content: "snacks & drinks
+      * flexible work hours"
+    - image: "images/benefits/snacks.svg"
+      name: "
+      * snacks & drinks
 
-      sponsored lunch
+      * sponsored lunch
 
-      Friday bar once a month"
-    - icon: "images/benefits/wellness.svg"
-      content: "massage therapies
+      * Friday bar once a month"
+    - image: "images/benefits/wellness.svg"
+      name: "
+      * massage therapies
 
-      small gym"
-    - icon: "images/benefits/education.svg"
-      content: "English/German language course
+      * small gym"
+    - image: "images/benefits/education.svg"
+      name: "
+      * English/German language course
 
-      Udemy & other courses"
-    - icon: "images/benefits/gifts.svg"
-      content: "corporate gifts
+      * Udemy & other courses"
+    - image: "images/benefits/gifts.svg"
+      name: "
+      * corporate gifts
 
-      customized bonus
+      * customized bonus
 
-      team buildings"
-    - icon: "images/benefits/improvement.svg"
-      content: "investment in your ideas
+      * team buildings"
+    - image: "images/benefits/improvement.svg"
+      name: "
+      * investment in your ideas
 
-      yearly performance and salary reviews"
+      * yearly performance and salary reviews"
 
 process:
   subtitle: "Hiring Process"

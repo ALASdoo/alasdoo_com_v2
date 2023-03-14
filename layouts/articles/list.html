@@ -8,7 +8,7 @@
       {{range where site.RegularPages "Section" .Params.section}}
         {{ $button := dict
           "enable" true
-          "type" "link"
+          "type" "link-stretched"
           "label" "Read article"
           "link" .RelPermalink
         }}

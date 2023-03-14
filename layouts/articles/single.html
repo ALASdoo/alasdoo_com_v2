@@ -1,12 +1,14 @@
 {{define "main"}}
 
-<section class="section pt-5">
+<section class="section pt-3">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-8 col-md-10">
+      <div class="article col-lg-8 col-md-10">
+        {{ partial "image" (dict "Src" .Params.image "Alt" "Team photo" "Class" "rounded-2 mb-4") }}
+
         <small class="opacity-50">{{i18n `article`}}<span class="mx-1 text-dark-50 fw-500">|</span> <i class="far fa-clock text-dark me-1"></i> {{.ReadingTime}} {{i18n `min_read`}}</span></small>
-        <h1 class="h3 mb-0 mt-4 text-primary">{{.Title | markdownify}}</h1>
-        <div class="article content pt-5">
+        <h1 class="h1 mb-0 mt-2 text-primary">{{.Title | markdownify}}</h1>
+        <div class="content pt-3">
           {{.Content}}
         </div>
 

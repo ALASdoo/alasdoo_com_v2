@@ -199,25 +199,31 @@ $alas-color-blue: #00A0A3;
 
 .article,
 .case-study {
+  h1,
+  h2 {
+    font-weight: 400;
+    font-family: $font-primary;
+  }
+  h1 {
+    font-size: 40px;
+  }
   h2 {
     font-size: 35px;
+    font-weight: 400;
+    font-family: $font-primary;
   }
   h3 {
-    font-size: 32px;
+    font-size: 30px;
   }
   h4 {
     font-size: 28px;
   }
 }
 
-.case-study {
-  h1 {
-    font-size: 40px;
-    font-weight: 400;
-    font-family: $font-primary;
-  }
-}
-
 .process-step {
   background: #FFF;
+}
+
+.benefit-icon {
+  width: 40%;
 }

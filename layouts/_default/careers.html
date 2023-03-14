@@ -19,7 +19,7 @@
 {{end}}
 
 {{with .Params.culture}}
-<section id="culture" class="section bg-light-gray">
+<section id="culture" class="section">
   <div class="container">
     <div class="row align-items-center justify-content-between">
       <div class="col-lg-6">
@@ -37,7 +37,7 @@
 {{end}}
 
 {{with .Params.benefits}}
-<section class="section">
+<section class="section bg-light-blue">
   <div class="container">
     <div class="row justify-content-center pb-5">
       <div class="col-lg-10 text-center">
@@ -55,10 +55,15 @@
 
     <div class="row justify-content-center gy-4">
       {{range .perks_item}}
-      <div class="col-lg-4 col-sm-6">
-        {{ partial "image" (dict "Src" .icon "alt" "About image" "Class" "w-100 rounded-1") }}
-
-        <p class="mb-0">{{.content | markdownify}}</p>
+      <div class="col-lg-4 col-sm-6 d-lg-flex">
+        <div class="card bg-white rounded-2 border-0">
+          <div class="card-header text-center bg-white rounded-2 border-0 p-0 mt-5">
+            {{ partial "image" (dict "Src" .image "alt" "" "Class" "rounded-2 benefit-icon") }}
+          </div>
+          <div class="card-body pb-5 pt-0">
+            <h4 class="h6 content p-3 pb-0">{{ .name | markdownify }}</h4>
+          </div>
+        </div>
       </div>
       {{end}}
     </div>
@@ -68,7 +73,7 @@
 {{end}}
 
 {{ with .Params.process }}
-<section class="section bg-light">
+<section class="section bg-light-gray">
   <div class="container">
     <div class="row justify-content-center pb-5">
       <div class="col-lg-10 text-center">
@@ -87,7 +92,7 @@
 {{ end }}
 
 {{ with .Params.onboarding }}
-<section class="section bg-light-gray">
+<section class="section">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-10 text-center">
@@ -101,7 +106,7 @@
 {{ end }}
 
 {{ with .Params.jobs }}
-<section class="section" id="jobs">
+<section class="section bg-light-blue" id="jobs">
   <div class="container">
     <div class="row justify-content-center pb-5">
       <div class="col-lg-10 text-center">

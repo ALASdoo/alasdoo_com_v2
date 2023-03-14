@@ -8929,25 +8929,40 @@ iframe.wait-autoplay {
 #partnerships-tab-pane .contact-img {
   border-color: #FF8602; }
 
+.article h1, .article .h1,
+.article h2,
+.article .h2,
+.case-study h1,
+.case-study .h1,
+.case-study h2,
+.case-study .h2 {
+  font-weight: 400;
+  font-family: "Inter", sans-serif; }
+
+.article h1, .article .h1,
+.case-study h1,
+.case-study .h1 {
+  font-size: 40px; }
+
 .article h2, .article .h2,
 .case-study h2,
 .case-study .h2 {
-  font-size: 35px; }
+  font-size: 35px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif; }
 
 .article h3, .article .h3,
 .case-study h3,
 .case-study .h3 {
-  font-size: 32px; }
+  font-size: 30px; }
 
 .article h4, .article .h4,
 .case-study h4,
 .case-study .h4 {
   font-size: 28px; }
 
-.case-study h1, .case-study .h1 {
-  font-size: 40px;
-  font-weight: 400;
-  font-family: "Inter", sans-serif; }
-
 .process-step {
   background: #FFF; }
+
+.benefit-icon {
+  width: 40%; }
