@@ -2,7 +2,7 @@
 date: '2021-07-14'
 draft: false
 title: 'How to choose the right IT outsourcing provider?'
-image: 'images/articles/Vilmos.jpg'
+image: 'images/articles/choose-outsourcing-company.jpg'
 author: 'Vilmos Somogyi'
 description: '' # meta description
 ---

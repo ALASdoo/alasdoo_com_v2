@@ -2,7 +2,7 @@
 date: '2021-07-13'
 draft: false
 title: '8 most important reasons why companies outsource IT services'
-image: 'images/articles/Tibor.jpg'
+image: 'images/articles/why-outsource.jpg'
 author: 'Tibor Dudjik'
 description: '' # meta description
 ---

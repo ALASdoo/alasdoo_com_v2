@@ -3,7 +3,7 @@ date: '2023-03-09'
 draft: false
 title: 'Healthcare workflow platform with automated call answering and mobile messaging'
 subtitle: 'Ensuring efficient communication and improved patient outcomes'
-image: 'images/case-studies/Sure-Clinical.jpg'
+image: 'images/case-studies/SureClinical.jpg'
 industry: 'HEALTHCARE'
 ---
 

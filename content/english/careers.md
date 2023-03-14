@@ -39,31 +39,31 @@ benefits:
   perks:
     title: "Some of the perks our employees enjoy"
     perks_item:
-    - icon: "images/logo.svg"
+    - icon: "images/benefits/flexible.svg"
       content: "at the office, hybrid, or remote work models
 
       flexible work hours"
-    - icon: "images/logo.svg"
+    - icon: "images/benefits/snacks.svg"
       content: "snacks & drinks
 
       sponsored lunch
 
       Friday bar once a month"
-    - icon: "images/logo.svg"
+    - icon: "images/benefits/wellness.svg"
       content: "massage therapies
 
       small gym"
-    - icon: "images/logo.svg"
+    - icon: "images/benefits/education.svg"
       content: "English/German language course
 
       Udemy & other courses"
-    - icon: "images/logo.svg"
+    - icon: "images/benefits/gifts.svg"
       content: "corporate gifts
 
       customized bonus
 
       team buildings"
-    - icon: "images/logo.svg"
+    - icon: "images/benefits/improvement.svg"
       content: "investment in your ideas
 
       yearly performance and salary reviews"
