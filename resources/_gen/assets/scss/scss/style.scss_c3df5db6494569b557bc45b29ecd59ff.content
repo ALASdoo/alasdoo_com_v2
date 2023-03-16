@@ -8852,11 +8852,8 @@ iframe.wait-autoplay {
   height: 50px;
   max-width: 100px; }
 
-.approach-text h3, .approach-text .h3 {
-  font-size: 16px; }
-
-.approach-text p {
-  font-size: 14px; }
+.approach-text {
+  padding-left: 20px; }
 
 .swiper-pagination-outer {
   position: relative;
@@ -8963,6 +8960,12 @@ iframe.wait-autoplay {
 
 .process-step {
   background: #FFF; }
+
+.w-30 {
+  width: 30% !important; }
+
+.w-40 {
+  width: 40% !important; }
 
 .benefit-icon {
   width: 40%; }

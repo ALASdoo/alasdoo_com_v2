@@ -2,14 +2,41 @@
 hero: "Our true value lies in people who do the hard work.
 By understanding and valuing them everything else falls into place."
 hero_image: "images/team/hero.jpg"
-title: "Our Team"
 # meta description
-description: "We believe that only great people can achieve great results; that is why we hire for quality, not quantity. We nurture a culture of loyal teammates who have a sense of ownership and truly care about achieving results. Our team comprises more than 60 talented and knowledge-rich software developers and automated/manual QA engineers, as well as project managers and UX experts.
-
-
-Before the first billing hour, each team member completes in depth training for the project they are undertaking, so they can seamlessly take over their role and hit the ground running. We are proud of our excellent knowledge-sharing system and collaboration between colleagues. Through support, feedback, workshops and brainstorming, each person is enabled to work at full capacity. As English is a very important part of our business, each member of our team is proficient in it."
+description: ""
 draft: false
 layout: "team"
+
+
+intro:
+  title: "Our Team"
+  quality:
+    title: "Quality over quantity"
+    content: "We believe that only great people can achieve great results; that is why we hire for quality, not quantity. We nurture a culture of loyal teammates who have a sense of ownership and truly care about achieving results. Our team comprises more than 60 talented and knowledge-rich software developers and automated/manual QA engineers, as well as project managers and UX experts. As English is a very important part of our business, each member of our team is proficient in it."
+    carousel_items:
+      - image: "images/home-gallery/01.jpg"
+      - image: "images/home-gallery/02.jpg"
+      - image: "images/home-gallery/03.jpg"
+      - image: "images/home-gallery/04.jpg"
+      - image: "images/home-gallery/05.jpg"
+      - image: "images/home-gallery/06.jpg"
+      - image: "images/home-gallery/07.jpg"
+      - image: "images/home-gallery/08.jpg"
+      - image: "images/home-gallery/09.jpg"
+  streangths:
+    title: "Always improving"
+    content: "Before the first billing hour, each team member completes in depth training for the project they are undertaking, so they can seamlessly take over their role and hit the ground running. We are proud of our excellent knowledge-sharing system and collaboration between colleagues. Through support, feedback, workshops and brainstorming, each person is enabled to work at full capacity."
+    carousel_items:
+      - image: "images/home-gallery/01.jpg"
+      - image: "images/home-gallery/02.jpg"
+      - image: "images/home-gallery/03.jpg"
+      - image: "images/home-gallery/04.jpg"
+      - image: "images/home-gallery/05.jpg"
+      - image: "images/home-gallery/06.jpg"
+      - image: "images/home-gallery/07.jpg"
+      - image: "images/home-gallery/08.jpg"
+      - image: "images/home-gallery/09.jpg"
+
 cta:
   content: "We can accommodate staff augmentation or provide a dedicated team. Whatever the requirements are, or even if you are unsure which approach would be best for your project, feel free to consult with our experts."
   button:

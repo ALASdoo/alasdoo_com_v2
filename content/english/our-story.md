@@ -34,6 +34,7 @@ history:
 ######################### mission #####################
 mission:
   enable: true
+  subtitle: "Our mission"
   title: "We provide more than expertise"
   content: "Our mission is to provide our clients with next-level service, which includes not just deep domain expertise, but also a sense of ownership and responsibility. We cultivate a culture of loyal and committed colleagues who care and are cared for."
 

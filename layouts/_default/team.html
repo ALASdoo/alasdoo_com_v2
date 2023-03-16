@@ -11,13 +11,48 @@
 
 <section class="section">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 text-center">
-        <h1 class="h2">{{.title | markdownify}}</h1>
-        {{ .description | markdownify }}
+    <div class="row gx-5 align-items-center">
+      <div class="col-xl-6 pb-4">
+        <h2 class="subtitle">{{.intro.title | markdownify}}</h2>
+        <h3 class="h2">{{.intro.quality.title | markdownify}}</h3>
+        {{.intro.quality.content | markdownify}}
+      </div>
+      <div class="col-xl-6 pb-4">
+        <div class="swiper single-slider">
+          <div class="swiper-wrapper">
+            {{range .intro.quality.carousel_items}}
+            <div class="swiper-slide">
+              {{ partial "image" (dict "Src" .image "Alt" "Team photo" "Class" "rounded-2") }}
+            </div>
+            {{end}}
+          </div>
+        </div>
+        <div class="swiper-pagination swiper-pagination-outer"></div>
       </div>
     </div>
   </div>
+
+  <div class="container">
+    <div class="row gx-5 align-items-center">
+      <div class="col-xl-6 pb-4 order-lg-1">
+        <h3 class="h2">{{.intro.streangths.title | markdownify}}</h3>
+        {{.intro.streangths.content | markdownify}}
+      </div>
+      <div class="col-xl-6 pb-4 order-lg-0">
+        <div class="swiper single-slider">
+          <div class="swiper-wrapper">
+            {{range .intro.streangths.carousel_items}}
+            <div class="swiper-slide">
+              {{ partial "image" (dict "Src" .image "Alt" "Team photo" "Class" "rounded-2") }}
+            </div>
+            {{end}}
+          </div>
+        </div>
+        <div class="swiper-pagination swiper-pagination-outer"></div>
+      </div>
+    </div>
+  </div>
+
 </section>
 
 <section class="section bg-light-blue">

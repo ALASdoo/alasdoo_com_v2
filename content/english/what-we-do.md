@@ -136,35 +136,23 @@ approach:
   content: "Each project is unique and requires a customized strategy, but what guides us through every communication and relationship is our in-depth domain experience, thoroughness in everything we do, transparency, and taking the human aspect into account. These are just a few of the [values](/our-story#values) we uphold and live by every day."
   content_bottom: "Our company's founders have more than 17 years of experience in each stage of the development and testing processes and are proficient in the procedures themselves. They are the ones who go through all the motions of an initial meeting, assessment, planning, and choosing the perfect team for you."
   workflow_item:
-    - title: 'STEP 1:
-
-      Initial assessment'
-      image: ''
+    - title: 'Initial assessment'
+      image: '/images/approach/1.svg'
       content: 'Understanding your needs, goals, and pain points through a detailed interview and in-depth research'
-    - title: 'STEP 2:
-
-      Customized plan'
-      image: ''
+    - title: 'Customized plan'
+      image: '/images/approach/2.svg'
       content: 'Translating goals into concrete steps with detailed technical specifications, based on our expertise'
-    - title: 'STEP 3:
-
-      Finding the best fit'
-      image: ''
+    - title: 'Choosing talent'
+      image: '/images/approach/3.svg'
       content: 'With crucial technical requirements defined, we are choosing the most suitable talent for your project'
-    - title: 'STEP 4:
-
-      Onboarding'
-      image: ''
+    - title: 'Onboarding'
+      image: '/images/approach/4.svg'
       content: 'Your project presenting both as a wider picture and as the specific tasks that will be performed'
-    - title: 'STEP 5:
-
-      Implementation'
-      image: ''
+    - title: 'Implementation'
+      image: '/images/approach/5.svg'
       content: 'Doing the actual work, complemented with ongoing transparent communication and regular reporting'
-    - title: 'STEP 6:
-
-      Agile adaptation'
-      image: ''
+    - title: 'Agile adaptation'
+      image: '/images/approach/6.svg'
       content: 'Staying on top of things and being quick to adjust when plans change, whether it is about the requirements or the team structure'
 
 ######################### cta #####################

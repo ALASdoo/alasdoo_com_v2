@@ -99,12 +99,7 @@ $alas-color-blue: #00A0A3;
 }
 
 .approach-text {
-  h3 {
-    font-size: 16px;
-  }
-  p {
-    font-size: 14px;
-  }
+  padding-left: 20px;
 }
 .swiper-pagination-outer {
   position: relative;
@@ -222,6 +217,13 @@ $alas-color-blue: #00A0A3;
 
 .process-step {
   background: #FFF;
+}
+
+.w-30 {
+  width: 30% !important;
+}
+.w-40 {
+  width: 40% !important;
 }
 
 .benefit-icon {
