@@ -31,19 +31,19 @@
 				<div id="career_form" class="sidebar-widget bg-white rounded-2 shadow">
 					<form action="{{site.Params.career_form_action}}" name="career_form" method="POST" data-netlify="true" enctype="multipart/form-data">
 						<div class="form-group mb-3">
-							<label class="mb-1" for="name">{{i18n `fname`}} <span class="text-danger">*</span></label>
-							<input class="form-control rounded-sm text-dark shadow-none" id="name" type="text" placeholder="{{i18n `fname`}}" required>
+							<label class="mb-1 opacity-75" for="name">{{i18n `fname`}} *</label>
+							<input class="form-control rounded-sm text-dark shadow-none" id="name" type="text" required>
 						</div>
 						<div class="form-group mb-3">
-							<label class="mb-1" for="last-name">{{i18n `lname`}} <span class="text-danger">*</span></label>
-							<input class="form-control rounded-sm text-dark shadow-none" id="last-name" type="text" placeholder="{{i18n `lname`}}" required>
+							<label class="mb-1 opacity-75" for="last-name">{{i18n `lname`}} *</label>
+							<input class="form-control rounded-sm text-dark shadow-none" id="last-name" type="text" required>
 						</div>
 						<div class="form-group mb-3">
-							<label class="mb-1" for="email">{{i18n `email`}} <span class="text-danger">*</span></label>
-							<input class="form-control rounded-sm text-dark shadow-none" id="email" type="email" placeholder="{{i18n `email`}}" required>
+							<label class="mb-1 opacity-75" for="email">{{i18n `email`}} *</label>
+							<input class="form-control rounded-sm text-dark shadow-none" id="email" type="email" required>
 						</div>
 						<div class="form-group mb-3">
-							<label class="mb-1" for="cv">{{i18n `upload_cv`}} <span class="text-danger">*</span></label>
+							<label class="mb-1 opacity-75" for="cv">{{i18n `upload_cv`}} *</label>
 							<input class="text-dark my-1 w-100" type="file" name="cv" id="cv" required>
 							<small class="d-block">{{i18n `cv_note`}}</small>
 						</div>

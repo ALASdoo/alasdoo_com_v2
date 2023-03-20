@@ -58,7 +58,7 @@ services:
   services_item:
     # services item loop
     - name: 'Frontend and backend staff augmentation'
-      type: 'service'
+      type: 'zoom-img'
       image: 'images/development.svg'
       button:
         enable: true
@@ -68,7 +68,7 @@ services:
 
     # services item loop
     - name: 'Manual and automated software QA services'
-      type: 'service'
+      type: 'zoom-img'
       image: 'images/QA.svg'
       button:
         enable: true
@@ -79,7 +79,7 @@ services:
 
     # services item loop
     - name: 'IT consulting and project management'
-      type: 'service'
+      type: 'zoom-img'
       image: 'images/PM.svg'
       button:
         enable: true
@@ -142,6 +142,7 @@ jobs:
   - image: "images/home-gallery/07.jpg"
   - image: "images/home-gallery/08.jpg"
   - image: "images/home-gallery/09.jpg"
+  - image: "images/home-gallery/10.jpg"
 
 ######################### Case studies #####################
 articles:

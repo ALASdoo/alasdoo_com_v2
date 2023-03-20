@@ -5,11 +5,13 @@
       {{ partial "image" (dict "Src" .image "alt" "" "Class" "rounded-2") }}
     </div>
     {{ end }}
-    <div class="card-body p-4">
+    <div class="card-body p-4 {{ if not .content }}pb-0{{end}}">
       <h4 class="h6">{{ .name | markdownify }}</h4>
+      {{ if .content }}
       <p>{{ .content | markdownify }}</p>
+      {{ end }}
     </div>
-    <div class="card-footer bg-white rounded-2 border-0 p-4">
+    <div class="card-footer bg-white rounded-2 border-0 p-4 pt-0">
       {{ partial "button" .button }}
     </div>
   </div>

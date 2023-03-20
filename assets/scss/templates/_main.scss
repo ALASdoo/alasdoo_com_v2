@@ -96,6 +96,9 @@
   li {
     margin-bottom: 10px;
   }
+  .list-inline-item:not(:last-child) {
+    margin-right: 1rem;
+  }
   a {
     color: $color-primary;
     text-align: center;
@@ -262,7 +265,8 @@
       width: 5px;
       bottom: calc(100% - 13px);
       right: -62px;
-      background-color: $light;
+      // background-color: $light;
+      background-color: $white;
       z-index: 1;
     }
   }
@@ -278,7 +282,8 @@
       z-index: 1;
     }
     &.has-bg-light .section-title::before {
-      background-color: $light;
+      // background-color: $light;
+      background-color: $white;
       left: auto;
       right: -63px;
     }

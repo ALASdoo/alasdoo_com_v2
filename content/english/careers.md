@@ -26,7 +26,17 @@ culture:
 
 
   Our employees are participants in decision making, as their opinions, initiatives, and ideas are always heard and welcomed. Constructive suggestions can promptly come to life with our flat hierarchy and short decision making paths."
-  image: "images/about.jpg"
+  image_item:
+  - image: "images/home-gallery/01.jpg"
+  - image: "images/home-gallery/02.jpg"
+  - image: "images/home-gallery/03.jpg"
+  - image: "images/home-gallery/04.jpg"
+  - image: "images/home-gallery/05.jpg"
+  - image: "images/home-gallery/06.jpg"
+  - image: "images/home-gallery/07.jpg"
+  - image: "images/home-gallery/08.jpg"
+  - image: "images/home-gallery/09.jpg"
+  - image: "images/home-gallery/10.jpg"
   button:
     enable : false
     label : "Read about why culture metters"

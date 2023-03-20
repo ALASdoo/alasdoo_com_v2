@@ -18,17 +18,18 @@ hero:
 ######################### history #####################
 history:
   enable : true
+  subtitle: "Our story"
   blocks:
   - title : "The beginning"
     image: "images/ALAS_start.jpg"
     content : "The story of ALAS begins in 1988 when computer science was just finding its footing in Serbia. Sandor Somogyi and Dragan Nedeljkovic, the advocates of the application of computer technology, have joined forces with some of the most important IT developers in Zrenjanin, and founded the company that has become the symbol of change, a synonym of modern times, and the correct way of incorporating and developing information technologies in large agricultural and manufacturing systems."
 
   - title : "Modern times"
-    image: "images/how-it-works/02.jpg"
+    image: "images/modern-times.jpg"
     content : "The new era of ALAS began in 2009, when Vilmos Somogyi, Sandor's son, took over as CEO. Together with Tibor Dudjik, they shifted the company's focus to outsourcing IT services while upholding the primary ideology of finding the best way to integrate the most recent information technologies into all industries, prioritizing quality, and fostering a welcoming workplace environment for him and his coworkers."
 
   - title : "The company today"
-    image: "images/how-it-works/03.jpg"
+    image: "images/nowdays.jpg"
     content : "Nowadays Alas is located in Novi Sad, Serbia, with more than [60 experts from different fields on board](/team). Although the company has significantly grown, it has still kept its non-corporate, people-focused approach, home-like atmosphere, and family values at its core. We have [clients from all over the world](/clients) thanks to our enthusiasm for innovation and dedication to quality. With our knowledge and experience, we successfully handle even the most demanding projects in the financial, accounting, and healthcare sectors—fields with zero tolerance for errors."
 
 ######################### mission #####################
@@ -90,7 +91,7 @@ specialites:
   content: "We are committed to providing our very best effort, upholding rigorous standards, and accepting responsibility for the outcomes, regardless of how big or small the project is."
   specialites_list:
   - name: "Proven track record"
-    type: "illustration"
+    type: "zoom-img"
     content: "
     * experience with a variety of industries
 
@@ -102,10 +103,10 @@ specialites:
       enable: true
       type: 'link'
       label: 'Meet our clients'
-      link: 'clients/'
+      link: '/clients'
 
   - name: "Long-term partnerships"
-    type: "illustration"
+    type: "zoom-img"
     content: "
     * uncompromising honesty and integrity
 
@@ -118,10 +119,10 @@ specialites:
       enable: true
       type: 'link'
       label: 'View case studies'
-      link: 'case-studies/'
+      link: '/case-studies'
 
   - name: "Young and creative"
-    type: "illustration"
+    type: "zoom-img"
     content: "
     * original approach
 
@@ -134,10 +135,10 @@ specialites:
       enable: true
       type: 'link'
       label: 'Read our articles'
-      link: 'articles/'
+      link: '/articles'
 
   - name: "Being proactive"
-    type: "illustration"
+    type: "zoom-img"
     content: "
     * offering new ideas
 
@@ -150,10 +151,10 @@ specialites:
       enable: true
       type: 'link'
       label: 'View our approach'
-      link: 'how-we-work/'
+      link: '/how-we-work'
 
   - name: "Always improving"
-    type: "illustration"
+    type: "zoom-img"
     content: "
     * a culture of ongoing learning
 
@@ -168,10 +169,10 @@ specialites:
       enable: true
       type: 'link'
       label: 'Learn more about our culture'
-      link: 'our-story/'
+      link: '/our-story'
 
   - name: "Quality over quantity"
-    type: "illustration"
+    type: "zoom-img"
     content: "
     * hiring only the most talented developers and testers
 
@@ -184,6 +185,6 @@ specialites:
       enable: true
       type: 'link'
       label: 'Meet our team'
-      link: 'team/'
+      link: '/team'
 
 ---

@@ -13,6 +13,12 @@ $alas-color-blue: #00A0A3;
   }
 }
 
+@media (min-width: 1200px) {
+  .contact-header-btn {
+    margin-left: 12px;
+  }
+}
+
 .hero-text {
   font-size: 42px;
 }
@@ -57,7 +63,7 @@ $alas-color-blue: #00A0A3;
   width: 100%;
   &.is-hoverable {
     &:hover {
-      .service-image img {
+      .zoom-img-image img {
         transition: 0.2s ease;
         transform: scale3d(1.02,1.02,1.02);
       }
@@ -69,19 +75,13 @@ $alas-color-blue: #00A0A3;
   }
 }
 
-.illustration-card {
-  .card-header {
-    padding: 1.5rem !important;
-  }
-}
-
 .accordion-button.collapsed {
   &:hover {
     background-color: $bg-light-blue;
   }
 }
 
-.service-image img {
+.zoom-img-image img {
   height: 255px;
   padding: 40px 0 15px;
 }

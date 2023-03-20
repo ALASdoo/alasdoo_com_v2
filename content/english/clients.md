@@ -63,14 +63,14 @@ clients:
       image: 'images/clients/dakotasilencer.jpg'
 
 industries:
-  title: 'Industries we’re working with'
+  title: 'Industries we have worked with'
   content: 'We have worked together with development teams representing a variety of sectors. We are especially proud of the high standards and constant quality we deliver to even the most demanding industries.'
   industries_item:
     - title: 'Accounting'
       image: 'images/industries/accounting.svg'
     - title: 'Cannabis'
       image: 'images/industries/cannabis.svg'
-    - title: 'Crypto currency'
+    - title: 'Cryptocurrency'
       image: 'images/industries/cryptocurrency.svg'
     - title: 'Data analysis'
       image: 'images/industries/data-analysis.svg'

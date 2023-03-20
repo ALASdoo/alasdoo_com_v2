@@ -29,7 +29,16 @@
         {{ partial "button" .button }}
       </div>
       <div class="col-lg-6">
-        {{ partial "image" (dict "Src" .image "alt" "About image" "Class" "w-100 rounded-1") }}
+        <div class="swiper single-slider">
+          <div class="swiper-wrapper">
+            {{range .image_item}}
+            <div class="swiper-slide">
+              {{ partial "image" (dict "Src" .image "Alt" "Team photo" "Class" "rounded-2") }}
+            </div>
+            {{end}}
+          </div>
+        </div>
+        <div class="swiper-pagination swiper-pagination-outer"></div>
       </div>
     </div>
   </div>
@@ -119,7 +128,7 @@
       {{range where site.RegularPages "Section" .section}}
         {{ $button := dict
           "enable" true
-          "type" "link"
+          "type" "link-stretched"
           "label" "Details"
           "link" .RelPermalink
         }}
