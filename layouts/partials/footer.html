@@ -1,48 +1,54 @@
 <footer class="bg-light-gray">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12">
-        <div class="pt-0">
-          <div class="row p-5">
-            <div class="col-lg-5 col-sm-6 text-center align-self-center">
-              <a class="d-block h5 pb-3" href="{{ site.BaseURL | absLangURL}}">
-                {{ partial "logo.html" . }}
-              </a>
-              {{ with site.Params.social }}
-              <ul class="list-inline social-icons">
-                {{ range . }}
-                <li class="list-inline-item mb-0"><a href="{{ .link | safeURL }}" title="{{ .title }}" target="_blank"><i class="{{ .icon }}"></i></a></li>
-                {{ end }}
-              </ul>
-              {{ end }}
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              {{ if site.Menus.footer_menu }}
-              <ul class="list-unstyled footer-list mb-0">
-                {{ range site.Menus.footer_menu }}
-                <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
-                {{ end }}
-              </ul>
-              {{ end }}
-            </div>
-            <div class="col-lg-4 col-sm-6 footer-contact">
-              <div class="h6 mb-2">{{ site.Params.footer_contact_title }}</div>
-              <div class="pb-4">{{ site.Params.footer_content | markdownify }}</div>
-              <div>
-                {{ $button := dict
-                  "enable" true
-                  "type" "link"
-                  "label" "Contact our management"
-                  "link" "/contact"
-                }}
-                {{ partial "button" $button }}
-              </div>
-            </div>
+    <div class="row justify-content-center pt-5">
+      <div class="col-lg-3 col-sm-6 d-flex align-self-center">
+        <div class="d-inline-block">
+          <a class="d-block h5 pb-2" href="{{ site.BaseURL | absLangURL}}">
+            {{ partial "logo.html" . }}
+          </a>
+          {{ with site.Params.social }}
+          <ul class="list-inline social-icons">
+            {{ range . }}
+            <li class="list-inline-item mb-0"><a href="{{ .link | safeURL }}" title="{{ .title }}" target="_blank"><i class="{{ .icon }}"></i></a></li>
+            {{ end }}
+          </ul>
+          {{ end }}
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 d-flex justify-content-center">
+        {{ if site.Menus.footer_menu }}
+        <ul class="list-unstyled footer-list mb-0">
+          {{ range site.Menus.footer_menu }}
+          <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+      <div class="col-lg-3 col-sm-6 d-flex justify-content-center">
+        {{ if site.Menus.footer_menu_2 }}
+        <ul class="list-unstyled footer-list mb-0">
+          {{ range site.Menus.footer_menu_2 }}
+          <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+      <div class="col-lg-3 col-sm-6 d-flex align-self-center justify-content-center footer-contact">
+        <div class="d-inline-block">
+          <div class="pb-3">{{ site.Params.footer_content | markdownify }}</div>
+          <div>
+            {{ $button := dict
+              "enable" true
+              "type" "link"
+              "label" "Contact us"
+              "link" "/contact"
+            }}
+            {{ partial "button" $button }}
           </div>
         </div>
-        <div class="border-top border-default text-center py-1 footer-copyright">
-          <small class="content">{{site.Params.copyright | markdownify}}</small>
-        </div>
+      </div>
+      <div class="border-top border-default text-center py-1 mt-3 footer-copyright">
+        <small class="content">{{site.Params.copyright | markdownify}}</small>
       </div>
     </div>
   </div>

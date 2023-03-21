@@ -6644,6 +6644,10 @@ small,
 .small {
   font-size: 0.8rem; }
 
+footer,
+footer a {
+  color: rgba(49, 49, 49, 0.85); }
+
 h6,
 .h6 {
   font-size: 25px;
@@ -7548,7 +7552,6 @@ body.dark {
 .footer-list a {
   display: inline-block;
   padding: 5px 0;
-  color: rgba(0, 0, 0, 0.8);
   font-size: 16px; }
   .footer-list a:hover {
     color: #00A0A3; }
@@ -7559,7 +7562,6 @@ body.dark {
     color: #00A0A3; }
 
 .footer-contact {
-  color: rgba(16, 20, 24, 0.7);
   font-size: 16px; }
   .footer-contact .btn-link {
     font-size: 16px; }
@@ -8832,12 +8834,13 @@ iframe.wait-autoplay {
 
 .card {
   width: 100%; }
-  .card.is-hoverable:hover .zoom-img-image img {
+  .card.is-hoverable:hover img {
     transition: 0.2s ease;
     transform: scale3d(1.02, 1.02, 1.02); }
-  .card-header img {
-    border-bottom-left-radius: 0 !important;
-    border-bottom-right-radius: 0 !important; }
+  .card .card-header {
+    overflow: hidden;
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important; }
 
 .accordion-button.collapsed:hover {
   background-color: #e6f6f5; }

@@ -65,15 +65,21 @@ name = "What We Do"
 url = "/what-we-do/"
 weight = 3
 
-[[footer_menu]]
+# footer menu 2
+[[footer_menu_2]]
 name = "Case Studies"
 url = "/case-studies/"
 weight = 4
 
-[[footer_menu]]
+[[footer_menu_2]]
 name = "Careers"
 url = "/careers/"
 weight = 5
+
+[[footer_menu_2]]
+name = "Articles"
+url = "/articles/"
+weight = 4
 
 # # footer menu left
 # [[footer_left]]

@@ -51,7 +51,6 @@
   a {
     display: inline-block;
     padding: 5px 0;
-    color: $text-color;
     font-size: 16px;
 
     &:hover {
@@ -70,7 +69,6 @@
 
 // footer-contact
 .footer-contact {
-  color: rgba($black, 0.7);
   font-size: 16px;
 
   .btn-link {
