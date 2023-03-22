@@ -66,7 +66,7 @@ Investing in thorough testing during the development stage can save you time and
 
 ### 1. Establish a QA team
 
-#### In-house team
+#### 1.1. In-house team
 
 Implementing an in-house QA process involves creating a dedicated department within a company to handle quality assurance tasks and responsibilities.
 
@@ -75,7 +75,7 @@ One of the main advantages of having an in-house QA process is that it allows fo
 There are also potential drawbacks to having an in-house QA process. One of the main disadvantages is that it can be costly to establish and maintain an in-house QA team.
 Additionally, it may be difficult to find and hire qualified QA specialists, and the team may not have the same level of expertise as an outsourced QA team. With [the right IT outsourcing provider](/articles/how-to-choose-the-right-it-outsourcing-provider/), the value of an offshore QA team can be greater than an inhouse one.
 
-#### Outsourced QA Specialists
+#### 1.2. Outsourced QA Specialists
 
 One of the main advantages of outsourcing software QA is that it can save time and resources.
 

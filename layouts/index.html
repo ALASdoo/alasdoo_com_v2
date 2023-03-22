@@ -27,7 +27,8 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
-        <h1 class="h2">{{.title | markdownify}}</h1>
+        <h1 class="subtitle">{{.subtitle | markdownify}}</h1>
+        <h2 class="h2">{{.title | markdownify}}</h2>
         {{ .content | markdownify }}
       </div>
     </div>
@@ -49,7 +50,7 @@
         <p>{{ .content | markdownify }}</p>
       </div>
     </div>
-    <div class="row gy-5">
+    <div class="row gy-5 services-cards">
       {{ range .services_item }}
         {{ partial "card" . }}
       {{ end }}
@@ -60,19 +61,11 @@
 {{ end }}
 <!-- /services -->
 
-<!-- consulting -->
+<!-- CTA - consulting -->
 {{ if .Params.consulting.enable }}
 {{ with .Params.consulting }}
-<section class="section" id="consulting">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 text-center">
-        <h3 class="h4">{{.title | markdownify}}</h3>
-        <p>{{.content}}</p>
-        {{ partial "button" .button }}
-      </div>
-    </div>
-  </div>
+<section class="section bg-light-blue" id="consulting">
+  {{ partial "cta" . }}
 </section>
 {{ end }}
 {{ end }}
@@ -81,7 +74,7 @@
 <!-- clients -->
 {{ if .Params.clients.enable }}
 {{ with .Params.clients }}
-<section class="section bg-light-blue pb-5" id="clients">
+<section class="section pb-5" id="clients">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-10 text-center">
@@ -101,28 +94,29 @@
 <!-- case_studies -->
 {{ if .Params.case_studies.enable }}
 {{ with .Params.case_studies }}
-<section class="section bg-light-blue pt-0" id="case-studies">
+<section class="section pt-0" id="case-studies">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-xl-8 text-center">
         <h2 class="h3">{{.title | markdownify}}</h2>
       </div>
-      <div class="row gy-4">
-        {{range first 3 (where site.RegularPages "Section" .section)}}
-          {{ $button := dict
-            "enable" true
-            "type" "link-stretched"
-            "label" "Read more"
-            "link" .RelPermalink
-          }}
-          {{ $card := dict
-            "image" .Params.image
-            "name" .Title
-            "button" $button
-          }}
-          {{ partial "card" $card }}
-        {{end}}
-        </div>
+    </div>
+    <div class="row gy-lg-0 gy-4">
+      {{range first 3 (where site.RegularPages "Section" .section)}}
+        {{ $button := dict
+          "enable" true
+          "type" "link-stretched"
+          "label" "Read more"
+          "link" .RelPermalink
+        }}
+        {{ $card := dict
+          "image" .Params.image
+          "category" .Params.industry
+          "name" .Title
+          "button" $button
+        }}
+        {{ partial "card" $card }}
+      {{end}}
     </div>
   </div>
 </section>
@@ -203,26 +197,26 @@
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
         <h3 class="h2">{{.title | markdownify}}</h3>
       </div>
-      <div class="row justify-content-center gy-4 pb-5">
-        {{range first 3 (where site.RegularPages "Section" .section)}}
-          {{ $button := dict
-            "enable" true
-            "type" "link-stretched"
-            "label" "Read article"
-            "link" .RelPermalink
-          }}
-          {{ $card := dict
-            "image" .Params.image
-            "name" .Title
-            "button" $button
-          }}
-          {{ partial "card" $card }}
-        {{end}}
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-xl-8 text-center">
-          {{ partial "button" .button }}
-        </div>
+    </div>
+    <div class="row gy-lg-0 gy-4 pb-5">
+      {{range first 3 (where site.RegularPages "Section" .section)}}
+        {{ $button := dict
+          "enable" true
+          "type" "link-stretched"
+          "label" "Read article"
+          "link" .RelPermalink
+        }}
+        {{ $card := dict
+          "image" .Params.image
+          "name" .Title
+          "button" $button
+        }}
+        {{ partial "card" $card }}
+      {{end}}
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-xl-8 text-center">
+        {{ partial "button" .button }}
       </div>
     </div>
   </div>

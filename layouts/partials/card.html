@@ -6,6 +6,9 @@
     </div>
     {{ end }}
     <div class="card-body p-4 {{ if not .content }}pb-0{{end}}">
+      {{ if .category }}
+      <small class="opacity-50 pb-2 d-block">{{ .category | markdownify }}</small>
+      {{ end }}
       <h4 class="h6">{{ .name | markdownify }}</h4>
       {{ if .content }}
       <p>{{ .content | markdownify }}</p>

@@ -13,7 +13,8 @@ banner:
 ####################### About #########################
 about:
   enable: true
-  title: 'About us'
+  subtitle: 'About us'
+  title: 'More personal, always'
   content: 'ALAS d.o.o. is a Software Development and Quality Assurance outsourcing company with extensive experience in web development, project management, manual and automated testing.
 
 
@@ -58,7 +59,7 @@ services:
   services_item:
     # services item loop
     - name: 'Frontend and backend staff augmentation'
-      type: 'zoom-img'
+      type: 'illustration'
       image: 'images/development.svg'
       button:
         enable: true
@@ -68,7 +69,7 @@ services:
 
     # services item loop
     - name: 'Manual and automated software QA services'
-      type: 'zoom-img'
+      type: 'illustration'
       image: 'images/QA.svg'
       button:
         enable: true
@@ -79,7 +80,7 @@ services:
 
     # services item loop
     - name: 'IT consulting and project management'
-      type: 'zoom-img'
+      type: 'illustration'
       image: 'images/PM.svg'
       button:
         enable: true

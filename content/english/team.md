@@ -12,11 +12,20 @@ intro:
   title: "Our Team"
   quality:
     title: "Quality over quantity"
-    content: "We believe that only great people can achieve great results; that is why we hire for quality, not quantity. We nurture a culture of loyal teammates who have a sense of ownership and truly care about achieving results. Our team comprises more than 60 talented and knowledge-rich software developers and automated/manual QA engineers, as well as project managers and UX experts. As English is a very important part of our business, each member of our team is proficient in it."
+    content: "We believe that only great people can achieve great results; that is why we hire for quality, not quantity. We nurture a culture of loyal teammates who have a sense of ownership and truly care about achieving results.
+
+
+    Our team comprises more than 60 talented and knowledge-rich software developers and automated/manual QA engineers, as well as project managers and UX experts.
+
+
+    As English is a very important part of our business, each member of our team is proficient in it."
     image: "images/quality-over-quantity.jpg"
   streangths:
     title: "Always improving"
-    content: "Before the first billing hour, each team member completes in depth training for the project they are undertaking, so they can seamlessly take over their role and hit the ground running. We are proud of our excellent knowledge-sharing system and collaboration between colleagues. Through support, feedback, workshops and brainstorming, each person is enabled to work at full capacity."
+    content: "Before the first billing hour, each team member completes in depth training for the project they are undertaking, so they can seamlessly take over their role and hit the ground running.
+
+
+    We are proud of our excellent knowledge-sharing system and collaboration between colleagues. Through support, feedback, workshops and brainstorming, each person is enabled to work at full capacity."
     image: "images/constant-improvement.jpg"
 
 cta:

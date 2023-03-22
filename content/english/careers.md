@@ -22,7 +22,7 @@ culture:
   content: "We are not corporate. We were founded as a small family company, and although we have significantly grown, our business approach still integrates family values.
 
 
-  With our personal approach we help employees achieve their full potential by taking into account strengths and aspirations of each worker, finding the right place in the company for them, and supporting and guiding them in their journey of professional self-actualization.
+  With our personal approach we help employees achieve their full potential by taking into account strengths and aspirations of each worker, finding the right place in the company for them, and supporting and guiding them in their journey of professional self&#8209;actualization.
 
 
   Our employees are participants in decision making, as their opinions, initiatives, and ideas are always heard and welcomed. Constructive suggestions can promptly come to life with our flat hierarchy and short decision making paths."
@@ -44,7 +44,10 @@ culture:
 
 benefits:
   subtitle: "Benefits"
-  title: "Charrished employee is the best employee"
+  title: "Charrished employee
+
+
+  is the best employee"
   content: "We work in a homey atmosphere, without cubicles and open space areas, with enough comfortable room for peace and quiet, and a friendly and fun atmosphere to relax. We develop fantastic software solutions while also learning some fairly practical skills, consuming copious amounts of coffee, and playing PS5, darts, table tennis, and board games. Everybody is given the freedom and flexibility to create a healthy work-life balance that reflects the demands of their lifestyles while enabling them to work as productively as possible."
   perks:
     title: "Some of the perks our employees enjoy"
@@ -68,7 +71,7 @@ benefits:
       * small gym"
     - image: "images/benefits/education.svg"
       name: "
-      * English/German language course
+      * English/German language courses
 
       * Udemy & other courses"
     - image: "images/benefits/gifts.svg"
@@ -90,7 +93,7 @@ process:
   content: "We strive to have a bureaucracy- and ego-free hiring process that provides a welcoming experience for new employees. It's impossible to test everything with interviews and general tests, so instead of overcomplicating the process itself, if a candidate seems like a good fit, we take them on for a trial period of 3 months, with an extension being discussed after 2 months."
   process_item:
   - name: "1. Application"
-    content: "Detailed [descriptions for current job openings](#jobs) are available on our website. Our HR representative will get in touch with you to set up a time for the next step if you are a qualified applicant."
+    content: "Detailed descriptions for current [job openings](#jobs) are available on our website. Our HR representative will get in touch with you to set up a time for the next step if you are a qualified applicant."
   - name: "2. Initial interview"
     content: "This is a chance to introduce yourself. You will get more information about the company, our culture, benefits, and opportunities for professional development. A part of the interview is conducted in English. "
   - name: "3. Test assignment"

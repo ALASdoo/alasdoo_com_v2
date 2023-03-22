@@ -9,7 +9,7 @@ layout: 'what-we-do'
 ######################### banner #####################
 banner:
   title: 'We save our clients’ time and money'
-  image: 'images/vector.svg'
+  image: 'images/what-we-do.svg'
   content: 'by providing experienced and devoted
     experts, as well as in-depth analyses
     and consulting on improving software
@@ -17,7 +17,7 @@ banner:
   button:
     enable: true
     type: 'primary'
-    label: 'Get free assessment'
+    label: 'Get a free assessment'
     link: '/contact'
 
 ######################### what_we_do #####################
@@ -147,13 +147,13 @@ approach:
       content: 'With crucial technical requirements defined, we are choosing the most suitable talent for your project'
     - title: 'Onboarding'
       image: '/images/approach/4.svg'
-      content: 'Your project presenting both as a wider picture and as the specific tasks that will be performed'
+      content: 'Requiring your project presentation as wider picture and also defining the specific tasks that will be performed'
     - title: 'Implementation'
       image: '/images/approach/5.svg'
       content: 'Doing the actual work, complemented with ongoing transparent communication and regular reporting'
     - title: 'Agile adaptation'
       image: '/images/approach/6.svg'
-      content: 'Staying on top of things and being quick to adjust when plans change, whether it is about the requirements or the team structure'
+      content: 'Staying on top of things and adaptable when plans change, whether it is about the requirements or the team structure'
 
 ######################### cta #####################
 cta:

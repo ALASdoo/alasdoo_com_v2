@@ -114,16 +114,16 @@
 {{ with .Params.specialites }}
 <section class="section bg-light-blue" id="specialites">
   <div class="container">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center pb-5">
       <div class="col-lg-8 text-center">
         <h2 class="h2">{{.title | markdownify}}</h2>
         {{ .content | markdownify }}
       </div>
-      <div class="row gy-5 justify-content-center">
-        {{range .specialites_list}}
-          {{ partial "card" . }}
-        {{end}}
-        </div>
+    </div>
+    <div class="row gy-4">
+      {{range .specialites_list}}
+        {{ partial "card" . }}
+      {{end}}
     </div>
   </div>
 </section>

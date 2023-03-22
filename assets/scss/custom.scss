@@ -69,27 +69,47 @@ $alas-color-blue: #00A0A3;
       }
     }
   }
-  &-header img {
-  }
   .card-header {
     overflow: hidden;
     border-bottom-right-radius: 0 !important;
     border-bottom-left-radius: 0 !important;
   }
-  // .zoom-img-card {
-  //   overflow: hidden;
-  // }
+  .illustration-image img {
+    padding: 1.5rem;
+  }
+  ul {
+    padding-left: 0;
+    margin-bottom: 1.2rem;
+    list-style-type: none;
+
+    li {
+      padding-left: 1.2rem;
+      position: relative;
+
+      &::before {
+        position: absolute;
+        content: "";
+        height: 8px;
+        width: 8px;
+        border-radius: 50%;
+        background: $color-primary;
+        left: 3px;
+        top: 14px;
+      }
+    }
+  }
+}
+
+.services-cards {
+  .card .illustration-image img {
+    height: 400px;
+  }
 }
 
 .accordion-button.collapsed {
   &:hover {
     background-color: $bg-light-blue;
   }
-}
-
-.zoom-img-image img {
-  height: 255px;
-  padding: 40px 0 15px;
 }
 
 .technology-name {
@@ -106,6 +126,10 @@ $alas-color-blue: #00A0A3;
 
 .approach-text {
   padding-left: 20px;
+
+  p {
+    font-size: 16px;
+  }
 }
 .swiper-pagination-outer {
   position: relative;
@@ -115,6 +139,26 @@ $alas-color-blue: #00A0A3;
 .designation {
   font-size: 14px;
   color: rgba($black, .5);
+}
+
+#what-we-do-hero {
+  position: relative;
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  &::before {
+    content: '';
+    display: block;
+    background: $bg-light-blue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 215px;
+    z-index: 1;
+  }
 }
 
 .contact-img {

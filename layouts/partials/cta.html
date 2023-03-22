@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-8 text-center">
+      <h3 class="h4">{{.title | markdownify}}</h3>
+      <p>{{.content | markdownify}}</p>
+      <div class="pt-4">
+        {{ partial "button" .button }}
+      </div>
+    </div>
+  </div>
+</div>

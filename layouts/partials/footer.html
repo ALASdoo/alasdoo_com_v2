@@ -15,7 +15,7 @@
           {{ end }}
         </div>
       </div>
-      <div class="col-lg-3 col-sm-6 d-flex justify-content-center">
+      <div class="col-lg-3 col-sm-6 d-flex justify-content-center footer-nav">
         {{ if site.Menus.footer_menu }}
         <ul class="list-unstyled footer-list mb-0">
           {{ range site.Menus.footer_menu }}
@@ -24,7 +24,7 @@
         </ul>
         {{ end }}
       </div>
-      <div class="col-lg-3 col-sm-6 d-flex justify-content-center">
+      <div class="col-lg-3 col-sm-6 d-flex justify-content-center footer-nav">
         {{ if site.Menus.footer_menu_2 }}
         <ul class="list-unstyled footer-list mb-0">
           {{ range site.Menus.footer_menu_2 }}
@@ -35,7 +35,7 @@
       </div>
       <div class="col-lg-3 col-sm-6 d-flex align-self-center justify-content-center footer-contact">
         <div class="d-inline-block">
-          <div class="pb-3">{{ site.Params.footer_content | markdownify }}</div>
+          <div class="pb-2">{{ site.Params.footer_content | markdownify }}</div>
           <div>
             {{ $button := dict
               "enable" true
@@ -47,7 +47,7 @@
           </div>
         </div>
       </div>
-      <div class="border-top border-default text-center py-1 mt-3 footer-copyright">
+      <div class="border-top border-default text-center py-1 mt-4 footer-copyright">
         <small class="content">{{site.Params.copyright | markdownify}}</small>
       </div>
     </div>

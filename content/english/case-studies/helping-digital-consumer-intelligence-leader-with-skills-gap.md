@@ -73,5 +73,3 @@ By documenting our work thoroughly and transparently, we ensure that everyone in
 
 By accelerating the process from ideation to realization and shortening the time to market, we have thereby secured an advantage over the competition. With our help, our client is well on its way to becoming a leader in the social analytics industry and successfully implementing all of the latest innovations.
 We look forward to continuing our partnership with this client and helping them achieve their ambitious goals in the years to come.
-
-{{< image title="TODO" w="1200" o="webp q100" p="center" c="img-fluid shadow rounded-1" src="images/case-studies/Brandwatch.jpg" alt="alter-text" >}}

@@ -63,6 +63,9 @@
     &.active .nav-link {
       color: $color-primary !important;
     }
+    a.nav-link:active {
+      color: darken($color-primary, 10) !important;
+    }
     &.dropdown .nav-link::after {
       display: inline-block;
       vertical-align: 0.2em;

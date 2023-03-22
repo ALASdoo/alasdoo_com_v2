@@ -40,18 +40,10 @@
 </section>
 
 <section class="section bg-light-blue">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 text-center">
-        <h3 class="h4">{{.cta.title | markdownify}}</h3>
-        <p>{{.cta.content}}</p>
-        {{ partial "button" .cta.button }}
-      </div>
-    </div>
-  </div>
+  {{ partial "cta" .cta }}
 </section>
 
-<section class="section">
+<section class="section" id="team">
   <div class="container">
     <div class="row justify-content-center pb-5">
       <div class="col-lg-10 text-center">

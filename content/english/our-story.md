@@ -30,7 +30,7 @@ history:
 
   - title : "The company today"
     image: "images/nowdays.jpg"
-    content : "Nowadays Alas is located in Novi Sad, Serbia, with more than [60 experts from different fields on board](/team). Although the company has significantly grown, it has still kept its non-corporate, people-focused approach, home-like atmosphere, and family values at its core. We have [clients from all over the world](/clients) thanks to our enthusiasm for innovation and dedication to quality. With our knowledge and experience, we successfully handle even the most demanding projects in the financial, accounting, and healthcare sectors—fields with zero tolerance for errors."
+    content : "Nowadays Alas is located in Novi Sad, Serbia, with more than [60 experts](/team) from different fields on board. Although the company has significantly grown, it has still kept its non-corporate, people-focused approach, home-like atmosphere, and family values at its core. We have [clients from all over the world](/clients) thanks to our enthusiasm for innovation and dedication to quality. With our knowledge and experience, we successfully handle even the most demanding projects in the financial, accounting, and healthcare sectors—fields with zero tolerance for errors."
 
 ######################### mission #####################
 mission:
@@ -91,7 +91,7 @@ specialites:
   content: "We are committed to providing our very best effort, upholding rigorous standards, and accepting responsibility for the outcomes, regardless of how big or small the project is."
   specialites_list:
   - name: "Proven track record"
-    type: "zoom-img"
+    type: "illustration"
     content: "
     * experience with a variety of industries
 
@@ -106,7 +106,7 @@ specialites:
       link: '/clients'
 
   - name: "Long-term partnerships"
-    type: "zoom-img"
+    type: "illustration"
     content: "
     * uncompromising honesty and integrity
 
@@ -122,7 +122,7 @@ specialites:
       link: '/case-studies'
 
   - name: "Young and creative"
-    type: "zoom-img"
+    type: "illustration"
     content: "
     * original approach
 
@@ -138,7 +138,7 @@ specialites:
       link: '/articles'
 
   - name: "Being proactive"
-    type: "zoom-img"
+    type: "illustration"
     content: "
     * offering new ideas
 
@@ -151,10 +151,10 @@ specialites:
       enable: true
       type: 'link'
       label: 'View our approach'
-      link: '/how-we-work'
+      link: '/what-we-do#approach'
 
   - name: "Always improving"
-    type: "zoom-img"
+    type: "illustration"
     content: "
     * a culture of ongoing learning
 
@@ -169,10 +169,10 @@ specialites:
       enable: true
       type: 'link'
       label: 'Learn more about our culture'
-      link: '/our-story'
+      link: '/careers#culture'
 
   - name: "Quality over quantity"
-    type: "zoom-img"
+    type: "illustration"
     content: "
     * hiring only the most talented developers and testers
 
@@ -185,6 +185,6 @@ specialites:
       enable: true
       type: 'link'
       label: 'Meet our team'
-      link: '/team'
+      link: '/team#team'
 
 ---

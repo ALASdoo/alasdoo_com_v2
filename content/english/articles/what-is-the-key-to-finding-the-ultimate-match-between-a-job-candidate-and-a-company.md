@@ -25,11 +25,11 @@ One of the ways we have built our employer brand is by clearly communicating our
 
 Likewise, the company understands and values employees’ goals. We regularly seek feedback from our employees and use that feedback to make improvements in the workplace. Open communication enables us to gain valuable insights, discover creative solutions, and pursue our goals together.
 
-## Our “Values Fit and Culture Contribution” hiring approach
+## Our “values fit and culture contribution” hiring approach
 
 A team with shared values is a team that can work together effectively and efficiently, and move mountains.
 
-To ensure that we are bringing on individuals who fit with our values, we have implemented a "Values Fit and Culture Contribution” hiring approach. This approach involves not only evaluating a candidate's qualifications and experience but also assessing how well their personal values align with those of our company.
+To ensure that we are bringing on individuals who fit with our values, we have implemented a "values fit and culture contribution” hiring approach. This approach involves not only evaluating a candidate's qualifications and experience but also assessing how well their personal values align with those of our company.
 
 It is crucial to not only assess if a candidate or employee aligns with the values and beliefs of the organization but also to consider the unique contributions they can bring to the company. Diverse perspectives and ideas can lead to innovation and growth. Additionally, it is important to acknowledge and appreciate individuals who not only embody the company's values but actively work to strengthen them through their actions and energy. This is why we choose the “culture contribution” over the “culture fit” approach.
 
@@ -78,6 +78,8 @@ The ‘About us’ and ‘What we do’ pages serve as a window into the heart o
 
 Exploring a company's social media profiles is like peeking behind the curtain and getting a glimpse into its unique character. By perusing its pages on networks like Instagram, Facebook, and LinkedIn, you can gain a deeper understanding of the brand’s personality, and the way it communicates with its audience. This information can give you a sense of the work environment and the values that guide the company, helping you determine if they align with your own.
 
+{{< image title="TODO" w="1200" o="webp q100" p="center" c="img-fluid shadow rounded-1" src="images/helloworld.png" alt="alter-text" >}}
+
 ### Learn about salaries and reviews
 
 Reviews from current and former employees can provide valuable insights into overall employee satisfaction. Learning about salaries and reviews of a company you are interested in working for can help you determine if the compensation offered is competitive and in line with your expectations. Please be mindful that the information on those websites may not always be reliable, as it is provided by individuals and not by company representatives.
@@ -94,11 +96,13 @@ When choosing a company to work for, it's important to take a step back and refl
 
 Are you evaluating if we're the ideal fit? Don't worry, we've got you covered! Let us provide you with all the information you need to make a confident decision.
 
-It's wise that you get prepared for the initial interview in advance. You should familiarize yourself with our company [culture](/careers#culture) and [values](/our-story#values). This will provide you with a deeper understanding of who we are and what we stand for. In addition to that, you can also navigate our website and uncover more about the essence of our company. This will give you a better understanding of how we work and what kind of services we offer. Take a moment to delve into our case studies and explore the types of projects we undertake. Discover the wide range of clients we work with and the industries we serve by browsing our website. This will give you insights into the diversity of our work and how we make a difference for our clients.
+It's wise that you get prepared for the initial interview in advance. You should familiarize yourself with our company [culture](/careers#culture) and [values](/our-story#values). This will provide you with a deeper understanding of who we are and what we stand for. In addition to that, you can also navigate our website and uncover more about [the essence of our company](/our-story). Furthermore, you'll have a better understanding of the kind of [services we offer](/what-we-do).
 
-We invite you to take a look at our [Upwork profile](https://www.upwork.com/o/companies/~01ea0de13226020013/), which has earned top ratings in the software QA field. You'll find unbiased reviews from some of our satisfied clients there. This will give you an idea of what it's like to work with us and what kind of results we've achieved for our clients.
+Take a moment to delve into our [case studies](/case-studies) and explore the types of projects we undertake. Discover the wide range of [clients we work with](/clients#list) and the [industries we serve](/clients#industries). This will give you insights into the diversity of our work and how we make a difference for our clients.
 
-Speaking of reviews, another great resource to check out is our company profile on the [HelloWorld](https://www.helloworld.rs/kompanija/ALAS-d.o.o) platform. This platform is a great place to find reviews from past and current employees and candidates who have gone through our hiring process.
+We invite you to take a look at [our Upwork profile](https://www.upwork.com/o/companies/~01ea0de13226020013/), which has earned top ratings in the software QA field. You'll find unbiased reviews from some of our satisfied clients there. This way you will get an idea of what it's like to work with us and what kind of results we've achieved for our clients.
+
+Speaking of reviews, another great resource to check out is [our company profile on HelloWorld](https://www.helloworld.rs/kompanija/ALAS-d.o.o). This platform is a great place to find reviews from past/current employees and candidates who have gone through our hiring process.
 
 Finally, to get an even more comprehensive look into our company culture and what it's like to work with us, be sure to visit our [LinkedIn](https://www.linkedin.com/company/alas-doo), [Instagram](https://www.instagram.com/alasdoocom/) and [Facebook](https://www.facebook.com/ALASdoocom) profiles. By doing so, you will be able to get a sense of the energy and enthusiasm that our team brings to the workplace every day.
 

@@ -6645,7 +6645,7 @@ small,
   font-size: 0.8rem; }
 
 footer,
-footer a {
+footer .footer-nav a {
   color: rgba(49, 49, 49, 0.85); }
 
 h6,
@@ -7363,6 +7363,8 @@ body.dark {
           padding: 15px 12px !important; } }
     .navigation .nav-item .nav-link:hover, .navigation .nav-item.active .nav-link {
       color: #00A0A3 !important; }
+    .navigation .nav-item a.nav-link:active {
+      color: #006e70 !important; }
     .navigation .nav-item.dropdown .nav-link::after {
       display: inline-block;
       vertical-align: 0.2em;
@@ -7570,7 +7572,8 @@ body.dark {
       font-size: 14px; }
 
 .footer-copyright {
-  color: rgba(16, 20, 24, 0.5); }
+  color: rgba(16, 20, 24, 0.5);
+  border-color: rgba(16, 20, 24, 0.15) !important; }
   .footer-copyright small, .footer-copyright .small {
     font-size: 12px !important; }
 
@@ -8841,13 +8844,30 @@ iframe.wait-autoplay {
     overflow: hidden;
     border-bottom-right-radius: 0 !important;
     border-bottom-left-radius: 0 !important; }
+  .card .illustration-image img {
+    padding: 1.5rem; }
+  .card ul {
+    padding-left: 0;
+    margin-bottom: 1.2rem;
+    list-style-type: none; }
+    .card ul li {
+      padding-left: 1.2rem;
+      position: relative; }
+      .card ul li::before {
+        position: absolute;
+        content: "";
+        height: 8px;
+        width: 8px;
+        border-radius: 50%;
+        background: #00A0A3;
+        left: 3px;
+        top: 14px; }
+
+.services-cards .card .illustration-image img {
+  height: 400px; }
 
 .accordion-button.collapsed:hover {
   background-color: #e6f6f5; }
-
-.zoom-img-image img {
-  height: 255px;
-  padding: 40px 0 15px; }
 
 .technology-name {
   color: rgba(16, 20, 24, 0.6);
@@ -8860,6 +8880,8 @@ iframe.wait-autoplay {
 
 .approach-text {
   padding-left: 20px; }
+  .approach-text p {
+    font-size: 16px; }
 
 .swiper-pagination-outer {
   position: relative;
@@ -8868,6 +8890,22 @@ iframe.wait-autoplay {
 .designation {
   font-size: 14px;
   color: rgba(16, 20, 24, 0.5); }
+
+#what-we-do-hero {
+  position: relative; }
+  #what-we-do-hero .container {
+    position: relative;
+    z-index: 2; }
+  #what-we-do-hero::before {
+    content: '';
+    display: block;
+    background: #e6f6f5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 215px;
+    z-index: 1; }
 
 .contact-img {
   border-bottom: 10px solid; }
