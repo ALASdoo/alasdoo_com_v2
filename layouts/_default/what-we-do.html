@@ -25,7 +25,7 @@
 {{ $list := .blocks }}
 {{ $len := (len $list) }}
 {{ range $i, $p := $list }}
-<section id="{{.id}}" class="section what-we-do overflow-hidden">
+<section id="{{.id}}" class="section what-we-do overflow-hidden" data-aos="slide-left" data-aos-offset="300">
   <div class="container">
     <div class="block {{if not (modBool $i 2)}}block-right-image{{end}} row align-items-center g-5">
       <div class="col-lg-6 {{if not (modBool $i 2)}}order-lg-0{{end}} order-1 pe-lg-0">

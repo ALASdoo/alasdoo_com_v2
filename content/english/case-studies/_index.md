@@ -10,11 +10,11 @@ section: 'case-studies'
 # call_to_action
 call_to_action:
   enable: true
-  title: "Let's work together."
-  image: 'images/vector.svg'
-  content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.'
+  title: 'Get in touch to find out how we can help accelerate your business growth'
+  content: 'Looking for more information or want to schedule a call? Feel free to contact us, and we will follow up with you as soon as possible.'
   button:
     enable: true
-    label: 'Contact Us'
-    link: 'contact/'
+    type: 'primary'
+    label: 'Send an inquiry'
+    link: '/contact'
 ---

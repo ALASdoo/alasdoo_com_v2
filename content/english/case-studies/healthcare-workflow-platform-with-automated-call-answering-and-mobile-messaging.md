@@ -5,6 +5,7 @@ title: 'Healthcare workflow platform with automated call answering and mobile me
 subtitle: 'Ensuring efficient communication and improved patient outcomes'
 image: 'images/case-studies/CareStratus.jpg'
 industry: 'HEALTHCARE'
+keywords: ['one', 'two']
 ---
 
 ## About the client

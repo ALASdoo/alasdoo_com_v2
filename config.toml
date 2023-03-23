@@ -77,6 +77,8 @@ link = "plugins/font-awesome/v6/solid.css"
 link = "plugins/font-awesome/v6/regular.css"
 [[params.plugins.css]]
 link = "plugins/font-awesome/v6/icons.css"
+[[params.plugins.css]]
+link = "plugins/aos/aos.css"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -89,3 +91,5 @@ link = "plugins/glightbox.js"
 link = "plugins/cookie.js"
 [[params.plugins.js]]
 link = "plugins/lazy-loader.js"
+[[params.plugins.js]]
+link = "plugins/aos/aos.js"

@@ -21,12 +21,11 @@
 {{with .Params.culture}}
 <section id="culture" class="section">
   <div class="container">
-    <div class="row align-items-center justify-content-between">
+    <div class="row align-items-center">
       <div class="col-lg-6">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
         <h3 class="h2">{{.title | markdownify}}</h3>
         {{ .content | markdownify }}
-        {{ partial "button" .button }}
       </div>
       <div class="col-lg-6">
         <div class="swiper single-slider">
@@ -49,7 +48,7 @@
 <section class="section bg-light-blue">
   <div class="container">
     <div class="row justify-content-center pb-5">
-      <div class="col-lg-10 text-center">
+      <div class="col-lg-8 text-center">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
         <h3 class="h2">{{.title | markdownify}}</h3>
         {{ .content | markdownify }}
@@ -85,13 +84,13 @@
 <section class="section bg-light-gray">
   <div class="container">
     <div class="row justify-content-center pb-5">
-      <div class="col-lg-10 text-center">
+      <div class="col-lg-8 text-center">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
         <h3 class="h2">{{.title | markdownify}}</h3>
         {{ .content | markdownify }}
       </div>
     </div>
-    <div class="row gy-4">
+    <div class="row gy-4 process-text">
     {{ range .process_item }}
       {{ partial "flat-card" . }}
     {{ end }}
@@ -104,7 +103,7 @@
 <section class="section">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-10 text-center">
+      <div class="col-lg-8 text-center">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
         <h3 class="h2">{{.title | markdownify}}</h3>
         {{ .content | markdownify }}
@@ -117,8 +116,8 @@
 {{ with .Params.jobs }}
 <section class="section bg-light-blue" id="jobs">
   <div class="container">
-    <div class="row justify-content-center pb-5">
-      <div class="col-lg-10 text-center">
+    <div class="row justify-content-center pb-0">
+      <div class="col-lg-8 text-center">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
         <h3 class="h2">{{.title | markdownify}}</h3>
         {{ .content | markdownify }}

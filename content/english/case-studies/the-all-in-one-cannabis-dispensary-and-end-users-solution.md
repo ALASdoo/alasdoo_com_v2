@@ -5,6 +5,7 @@ title: 'The all-in-one cannabis dispensary and end users solution'
 subtitle: 'Thorough testing of web, IoT, and database solutions to ensure functionality, usability, performance and compliance'
 image: 'images/case-studies/LLX.jpg'
 industry: 'CANNABIS'
+keywords: ['one', 'two']
 ---
 
 ## About the client

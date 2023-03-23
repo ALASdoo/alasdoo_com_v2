@@ -330,22 +330,26 @@ form label {
   h4,
   h5,
   h6 {
-    margin-top: 1.4rem;
-    margin-bottom: 0.7rem;
+    margin-top: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+
+  h1,
+  h2 {
+    margin-top: 3rem;
+  }
+  h3 {
+    margin-top: 2rem;
+  }
+  h4,
+  h5,
+  h6 {
+    opacity: .7;
   }
 
   b,
   strong {
     font-weight: 500;
-  }
-
-  a {
-    color: $text-color;
-    text-decoration: underline;
-
-    &:hover {
-      color: $color-primary;
-    }
   }
 
   ol,
@@ -374,7 +378,7 @@ form label {
         border-radius: 50%;
         background: $color-primary;
         left: 3px;
-        top: 8px;
+        top: 14px;
       }
     }
   }

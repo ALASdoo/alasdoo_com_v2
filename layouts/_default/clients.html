@@ -33,6 +33,8 @@
     <div class="row justify-content-center pb-5">
       <div class="col-lg-10 text-center">
         <h2 class="h3">{{.title | markdownify}}</h2>
+      </div>
+      <div class="col-lg-8 text-center">
         {{.content | markdownify}}
       </div>
     </div>
@@ -56,7 +58,7 @@
         <h2 class="text-center h3">{{.title | markdownify}}</h2>
       </div>
     </div>
-    <div class="row justify-content-center">
+    <div class="row justify-content-center align-items-center">
       {{range .clients_item}}
       <div class="col-3 p-5">
         {{ partial "image" (dict "Src" .image "Alt" .title) }}
@@ -70,17 +72,27 @@
 {{with .testimonials}}
 <section class="section bg-light-gray">
   <div class="container">
-    <div class="row">
-      <h3 class="text-center">{{.title | markdownify}}</h3>
-      <p>{{.content | markdownify}}</p>
+    <div class="row justify-content-center pb-4">
+      <div class="col-lg-8 text-center">
+        <h3>{{.title | markdownify}}</h3>
+        <p>{{.content | markdownify}}</p>
+      </div>
     </div>
     <div class="row">
       <div class="swiper testimonial-carousel">
-        <div class="swiper-wrapper mb-3">
+        <div class="swiper-wrapper">
           {{range .testimonials_item}}
           <div class="swiper-slide text-center">
-            <p class="lead mb-5">{{.content}}</p>
-            <h5 class="mb-1">{{.name | markdownify}}</h5>
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="card bg-white rounded-2 border-0">
+                  <div class="card-body p-4">
+                    <p class="mb-3">{{.content}}</p>
+                    <h5 class="h6">{{.name | markdownify}}</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           {{end}}
         </div>
@@ -95,7 +107,7 @@
 <section class="section" id="case-studies">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-10 text-center">
+      <div class="col-lg-8 text-center">
         <h2 class="h2">{{.title | markdownify}}</h2>
       </div>
     </div>
@@ -117,7 +129,7 @@
       {{end}}
     </div>
     <div class="row">
-      <div class="col-12 text-center mb-5">
+      <div class="col-12 text-center">
         {{ partial "button" .button }}
       </div>
     </div>

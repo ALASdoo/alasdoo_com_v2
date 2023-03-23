@@ -5,6 +5,7 @@ title: 'What is the key to finding the ultimate match between a job candidate an
 image: 'images/articles/candidate-company-match.jpg'
 author: 'Jelena Obradovic'
 description: '' # meta description
+keywords: ['abc', 'bca']
 ---
 
 Candidates are increasingly looking for more than just a paycheck when considering job opportunities. They want to work for companies that align with their values, beliefs, and career goals.

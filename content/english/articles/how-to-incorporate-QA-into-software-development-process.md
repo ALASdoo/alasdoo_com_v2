@@ -5,6 +5,7 @@ title: 'How to incorporate QA into software development process?'
 image: 'images/articles/qa-dev-process.jpg'
 author: 'Marta Gajin'
 description: '' # meta description
+keywords: ['one', 'two']
 ---
 
 Have you ever had to hit “save” every couple of seconds because the software could glitch and erase all of your work? How about your customers? If the same happens, they will likely defect to your competitor and avoid your product altogether.

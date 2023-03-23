@@ -131,13 +131,18 @@ $alas-color-blue: #00A0A3;
     font-size: 16px;
   }
 }
+.process-text {
+  p {
+    font-size: 16px;
+  }
+}
 .swiper-pagination-outer {
   position: relative;
   margin-top: 20px;
 }
 
 .designation {
-  font-size: 14px;
+  font-size: 16px;
   color: rgba($black, .5);
 }
 

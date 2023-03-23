@@ -2,6 +2,9 @@
 (function () {
   "use strict";
 
+  // aos
+  AOS.init();
+
   // gallery slider
   new Swiper(".gallery-slider", {
     slidesPerView: 1,
@@ -132,20 +135,10 @@
 
   // testimonial-carousel init
   new Swiper(".testimonial-carousel", {
-    spaceBetween: 70,
     speed: 600,
     loop: true,
     autoplay: true,
-    breakpoints: {
-      0: {
-        slidesPerView: 1,
-        spaceBetween: 30,
-      },
-      991: {
-        slidesPerView: 2,
-        spaceBetween: 70,
-      },
-    },
+    spaceBetween: 70,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,

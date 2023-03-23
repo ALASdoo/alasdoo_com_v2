@@ -25,45 +25,38 @@
         </div>
         {{ end }}
         {{ end }}
-
-        <hr class="my-5">
-        <div class="row">
-          <div class="col-6 text-center text-md-start">
-            {{with .NextInSection }}
-            <a href="{{.RelPermalink}}" class="d-inline-block text-reset is-hoverable shadow-none">
-              {{ $title:= .Title }}
-              {{ with .Params.image }}
-              <div class="rounded-2" style="background:#f9f9f9">
-                {{ partial "image" (dict "Src" . "Alt" $title "Size" "x100")}}
-              </div>
-              {{end}}
-              <p class="mt-2 mb-0 text-center">{{i18n `prev_article`}}</p>
-              <p class="h5 mb-0 text-center">{{.Title}}</p>
-            </a>
-            {{end}}
-          </div>
-          <div class="col-6 text-center text-md-end">
-            {{with .PrevInSection }}
-            <a href="{{.RelPermalink}}" class="d-inline-block text-reset is-hoverable shadow-none">
-              {{with .Params.image}}
-              {{ if fileExists (add `assets/` .) }}
-              {{$img:= resources.Get . }}
-              {{$img:= $img.Resize "x100 "}}
-              {{$imgWebp:= $img.Resize "x100 webp"}}
-              <div class="rounded-2" style="background:#f9f9f9">
-                <img loading="lazy" decoding="async" class="img-fluid" width="{{$img.Width}}" height="{{$img.Height}}" src="{{$imgWebp.RelPermalink}}" alt="image" onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'">
-              </div>
-              {{end}}
-              {{end}}
-              <p class="mt-2 mb-0 text-center">{{i18n `next_article`}}</p>
-              <p class="h5 mb-0 text-center">{{.Title}}</p>
-            </a>
-            {{end}}
-          </div>
-        </div>
       </div>
     </div>
   </div>
 </section>
+
+{{ $related := .Site.RegularPages.Related . | first 3 }}
+{{ with $related }}
+<section class="section pt-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-10 text-center">
+        <h2 class="h3">Related articles</h2>
+      </div>
+    </div>
+    <div class="row">
+      {{ range . }}
+        {{ $button := dict
+          "enable" true
+          "type" "link-stretched"
+          "label" "Read more"
+          "link" .RelPermalink
+        }}
+        {{ $card := dict
+          "image" .Params.image
+          "name" .Title
+          "button" $button
+        }}
+        {{ partial "card" $card }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
 
 {{end}}
