@@ -19,6 +19,7 @@
             {{ partial "image" (dict "Src" .Params.image "Alt" .Title "Class" "rounded-circle" "Command" "Fill" "Size" "150x150") }}
           </div>
           <div>
+            <small class="opacity-75">THE AUTHOR</small>
             <h2 class="h5 title mb-1">{{ .Title }}</h2>
             <div class="content small">{{ .Content | markdownify}}</div>
           </div>

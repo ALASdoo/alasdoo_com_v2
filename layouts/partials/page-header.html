@@ -2,7 +2,7 @@
   <div class="container text-center">
     <div class="row">
       <div class="col-lg-8 mx-auto">
-        <h1 class="h2 mb-3">{{ .Title | markdownify }}</h1>
+        <h1 class="h2 mb-3 mt-3">{{ .Title | markdownify }}</h1>
         {{ with .Params.subtitle }}
         <p class="mb-0">{{ . | markdownify }}</p>
         {{ end }}

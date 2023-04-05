@@ -45,7 +45,10 @@ culture:
 benefits:
   subtitle: "Benefits"
   title: "Charrished employee is the best employee"
-  content: "We work in a homey atmosphere, without cubicles and open space areas, with enough comfortable room for peace and quiet, and a friendly and fun atmosphere to relax. We develop fantastic software solutions while also learning some fairly practical skills, consuming copious amounts of coffee, and playing PS5, darts, table tennis, and board games. Everybody is given the freedom and flexibility to create a healthy work-life balance that reflects the demands of their lifestyles while enabling them to work as productively as possible."
+  content: "We work in a homey atmosphere, without cubicles and open space areas, with enough comfortable room for peace and quiet, and a friendly and fun atmosphere to relax. We develop fantastic software solutions while also learning some fairly practical skills, consuming copious amounts of coffee, and playing PS5, darts, table tennis, and board games.
+
+
+  Everybody is given the freedom and flexibility to create a healthy work-life balance that reflects the demands of their lifestyles while enabling them to work as productively as possible."
   perks:
     title: "Some of the perks our employees enjoy"
     perks_item:

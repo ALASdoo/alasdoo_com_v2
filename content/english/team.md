@@ -140,14 +140,6 @@ team_members:
   content: QA enthusiast, Art and Nature Lover
   link: ''
 
-- name: Bojana Lazarević
-  image: images/team/bojana.jpg
-  categories: ['Manual QA']
-  designation: QA Engineer
-  content: >
-    "f u cn rd ths, u cn gt a gd jb n sftwr tstng." - Anonymus
-  link: ''
-
 - name: Branko Pauković
   image: images/team/branko.jpg
   categories: ['Manual QA']
@@ -176,20 +168,6 @@ team_members:
   content: Assisted karate coach for children, Hiker, Motobiker
   link: ''
 
-- name: Dorijan Raštegorac
-  image: images/team/dorijan.jpg
-  categories: ['Manual QA']
-  designation: QA Engineer
-  content: MTB adventurer, MEME master, Bianconero di Belgrado, World's greatest partier
-  link: ''
-
-- name: Dušan Vejnović
-  image: images/team/dusan_vejnovic.jpg
-  categories: ['Manual QA']
-  designation: QA Engineer
-  content: Sic Parvis Magna - Sir Francis Drake
-  link: ''
-
 - name: Eduard Pinter
   image: images/team/eduard.jpg
   categories: ['Automated QA']
@@ -209,13 +187,6 @@ team_members:
   categories: ['Manual QA']
   designation: QA Engineer
   content: If someone is able to show me that what I think or do is not right, I will happily change, for I seek the truth, by which no one ever was truly harmed.
-  link: ''
-
-- name: Ines Prlainović
-  image: images/team/ines.jpg
-  categories: ['Manual QA']
-  designation: QA Engineer
-  content: When you look annoyed all the time, people think that you're busy. - George Costanza
   link: ''
 
 - name: Janos Bednarik
@@ -302,13 +273,6 @@ team_members:
   content: Bookworm, BuJo addict
   link: ''
 
-- name: Predrag Đilas
-  image: images/team/predrag.jpg
-  categories: ['Automated QA']
-  designation: Automated QA Engineer
-  content: Fantasy and Sci-fi lover, social-media and metaverse addict, an adventurer
-  link: ''
-
 - name: Sandra Kostić
   image: images/team/sandra.jpg
   categories: ['Automated QA']
@@ -321,13 +285,6 @@ team_members:
   categories: ['Manual QA']
   designation: QA Engineer
   content: Bugs&discounts hunter, cat lover, hedonist, nature and life enthusiast
-  link: ''
-
-- name: Stefan Minić
-  image: images/team/stefan.jpg
-  categories: ['Manual QA']
-  designation: QA Engineer
-  content: Dc Comics fan, Book collector, Ardent rocker, WOW lvl Pro, Actor wanna be
   link: ''
 
 - name: Tibor Szakmány

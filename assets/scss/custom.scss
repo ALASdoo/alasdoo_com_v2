@@ -148,6 +148,7 @@ $alas-color-blue: #00A0A3;
 
 #what-we-do-hero {
   position: relative;
+  background-color: #FFF3CC;
   .container {
     position: relative;
     z-index: 2;
@@ -156,7 +157,7 @@ $alas-color-blue: #00A0A3;
   &::before {
     content: '';
     display: block;
-    background: $bg-light-blue;
+    background: #CEEFEB;
     position: absolute;
     bottom: 0;
     left: 0;
