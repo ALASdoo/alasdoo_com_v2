@@ -3,6 +3,7 @@
 banner:
   title: 'Tailored software development and quality assurance outsourcing.'
   image: 'images/hero-home.png'
+  alt: "An outsourcing company building side view with people working on laptops and computers, having meetings, workshops, brainstorming, playing table tennis, doing yoga, having lunch in the garden."
   content: ''
   button:
     enable: true
@@ -61,6 +62,7 @@ services:
     - name: 'Frontend and backend staff augmentation'
       type: 'illustration'
       image: 'images/development.svg'
+      alt: "Developer working on laptop, with signs for CSS, HTML, JAVA and JS around him"
       button:
         enable: true
         type: 'link'
@@ -71,6 +73,7 @@ services:
     - name: 'Manual and automated software QA services'
       type: 'illustration'
       image: 'images/QA.svg'
+      alt: "Woman doing manual testing on tablet while laptop with robot hand with magnifying glass is doing automation testing, finding a bug in the code."
       button:
         enable: true
         type: 'link'
@@ -82,6 +85,7 @@ services:
     - name: 'IT consulting and project management'
       type: 'illustration'
       image: 'images/PM.svg'
+      alt: "A man consulting another man, showing him data presented through graphs and charts."
       button:
         enable: true
         type: 'link'
@@ -135,15 +139,25 @@ jobs:
     link: '/careers#jobs'
   image_item:
   - image: "images/home-gallery/01.jpg"
+  - alt: "Workshop about testing in a pleasent homely meeting space."
   - image: "images/home-gallery/02.jpg"
+  - alt: "Two collegues playing sony playstation and drinking martini."
   - image: "images/home-gallery/03.jpg"
+  - alt: "Developers writing code at a workshop in an office with big painting of a native american on the wall."
   - image: "images/home-gallery/04.jpg"
+  - alt: "Roleplay between three collegues at a workshop in a pleasent homey atmosphere."
   - image: "images/home-gallery/05.jpg"
+  - alt: "Two elegant young women taking photos of their coctails at an office party in the garden."
   - image: "images/home-gallery/06.jpg"
+  - alt: "Six collegues laughing and playing jungle speed at the office party."
   - image: "images/home-gallery/07.jpg"
+  - alt: "Young people mingling at a christmas office party."
   - image: "images/home-gallery/08.jpg"
+  - alt: "Young professionals in halloween masks at the office party."
   - image: "images/home-gallery/09.jpg"
+  - alt: "Company employees and a kid posing in nature, dressed in laser tag geer."
   - image: "images/home-gallery/10.jpg"
+  - alt: "Two young women laughing and driving in a golf cart at a company event."
 
 ######################### Case studies #####################
 articles:
