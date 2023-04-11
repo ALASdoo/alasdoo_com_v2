@@ -88,50 +88,73 @@ technologies:
   technology_list:
     - title: 'Java'
       image: 'images/technologies/java.svg'
+      alt: 'Java logo'
     - title: 'JavaScript'
       image: 'images/technologies/javascript.svg'
+      alt: 'JavaScript logo'
     - title: 'C#'
       image: 'images/technologies/c-sharp.svg'
+      alt: "C-Sharp logo"
     - title: 'Python'
       image: 'images/technologies/python.svg'
+      alt: "Python logo"
     - title: 'HTML'
       image: 'images/technologies/html.svg'
+      alt: "HTML logo"
     - title: 'CSS'
       image: 'images/technologies/css3.svg'
+      alt: "CSS logo"
     - title: 'SASS'
       image: 'images/technologies/sass.svg'
+      alt: "SASS logo"
     - title: '.NET'
       image: 'images/technologies/dotnet.svg'
+      alt: ".NET logo"
     - title: 'React'
       image: 'images/technologies/react.svg'
+      alt: "React logo"
     - title: 'Angular'
       image: 'images/technologies/angular.svg'
+      alt: "Angular logo"
     - title: 'jQuery'
       image: 'images/technologies/jquery.svg'
+      alt: "jQuery logo"
     - title: 'AWS'
       image: 'images/technologies/aws.svg'
+      alt: "AWS logo"
     - title: 'Docker'
       image: 'images/technologies/docker.svg'
+      alt: "Docker logo"
     - title: 'Jenkins'
       image: 'images/technologies/jenkins.svg'
+      alt: "Jenkins logo"
     - title: 'SQL'
       image: 'images/technologies/sql.svg'
+      alt: "SQL logo"
     - title: 'Selenium'
       image: 'images/technologies/selenium.svg'
+      alt: "Selenium logo"
     - title: 'Cypress'
       image: 'images/technologies/cypress.svg'
+      alt: "Cypress logo"
     - title: 'Appium'
       image: 'images/technologies/appium.svg'
+      alt: "Appium logo"
     - title: 'Django'
       image: 'images/technologies/django.svg'
+      alt: "Django logo"
     - title: 'Plone'
       image: 'images/technologies/plone.svg'
+      alt: "Plone logo"
     - title: 'AI'
       image: 'images/technologies/ai.svg'
+      alt: "AI icon"
     - title: 'Blockchain'
       image: 'images/technologies/blockchain.svg'
+      alt: "Blokchain icon"
     - title: 'Web3'
       image: 'images/technologies/web3.svg'
+      alt: "Web3 icon"
 
 ######################### approach #####################
 approach:
@@ -142,21 +165,27 @@ approach:
   workflow_item:
     - title: 'Initial assessment'
       image: '/images/approach/1.svg'
+      alt: "number one"
       content: 'Understanding your needs, goals, and pain points through a detailed interview and in-depth research'
     - title: 'Customized plan'
       image: '/images/approach/2.svg'
+      alt: "number two"
       content: 'Translating goals into concrete steps with detailed technical specifications, based on our expertise'
     - title: 'Choosing talent'
       image: '/images/approach/3.svg'
+      alt: "number three"
       content: 'With crucial technical requirements defined, we are choosing the most suitable talent for your project'
     - title: 'Onboarding'
       image: '/images/approach/4.svg'
+      alt: "number four"
       content: 'Requiring your project presentation as wider picture and also defining the specific tasks that will be performed'
     - title: 'Implementation'
       image: '/images/approach/5.svg'
+      alt: "number five"
       content: 'Doing the actual work, complemented with ongoing transparent communication and regular reporting'
     - title: 'Agile adaptation'
       image: '/images/approach/6.svg'
+      alt: "number six"
       content: 'Staying on top of things and adaptable when plans change, whether it is about the requirements or the team structure'
 
 ######################### cta #####################
