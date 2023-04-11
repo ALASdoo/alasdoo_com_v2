@@ -10,6 +10,7 @@ layout: "careers"
 hero:
   title: "We are always looking for individuals that are passionate, kind, and joyful in their pursuit of success."
   image: "images/about.jpg"
+  alt: ""
   button:
     enable : true
     type: 'primary'
@@ -28,6 +29,7 @@ culture:
   Our employees are participants in decision making, as their opinions, initiatives, and ideas are always heard and welcomed. Constructive suggestions can promptly come to life with our flat hierarchy and short decision making paths."
   image_item:
   - image: "images/home-gallery/01.jpg"
+    alt: ""
   - image: "images/home-gallery/02.jpg"
   - image: "images/home-gallery/03.jpg"
   - image: "images/home-gallery/04.jpg"
