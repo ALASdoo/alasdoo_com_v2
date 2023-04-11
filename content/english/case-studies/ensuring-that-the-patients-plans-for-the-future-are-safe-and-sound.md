@@ -4,6 +4,7 @@ draft: false
 title: "Taking care that the patient's plans for the future are safe and sound"
 subtitle: 'Comprehensive testing services for securely storing and sharing confidential documents with healthcare professionals'
 image: 'images/case-studies/MyDirectives.jpg'
+alt: "Healthcare professionals discussing a health insurance claim form."
 industry: 'HEALTHCARE'
 keywords:
   [
