@@ -10,6 +10,7 @@ layout: 'what-we-do'
 banner:
   title: 'We save our clients’ time and money'
   image: 'images/what-we-do.svg'
+  alt: "A rocket lounching from a computer monitor, with a clock and a calendar on the wall."
   content: 'by providing experienced and devoted
     experts, as well as in-depth analyses
     and consulting on improving software
