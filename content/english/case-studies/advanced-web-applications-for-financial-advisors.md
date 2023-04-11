@@ -4,6 +4,7 @@ draft: false
 title: 'Advanced Web applications for financial advisors'
 subtitle: 'Improving retirement portfolios with complex calculations and user-friendly interfaces'
 image: 'images/case-studies/RetireUp.jpg'
+alt: "An older couple doing together their finances."
 industry: 'FINANCE'
 keywords:
   [
