@@ -85,7 +85,7 @@ services:
     - name: 'IT consulting and project management'
       type: 'illustration'
       image: 'images/PM.svg'
-      alt: "A man consulting another man, showing him data presented through graphs and charts."
+      alt: "Project manager consulting a client, showing him data presented through graphs and charts."
       button:
         enable: true
         type: 'link'
