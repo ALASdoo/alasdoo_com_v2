@@ -8,7 +8,7 @@ layout: 'clients'
 
 cta:
   content: 'We work for clients from all over the globe, from small businesses and startups to established global corporations.'
-  image: 'images/team/hero.jpg'
+  image: 'images/clients.mp4'
 
 relationships:
   title: 'Building trusting relationships'
