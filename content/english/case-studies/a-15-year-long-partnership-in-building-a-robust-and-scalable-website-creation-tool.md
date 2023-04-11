@@ -5,7 +5,16 @@ title: 'A 15-year-long partnership in building a robust and scalable website cre
 subtitle: 'Supporting a website builder with backend development, testing, and project management services'
 image: 'images/case-studies/SimpleSite.jpg'
 industry: 'TECHNOLOGY, INFORMATION AND INTERNET'
-keywords: ['one', 'two']
+keywords:
+  [
+    'Website-building tool',
+    'Automated test cases',
+    'Backend development',
+    'DevOps services',
+    'Frontend development',
+    'Project management',
+    'Katalon',
+  ]
 ---
 
 ## About the client

@@ -5,6 +5,19 @@ title: 'The platform for powering the cannabis industry with PoS, e&#8209;commer
 subtitle: 'Helping in compliance with complex legal frameworks and regulations, and providing a seamless experience for customers'
 image: 'images/case-studies/Dutchie.jpg'
 industry: 'CANNABIS'
+keywords:
+  [
+    'Cannabis',
+    'Compliance regulations',
+    'Smoke testing',
+    'JIRA',
+    'TestRail',
+    'iOS testing',
+    'IoT testing',
+    'TestFlight',
+    'Mobile application testing',
+    'Tracking tools',
+  ]
 ---
 
 ## About the client

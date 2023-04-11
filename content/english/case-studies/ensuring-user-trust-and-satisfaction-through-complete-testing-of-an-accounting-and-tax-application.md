@@ -5,7 +5,18 @@ title: 'Ensuring user trust and satisfaction through complete testing of an acco
 subtitle: 'Design, functionality, and transaction testing for error-free cash flow and invoicing'
 image: 'images/case-studies/Coconut.jpg'
 industry: 'FINANCE'
-keywords: ['three', 'four']
+keywords:
+  [
+    'Finance',
+    'Tax app',
+    'User experience',
+    'Security testing',
+    'Stress testing',
+    'Java',
+    'JUnit',
+    'Selenium',
+    'Appium',
+  ]
 ---
 
 ## About the client

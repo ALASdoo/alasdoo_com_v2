@@ -5,7 +5,16 @@ title: 'How to build a culture that matches your brand?'
 image: 'images/articles/culture.jpg'
 author: 'Aleksandra Krstic'
 description: '' # meta description
-keywords: ['abc', 'bca']
+keywords:
+  [
+    'Company culture',
+    'Core values',
+    'Physical workspace',
+    'Work environment',
+    'Hiring process',
+    'Personal growth',
+    'Feedback',
+  ]
 ---
 
 ## What's the deal with company culture?

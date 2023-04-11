@@ -5,7 +5,16 @@ title: 'Advanced Web applications for financial advisors'
 subtitle: 'Improving retirement portfolios with complex calculations and user-friendly interfaces'
 image: 'images/case-studies/RetireUp.jpg'
 industry: 'FINANCE'
-keywords: ['three', 'four']
+keywords:
+  [
+    'Finance',
+    'Retirement portfolio',
+    'Financial advisors',
+    'Exploratory testing',
+    'Web-based tool sets',
+    'User-friendly interface',
+    'Output file',
+  ]
 ---
 
 ## About the client

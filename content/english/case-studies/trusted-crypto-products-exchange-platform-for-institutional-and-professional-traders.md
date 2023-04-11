@@ -5,6 +5,17 @@ title: 'Trusted crypto-products exchange platform for institutional and professi
 subtitle: 'Employing experience-based, cross-platform testing and KYC integration for a seamless trading experience'
 image: 'images/case-studies/Bitmex.jpg'
 industry: 'CRYPTOCURRENCY'
+keywords:
+  [
+    'Cryptocurrency',
+    'Exchange Platform',
+    'KYC process',
+    'Cross-Platform Testing',
+    'Legal regulations',
+    'Trading experience',
+    'Security',
+    'Retesting',
+  ]
 ---
 
 ## About the client

@@ -5,7 +5,20 @@ title: '8 most important reasons why companies outsource IT services'
 image: 'images/articles/why-outsource.jpg'
 author: 'Tibor Dudjik'
 description: '' # meta description
-keywords: ['one', 'two']
+keywords:
+  [
+    'Outsourcing',
+    'IT services',
+    'Cost efficiency (Reduce costs)',
+    'Global access',
+    'Reliable vendor',
+    'QA process',
+    'Highest standards',
+    'Technical skills',
+    'Cultural differences',
+    'Time to market',
+    'Collaboration',
+  ]
 ---
 
 At ALAS doo, we understand the importance of technology in today's fast-paced business environment. As a provider of outsourcing IT services, we know firsthand the advantages that outsourcing can bring to companies of all sizes and industries.

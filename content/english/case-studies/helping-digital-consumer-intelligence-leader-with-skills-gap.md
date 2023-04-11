@@ -5,6 +5,17 @@ title: 'Helping digital consumer intelligence leader with skills gap'
 subtitle: 'Accelerating the process from ideation to realization'
 image: 'images/case-studies/Brandwatch.jpg'
 industry: 'SOCIAL MEDIA ANALYTICS'
+keywords:
+  [
+    'Social media analytics',
+    'Skills gap',
+    'Quality assurance',
+    'Testing environment',
+    'Test framework',
+    'Cypress and Selenium',
+    'Frontend development',
+    'Backend development',
+  ]
 ---
 
 ## About the client

@@ -5,6 +5,18 @@ title: 'What does a rebranding process include beside a new logo?'
 image: 'images/articles/rebranding-process.jpg'
 author: 'Tajana Somogyi'
 description: '' # meta description
+keywords:
+  [
+    'Rebranding',
+    'Logo',
+    'Visual identity',
+    'Core values',
+    'Reviews',
+    'Research',
+    'Hiring process',
+    'Company culture',
+    'Feedback',
+  ]
 ---
 
 Many entrepreneurs spend a disproportionate amount of time and money on building their visual image and believe that the most important representation of a brand is a high-quality logo. A logo is an important but small part of the bigger picture that a brand is. It is also not the first thing you should concern yourself with when planning the rebranding. On the contrary, it is actually the last piece that binds everything together after the abundant planning, research, figuring out where the company fits in the market, and in conclusion defining the purpose, direction, and underlying values of the company, and the strategies to incorporate them into the everyday conduct of a business.

@@ -5,7 +5,15 @@ title: 'Streamlining carpooling'
 subtitle: 'Prioritizing convenience, safety, and integration for modern families'
 image: 'images/case-studies/GoKid.jpg'
 industry: 'TRANSPORTATION'
-keywords: ['three', 'four']
+keywords:
+  [
+    'Transportation',
+    'Carpool',
+    'Usability testing',
+    'Safety',
+    'Live tracking testing',
+    'Cross-browser testing',
+  ]
 ---
 
 ## About the client

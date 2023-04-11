@@ -5,6 +5,20 @@ title: 'How to choose the right IT outsourcing provider?'
 image: 'images/articles/choose-outsourcing-company.jpg'
 author: 'Vilmos Somogyi'
 description: '' # meta description
+keywords:
+  [
+    'Outsourcing provider',
+    'IT services',
+    'Qualifications',
+    'Education',
+    'Technical skills',
+    'Cultural differences',
+    'Time zones',
+    'Collaboration',
+    'Communication (channels)',
+    'Cost efficiency',
+    'Partnership',
+  ]
 ---
 
 Handing over control to an unknown vendor can be troubling itself. If you’re not working with a team you trust, the value of outsourcing can quickly become a risk. This is why it is extremely important to hire the right team.

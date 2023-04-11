@@ -1,26 +1,9 @@
 {{ define "main" }}
 
-{{with .Params.hero}}
-<section class="section">
-  <div class="container">
-    <div class="row g-6 align-items-center justify-content-between">
-      <div class="col-lg-6">
-        <div class="pe-0 pe-lg-5">
-          <h1 class="section-title h2">{{.title | markdownify}}</h1>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        {{ partial "image" (dict "Src" .image "alt" "hero image" "Class" "w-100 rounded-1") }}
-      </div>
-    </div>
-  </div>
-</section>
-{{end}}
-
 <!-- history -->
 {{ with .Params.history }}
 {{ if .enable }}
-<section class="section text-center pb-4">
+<section class="section text-center pt-5 pb-4">
   <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
 </section>
 {{ $list := .blocks }}

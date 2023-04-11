@@ -5,6 +5,16 @@ title: "Ensuring that the patient's plans for the future are safe and sound"
 subtitle: 'Comprehensive testing services for securely storing and sharing confidential documents with healthcare professionals'
 image: 'images/case-studies/MyDirectives.jpg'
 industry: 'HEALTHCARE'
+keywords:
+  [
+    'Healthcare',
+    'User experience',
+    'Accessibility testing',
+    'Documents',
+    'Confidentiality',
+    'Accessibility testing',
+    'Katalon',
+  ]
 ---
 
 ## About the client
