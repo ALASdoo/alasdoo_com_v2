@@ -28,6 +28,7 @@ what_we_do:
     - title: 'Augmenting development teams with experienced experts'
       id: 'dev'
       image: 'images/dev_anim.gif'
+      alt: "Developer working on laptop, with signs for CSS, HTML, JAVA and JS around him."
       content: 'We can provide both staff augmentation and dedicated teams, depending on your needs.
 
 
