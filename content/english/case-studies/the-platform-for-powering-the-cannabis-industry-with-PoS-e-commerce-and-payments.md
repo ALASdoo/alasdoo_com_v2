@@ -5,6 +5,7 @@ title: 'The platform for powering the cannabis industry with PoS, e&#8209;commer
 subtitle: 'Helping in compliance with complex legal frameworks and regulations, and providing a seamless experience for customers'
 image: 'images/case-studies/Dutchie.jpg'
 industry: 'CANNABIS'
+alt: "a smart register"
 keywords:
   [
     'Cannabis',
