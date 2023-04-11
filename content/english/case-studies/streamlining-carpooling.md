@@ -4,6 +4,7 @@ draft: false
 title: 'Streamlining carpooling'
 subtitle: 'Prioritizing convenience, safety, and integration for modern families'
 image: 'images/case-studies/GoKid.jpg'
+alt: "A boy and a man discussing a route on a monitor in a car."
 industry: 'TRANSPORTATION'
 keywords:
   [
