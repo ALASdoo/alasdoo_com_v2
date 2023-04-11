@@ -1,7 +1,7 @@
 ---
 date: '2023-03-09'
 draft: false
-title: "Ensuring that the patient's plans for the future are safe and sound"
+title: "Taking care that the patient's plans for the future are safe and sound"
 subtitle: 'Comprehensive testing services for securely storing and sharing confidential documents with healthcare professionals'
 image: 'images/case-studies/MyDirectives.jpg'
 industry: 'HEALTHCARE'
