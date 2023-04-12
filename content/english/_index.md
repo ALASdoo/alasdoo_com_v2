@@ -66,7 +66,7 @@ services:
       button:
         enable: true
         type: 'link'
-        label: 'Learn more'
+        label: 'More about the service'
         link: '/what-we-do#dev'
 
     # services item loop
@@ -77,7 +77,7 @@ services:
       button:
         enable: true
         type: 'link'
-        label: 'Learn more'
+        label: 'More about the service'
         link: '/what-we-do#qa'
 
 
@@ -89,7 +89,7 @@ services:
       button:
         enable: true
         type: 'link'
-        label: 'Learn more'
+        label: 'More about the service'
         link: '/what-we-do#pm'
 
 
