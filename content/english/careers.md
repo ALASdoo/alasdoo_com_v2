@@ -28,7 +28,7 @@ culture:
 
   Our employees are participants in decision making, as their opinions, initiatives, and ideas are always heard and welcomed. Constructive suggestions can promptly come to life with our flat hierarchy and short decision making paths."
   image_item:
- - image: "images/home-gallery/01.jpg"
+  - image: "images/home-gallery/01.jpg"
   - alt: "Workshop about testing in a pleasent homely meeting space."
   - image: "images/home-gallery/02.jpg"
   - alt: "Two collegues playing sony playstation and drinking martini."
