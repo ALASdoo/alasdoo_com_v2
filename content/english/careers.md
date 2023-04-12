@@ -29,25 +29,25 @@ culture:
   Our employees are participants in decision making, as their opinions, initiatives, and ideas are always heard and welcomed. Constructive suggestions can promptly come to life with our flat hierarchy and short decision making paths."
   image_item:
   - image: "images/home-gallery/01.jpg"
-  - alt: "Workshop about testing in a pleasent homely meeting space."
+    alt: "Workshop about testing in a pleasent homely meeting space."
   - image: "images/home-gallery/02.jpg"
-  - alt: "Two collegues playing sony playstation and drinking martini."
+    alt: "Two collegues playing sony playstation and drinking martini."
   - image: "images/home-gallery/03.jpg"
-  - alt: "Developers writing code at a workshop in an office with big painting of a native american on the wall."
+    alt: "Developers writing code at a workshop in an office with big painting of a native american on the wall."
   - image: "images/home-gallery/04.jpg"
-  - alt: "Roleplay between three collegues at a workshop in a pleasent homey atmosphere."
+    alt: "Roleplay between three collegues at a workshop in a pleasent homey atmosphere."
   - image: "images/home-gallery/05.jpg"
-  - alt: "Two elegant young women taking photos of their coctails at an office party in the garden."
+    alt: "Two elegant young women taking photos of their coctails at an office party in the garden."
   - image: "images/home-gallery/06.jpg"
-  - alt: "Six collegues laughing and playing jungle speed at the office party."
+    alt: "Six collegues laughing and playing jungle speed at the office party."
   - image: "images/home-gallery/07.jpg"
-  - alt: "Young people mingling at a christmas office party."
+    alt: "Young people mingling at a christmas office party."
   - image: "images/home-gallery/08.jpg"
-  - alt: "Young professionals in halloween masks at the office party."
+    alt: "Young professionals in halloween masks at the office party."
   - image: "images/home-gallery/09.jpg"
-  - alt: "Company employees and a kid posing in nature, dressed in laser tag geer."
+    alt: "Company employees and a kid posing in nature, dressed in laser tag geer."
   - image: "images/home-gallery/10.jpg"
-  - alt: "Two young women laughing and driving in a golf cart at a company event."
+    alt: "Two young women laughing and driving in a golf cart at a company event."
   button:
     enable : false
     label : "Read about why culture metters"
@@ -83,7 +83,7 @@ benefits:
       * massage therapies
 
       * small gym
-      
+
       * plenty of outdoor spaces"
     - image: "images/benefits/education.svg"
       alt: "Illustration of a graduation cap on a stack of books."
