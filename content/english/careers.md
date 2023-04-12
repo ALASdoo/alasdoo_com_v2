@@ -28,17 +28,26 @@ culture:
 
   Our employees are participants in decision making, as their opinions, initiatives, and ideas are always heard and welcomed. Constructive suggestions can promptly come to life with our flat hierarchy and short decision making paths."
   image_item:
-  - image: "images/home-gallery/01.jpg"
-    alt: ""
+ - image: "images/home-gallery/01.jpg"
+  - alt: "Workshop about testing in a pleasent homely meeting space."
   - image: "images/home-gallery/02.jpg"
+  - alt: "Two collegues playing sony playstation and drinking martini."
   - image: "images/home-gallery/03.jpg"
+  - alt: "Developers writing code at a workshop in an office with big painting of a native american on the wall."
   - image: "images/home-gallery/04.jpg"
+  - alt: "Roleplay between three collegues at a workshop in a pleasent homey atmosphere."
   - image: "images/home-gallery/05.jpg"
+  - alt: "Two elegant young women taking photos of their coctails at an office party in the garden."
   - image: "images/home-gallery/06.jpg"
+  - alt: "Six collegues laughing and playing jungle speed at the office party."
   - image: "images/home-gallery/07.jpg"
+  - alt: "Young people mingling at a christmas office party."
   - image: "images/home-gallery/08.jpg"
+  - alt: "Young professionals in halloween masks at the office party."
   - image: "images/home-gallery/09.jpg"
+  - alt: "Company employees and a kid posing in nature, dressed in laser tag geer."
   - image: "images/home-gallery/10.jpg"
+  - alt: "Two young women laughing and driving in a golf cart at a company event."
   button:
     enable : false
     label : "Read about why culture metters"
@@ -47,7 +56,7 @@ culture:
 benefits:
   subtitle: "Benefits"
   title: "Charrished employee is the best employee"
-  content: "We work in a homey atmosphere, without cubicles and open space areas, with enough comfortable room for peace and quiet, and a friendly and fun atmosphere to relax. We develop fantastic software solutions while also learning some fairly practical skills, consuming copious amounts of coffee, and playing PS5, darts, table tennis, and board games.
+  content: "We work in a homey atmosphere, without cubicles and open space areas, with enough comfortable room for peace and quiet, and a friendly and fun atmosphere to relax. We develop fantastic software solutions while also learning some fairly practical skills, consuming delicious coffee, and playing PS5, darts, table tennis, and board games.
 
 
   Everybody is given the freedom and flexibility to create a healthy work-life balance that reflects the demands of their lifestyles while enabling them to work as productively as possible."
@@ -70,7 +79,9 @@ benefits:
       name: "
       * massage therapies
 
-      * small gym"
+      * small gym
+      
+      * plenty of outdoor spaces"
     - image: "images/benefits/education.svg"
       name: "
       * English/German language courses
