@@ -173,7 +173,7 @@
           <div class="swiper-wrapper">
             {{range .image_item}}
             <div class="swiper-slide">
-              {{ partial "image" (dict "Src" .image "Alt" "Team photo" "Class" "rounded-2") }}
+              {{ partial "image" (dict "Src" .image "Alt" .alt "Class" "rounded-2") }}
             </div>
             {{end}}
           </div>

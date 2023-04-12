@@ -2,7 +2,7 @@
   <div class="card {{.type}}-card is-hoverable shadow bg-white rounded-2 border-0">
     {{ if .image }}
     <div class="card-header {{.type}}-image text-center bg-white rounded-2 border-0 p-0">
-      {{ partial "image" (dict "Src" .image "alt" "" "Class" "") }}
+      {{ partial "image" (dict "Src" .image "alt" .alt "Class" "") }}
     </div>
     {{ end }}
     <div class="card-body p-4 {{ if not .content }}pb-0{{end}}">

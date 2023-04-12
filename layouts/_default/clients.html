@@ -44,7 +44,7 @@
     <div class="row justify-content-center">
       {{range .industries_item}}
       <div class="col-sm-6 col-md-4 col-lg-3 p-4 text-center">
-        {{ partial "image" (dict "Src" .image "Alt" .title "Class" "w-50") }}
+        {{ partial "image" (dict "Src" .image "Alt" .alt "Class" "w-50") }}
         <p class="mt-2">{{.title}}</p>
       </div>
       {{end}}
@@ -64,7 +64,7 @@
     <div class="row justify-content-center align-items-center">
       {{range .clients_item}}
       <div class="col-3 p-5">
-        {{ partial "image" (dict "Src" .image "Alt" .title) }}
+        {{ partial "image" (dict "Src" .image "Alt" .alt) }}
       </div>
       {{end}}
     </div>

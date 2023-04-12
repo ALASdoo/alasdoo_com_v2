@@ -20,6 +20,7 @@ intro:
 
     As English is a very important part of our business, each member of our team is proficient in it."
     image: "images/quality-over-quantity.jpg"
+    alt: ""
   streangths:
     title: "Always improving"
     content: "Before the first billing hour, each team member completes in depth training for the project they are undertaking, so they can seamlessly take over their role and hit the ground running.
@@ -27,6 +28,7 @@ intro:
 
     We are proud of our excellent knowledge-sharing system and collaboration between colleagues. Through support, feedback, workshops and brainstorming, each person is enabled to work at full capacity."
     image: "images/constant-improvement.jpg"
+    alt: ""
 
 cta:
   title: 'Do you need staff augmentation or a dedicated team?'
@@ -350,14 +352,23 @@ join:
     link: '/careers#jobs'
   image_item:
   - image: "images/home-gallery/01.jpg"
+    alt: "Workshop about testing in a pleasent homely meeting space."
   - image: "images/home-gallery/02.jpg"
+    alt: "Two collegues playing sony playstation and drinking martini."
   - image: "images/home-gallery/03.jpg"
+    alt: "Developers writing code at a workshop in an office with big painting of a native american on the wall."
   - image: "images/home-gallery/04.jpg"
+    alt: "Roleplay between three collegues at a workshop in a pleasent homey atmosphere."
   - image: "images/home-gallery/05.jpg"
+    alt: "Two elegant young women taking photos of their coctails at an office party in the garden."
   - image: "images/home-gallery/06.jpg"
+    alt: "Six collegues laughing and playing jungle speed at the office party."
   - image: "images/home-gallery/07.jpg"
+    alt: "Young people mingling at a christmas office party."
   - image: "images/home-gallery/08.jpg"
+    alt: "Young professionals in halloween masks at the office party."
   - image: "images/home-gallery/09.jpg"
+    alt: "Company employees and a kid posing in nature, dressed in laser tag geer."
   - image: "images/home-gallery/10.jpg"
-
+    alt: "Two young women laughing and driving in a golf cart at a company event."
 ---

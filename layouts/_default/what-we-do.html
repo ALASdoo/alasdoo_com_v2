@@ -12,7 +12,7 @@
         </div>
       </div>
       <div class="col-lg-6 text-center">
-        {{partial "image" (dict "Src" .image "Alt" "banner image" "Size" "550x")}}
+        {{ partial "image" (dict "Src" .image "Alt" .alt "Size" "550x") }}
       </div>
     </div>
   </div>
@@ -35,7 +35,7 @@
       </div>
       <div class="col-lg-6 gx-5 {{if not (modBool $i 2)}}order-lg-1{{end}} order-0 pe-lg-0">
         <div class="what-we-do-img">
-          {{ partial "image" (dict "Src" .image "Alt" "image") }}
+          {{ partial "image" (dict "Src" .image "Alt" .alt) }}
         </div>
       </div>
     </div>
@@ -61,7 +61,7 @@
       <div class="col-12 text-center">
         {{ range .technology_list }}
         <div class="p-4 d-inline-block">
-          <div class="technology-logo">{{ partial "image" (dict "Src" .image "Alt" .title) }}</div>
+          <div class="technology-logo">{{ partial "image" (dict "Src" .image "Alt" .alt) }}</div>
           <div class="technology-name">{{ .title }}</div>
         </div>
         {{ end }}
@@ -91,7 +91,7 @@
       <div class="col-lg-4 col-sm-6 d-lg-flex">
         <div class="card shadow bg-white rounded-2 border-0">
           <div class="card-body pb-5 pt-5 d-flex">
-            {{ partial "image" (dict "Src" .image "Alt" .title "Class" "w-30") }}
+            {{ partial "image" (dict "Src" .image "Alt" .alt "Class" "w-30") }}
             <div class="approach-text">
               <h4 class="h6">{{ .title | markdownify }}</h4>
               <p class="mb-0">{{ .content | markdownify }}</p>

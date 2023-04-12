@@ -19,7 +19,7 @@
         {{.intro.quality.content | markdownify}}
       </div>
       <div class="col-xl-6">
-        {{ partial "image" (dict "Src" .intro.quality.image "Alt" "Team photo" "Class" "rounded-2") }}
+        {{ partial "image" (dict "Src" .intro.quality.image "Alt" .alt "Class" "rounded-2") }}
       </div>
     </div>
   </div>
@@ -33,7 +33,7 @@
         {{.intro.streangths.content | markdownify}}
       </div>
       <div class="col-xl-6 pb-4 order-lg-0">
-        {{ partial "image" (dict "Src" .intro.streangths.image "Alt" "Team photo" "Class" "rounded-2") }}
+        {{ partial "image" (dict "Src" .intro.streangths.image "Alt" .alt "Class" "rounded-2") }}
       </div>
     </div>
   </div>
@@ -83,7 +83,7 @@
           <div class="swiper-wrapper">
             {{range .join.image_item}}
             <div class="swiper-slide">
-              {{ partial "image" (dict "Src" .image "Alt" "Team photo" "Class" "rounded-2") }}
+              {{ partial "image" (dict "Src" .image "Alt" .alt "Class" "rounded-2") }}
             </div>
             {{end}}
           </div>
