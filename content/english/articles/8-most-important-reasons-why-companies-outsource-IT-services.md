@@ -102,4 +102,4 @@ Outsourcing eliminates those times of watering down the core assignments of your
 
 ## How ALAS can help you accelerate your business
 
-If you are a small, medium, or large company that wants to gain an edge over the competition, but you're uncertain about what areas need improvement, we can evaluate your specific circumstances and provide an extensive range of services to help you achieve this goal:: customized project management solutions, software developers with the required expertise, manual and automated quality assurance. Contact us to schedule a meeting for a free initial assessment.
+If you are a small, medium, or large company that wants to gain an edge over the competition, but you're uncertain about what areas need improvement, we can evaluate your specific circumstances and provide an extensive range of services to help you achieve this goal: customized project management solutions, software developers with the required expertise, manual and automated quality assurance. Contact us to schedule a meeting for a free initial assessment.
