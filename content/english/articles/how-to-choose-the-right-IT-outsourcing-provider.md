@@ -69,7 +69,7 @@ Whether you choose a company from your close surroundings or one overseas, consi
 
 ### 4. Time difference
 
-Overlapping time zones is the silver lining that helps companies to recruit and work with people from different locations seamlessly, without hurting their communication. Poor communication can often result in project failures, which can be averted if you manage the overlapping work hours efficiently.
+Overlapping time zones is the silver lining that helps companies recruit and work with people from different locations seamlessly, without hurting their communication. Poor communication can often result in project failures, which can be averted if you manage the overlapping work hours efficiently.
 
 When offshoring based on overlapping time zones, the work culture in the respective countries must be kept in mind. Do they begin work earlier, maybe at 7 or 8 am? Do they follow a nine-to-five workday?
 
@@ -114,6 +114,8 @@ You will inevitably have to lose some control, but the risk is lowered when you 
 ### Determine a communication cadence
 
 Regular check-ins can help alleviate worries about a lack of control. Vendor reports will give you an overview of their workflow and overall project progress. Regular status meetings should be a standard feature of any engagement.
+
+SLIKA ONLINE MEETINGA
 
 Good communication practice also means being ultra-responsive, meaning that the outsourcing provider is able to meet at very short notice should an issue arise.
 
