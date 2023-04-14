@@ -1,4 +1,6 @@
+{{ $videoAvif := resources.Get .avif }}
+{{ $videoMp4 := resources.Get .mp4 }}
 <video autoplay muted playsinline>
-  {{ if .avif }}<source src="{{(resources.Get .avif).RelPermalink}}" />{{ end }}
-  {{ if .mp4 }}<source src="{{(resources.Get .mp4).RelPermalink}}" type="video/mp4" />{{ end }}
+  <source src="{{$videoAvif.RelPermalink}}" />
+  <source src="{{$videoMp4.RelPermalink}}" type="video/mp4" />
 </video>
