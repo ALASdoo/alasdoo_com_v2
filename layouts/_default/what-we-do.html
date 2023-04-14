@@ -25,15 +25,23 @@
 {{ $list := .blocks }}
 {{ $len := (len $list) }}
 {{ range $i, $p := $list }}
-<section id="{{.id}}" class="section what-we-do overflow-hidden" data-aos="slide-left" data-aos-offset="300">
+<section id="{{.id}}" class="section what-we-do overflow-hidden">
   <div class="container">
     <div class="block {{if not (modBool $i 2)}}block-right-image{{end}} row align-items-center g-5">
-      <div class="col-lg-6 {{if not (modBool $i 2)}}order-lg-0{{end}} order-1 pe-lg-0">
+      <div class="col-lg-6 {{if not (modBool $i 2)}}order-lg-0{{end}} order-1 pe-lg-0"
+        data-aos="{{if not (modBool $i 2)}}fade-right{{else}}fade-left{{end}}"
+        data-aos-offset="150"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out-sine">
         <h2 class="section-title h4">{{ .title | markdownify }}</h2>
         <p class="mb-4">{{ .content | markdownify }}</p>
         {{ partial "button" .button }}
       </div>
-      <div class="col-lg-6 gx-5 {{if not (modBool $i 2)}}order-lg-1{{end}} order-0 pe-lg-0">
+      <div class="col-lg-6 gx-5 {{if not (modBool $i 2)}}order-lg-1{{end}} order-0 pe-lg-0"
+        data-aos="{{if not (modBool $i 2)}}fade-left{{else}}fade-right{{end}}"
+        data-aos-offset="150"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out-sine">
         <div class="what-we-do-img">
           {{ partial "video" .anim }}
         </div>
@@ -51,13 +59,23 @@
 {{ if .enable }}
 <section class="section bg-light-blue">
   <div class="container">
-    <div class="row">
+    <div class="row"
+      data-aos="fade-up"
+      data-aos-offset="180"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
       <div class="col-lg-10 text-center mx-auto">
         <h2 class="section-title h3">{{ .title | markdownify }}</h2>
       </div>
       <div class="col-12 text-center pb-4">
         <p>{{.content | markdownify}}</p>
       </div>
+    </div>
+    <div class="row"
+      data-aos="fade-up"
+      data-aos-offset="100"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
       <div class="col-12 text-center">
         {{ range .technology_list }}
         <div class="p-4 d-inline-block">
@@ -78,7 +96,11 @@
 {{ if .enable }}
 <section class="section bg-light-gray" id="approach">
   <div class="container">
-    <div class="row justify-content-center pb-5">
+    <div class="row justify-content-center pb-5"
+      data-aos="fade-up"
+      data-aos-offset="180"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
       <div class="col-xl-10 text-center">
         <h2 class="section-title h3">{{ .title | markdownify }}</h2>
       </div>
@@ -86,7 +108,11 @@
         {{.content | markdownify}}
       </div>
     </div>
-    <div class="row gy-4 pb-5">
+    <div class="row gy-4 pb-5"
+      data-aos="fade-up"
+      data-aos-offset="180"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
       {{ range .workflow_item }}
       <div class="col-lg-4 col-sm-6 d-lg-flex">
         <div class="card shadow bg-white rounded-2 border-0">
@@ -101,7 +127,11 @@
       </div>
       {{ end }}
     </div>
-    <div class="row justify-content-center">
+    <div class="row justify-content-center"
+      data-aos="fade-up"
+      data-aos-offset="80"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
       <div class="col-lg-8 text-center">
         {{.content_bottom | markdownify}}
       </div>
