@@ -3,7 +3,12 @@
 {{ partial "page-header.html" .}}
 
 <section class="section contact pt-2" id="contact">
-  <div class="container">
+  <div class="container"
+  data-aos="fade-up"
+  data-aos-offset="180"
+  data-aos-duration="600"
+  data-aos-delay="400"
+  data-aos-easing="ease-in-out-sine">
     <div class="row">
     {{ with .Params.contacts }}
       <ul class="nav nav-tabs d-flex pb-5" id="contact-tabs" role="tablist">
@@ -17,9 +22,9 @@
         {{range $i, $e := .contact_item}}
         <div class="tab-pane fade {{if eq $i 0 }}show active{{end}}" id="{{.id}}-tab-pane" role="tabpanel" aria-labelledby="{{.id}}-tab" tabindex="0">
           <div class="row">
-            <div class="col-lg-5 gx-5">
+            <div class="col-lg-5 gx-5 contact-person">
               <div class="mb-4 contact-img text-center">
-                {{ partial "image" (dict "Src" .image "Alt" .name "Class" "w-75") }}
+                {{ partial "image" (dict "Src" .image "Alt" .name "Class" "w-60") }}
               </div>
               <h3 class="h4 text-center">{{.name}}</h3>
               <p>{{.content}}</p>

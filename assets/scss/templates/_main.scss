@@ -226,7 +226,7 @@
         display: none;
       }
     }
-    .section-title {
+    .history-container {
       position: relative;
       z-index: 3;
       &:after {
@@ -235,7 +235,7 @@
         height: 25px;
         width: 25px;
         top: 12px;
-        left: -73px;
+        left: -42px;
         border: 5px solid lighten($color-primary, 3);
         background-color: darken($color-primary, 3);
         border-radius: 50%;
@@ -246,9 +246,9 @@
       }
     }
     &.block-right-image {
-      .section-title::after {
+      .history-container::after {
         left: auto;
-        right: -72px;
+        right: -42px;
         @include desktop {
           right: auto;
           left: -50px;
@@ -257,49 +257,49 @@
     }
   }
   &.first-element {
-    .section-title::before {
+    .history-container::before {
       position: absolute;
       content: "";
       height: 1500px;
       width: 5px;
       bottom: calc(100% - 13px);
-      right: -62px;
+      right: -31px;
       // background-color: $light;
       background-color: $white;
       z-index: 1;
     }
   }
   &.last-element {
-    .section-title::before {
+    .history-container::before {
       position: absolute;
       content: "";
       height: 1500px;
       width: 5px;
       top: 15px;
-      left: -63px;
+      left: -31px;
       background-color: $white;
       z-index: 1;
     }
-    &.has-bg-light .section-title::before {
+    &.has-bg-light .history-container::before {
       // background-color: $light;
       background-color: $white;
       left: auto;
-      right: -63px;
+      right: -31px;
     }
   }
 }
 .dark {
   .how-it-works {
     &.first-element {
-      .section-title::before {
+      .history-container::before {
         background-color: #1b2228;
       }
     }
     &.last-element {
-      .section-title::before {
+      .history-container::before {
         background-color: $dark-body-bg;
       }
-      &.has-bg-light .section-title::before {
+      &.has-bg-light .history-container::before {
         background-color: #1b2228;
       }
     }

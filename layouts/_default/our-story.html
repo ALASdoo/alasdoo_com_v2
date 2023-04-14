@@ -3,8 +3,12 @@
 <!-- history -->
 {{ with .Params.history }}
 {{ if .enable }}
-<section class="section text-center pt-5 pb-4">
-  <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
+<section class="section text-center pt-5 pb-4"
+  data-aos="fade-up"
+  data-aos-offset="0"
+  data-aos-duration="600"
+  data-aos-easing="ease-in-out-sine">
+  <h2>{{.subtitle | markdownify}}</h2>
 </section>
 {{ $list := .blocks }}
 {{ $len := (len $list) }}
@@ -13,12 +17,29 @@
   <div class="container">
     <div class="block {{if modBool $i 2}}block-right-image{{end}} row align-items-center g-5">
       <div class="col-lg-6 {{if modBool $i 2}}order-lg-0 text-lg-end{{end}} order-1">
-        <div class="px-0 px-lg-4">
-          <h2 class="section-title h4">{{ .title | markdownify }}</h2>
-          {{ .content | markdownify }}
+        <div class="px-0 px-lg-4 history-container">
+          <h2
+            class="section-title h4"
+            data-aos="{{if modBool $i 2}}fade-right{{else}}fade-left{{end}}"
+            data-aos-offset="150"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out-sine">
+            {{ .title | markdownify }}
+          </h2>
+          <div
+            data-aos="{{if modBool $i 2}}fade-right{{else}}fade-left{{end}}"
+            data-aos-offset="150"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out-sine">
+            {{ .content | markdownify }}
+          </div>
         </div>
       </div>
-      <div class="col-lg-6 {{if modBool $i 2}}order-lg-1{{end}} order-0">
+      <div class="col-lg-6 {{if modBool $i 2}}order-lg-1{{end}} order-0"
+        data-aos="{{if modBool $i 2}}fade-left{{else}}fade-right{{end}}"
+        data-aos-offset="150"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out-sine">
         <div class="px-0 px-lg-4">
           <div class="swiper-slide">
             {{ partial "image" (dict "Src" .image "Alt" .alt "Class" "w-100 rounded-2") }}
@@ -37,7 +58,11 @@
 {{ if .Params.mission.enable }}
 {{ with .Params.mission }}
 <section class="section bg-light-blue" id="mission">
-  <div class="container">
+  <div class="container"
+    data-aos="fade-up"
+    data-aos-offset="180"
+    data-aos-duration="600"
+    data-aos-easing="ease-in-out-sine">
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
@@ -57,11 +82,19 @@
 <section class="section bg-light-gray" id="values">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-8 text-center pb-5">
+      <div class="col-lg-8 text-center pb-5"
+        data-aos="fade-up"
+        data-aos-offset="180"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out-sine">
         <h2 class="h2">{{.title | markdownify}}</h2>
         {{ .content | markdownify }}
       </div>
-      <div class="col-12 mx-auto">
+      <div class="col-12 mx-auto"
+        data-aos="fade-up"
+        data-aos-offset="180"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out-sine">
         <div class="accordion" id="values-list">
           {{ range $i, $e := .values_list }}
           <div class="accordion-item border-0 mb-3 rounded-1">
@@ -97,13 +130,21 @@
 {{ with .Params.specialites }}
 <section class="section bg-light-blue" id="specialites">
   <div class="container">
-    <div class="row justify-content-center pb-5">
+    <div class="row justify-content-center pb-5"
+      data-aos="fade-up"
+      data-aos-offset="180"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
       <div class="col-lg-8 text-center">
         <h2 class="h2">{{.title | markdownify}}</h2>
         {{ .content | markdownify }}
       </div>
     </div>
-    <div class="row gy-4">
+    <div class="row gy-4"
+      data-aos="fade-up"
+      data-aos-offset="180"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
       {{range .specialites_list}}
         {{ partial "card" . }}
       {{end}}

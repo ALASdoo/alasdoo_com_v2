@@ -16,7 +16,11 @@
 
 {{with .relationships}}
 <section class="section">
-  <div class="container">
+  <div class="container"
+    data-aos="fade-up"
+    data-aos-offset="180"
+    data-aos-duration="600"
+    data-aos-easing="ease-in-out-sine">
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
         <h1 class="h2">{{.title | markdownify}}</h1>
@@ -30,7 +34,11 @@
 {{with .industries}}
 <section id="industries" class="section bg-light-gray">
   <div class="container">
-    <div class="row justify-content-center pb-5">
+    <div class="row justify-content-center pb-5"
+      data-aos="fade-up"
+      data-aos-offset="180"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
       <div class="col-lg-10 text-center">
         <h2 class="h3">{{.title | markdownify}}</h2>
       </div>
@@ -38,7 +46,11 @@
         {{.content | markdownify}}
       </div>
     </div>
-    <div class="row justify-content-center">
+    <div class="row justify-content-center"
+      data-aos="fade-up"
+      data-aos-offset="180"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
       {{range .industries_item}}
       <div class="col-sm-6 col-md-4 col-lg-3 p-4 text-center">
         {{ partial "image" (dict "Src" .image "Alt" .alt "Class" "w-50") }}
@@ -53,12 +65,20 @@
 {{with .clients}}
 <section class="section" id="list">
   <div class="container">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center"
+      data-aos="fade-up"
+      data-aos-offset="180"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
       <div class="col-lg-8 text-center">
         <h2 class="text-center h3">{{.title | markdownify}}</h2>
       </div>
     </div>
-    <div class="row justify-content-center align-items-center">
+    <div class="row justify-content-center align-items-center"
+      data-aos="fade-up"
+      data-aos-offset="180"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
       {{range .clients_item}}
       <div class="col-3 p-5">
         {{ partial "image" (dict "Src" .image "Alt" .alt) }}
@@ -72,7 +92,11 @@
 {{with .testimonials}}
 <section class="section bg-light-gray">
   <div class="container">
-    <div class="row justify-content-center pb-4">
+    <div class="row justify-content-center pb-4"
+      data-aos="fade-up"
+      data-aos-offset="180"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
       <div class="col-lg-8 text-center">
         <h3>{{.title | markdownify}}</h3>
         <p>{{.content | markdownify}}</p>
@@ -106,12 +130,20 @@
 {{ with .casestudies }}
 <section class="section" id="case-studies">
   <div class="container">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center"
+      data-aos="fade-up"
+      data-aos-offset="180"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
       <div class="col-lg-8 text-center">
         <h2 class="h2">{{.title | markdownify}}</h2>
       </div>
     </div>
-    <div class="row gy-5 justify-content-center pb-5">
+    <div class="row gy-5 justify-content-center pb-5"
+      data-aos="fade-up"
+      data-aos-offset="180"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
       {{range first 3 (where site.RegularPages "Section" .section)}}
         {{ $button := dict
           "enable" true
@@ -128,7 +160,11 @@
         {{ partial "card" $card }}
       {{end}}
     </div>
-    <div class="row">
+    <div class="row"
+      data-aos="fade-up"
+      data-aos-offset="180"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
       <div class="col-12 text-center">
         {{ partial "button" .button }}
       </div>
