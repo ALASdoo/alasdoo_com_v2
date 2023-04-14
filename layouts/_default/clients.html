@@ -9,8 +9,9 @@
       </div>
       <div class="col-8">
         {{ $video := resources.Get .cta.image }}
-        <video autoplay muted playsinline>
-          <source src="{{$video.RelPermalink}}" type="video/mp4">
+        {{ $image := resources.Get .cta.placeholder }}
+        <video autoplay muted playsinline poster="{{$image.RelPermalink}}">
+          <source src="{{$video.RelPermalink}}" />
         </video>
       </div>
     </div>

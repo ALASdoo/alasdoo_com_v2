@@ -8,7 +8,8 @@ layout: 'clients'
 
 cta:
   content: 'We work for clients from all over the globe, from small businesses and startups to established global corporations.'
-  image: 'images/clients.mp4'
+  image: 'images/clients-map.avif'
+  placeholder: 'images/logo.png'
 
 relationships:
   title: 'Building trusting relationships'
@@ -102,58 +103,58 @@ industries:
   industries_item:
     - title: 'Accounting'
       image: 'images/industries/accounting.svg'
-      alt: "Calculator icon"
+      alt: 'Calculator icon'
     - title: 'Cannabis'
       image: 'images/industries/cannabis.svg'
-      alt: "Hand holding a cannabis leaf icon"
+      alt: 'Hand holding a cannabis leaf icon'
     - title: 'Cryptocurrency'
       image: 'images/industries/cryptocurrency.svg'
-      alt: "Bitcoin icon"
+      alt: 'Bitcoin icon'
     - title: 'Data analysis'
       image: 'images/industries/data-analysis.svg'
-      alt: "Computer screen with charts icon"
+      alt: 'Computer screen with charts icon'
     - title: 'E-commerce'
       image: 'images/industries/E-commerce.svg'
-      alt: "Online store icon"
+      alt: 'Online store icon'
     - title: 'Education'
       image: 'images/industries/education.svg'
-      alt: "Graduation cap and diploma icon"
+      alt: 'Graduation cap and diploma icon'
     - title: 'Finance'
       image: 'images/industries/finance.svg'
-      alt: "Wallet icon"
+      alt: 'Wallet icon'
     - title: 'Health'
       image: 'images/industries/health.svg'
-      alt: "health app on smartphone icon"
+      alt: 'health app on smartphone icon'
     - title: 'Healthcare'
       image: 'images/industries/healthcare.svg'
-      alt: "hospital monitor showing the vital signs icon"
+      alt: 'hospital monitor showing the vital signs icon'
     - title: 'Insurance'
       image: 'images/industries/insurance.svg'
-      alt: "Insurance shield icon"
+      alt: 'Insurance shield icon'
     - title: 'Investment'
       image: 'images/industries/investment.svg'
-      alt: "Money plant starting to grow icon"
+      alt: 'Money plant starting to grow icon'
     - title: 'Manufacturing'
       image: 'images/industries/manufacturing.svg'
-      alt: "Factory crane icon"
+      alt: 'Factory crane icon'
     - title: 'Marketing'
       image: 'images/industries/marketing.svg'
-      alt: "Megaphone with reactions on social media icon"
+      alt: 'Megaphone with reactions on social media icon'
     - title: 'Publishing'
       image: 'images/industries/publishing.svg'
-      alt: "Books on a shelf icon"
+      alt: 'Books on a shelf icon'
     - title: 'Technology'
       image: 'images/industries/technology.svg'
-      alt: "Helds holding a chip icon"
+      alt: 'Helds holding a chip icon'
     - title: 'Telecommunication'
       image: 'images/industries/telecommunication.svg'
-      alt: "Satellite icon"
+      alt: 'Satellite icon'
     - title: 'Tourism'
       image: 'images/industries/tourism.svg'
-      alt: "Laguage icon"
+      alt: 'Laguage icon'
     - title: 'Transport'
       image: 'images/industries/transport.svg'
-      alt: "Lorry icon"
+      alt: 'Lorry icon'
 
 testimonials:
   title: 'What our clients say about us'

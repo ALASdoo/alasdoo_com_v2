@@ -4,23 +4,19 @@ job_nature: 'Full Time'
 category: 'Development'
 ---
 
-_ALAS doo is a web development and quality assurance service company that has out-of-the-box innovation, ingenuity and originality at the heart of its business. We go the extra-mile to build a motivated and diverse pool of extraordinary talents to ensure that our services always go above and beyond our clients’ needs. Quality Assurance is our passion and specialty._
+### WHO ARE WE?
 
-> Driven by these, we are looking to hire a talented Full Stack Software Developer for full-time employment in Novi Sad, Serbia.
->
-> You will be part of a remote team of developers who will work directly with our Danish client and will be helping in the development of a special content management system for easy website creation.
->
-> The project you will be working on is a complex service that has been developed for years and not just a temporary project that will finish in a couple of months. It is crucial that you have excellent communication skills and a good understanding of international business relations that will enable you to communicate clearly by video call, telephone and e-mail. Key parts of the interview will be conducted in English.
->
-> We are opening our doors to talents who are enthusiastic about software architecture and quality of the code, and are looking to build their knowledge and experience in diverse areas.
+ALAS d.o.o. is a Software Development and Quality Assurance outsourcing company with extensive experience in web development, project management, manual and automated testing.
 
-### THE CLIENT
+Aligning the product vision with the technical team is our specialty. Through open communication and a personal approach, we consider every aspect of the project so that we are empowered to assist and consult in every step of the development process.
 
-The Client is a global "Software as a Service" company that makes it easy for Internet users to make their own websites. You will have a unique opportunity to become part of a leading global supplier of websites for private individuals and small businesses. Every month we sign up around 300.000 new users and 5000 new paying customers, but our ambitions go way beyond that. Our goal is to become one of the world's top ten website builder applications and you can be a key player in achieving that goal. Our company foundation is solidly positioned for growth and now we just need you to move forward.
+We thrive in a positive environment where everybody’s heard and understood, people are polite and assertive, and tackle challenges head-on, having fun along the way.
+
+Driven by these, we are looking for You - a reliable and talented Software Developer to join our development department.
 
 ---
 
-### RESPONSIBILITIES
+### WHAT DO WE EXPECT FROM YOU?
 
 - Design and develop new product features backend and frontend
 - Database design and improvements
@@ -28,62 +24,52 @@ The Client is a global "Software as a Service" company that makes it easy for In
 
 ---
 
-### TECHNICAL SKILLS
-
-- C#, .NET
-- Experience with Angular, JavaScript, HTML, CSS
-- SQL and MSSQL(TransactSQL)
-- Experience with Python is plus
-- Experience working with version control systems such as SVN
-- Experience running a real world website with at least 50 000 visitors per day with a large database is an advantage
-- Great communication skills: remote and physical
-- A grasp of international business relations and cross-cultural competence
-- Excellent Team Player
-
----
-
 ### WHAT QUALIFIES YOU?
 
-- Education: A bachelor’s degree in computer science, information systems or related fields.
-- Language: Aspirants must have an excellent grasp of oral and written English.
-- Experience: 1+ years direct experience in a professional capacity. We will consider students of final year with project work experience
-
-PS: Aspirants will be considered even when their qualification and skills don't perfectly match these.
-
----
-
-### BENEFITS
-
-**ALAS doo is one Energetic and Exciting Workplace**
-
-- An energetic team of go-getters at ALAS doo, always excited about breaking new bounds.
-- Stable and on-going employment with a steady stream of exciting projects.
-- A refreshing work environment with a yard and plenty chill-out areas.
-- An easily accessible work place by car, bus, bike or foot.
-
-**ALAS doo cares about its Talents**
-
-- Your private time is safe with our 8 hour work day and no forced overtime.
-- An attractive pay check that keeps you motivated.
-
-**ALAS doo’s mouthwatering Perks**
-
-- Enjoy sponsored lunch and delicious coffee at work.
-- Enjoy weekly visits from a massage therapist.
-- Enjoy customized bonus you can use as you wish (gym/private health insurance, etc).
+- 1+ years direct experience in a professional capacity
+- Experience with C#, .NET
+- Experience with Angular, JavaScript, HTML, CSS
+- Knowledge of SQL and MSSQL (TransactSQL)
+- Experience in working with version control systems such as SVN
+- Fluency in English
+- Great communication skills
+- Collaborative team spirit
+- A grasp of international business relations and cross-cultural competence
+- A bachelor’s degree in computer science, information systems or related fields
 
 ---
 
-### Are you the one we have been looking to hire?
+### WHAT QUALIFIES US?
 
-Take on the ALAS doo challenge!
+#### ALAS is one Energetic and Exciting Workplace
 
-Join the team today!
+- Stable and on-going employment with a steady stream of exciting duties
+- An easily accessible workplace by car, bus, bike or foot
+- A refreshing work environment with a yard and plenty chill-out areas
 
-> Send your CV to: <jobs@alasdoo.com>
+#### ALAS cares about its Talents
+
+- Your private time is safe with our 8 hour work day and no forced overtime
+- An attractive pay check that keeps you motivated
+- A fertile environment for development and growth
+
+#### ALAS mouthwatering Perks
+
+- Enjoy sponsored lunch and delicious coffee at work
+- Enjoy weekly visits from a massage therapist
+- Enjoy a customized bonus you can use as you wish (gym/private health insurance, etc.)
 
 ---
 
-### APPLICATION DEADLINE
+### Are we the perfect match?
 
-We perform interviews as applications come in and encourage you to apply as soon as possible, if you are interested.
+If You think so, simply send your resume to <jobs@alasdoo.com> and leave the rest to us.
+
+---
+
+### WHEN TO APPLY?
+
+As soon as possible!
+We conduct interviews on a first-come, first-served basis, so be fast & fearless!
+
+Only short-listed candidates will be invited for an interview. We can’t wait to meet You!
