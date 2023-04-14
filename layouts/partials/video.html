@@ -1,4 +1,4 @@
 <video autoplay muted playsinline>
-  <source src="{{(resources.Get .avif).RelPermalink}}" />
-  <source src="{{(resources.Get .mp4).RelPermalink}}" type="video/mp4" />
+  {{ if .avif }}<source src="{{(resources.Get .avif).RelPermalink}}" />{{ end }}
+  {{ if .mp4 }}<source src="{{(resources.Get .mp4).RelPermalink}}" type="video/mp4" />{{ end }}
 </video>
