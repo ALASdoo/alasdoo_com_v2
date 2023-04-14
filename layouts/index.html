@@ -48,14 +48,24 @@
 {{ if .enable }}
 <section class="section bg-light-gray">
   <div class="container">
-    <div class="row justify-content-center">
+    <div
+      class="row justify-content-center"
+      data-aos="fade-up"
+      data-aos-offset="180"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
       <div class="col-lg-8 text-center mb-5">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
         <h3 class="h2">{{.title | markdownify}}</h3>
         <p>{{ .content | markdownify }}</p>
       </div>
     </div>
-    <div class="row gy-5 services-cards">
+    <div
+      class="row gy-5 services-cards"
+      data-aos="fade-up"
+      data-aos-offset="180"
+      data-aos-duration="400"
+      data-aos-easing="ease-in-out-sine">
       {{ range .services_item }}
         {{ partial "card" . }}
       {{ end }}
@@ -80,7 +90,11 @@
 {{ if .Params.clients.enable }}
 {{ with .Params.clients }}
 <section class="section pb-5" id="clients">
-  <div class="container">
+  <div class="container"
+    data-aos="fade-up"
+    data-aos-offset="180"
+    data-aos-duration="600"
+    data-aos-easing="ease-in-out-sine">
     <div class="row justify-content-center">
       <div class="col-lg-10 text-center">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
@@ -101,12 +115,21 @@
 {{ with .Params.case_studies }}
 <section class="section pt-0" id="case-studies">
   <div class="container">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center"
+      data-aos="fade-up"
+      data-aos-offset="100"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
       <div class="col-xl-8 text-center">
         <h2 class="h3">{{.title | markdownify}}</h2>
       </div>
     </div>
-    <div class="row gy-lg-0 gy-4">
+    <div class="row gy-lg-0 gy-4"
+      data-aos="fade-up"
+      data-aos-offset="50"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine"
+      data-aos-delay="400">
       {{range first 3 (where site.RegularPages "Section" .section)}}
         {{ $button := dict
           "enable" true
@@ -163,7 +186,10 @@
 <section class="section bg-light-gray" id="jobs">
   <div class="container">
     <div class="row gx-5 align-items-center">
-      <div class="col-xl-6 pb-4">
+      <div class="col-xl-6 pb-4"
+        data-aos="fade-right"
+        data-aos-offset="180"
+        data-aos-duration="600">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
         <h3 class="h2">{{.title | markdownify}}</h3>
         {{ .content | markdownify }}
@@ -174,7 +200,10 @@
         </div>
       </div>
       <div class="col-xl-6 pb-4">
-        <div class="swiper single-slider">
+        <div class="swiper single-slider"
+          data-aos="fade-left"
+          data-aos-offset="180"
+          data-aos-duration="600">
           <div class="swiper-wrapper">
             {{range .image_item}}
             <div class="swiper-slide">
@@ -197,13 +226,22 @@
 {{ with .Params.articles }}
 <section class="section" id="articles">
   <div class="container">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center"
+      data-aos="fade-up"
+      data-aos-offset="100"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
       <div class="col-xl-10 text-center">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
         <h3 class="h2">{{.title | markdownify}}</h3>
       </div>
     </div>
-    <div class="row gy-lg-0 gy-4 pb-5">
+    <div class="row gy-lg-0 gy-4 pb-5"
+      data-aos="fade-up"
+      data-aos-offset="50"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine"
+      data-aos-delay="400">
       {{range first 3 (where site.RegularPages "Section" .section)}}
         {{ $button := dict
           "enable" true
@@ -219,7 +257,12 @@
         {{ partial "card" $card }}
       {{end}}
     </div>
-    <div class="row justify-content-center">
+    <div class="row justify-content-center"
+      data-aos="fade-up"
+      data-aos-offset="50"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine"
+      data-aos-delay="400">
       <div class="col-xl-8 text-center">
         {{ partial "button" .button }}
       </div>

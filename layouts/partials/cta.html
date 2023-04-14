@@ -1,9 +1,26 @@
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-lg-8 text-center">
-      <h3 class="h4">{{.title | markdownify}}</h3>
-      <p>{{.content | markdownify}}</p>
-      <div class="pt-4">
+      <h3
+        class="h4"
+        data-aos="fade-up"
+        data-aos-offset="100"
+        data-aos-duration="400"
+        data-aos-easing="ease-in-out-sine">
+        {{.title | markdownify}}
+      </h3>
+      <p
+        data-aos="fade-up"
+        data-aos-offset="50"
+        data-aos-duration="400"
+        data-aos-delay="400"
+        data-aos-easing="ease-in-out-sine">{{.content | markdownify}}</p>
+      <div class="pt-4"
+        data-aos="fade-up"
+        data-aos-offset="50"
+        data-aos-duration="400"
+        data-aos-delay="800"
+        data-aos-easing="ease-in-out-sine">
         {{ partial "button" .button }}
       </div>
     </div>
