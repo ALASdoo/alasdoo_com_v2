@@ -21,6 +21,8 @@ keywords:
 
 Company culture is all about the way a company treats its employees and the overall atmosphere and values of the company. It includes how employees interact with each other, the explicit and implicit rules they follow, and how the company supports both their professional and personal growth. A strong company culture should reflect the core values of the organization and attract people who don’t necessarily have the same beliefs and backgrounds, but share common goals and ethical principles.
 
+SLIKA MARTA TORTA
+
 ## How has our company culture evolved?
 
 Think of company culture as the driving force behind an organization, like the powerful engine that fuels a sleek sports car. Neglecting to cultivate and sustain a culture that embodies your company's vision and aspirations is akin to neglecting the engine of that car. Without proper attention and upkeep, both will sputter and stall, leaving you stranded on the side of the road. To keep your company soaring, it's crucial to actively ignite and rev up a culture that mirrors your company's objectives and beliefs.
