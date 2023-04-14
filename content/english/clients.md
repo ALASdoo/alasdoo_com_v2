@@ -8,7 +8,9 @@ layout: 'clients'
 
 cta:
   content: 'We work for clients from all over the globe, from small businesses and startups to established global corporations.'
-  image: 'images/clients-map.avif'
+  anim:
+    avif: 'images/clients-map.avif'
+    mp4: 'images/clients-map.mp4'
   placeholder: 'images/logo.png'
 
 relationships:

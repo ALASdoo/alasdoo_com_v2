@@ -4,6 +4,8 @@ $alas-color-blue: #00A0A3;
 
 video {
   max-inline-size: inherit;
+  max-inline-size: -moz-available;
+  max-inline-size: -webkit-fill-available;
 }
 .navigation {
   min-height: 85px;

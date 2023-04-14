@@ -27,7 +27,9 @@ what_we_do:
   blocks:
     - title: 'Augmenting development teams with experienced experts'
       id: 'dev'
-      image: 'images/dev_anim.gif'
+      anim:
+        avif: 'images/dev_anim.avif'
+        mp4: 'images/dev_anim.mp4'
       alt: "Developer working on laptop, with signs for CSS, HTML, JAVA and JS around him."
       content: 'We can provide both staff augmentation and dedicated teams, depending on your needs.
 
@@ -47,7 +49,9 @@ what_we_do:
 
     - title: 'Providing full software quality assurance'
       id: 'qa'
-      image: 'images/qa_anim.gif'
+      anim:
+        avif: 'images/qa_anim.avif'
+        mp4: 'images/qa_anim.mp4'
       alt: "Woman doing manual testing on tablet while laptop with robot hand with magnifying glass is doing automation testing, finding a bug in the code."
       content: 'Worldwide software development teams recognize our brand, [WeDoQA](https://www.wedoqa.com), as a reputable international supplier of QA services. Our experience with a variety of technologies guarantees that you have access to the finest options for any type of project.
 
@@ -65,7 +69,9 @@ what_we_do:
 
     - title: 'Consulting and project management for full empowerment'
       id: 'pm'
-      image: 'images/pm_anim.gif'
+      anim:
+        avif: 'images/pm_anim.avif'
+        mp4: 'images/pm_anim.mp4'
       alt: "Project manager consulting a client, showing him data presented through graphs and charts."
       content: 'In the fast pace of the IT industry, we are devoted to helping our clients use their resources as efficiently as possible.
 
