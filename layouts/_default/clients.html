@@ -3,9 +3,9 @@
 {{with .Params}}
 <section class="section bg-light-gray">
   <div class="container">
-    <div class="row text-center">
-      <div class="col-4">
-        <h3>{{.cta.content | markdownify}}</h3>
+    <div class="row">
+      <div class="col-4 align-items-center d-flex">
+        <div class="h5 mb-0">{{.cta.content | markdownify}}</div>
       </div>
       <div class="col-8">
         {{ partial "video" .cta.anim }}

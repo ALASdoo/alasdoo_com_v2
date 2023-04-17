@@ -1,17 +1,28 @@
 {{ define "main" }}
 
 {{with .Params.hero}}
-<section class="section">
+<section class="section bg-light-blue pb-5 pt-5">
   <div class="container">
-    <div class="row g-6 align-items-center justify-content-between">
-      <div class="col-lg-6">
-        <div class="pe-0 pe-lg-5">
-          <h1 class="section-title h2">{{.title | markdownify}}</h1>
-          {{ partial "button" .button }}
+    <div class="row">
+      <div class="col-6 d-flex align-items-center">
+        <div>
+          <div class="h5">{{.title | markdownify}}</div>
+          <div class="pt-4">
+            {{ partial "button" .button }}
+          </div>
         </div>
       </div>
-      <div class="col-lg-6">
-        {{ partial "image" (dict "Src" .image "alt" .alt "Class" "w-100 rounded-1") }}
+      <div class="col-6">
+        <div class="swiper single-slider">
+          <div class="swiper-wrapper pt-4">
+            {{range .image_item}}
+            <div class="swiper-slide">
+              {{ partial "image" (dict "Src" .image "Alt" .alt "Class" "rounded-2") }}
+            </div>
+            {{end}}
+          </div>
+        </div>
+        <div class="swiper-pagination swiper-pagination-outer"></div>
       </div>
     </div>
   </div>
@@ -21,9 +32,9 @@
 {{with .Params.culture}}
 <section id="culture" class="section">
   <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-6"
-        data-aos="fade-right"
+    <div class="row text-center justify-content-center">
+      <div class="col-lg-10"
+        data-aos="fade-up"
         data-aos-offset="180"
         data-aos-duration="600"
         data-aos-easing="ease-in-out-sine">
@@ -31,21 +42,18 @@
         <h3 class="h2">{{.title | markdownify}}</h3>
         {{ .content | markdownify }}
       </div>
+    </div>
+    <div class="row"
+      data-aos="fade-up"
+      data-aos-offset="180"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
       <div class="col-lg-6"
-        data-aos="fade-left"
-        data-aos-offset="180"
-        data-aos-duration="600"
-        data-aos-easing="ease-in-out-sine">
-        <div class="swiper single-slider">
-          <div class="swiper-wrapper">
-            {{range .image_item}}
-            <div class="swiper-slide">
-              {{ partial "image" (dict "Src" .image "Alt" .alt "Class" "rounded-2") }}
-            </div>
-            {{end}}
-          </div>
-        </div>
-        <div class="swiper-pagination swiper-pagination-outer"></div>
+        >
+        {{ .content1 | markdownify }}
+      </div>
+      <div class="col-lg-6">
+        {{ .content2 | markdownify }}
       </div>
     </div>
   </div>
@@ -143,7 +151,16 @@
       <div class="col-lg-8 text-center">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
         <h3 class="h2">{{.title | markdownify}}</h3>
-        {{ .content | markdownify }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        {{ .content1 | markdownify }}
+      </div>
+      <div class="col-6">
+        {{ .content2 | markdownify }}
+      </div>
+    </div>
       </div>
     </div>
   </div>

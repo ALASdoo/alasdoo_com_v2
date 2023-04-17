@@ -1,32 +1,12 @@
 ---
 title: "Careers"
 subtitle: ""
-# meta description
-description: "This is meta description"
+description: ""
 draft: false
 layout: "careers"
 
-
 hero:
   title: "We are always looking for individuals that are passionate, kind, and joyful in their pursuit of success."
-  image: "images/about.jpg"
-  alt: ""
-  button:
-    enable : true
-    type: 'primary'
-    label : "Are we sharing the same values?"
-    link : "/our-story#values"
-
-culture:
-  subtitle: "Culture"
-  title: "We take great pride in our culture"
-  content: "We are not corporate. We were founded as a small family company, and although we have significantly grown, our business approach still integrates family values.
-
-
-  With our personal approach we help employees achieve their full potential by taking into account strengths and aspirations of each worker, finding the right place in the company for them, and supporting and guiding them in their journey of professional self&#8209;actualization.
-
-
-  Our employees are participants in decision making, as their opinions, initiatives, and ideas are always heard and welcomed. Constructive suggestions can promptly come to life with our flat hierarchy and short decision making paths."
   image_item:
   - image: "images/home-gallery/01.jpg"
     alt: "Workshop about testing in a pleasent homely meeting space."
@@ -49,9 +29,16 @@ culture:
   - image: "images/home-gallery/10.jpg"
     alt: "Two young women laughing and driving in a golf cart at a company event."
   button:
-    enable : false
-    label : "Read about why culture metters"
-    link : "articles/why-culture-metters"
+    enable : true
+    type: 'primary'
+    label : "Are we sharing the same values?"
+    link : "/our-story#values"
+
+culture:
+  subtitle: "Culture"
+  title: "We take great pride in our culture"
+  content1: "We are not corporate. We were founded as a small family company, and although we have significantly grown, our business approach still integrates family values. Our employees are participants in decision making, as their opinions, initiatives, and ideas are always heard and welcomed."
+  content2: "With our personal approach we help employees achieve their full potential by taking into account strengths and aspirations of each worker, finding the right place in the company for them, and supporting and guiding them in their journey of professional self&#8209;actualization."
 
 benefits:
   subtitle: "Benefits"
@@ -125,10 +112,8 @@ process:
 onboarding:
   subtitle: "Onboarding"
   title: "Support from day one"
-  content: "During the onboarding process, you won't be alone because you'll be surrounded by experienced coworkers who are eager to assist and share their knowledge. Additionally, you will be assigned an onboarding buddy who will guide you through the process and is always accessible for feedback, consultation, and assistance.
-
-
-  General onboarding to the company aims to facilitate the process of a coworker’s introduction to the protocols, rules, and projects of the company on the one hand, and on the other, to provide feedback on a candidate's capabilities to follow the team dynamics and project requirements."
+  content1: "During the onboarding process, you won't be alone because you'll be surrounded by experienced coworkers who are eager to assist and share their knowledge. Additionally, you will be assigned an onboarding buddy who will guide you through the process and is always accessible for feedback, consultation, and assistance."
+  content2: "General onboarding to the company aims to facilitate the process of a coworker’s introduction to the protocols, rules, and projects of the company on the one hand, and on the other, to provide feedback on a candidate's capabilities to follow the team dynamics and project requirements."
 
 jobs:
   title: "Current job openings"
