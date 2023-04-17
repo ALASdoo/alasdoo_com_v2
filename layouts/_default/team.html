@@ -1,33 +1,49 @@
 {{define "main"}}
 
 {{with .Params}}
-<section class="section">
+<section class="section pt-5 pb-5">
   <div class="container">
-    <div class="row text-center">
-      <h2 class="h3">{{.hero}}</h2>
+    <div class="row">
+      <div class="col-6 d-flex align-items-center">
+        <div>
+          <div class="h5">{{.hero | markdownify}}</div>
+          <!-- <div class="pt-4">
+            {{ partial "button" .button }}
+          </div> -->
+        </div>
+      </div>
+      <div class="col-6">
+        {{ partial "image" (dict "Src" .hero_image "Alt" .alt "Class" "rounded-2") }}
+      </div>
     </div>
   </div>
-  <div class="banner" {{ partial "bg-image" (dict "Src" .hero_image "Position" "top center" "Webp" false) | safeHTMLAttr }}></div>
+  <!-- <div class="banner" {{ partial "bg-image" (dict "Src" .hero_image "Position" "top center" "Webp" false) | safeHTMLAttr }}></div> -->
 </section>
 
 <section class="section bg-light-gray">
   <div class="container">
-    <div class="row gx-5 align-items-center">
-      <div class="col-xl-6"
-        data-aos="fade-right"
+    <div class="row text-center justify-content-center">
+      <div class="col-lg-10"
+        data-aos="fade-up"
         data-aos-offset="180"
         data-aos-duration="600"
         data-aos-easing="ease-in-out-sine">
         <h2 class="subtitle">{{.intro.title | markdownify}}</h2>
         <h3 class="h2">{{.intro.quality.title | markdownify}}</h3>
-        {{.intro.quality.content | markdownify}}
+        {{ .intro.quality.content | markdownify }}
       </div>
-      <div class="col-xl-6"
-        data-aos="fade-left"
-        data-aos-offset="180"
-        data-aos-duration="600"
-        data-aos-easing="ease-in-out-sine">
-        {{ partial "image" (dict "Src" .intro.quality.image "Alt" .alt "Class" "rounded-2") }}
+    </div>
+    <div class="row"
+      data-aos="fade-up"
+      data-aos-offset="180"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
+      <div class="col-lg-6"
+        >
+        {{ .intro.quality.content1 | markdownify }}
+      </div>
+      <div class="col-lg-6">
+        {{ .intro.quality.content2 | markdownify }}
       </div>
     </div>
   </div>
