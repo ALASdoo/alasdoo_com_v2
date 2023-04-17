@@ -23,7 +23,7 @@ At ALAS doo, we understand the importance of technology in today's fast-paced bu
 
 One of the main goals of outsourcing IT services is obviously to boost efficiency and reduce costs, but there are other underlying benefits to take into account.
 
-{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/why-outsource-inphographic.jpg" alt="" >}}
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/why-outsource-inphographic.jpg" alt="colorful circle diagram of outsourcing benefits: focus on key competences; cost efficiency; the best talent; global access; latest trends, methods and tools; improved efficiency; flexibility; preventing burnout" >}}
 
 ## 1. Enabling focus on key competences
 
