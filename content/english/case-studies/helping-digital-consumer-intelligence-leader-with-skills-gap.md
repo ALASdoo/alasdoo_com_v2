@@ -4,7 +4,7 @@ draft: false
 title: 'Helping digital consumer intelligence leader with skills gap'
 subtitle: 'Accelerating the process from ideation to realization'
 image: 'images/case-studies/Brandwatch.jpg'
-alt: "A man looking at a social media data charts on a tablet."
+alt: 'A man looking at a social media data charts on a tablet.'
 industry: 'SOCIAL MEDIA ANALYTICS'
 keywords:
   [
@@ -13,7 +13,10 @@ keywords:
     'Quality assurance',
     'Testing environment',
     'Test framework',
-    'Cypress and Selenium',
+    'Cypress',
+    'API',
+    'Automated testing',
+    'Selenium',
     'Frontend development',
     'Backend development',
   ]

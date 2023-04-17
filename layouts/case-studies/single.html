@@ -6,7 +6,7 @@
       <div class="case-study col-lg-8 col-md-10">
         {{ partial "image" (dict "Src" .Params.image "Alt" "" "Class" "rounded-2 mb-4") }}
 
-        <p class="">{{.Params.industry | markdownify}}</p>
+        <p class="opacity-50">{{.Params.industry | markdownify}}</p>
         <h1 class="h1 text-primary mb-2">{{.Title | markdownify}}</h1>
         <p class="h6 opacity-75">{{.Params.subtitle | markdownify}}</p>
         <div class="content pt-3">
@@ -26,12 +26,12 @@
         <h2 class="h3">Related case studies</h2>
       </div>
     </div>
-    <div class="row">
+    <div class="row justify-content-center">
       {{ range . }}
         {{ $button := dict
           "enable" true
           "type" "link-stretched"
-          "label" "Read more"
+          "label" "Read case study"
           "link" .RelPermalink
         }}
         {{ $card := dict

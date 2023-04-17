@@ -8,17 +8,14 @@ author: 'Tibor Dudjik'
 description: '' # meta description
 keywords:
   [
-    'Outsourcing',
+    'Outsourcing ',
+    'QA',
     'IT services',
-    'Cost efficiency (Reduce costs)',
+    'Software quality assurance',
+    'Cost efficiency',
+    'Offshore',
     'Global access',
-    'Reliable vendor',
-    'QA process',
-    'Highest standards',
-    'Technical skills',
-    'Cultural differences',
-    'Time to market',
-    'Collaboration',
+    'Skills gap',
   ]
 ---
 

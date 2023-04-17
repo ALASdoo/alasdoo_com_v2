@@ -7,17 +7,16 @@ author: 'Marta Gajin'
 description: '' # meta description
 keywords:
   [
+    'Outsourcing',
+    'QA',
+    'IT services',
     'Software quality assurance',
-    '(Outsourcing) QA',
+    'Cost efficiency',
+    'Offshore',
     'Software development process',
-    'QA process',
-    '(In-house) QA team',
     'Product quality',
     'Customer satisfaction',
     'Software requirements',
-    'Reduce costs',
-    'Collaboration',
-    'Communication (channels)',
   ]
 ---
 

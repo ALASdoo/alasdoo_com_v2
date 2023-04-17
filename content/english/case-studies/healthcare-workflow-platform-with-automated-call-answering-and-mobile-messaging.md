@@ -4,10 +4,16 @@ draft: false
 title: 'Healthcare workflow platform with automated call answering and mobile messaging'
 subtitle: 'Ensuring efficient communication and improved patient outcomes'
 image: 'images/case-studies/CareStratus.jpg'
-alt: "Healthcare proffessionals looking at a workflow platform on a tablet."
+alt: 'Healthcare proffessionals looking at a workflow platform on a tablet.'
 industry: 'HEALTHCARE'
 keywords:
-  ['Healthcare', 'User experience', 'Confirmatory testing', 'Patient outcomes']
+  [
+    'Healthcare',
+    'User experience',
+    'Confirmatory testing',
+    'Patient outcomes',
+    'Confidentiality',
+  ]
 ---
 
 ## About the client

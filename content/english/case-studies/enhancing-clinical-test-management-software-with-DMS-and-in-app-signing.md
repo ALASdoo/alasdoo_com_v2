@@ -4,17 +4,21 @@ draft: false
 title: 'Enhancing clinical test management software with DMS and in-app signing'
 subtitle: 'Employing automated and manual testing to ensure efficient and reliable software for medical and clinical studies'
 image: 'images/case-studies/SureClinical.jpg'
-alt: "Clinical study being conducted in a lab."
+alt: 'Clinical study being conducted in a lab.'
 industry: 'HEALTHCARE'
 keywords:
   [
     'Healthcare',
     'Medical and clinical studies',
     'Clinical management software',
-    'Automated and manual testing',
-    'Java, JUnit, Selenium, and Appium',
+    'Automated testing',
+    'Java',
+    'JUnit',
+    'Selenium',
+    'Appium',
     'Online signature feature',
     'Confidentiality',
+    'Patient outcomes',
   ]
 ---
 

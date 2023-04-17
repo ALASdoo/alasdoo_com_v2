@@ -7,16 +7,12 @@ author: 'Vilmos Somogyi'
 description: '' # meta description
 keywords:
   [
-    'Outsourcing provider',
+    'Outsourcing ',
+    'QA',
     'IT services',
-    'Qualifications',
-    'Education',
-    'Technical skills',
-    'Cultural differences',
-    'Time zones',
-    'Collaboration',
-    'Communication (channels)',
+    'Software quality assurance',
     'Cost efficiency',
+    'Offshore',
     'Partnership',
   ]
 ---

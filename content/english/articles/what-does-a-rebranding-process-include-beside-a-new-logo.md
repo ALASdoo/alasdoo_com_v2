@@ -7,15 +7,13 @@ author: 'Tajana Somogyi'
 description: '' # meta description
 keywords:
   [
+    'Company culture',
+    'Hiring process',
+    'Personal growth',
+    'Core values',
     'Rebranding',
     'Logo',
     'Visual identity',
-    'Core values',
-    'Reviews',
-    'Research',
-    'Hiring process',
-    'Company culture',
-    'Feedback',
   ]
 ---
 

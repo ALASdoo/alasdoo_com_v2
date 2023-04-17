@@ -9,11 +9,8 @@ keywords:
   [
     'Company culture',
     'Core values',
-    'Physical workspace',
-    'Work environment',
     'Hiring process',
     'Personal growth',
-    'Feedback',
     'Workspace',
     'Brand building',
   ]

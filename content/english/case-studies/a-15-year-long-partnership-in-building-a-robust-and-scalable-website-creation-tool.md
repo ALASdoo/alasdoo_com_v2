@@ -4,17 +4,17 @@ draft: false
 title: 'A 15-year-long partnership in building a robust and scalable website creation tool'
 subtitle: 'Supporting a website builder with backend development, testing, and project management services'
 image: 'images/case-studies/SimpleSite.jpg'
-alt: "Laptop with website building elements on the screen"
-industry: 'TECHNOLOGY, INFORMATION AND INTERNET'
+alt: 'Laptop with website building elements on the screen'
+industry: 'INFORMATION AND INTERNET'
 keywords:
   [
     'Website-building tool',
-    'Automated test cases',
     'Backend development',
     'DevOps services',
     'Frontend development',
     'Project management',
     'Katalon',
+    'Automated testing',
   ]
 ---
 

@@ -7,16 +7,13 @@ author: 'Jelena Obradovic'
 description: '' # meta description
 keywords:
   [
+    'Company culture',
+    'Core values',
+    'Hiring process',
+    'Personal growth',
     'Employer branding',
     'Values fit',
     'Culture contribution',
-    'Hiring process',
-    'Onboarding process',
-    'Job candidate',
-    'Feedback',
-    'Company culture',
-    'Values',
-    'Reviews',
   ]
 ---
 

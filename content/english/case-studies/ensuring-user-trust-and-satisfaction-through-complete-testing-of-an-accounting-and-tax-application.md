@@ -4,19 +4,21 @@ draft: false
 title: 'Ensuring user trust and satisfaction through complete testing of an accounting & tax application'
 subtitle: 'Design, functionality, and transaction testing for error-free cash flow and invoicing'
 image: 'images/case-studies/Coconut.jpg'
-alt: "A woman doing her finances in an app."
+alt: 'A woman doing her finances in an app.'
 industry: 'FINANCE'
 keywords:
   [
     'Finance',
     'Tax app',
     'User experience',
-    'Security testing',
+    'Security ',
     'Stress testing',
     'Java',
     'JUnit',
     'Selenium',
     'Appium',
+    'KYC',
+    'Automated testing',
   ]
 ---
 
