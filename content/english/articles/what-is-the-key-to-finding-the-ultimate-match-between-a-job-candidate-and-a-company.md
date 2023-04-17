@@ -31,7 +31,7 @@ Employer branding is the process of creating and maintaining a positive image of
 
 Employer branding is also closely linked to recruitment. At Alas, we understand the importance of employer branding and have made it a top priority in our recruitment and retention strategies.
 
-{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/employer-branding-infographic.png" alt="" >}}
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/employer-branding-infographic.png" alt="colorful circle diagram with 4 company practices employer branding is crucial for: recruitment strategy (recognising talent, values-fit, culture-contribution, onboarding), social media (creating positive image, communicating values and vision, brand's voice), retainment methods (learning opportunities, support in professional growth, regular feedback, improvements in organization), company culture (mission, vision, values, people)." >}}
 
 One of the ways we have built our employer brand is by clearly communicating our values and vision to our employees and potential candidates. It was achieved by being transparent about what it's like to work at Alas and sharing this information as a part of our marketing strategy.
 
@@ -90,7 +90,7 @@ The ‘About us’ and ‘What we do’ pages serve as a window into the heart o
 
 Exploring a company's social media profiles is like peeking behind the curtain and getting a glimpse into its unique character. By perusing its pages on networks like Instagram, Facebook, and LinkedIn, you can gain a deeper understanding of the brand’s personality, and the way it communicates with its audience. This information can give you a sense of the work environment and the values that guide the company, helping you determine if they align with your own.
 
-{{< image title="TODO" w="1200" o="webp q100" p="center" c="img-fluid shadow rounded-1" src="images/helloworld.png" alt="alter-text" >}}
+{{< image title="TODO" w="1200" o="webp q100" p="center" c="img-fluid shadow rounded-1" src="images/helloworld.png" alt="" >}}
 
 ### Learn about salaries and reviews
 
