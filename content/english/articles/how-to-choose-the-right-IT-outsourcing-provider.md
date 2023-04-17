@@ -59,7 +59,7 @@ If you outsource to Serbia, the communication is guaranteed to be handled by pro
 
 National and organizational culture differences can play a role in the offshoring process. When outsourcing to a foreign country, especially one in a vastly different region from your own, you will inevitably have to contend with cultural differences that may or may not have a detrimental effect on the performance of the business process itself. These cultural differences can manifest in different ways, from excessive religious holidays to language barriers.
 
-{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/cultural-differences.svg" alt="" >}}
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/cultural-differences.svg" alt="illustration of business people of different ethnicity" >}}
 
 Determining the risk points can be as easy as checking which non-working holidays are there in the country a managed service is from, or making sure the provider has a high level of multicultural competence and a positive attitude toward cultural differences by checking if they have multicultural clients or just a small region they deliver services for.
 
@@ -113,7 +113,7 @@ You will inevitably have to lose some control, but the risk is lowered when you 
 
 Regular check-ins can help alleviate worries about a lack of control. Vendor reports will give you an overview of their workflow and overall project progress. Regular status meetings should be a standard feature of any engagement.
 
-{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/video-call-meeting.jpg" alt="" >}}
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/video-call-meeting.jpg" alt="woman having an online conference call with four people on the laptop screen" >}}
 
 Good communication practice also means being ultra-responsive, meaning that the outsourcing provider is able to meet at very short notice should an issue arise.
 
