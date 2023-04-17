@@ -59,7 +59,7 @@ Furthermore, the possibility of product failure will decrease, resulting in proj
 
 Incorporating QA into the software development process helps create a more reliable and trustworthy product. Users are more likely to trust a product that is bug-free, doesn’t crash, and is meticulous about privacy and data security.
 
-{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/customer-satisfaction.jpg" alt="" >}}
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/customer-satisfaction.jpg" alt="Two smiling young women using an app on the laptop and drinking tea and coffee in a caffee shop." >}}
 
 Customer satisfaction is the key. When the end user is satisfied, he is likely to share his feelings with others, thus bringing you more users.
 
@@ -104,7 +104,7 @@ However, there are also potential drawbacks to outsourcing QA. One of the main d
 
 An effective QA process runs along all stages of the software development lifecycle, from requirements gathering to maintenance. These processes and procedures can include the 4 general steps:
 
-{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/process.png" alt="" >}}
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/process.png" alt="Progress diagram for steps to develop QA processes and procedures: 1. requirements and QA analyses; 2. QA process (re)design; software testing; monitoring and improvement." >}}
 
 #### 2.1. Analysis of software requirements and existing QA process
 
