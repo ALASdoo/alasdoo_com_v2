@@ -3,7 +3,7 @@ date: '2021-07-11'
 draft: false
 title: 'How to build a culture that matches your brand?'
 image: 'images/articles/company-culture.jpg'
-alt: "Three collegues having a meeting and loughing in a colorful meeting room."
+alt: 'Three collegues having a meeting and loughing in a colorful meeting room.'
 author: 'Aleksandra Krstic'
 description: '' # meta description
 keywords:
@@ -21,7 +21,7 @@ keywords:
 
 Company culture is all about the way a company treats its employees and the overall atmosphere and values of the company. It includes how employees interact with each other, the explicit and implicit rules they follow, and how the company supports both their professional and personal growth. A strong company culture should reflect the core values of the organization and attract people who don’t necessarily have the same beliefs and backgrounds, but share common goals and ethical principles.
 
-{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/kolaz.jpg" alt="photo collage with the company tagline "More personal, always." representing a vibrant company culture: people eating, drinking cocktails, playing board games and video games." >}}
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/kolaz.jpg" alt="photo collage with the company tagline 'More personal, always.' representing a vibrant company culture: people eating, drinking cocktails, playing board games and video games." >}}
 
 ## How has our company culture evolved?
 
