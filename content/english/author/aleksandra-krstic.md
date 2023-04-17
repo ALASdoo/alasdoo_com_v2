@@ -1,7 +1,6 @@
 ---
 title: 'Aleksandra Krstic'
 image: 'images/team/anja.jpg'
-alt: "Aleksandra Krstic"
 position: 'QA Engineer'
 ---
 
