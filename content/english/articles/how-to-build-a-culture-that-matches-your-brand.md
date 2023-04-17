@@ -2,7 +2,7 @@
 date: '2021-07-11'
 draft: false
 title: 'How to build a culture that matches your brand?'
-image: 'images/articles/culture.jpg'
+image: 'images/articles/company-culture.jpg'
 author: 'Aleksandra Krstic'
 description: '' # meta description
 keywords:
@@ -14,6 +14,8 @@ keywords:
     'Hiring process',
     'Personal growth',
     'Feedback',
+    'Workspace',
+    'Brand building',
   ]
 ---
 
@@ -21,7 +23,7 @@ keywords:
 
 Company culture is all about the way a company treats its employees and the overall atmosphere and values of the company. It includes how employees interact with each other, the explicit and implicit rules they follow, and how the company supports both their professional and personal growth. A strong company culture should reflect the core values of the organization and attract people who don’t necessarily have the same beliefs and backgrounds, but share common goals and ethical principles.
 
-SLIKA MARTA TORTA
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/kolaz.jpg" alt="" >}}
 
 ## How has our company culture evolved?
 
@@ -35,13 +37,15 @@ Our mission was to break free from the constraints of a stifling, conventional c
 
 The next step in our evolution was the redesign of the physical workspace - creating a physical workspace that is not only inviting and comfortable but also allows for a relaxed dress code where employees can wear whatever makes them feel comfortable, even if that means trading in their dress shoes for a cozy pair of slippers. Meeting rooms were transformed into playful spaces that promote relaxation, fun, and creative thinking. And for those needing a more focused environment, soundproof "cubes" equipped with the latest technology for meetings and work were created. We're shaking things up and making the office feel like a true home away from home.
 
-# SLIKA MEETING SPACE-A
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/meeting-space.jpg" alt="" >}}
 
 Why settle for less when it comes to our remote team? Remote workers are supported just as much as in-office employees with a comfortable workspace which is reserved for them when they come to visit and work from the office.
 
 Our office space is completed with perks like a fully-equipped gym, healthy snacks, and fresh fruits to keep them energized and focused. Every employee, regardless of location, is made to feel fully integrated into the company culture and valued as a vital member of the team.
 
 Fostering a fun and enjoyable work environment is just as important as fostering a productive one. That's why the space promotes activities like monthly Friday bars, table tennis tournaments, and gaming sessions on a PS5 to let loose and bond. This balance of work and play improves morale and team spirit and helps increase productivity and creativity.
+
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/playing-ps5-halloween.jpg" alt="" >}}
 
 But crafting a great culture isn't just about creating a positive work environment, it's also about [hiring the right people](/articles/what-is-the-key-to-finding-the-ultimate-match-between-a-job-candidate-and-a-company). That's why, when it comes to the hiring process, we're flipping the script by placing equal emphasis on a candidate's values and cultural contribution as we do on their skills and experience. After all, what good are qualifications if they don't align with the company's mission and values? And what good is a perfect fit if they lack the skills to perform the job? Together, these factors are the key ingredients for not just a successful employee but a long-term one as well.
 
@@ -85,4 +89,8 @@ Creating and maintaining a strong company culture is an ongoing endeavor that de
 
 ## Building a Thriving Company: The Power of Matching Culture and Values
 
-Creating a strong and positive company culture is not just a nice-to-have, it's a must-have. When a company's culture aligns with the values and beliefs of its employees, it can create a sense of harmony and contentment among the workforce. This can lead to higher productivity, job satisfaction, and a deeper commitment to the company. A culture that promotes transparency, teamwork, creativity, and a sense of community can keep employees motivated, engaged, and connected. But, on the other hand, a culture that doesn't align with employees' values can have the opposite effect, leading to dissatisfaction, high turnover rates, and low morale. By actively aligning the company culture with the company's core values, it can foster trust, long-term commitment, and a sense of purpose among employees. A company culture is not just a set of values and goals, it is the very essence of the company, the DNA that shapes the behavior and attitude of the employees, it's the heartbeat of the company, and without it, the company is dead in the water.
+Creating a strong and positive company culture is not just a nice-to-have, it's a must-have. When a company's culture aligns with the values and beliefs of its employees, it can create a sense of harmony and contentment among the workforce. This can lead to higher productivity, job satisfaction, and a deeper commitment to the company.
+
+A culture that promotes transparency, teamwork, creativity, and a sense of community can keep employees motivated, engaged, and connected. But, on the other hand, a culture that doesn't align with employees' values can have the opposite effect, leading to dissatisfaction, high turnover rates, and low morale. By actively aligning the company culture with the company's core values, it can foster trust, long-term commitment, and a sense of purpose among employees.
+
+A company culture is not just a set of values and goals, it is the very essence of the company, the DNA that shapes the behavior and attitude of the employees, it's the heartbeat of the company, and without it, the company is dead in the water.

@@ -34,7 +34,7 @@ Employer branding is the process of creating and maintaining a positive image of
 
 Employer branding is also closely linked to recruitment. At Alas, we understand the importance of employer branding and have made it a top priority in our recruitment and retention strategies.
 
-EB SLIKA
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/employer-branding-infographic.png" alt="" >}}
 
 One of the ways we have built our employer brand is by clearly communicating our values and vision to our employees and potential candidates. It was achieved by being transparent about what it's like to work at Alas and sharing this information as a part of our marketing strategy.
 

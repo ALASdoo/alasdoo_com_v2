@@ -27,7 +27,7 @@ On top of that, if your app takes too long to load or crashes when there’s an 
 
 That’s where [Software Quality Assurance](https://www.wedoqa.com/) (QA) comes in. Basically, QA is a process that aims to identify the requirements for creating reliable, secure, and stable software and verify that the end product meets those requirements.
 
-So, if you’re wondering why [Software Quality Assurance](https://www.wedoqa.com/) is essential for your business and how to incorporate it the best way, this article should give you a good idea.
+So, if you’re wondering why Software Quality Assurance is essential for your business and how to incorporate it the best way, this article should give you a good idea.
 
 ## What is the role of QA in software development
 
@@ -59,6 +59,8 @@ Furthermore, the possibility of product failure will decrease, resulting in proj
 ### Increased customer satisfaction
 
 Incorporating QA into the software development process helps create a more reliable and trustworthy product. Users are more likely to trust a product that is bug-free, doesn’t crash, and is meticulous about privacy and data security.
+
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/customer-satisfaction.jpg" alt="" >}}
 
 Customer satisfaction is the key. When the end user is satisfied, he is likely to share his feelings with others, thus bringing you more users.
 
@@ -97,11 +99,13 @@ Outsourcing providers have already established QA processes and procedures in pl
 
 Additionally, outsourcing QA can be more cost-effective than establishing and maintaining an in-house QA team, especially in the times of slow economy when cutting back on investments.
 
-However, there are also potential drawbacks to outsourcing QA. One of the main disadvantages is that it can be difficult to maintain good communication and collaboration between the outsourced QA team and other departments within the company. Outsourcing QA can lead to a loss of control over the quality assurance process, as well as a lack of visibility into the testing process. [By choosing a reliable vendor and managing the risks in advance](/articles/how-to-choose-the-right-it-outsourcing-provider/), you can prevent those potential problems.
+However, there are also potential drawbacks to outsourcing QA. One of the main disadvantages is that it can be difficult to maintain good communication and collaboration between the outsourced QA team and other departments within the company. Outsourcing QA can lead to a loss of control over the quality assurance process, as well as a lack of visibility into the testing process. [By choosing a reliable vendor](/articles/how-to-choose-the-right-it-outsourcing-provider/) and managing the risks in advance, you can prevent those potential problems.
 
 ### 2. Develop QA processes and procedures
 
 An effective QA process runs along all stages of the software development lifecycle, from requirements gathering to maintenance. These processes and procedures can include the 4 general steps:
+
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/process.png" alt="" >}}
 
 #### 2.1. Analysis of software requirements and existing QA process
 

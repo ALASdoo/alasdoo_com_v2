@@ -37,7 +37,7 @@ There are three main aspects that you should take into account:
 
 It is a good idea to gather information about the educational system provided for the skills you require in the country you are planning to offshore to. Nowadays, it is easy enough to scan through the statistics, surveys, and the public opinion on the topic.
 
-The quality of education in the IT sector in Serbia is at an extremely high level. According to a survey conducted by Startit, 73% of developers in Serbia have a degree in third level education (higher education). Public universities are, for the most part, free and offer significant scholarships. Contrary to the situation in most countries, in Serbia, the standard of education offered by public schools is more stringent than that offered by private schools, which are a minority in the education system. What is also important is that most IT students have had internships, thus, have worked on real life projects during their studies.
+The quality of education in the IT sector in Serbia is at an extremely high level. According to [a survey conducted by Startit](https://startit.rs/rezultati-istrazivanja-programerske-scene-u-srbiji-sve-je-vise-zena-u-struci-javascript-najpopularnija-tehnologija-plate-seniora-porasle/), 73% of developers in Serbia have a degree in third level education (higher education). Public universities are, for the most part, free and offer significant scholarships. Contrary to the situation in most countries, in Serbia, the standard of education offered by public schools is more stringent than that offered by private schools, which are a minority in the education system. What is also important is that most IT students have had internships, thus, have worked on real life projects during their studies.
 
 Because the standards are set high due to the education system, even IT specialists who are self-taught or have completed a course, are required to reach a high level of efficiency to be hired.
 
@@ -49,7 +49,7 @@ Make sure there is a good hierarchy in the company you are considering. A well f
 
 When choosing the right outsourcing provider, it is critical to pick someone who understands your industry, your business model, and the goals of your company. This doesn't mean that you should exhaustively analyze every outsourcing provider on the market, but it does mean that it pays off to choose one with a proven track record - especially if you are just beginning the search process.
 
-Apart from checking clients list, testimonials, and case studies, there is a more reliable way to check references. Search for a company’s profile on some of the popular platforms with direct reviews from previous customers, such as Upwork.
+Apart from checking clients list, testimonials, and case studies, there is a more reliable way to check references. Search for a company’s profile on some of the popular platforms with direct reviews from previous customers, such as [Upwork](https://www.upwork.com/o/companies/~01ea0de13226020013/).
 
 ### 2. Language requirements
 
@@ -87,7 +87,7 @@ SGT and CET: The best time for communication would be between 2:00 and 4:00 pm i
 
 Overlapping time zones means always having a few hours during the workday where all the team members are available for a meeting. They won’t need to make drastic adjustments to their schedules, and you can conduct meetings seamlessly.
 
-You can simplify cross-time zone collaborations and team syncs with tools like Time Zone Wizard that use zone overlap calculators.
+You can simplify cross-time zone collaborations and team syncs with tools like [Time Zone Wizard](https://timezonewizard.com/) that use zone overlap calculators.
 
 ### 5. Service costs
 
@@ -129,4 +129,4 @@ The ongoing relationship management is vital for the collaboration to survive an
 
 It's important to develop a long-term relationship by identifying the right outsourcing partner that truly understands your business. This isn't just about finding an agency that can provide services that meet your current needs, but someone who can grow with you and support you no matter what happens.
 
-At ALAS, we assist corporations, as well as mid-size companies and startups, with software development and software quality assurance, challenging the processes and integrating the most efficient methods. Our contribution lies not only in our expertise but also in the sense of ownership and responsibility we bring to every task. Contact us and check if we are a good match to help you achieve your business goals.
+At ALAS, we assist corporations, as well as mid-size companies and startups, with software development and software quality assurance, challenging the processes and integrating the most efficient methods. Our contribution lies not only in our expertise but also in the sense of ownership and responsibility we bring to every task. [Contact us](/contact) and check if we are a good match to help you achieve your business goals.

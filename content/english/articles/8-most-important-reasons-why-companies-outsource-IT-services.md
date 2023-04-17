@@ -3,7 +3,7 @@ date: '2021-07-13'
 draft: false
 title: '8 most important reasons why companies outsource IT services'
 image: 'images/articles/why-outsource.jpg'
-alt: "A businessman holding a tablet and text Outsoarcing and icons with important aspetcs of outsourcing floating above the tablet."
+alt: 'A businessman holding a tablet and text Outsoarcing and icons with important aspetcs of outsourcing floating above the tablet.'
 author: 'Tibor Dudjik'
 description: '' # meta description
 keywords:
@@ -26,7 +26,7 @@ At ALAS doo, we understand the importance of technology in today's fast-paced bu
 
 One of the main goals of outsourcing IT services is obviously to boost efficiency and reduce costs, but there are other underlying benefits to take into account.
 
-# Infographic
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/why-outsource-inphographic.jpg" alt="" >}}
 
 ## 1. Enabling focus on key competences
 
@@ -48,11 +48,13 @@ By outsourcing IT services, companies can allocate their resources towards more 
 
 Finding contractors is the best way to deal with the skills gap. The latest trends in the hiring field show that filling the position with the right candidate is increasingly getting harder. The mismatch between the skills that employers seek in their employees and the skills that job applicants possess makes it difficult for employers to find appropriately trained workers.
 
-According to the comprehensive ManpowerGroup Talent Shortage survey, 77% of companies have reported quality workforce shortages and difficulty hiring. As their infographic shows, it is a 16-year high. It is obvious that it is getting harder and harder to hire skilled IT specialists, especially for an affordable price. Outsourcing IT services allows companies to access a pool of specialized experts in various fields of technology, which is their primary field of expertise.
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/talent-shortage.svg" alt="" >}}
+
+According to the comprehensive [ManpowerGroup Talent Shortage survey](https://go.manpowergroup.com/talent-shortage), 77% of companies have reported quality workforce shortages and difficulty hiring. As their infographic shows, it is a 16-year high. It is obvious that it is getting harder and harder to hire skilled IT specialists, especially for an affordable price. Outsourcing IT services allows companies to access a pool of specialized experts in various fields of technology, which is their primary field of expertise.
 
 Furthermore, in-house training of less experienced candidates is expensive and takes a significant amount of time, which can lead to project delays. Unfortunately, it is not uncommon for an in-house employee, who has just been trained and onboarded, to leave the company for a better position or for any other reason. All the effort and resources invested by then have been in vain, and you have to start the process all over again with a new candidate. With outsourcing to a vendor, you never get these gaps and lost investments, as the vendor is providing you with a service, and if their employee can’t work on the project anymore, an adequate replacement is supplied promptly.
 
-By outsourcing to a reliable vendor, you pay for a high-quality service without having to worry about pre-training or finding the right talent. The third party does all the footwork for you at no additional cost. This can be particularly beneficial for companies that do not have a full HR department and don’t want to form one. Outsourcing is also the best solution for businesses that don’t have the resources or need to hire and maintain a full-time staff of IT specialists.
+By [outsourcing to a reliable vendor](/articles/how-to-choose-the-right-it-outsourcing-provider), you pay for a high-quality service without having to worry about pre-training or finding the right talent. The third party does all the footwork for you at no additional cost. This can be particularly beneficial for companies that do not have a full HR department and don’t want to form one. Outsourcing is also the best solution for businesses that don’t have the resources or need to hire and maintain a full-time staff of IT specialists.
 
 ## 4. Global Access
 
@@ -66,7 +68,7 @@ The question of cultural competence can be raised, of course. Many of the outsou
 
 Outsourcing IT services can also provide companies with access to the latest technologies and best practices, which can help them stay competitive in their industry.
 
-You can outsource your development work to very skilled developers who are industry experts in the latest frameworks, design patterns, and programming languages. Similarly, if you outsource your QA process, you are making sure it is following the latest QA trends and using the best-proven tools and methods in the industry.
+You can outsource your development work to very skilled developers who are industry experts in the latest frameworks, design patterns, and programming languages. Similarly, if you [outsource your QA process](/articles/how-to-incorporate-qa-into-software-development-process), you are making sure it is following the latest QA trends and using the best-proven tools and methods in the industry.
 
 With the increasing use of cloud-enabled “as-a-service” models and process automation, using the most efficient technologies on the market is crucial to improving cost and quality.
 
@@ -98,8 +100,10 @@ In case of changes in business trajectory, priorities, resources, or objectives,
 
 Assigning certain functions to a third party can actually boost the morale of your in-house team and build a healthy company culture. Maybe this seems counterintuitive, but think about what happens each time an employee takes a sick leave, a sabbatical, or a vacation. Other members of the team have to take on more workload on themselves with their already busy schedules. This inevitably leads to additional stress, low employee morale, and eventually employee burnout and reduced efficiency.
 
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/burnout.svg" alt="" >}}
+
 Outsourcing eliminates those times of watering down the core assignments of your in-house employees, which keeps them more focused, productive, and happy. You are provided with an ongoing service and don’t have to think about how to cover days off.
 
 ## How ALAS can help you accelerate your business
 
-If you are a small, medium, or large company that wants to gain an edge over the competition, but you're uncertain about what areas need improvement, we can evaluate your specific circumstances and provide an extensive range of services to help you achieve this goal: customized project management solutions, software developers with the required expertise, manual and automated quality assurance. Contact us to schedule a meeting for a free initial assessment.
+If you are a small, medium, or large company that wants to gain an edge over the competition, but you're uncertain about what areas need improvement, we can evaluate your specific circumstances and provide an extensive range of services to help you achieve this goal: customized project management solutions, software developers with the required expertise, manual and automated quality assurance. [Contact us](/contact) to schedule a meeting for a free initial assessment.
