@@ -3,6 +3,7 @@ date: '2021-07-11'
 draft: false
 title: 'How to build a culture that matches your brand?'
 image: 'images/articles/company-culture.jpg'
+alt: "Three collegues having a meeting and loughing in a colorful meeting room."
 author: 'Aleksandra Krstic'
 description: '' # meta description
 keywords:
@@ -20,7 +21,7 @@ keywords:
 
 Company culture is all about the way a company treats its employees and the overall atmosphere and values of the company. It includes how employees interact with each other, the explicit and implicit rules they follow, and how the company supports both their professional and personal growth. A strong company culture should reflect the core values of the organization and attract people who don’t necessarily have the same beliefs and backgrounds, but share common goals and ethical principles.
 
-{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/kolaz.jpg" alt="" >}}
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/kolaz.jpg" alt="photo collage with the company tagline "More personal, always." representing a vibrant company culture: people eating, drinking cocktails, playing board games and video games." >}}
 
 ## How has our company culture evolved?
 
@@ -34,7 +35,7 @@ Our mission was to break free from the constraints of a stifling, conventional c
 
 The next step in our evolution was the redesign of the physical workspace - creating a physical workspace that is not only inviting and comfortable but also allows for a relaxed dress code where employees can wear whatever makes them feel comfortable, even if that means trading in their dress shoes for a cozy pair of slippers. Meeting rooms were transformed into playful spaces that promote relaxation, fun, and creative thinking. And for those needing a more focused environment, soundproof "cubes" equipped with the latest technology for meetings and work were created. We're shaking things up and making the office feel like a true home away from home.
 
-{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/meeting-space.jpg" alt="" >}}
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/meeting-space.jpg" alt="Pleasant meeting space with colorful wallpaper, beenbags and armchairs." >}}
 
 Why settle for less when it comes to our remote team? Remote workers are supported just as much as in-office employees with a comfortable workspace which is reserved for them when they come to visit and work from the office.
 
@@ -42,7 +43,7 @@ Our office space is completed with perks like a fully-equipped gym, healthy snac
 
 Fostering a fun and enjoyable work environment is just as important as fostering a productive one. That's why the space promotes activities like monthly Friday bars, table tennis tournaments, and gaming sessions on a PS5 to let loose and bond. This balance of work and play improves morale and team spirit and helps increase productivity and creativity.
 
-{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/playing-ps5-halloween.jpg" alt="" >}}
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/playing-ps5-halloween.jpg" alt="Two young men playing video games and eating snacks; one is in a Rambo halloween mask." >}}
 
 But crafting a great culture isn't just about creating a positive work environment, it's also about [hiring the right people](/articles/what-is-the-key-to-finding-the-ultimate-match-between-a-job-candidate-and-a-company). That's why, when it comes to the hiring process, we're flipping the script by placing equal emphasis on a candidate's values and cultural contribution as we do on their skills and experience. After all, what good are qualifications if they don't align with the company's mission and values? And what good is a perfect fit if they lack the skills to perform the job? Together, these factors are the key ingredients for not just a successful employee but a long-term one as well.
 
