@@ -108,13 +108,13 @@
         {{.content | markdownify}}
       </div>
     </div>
-    <div class="row gy-4 pb-5"
-      data-aos="fade-up"
-      data-aos-offset="180"
-      data-aos-duration="600"
-      data-aos-easing="ease-in-out-sine">
+    <div class="row gy-4 pb-5">
       {{ range .workflow_item }}
-      <div class="col-lg-4 col-sm-6 d-lg-flex">
+      <div class="col-lg-4 col-sm-6 d-lg-flex"
+        data-aos="fade-up"
+        data-aos-offset="180"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out-sine">
         <div class="card shadow bg-white rounded-2 border-0">
           <div class="card-body pb-5 pt-5 d-flex">
             {{ partial "image" (dict "Src" .image "Alt" .alt "Class" "w-30") }}
