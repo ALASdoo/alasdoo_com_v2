@@ -3,6 +3,7 @@ date: '2021-07-12'
 draft: false
 title: 'What does a rebranding process include beside a new logo?'
 image: 'images/articles/rebranding-process.jpg'
+alt: "Two people using affinity mapping to organize colorful postits on the whiteboard."
 author: 'Tajana Somogyi'
 description: '' # meta description
 keywords:
@@ -59,7 +60,7 @@ To position our brand in the market, we did a thorough analysis of our direct an
 
 To get the most out of a huge amount of information, affinity mapping proved to be the best method for us and the most fun one. We put each piece of information on a post-it and watched them group naturally. We finished up with a board divided into sections that later grew into our personas of potential employees, current employees, and clients. Each of these sections further had two distinct ones. The first one represented pain points - the mistakes we should avoid and problems we could solve. The other distinctive part was positive aspects, things that answered the question “What makes them happy?” for our personas. Apart from being useful in showing patterns in a forest of information, we love this method because it is also physical, interactive, and suitable for teamwork.
 
-{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/postits.jpg" alt="" >}}
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/postits.jpg" alt="Woman doing affinity mapping, pointing on a postit on the whiteboard." >}}
 
 ### 6. Creating personas and persona based scenarios
 
@@ -91,10 +92,10 @@ Having the visual identity built, we could also upgrade our employer branding st
 
 Renovating the workspace in new colors and spirit was extremely fun and has brought a sense of inspiration and anticipation for all. Through the design of the new workspace, we have communicated our ideas, the sentiment, and the values we want to promote. We even put up our values on a wall to be the first thing that any potential employee who comes on the premises for a job interview sees.
 
-{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/alas-values-mural.jpg" alt="" >}}
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/alas-values-mural.jpg" alt="Wall mural of Alas new logo and company values: responsible flexibility, highest standards, team spirit, personal approach, continuous improvement, diversity and inclusion, high work ethics, controlled growth, work hard - play harder." >}}
 
 A family, which also includes our work family, always celebrates their successes. That is why we had a rebranding party to mark this milestone and have the opportunity to share the meaning and spirit of it with all the employees. We even had a signature cocktail named “ALAS” to promote what is the most important to us: friendship, teamwork, high standards.
 
-{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/cocktail-list.jpg" alt="" >}}
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/cocktail-list.jpg" alt="Cocktail list whit the Alas coctail on top and listed ingredients: friendship, teamwork, high standards." >}}
 
 We believe that we have made huge progress in being better recognized by potential employees and clients, and our brand being associated with the values that built ALAS into the company it is today.
