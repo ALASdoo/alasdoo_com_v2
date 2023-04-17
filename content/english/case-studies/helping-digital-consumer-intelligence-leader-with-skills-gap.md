@@ -62,7 +62,9 @@ We recognize that software development is an ongoing process, and documentation 
 
 ## Frontend development
 
-When it comes to front-end services, we build scalable, framework-agnostic UI components using WebComponents, such as buttons, text boxes, forms, and other user interface components that allow users to interact with the application. WebComponents are encapsulated, meaning that they don't interfere with the rest of the application and can be used across multiple frameworks and libraries. Accessibility is an important consideration. Therefore, all UI components were designed and coded up to the latest accessibility standards.
+When it comes to front-end services, we build scalable, framework-agnostic UI components using WebComponents, such as buttons, text boxes, forms, and other user interface components that allow users to interact with the application. WebComponents are encapsulated, meaning that they don't interfere with the rest of the application and can be used across multiple frameworks and libraries. 
+
+Accessibility is an important consideration. Therefore, all UI components were designed and coded up to the latest accessibility standards.
 
 ## Quality assurance
 
