@@ -32,6 +32,7 @@ Our story began in 1988 when the company was founded as the main information sys
 In the beginning, it was easy to communicate these shared goals on a small scale, as there were not so many employees. Some of the procedures were established but not cemented, and in some cases, it was possible to play it by ear.
 
 This all changed when we reached the threshold of 50 employees. It was obvious that a sound structure and detailed procedures had to be built on an existing foundation. This also included putting into words our mission, vision, and values and creating a modern visual identity.
+
 The new face of our company had to emphasize our strengths and shared goals and communicate the friendly, nurturing, but proactive and innovative persona of our company.
 
 ## How did we make sure not to miss any important aspects in the process?
@@ -68,7 +69,7 @@ There were five distinct target audiences, which had pain points and positive as
 
 The first step towards building a visual identity for us was defining a color palette, which had to be bright, evoke happy and relaxed feelings, and distinguish us from the corporate blues and reds that were dominating the IT industry in Novi Sad. Afterwards, we have chosen a tagline as we didn’t have one before. “More personal, always” clearly communicates our approach both to clients and employees.
 
-Finally, it was time to create a new logo. As we didn’t have a large team on hand but wanted the best results, we optimized our resources by posting a contest for creating a new logo on Design crowd platform. We were very pleased with the outcome, as with the 150+ Designs package, we got 401 designs from 175 designers in just one week. A dozen of them ended up in our top selection. We believe that chance favors the prepared mind and that we got such great results due to our detailed description of what the logo should represent and the story behind the rebranding. Surely this would not be possible without the extensive research and preparations beforehand.
+Finally, it was time to create a new logo. As we didn’t have a large team on hand but wanted the best results, we optimized our resources by posting a contest for creating a new logo on DesignCrowd platform. We were very pleased with the outcome, as with the 150+ Designs package, we got 401 designs from 175 designers in just one week. A dozen of them ended up in our top selection. We believe that chance favors the prepared mind and that we got such great results due to our detailed description of what the logo should represent and the story behind the rebranding. Surely this would not be possible without the extensive research and preparations beforehand.
 
 We are firm believers that each project should be covered with detailed documentation. It was important to us to create comprehensive brand guidelines where all the previous aspects were covered. In addition, those also had to be included: brand’s archetype, tone, voice, fonts, usage of typography and logo, mood board with photos, and types of graphic which should be used.
 
