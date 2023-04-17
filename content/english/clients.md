@@ -63,7 +63,7 @@ clients:
       image: 'images/clients/papertrail.png'
       alt: 'papertrail logo'
     - title: 'eGain'
-      image: 'images/clients/eGain.gif'
+      image: 'images/clients/eGain.png'
       alt: 'eGain logo'
     - title: 'Blaze Meter'
       image: 'images/clients/blazemeter.svg'
