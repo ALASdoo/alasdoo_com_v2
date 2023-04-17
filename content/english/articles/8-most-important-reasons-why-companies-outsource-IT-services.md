@@ -3,7 +3,7 @@ date: '2021-07-13'
 draft: false
 title: '8 most important reasons why companies outsource IT services'
 image: 'images/articles/why-outsource.jpg'
-alt: 'A businessman holding a tablet and text Outsoarcing and icons with important aspetcs of outsourcing floating above the tablet.'
+alt: "A businessman holding a tablet and text 'Outsoarcing' and icons with important aspetcs of outsourcing floating above the tablet."
 author: 'Tibor Dudjik'
 description: '' # meta description
 keywords:
