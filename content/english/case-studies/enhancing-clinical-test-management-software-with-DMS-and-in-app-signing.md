@@ -40,7 +40,7 @@ By facilitating collaboration and management among healthcare professionals, res
 
 ## Our approach
 
-Our approach involves a thorough process of creating a test plan based on Jira tickets, followed by the creation of test cases on TestRail.
+Our approach involves a thorough process of creating a test plan based on Jira tickets, followed by the creation of test cases on [TestRail](https://www.testrail.com/).
 
 We start by performing manual exploratory testing on recently implemented features. Based on this, we write up and plan automated test scripts and use tools such as Java, JUnit, Selenium, and Appium to automate test cases. These scripts are then grouped into test suites, maintained, and executed regularly. This enables us to execute tests and generate reports according to defined test processes and issue reporting.
 
