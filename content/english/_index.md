@@ -1,7 +1,7 @@
 ---
 ####################### Banner #########################
 banner:
-  title: 'Tailored software development and quality assurance outsourcing.'
+  title: 'Tailored software development and quality assurance outsourcing'
   image: 'images/hero-home.png'
   alt: "An outsourcing company building side view with people working on laptops and computers, having meetings, workshops, brainstorming, playing table tennis, doing yoga, having lunch in the garden."
   content: ''
@@ -56,7 +56,7 @@ services:
   enable: true
   title: 'What we do'
   subtitle: 'Services'
-  content: 'Our top focus is writing code that meets the highest standards, while our quality assurance team has the skills and experience to ensure that the software satisfies the strictest criteria. Each project is unique and requires a customized approach. We supply [a vast range of services](what-we-do/) to provide the most efficient solution for the unique demands and requirements of our clients.'
+  content: 'Our top focus is writing a code that meets the highest standards, while our quality assurance team has the skills and experience to ensure that the software satisfies the strictest criteria. Each project is unique and requires a customized approach. We supply [a vast range of services](what-we-do/) to provide the most efficient solution for the unique demands and requirements of our clients.'
   services_item:
     # services item loop
     - name: 'Frontend and backend staff augmentation'
