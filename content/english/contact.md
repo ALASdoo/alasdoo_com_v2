@@ -12,7 +12,7 @@ contacts:
       name: 'Vilmos Somogyi'
       image: 'images/contact/Vilmos.png'
       alt: "Vilmos Somoqyi, co-founder, CEO"
-      content: 'As one of the co-founders Vilmos has built ALAS on the foundations of an IT company founded by his father. Today it is a modern IT outsourcing and consulting company with family values at its core.'
+      content: 'As one of the co&#8209;founders, Vilmos has built ALAS on the foundations of an IT company founded by his father. Today, it is a modern IT outsourcing and consulting company with family values at its core.'
       form_title: 'Are you looking to add value to your business?'
       form_content:
         'Whether you are a corporation, a small business, or a startup, we can create a customized plan for your development and quality assurance enhancements.
@@ -32,7 +32,7 @@ contacts:
       name: 'Tibor Dudjik'
       image: 'images/contact/Tibor.png'
       alt: "Tibor Dudjik, co-founder, COO"
-      content: 'As our main advisor and a co-founder, Tibor plays a crucial role in our decision-making processes, shaping the culture of the company, managing hiring procedures, supervising projects and client relationships, and ensuring that the business operations are efficient and compliant with all applicable regulations and laws.'
+      content: 'As our main advisor and a co&#8209;founder, Tibor plays a crucial role in our decision&#8209;making processes, shaping the culture of the company, managing hiring procedures, supervising projects and client relationships, and ensuring that the business operations are efficient and compliant with all applicable regulations and laws.'
       form_title: 'Interested in hearing more about our company’s best practices?'
       form_content: 'If you are interested in forming a partnership or other type of business collaboration, send me an inquiry, and I will respond to you within a couple of working days.'
 ---
