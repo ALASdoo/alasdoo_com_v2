@@ -38,7 +38,7 @@ Once the test stories were created, we carefully planned our test runs to ensure
 
 We conducted confirmatory testing right after implementation, with the goal of identifying and addressing any defects as early as possible in the development cycle. When bugs were found, we listed them in the corresponding stories to provide developers with the information they needed to improve the app.
 
-We used Redmine, a project management tool, to report and track issues and defects, and we conducted retesting to ensure that issues had been resolved.
+We used [Redmine](https://www.redmine.org/), a project management tool, to report and track issues and defects, and we conducted retesting to ensure that issues had been resolved.
 
 Thorough cross&#8209;browser and cross&#8209;platform testing were implemented to ensure compatibility of the application on different devices and environments, including web and mobile applications, and VOIP answering service. We focused on verifying the compatibility and consistency of data across these environments.
 
