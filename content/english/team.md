@@ -15,7 +15,7 @@ intro:
     content1: "Our team comprises more than 60 talented and knowledge-rich software developers and automated/manual QA engineers, as well as project managers and UX experts. As English is a very important part of our business, each member of our team is proficient in it."
   streangths:
     title: "Always improving"
-    content: "Before the first billing hour, each team member completes in depth training for the project they are undertaking, so they can seamlessly take over their role and hit the ground running.
+    content: "Before the first billing hour, each team member completes in&#8209;depth training for the project they are undertaking, so they can seamlessly take over their role and hit the ground running.
 
 
     We are proud of our excellent knowledge-sharing system and collaboration between colleagues. Through support, feedback, workshops and brainstorming, each person is enabled to work at full capacity."
