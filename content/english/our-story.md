@@ -28,12 +28,12 @@ history:
   - title : "Modern times"
     image: "images/modern-times.jpg"
     alt: "Business meeting with clients in an office."
-    content : "The new era of ALAS began in 2009, when Vilmos Somogyi, Sandor's son, took over as CEO. Together with Tibor Dudjik, they shifted the company's focus to outsourcing IT services while upholding the primary ideology of finding the best way to integrate the most recent information technologies into all industries, prioritizing quality, and fostering a welcoming workplace environment for him and his coworkers."
+    content : "The new era of ALAS began in 2009, when Vilmos Somogyi, Sandor's son, took over as the CEO. Together with Tibor Dudjik, they shifted the company's focus to outsourcing IT services while upholding the primary ideology of finding the best way to integrate the most recent information technologies into all industries, prioritizing quality, and fostering a welcoming workplace environment for them and them coworkers."
 
   - title : "The company today"
     image: "images/nowdays.jpg"
     alt: "Co-founders in front of the new Alas logo and company values which are on the wall."
-    content : "Nowadays Alas is located in Novi Sad, Serbia, with more than [60 experts](/team) from different fields on board. Although the company has significantly grown, it has still kept its non-corporate, people-focused approach, home-like atmosphere, and family values at its core. We have [clients from all over the world](/clients) thanks to our enthusiasm for innovation and dedication to quality. With our knowledge and experience, we successfully handle even the most demanding projects in the financial, accounting, and healthcare sectors—fields with zero tolerance for errors."
+    content : "Nowadays, Alas is located in Novi Sad, Serbia, with more than [60 experts](/team) from different fields on board. Although the company has significantly grown, it has still kept its non-corporate, people-focused approach, home-like atmosphere, and family values at its core. We have [clients from all over the world](/clients) thanks to our enthusiasm for innovation and dedication to quality. With our knowledge and experience, we successfully handle even the most demanding projects in the financial, accounting, and healthcare sectors-fields with zero tolerance for errors."
 
 ######################### mission #####################
 mission:
