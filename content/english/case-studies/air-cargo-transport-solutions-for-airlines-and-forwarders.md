@@ -39,7 +39,7 @@ We utilize Jira for ticket verification. Once the tickets have been verified, th
 
 We use [Katalon Studio](https://katalon.com/) to automate our testing processes. Code&#8209;based automation tools become complex and time&#8209;consuming to maintain when developing frequently changing features. Codeless automation tools like Katalon are a more accessible, faster, easier to maintain, flexible, and cost&#8209;effective solution. They allow tests to be quickly and easily maintained without additional costs.
 
-By integrating Katalon with TestOps, we manage our tests more efficiently, as we can plan, execute, and report on tests from a single platform. TestOps provides detailed analytics and reporting capabilities, allowing our team to track test results, identify trends, and make informed decisions about future testing efforts.
+By integrating Katalon with [TestOps](https://katalon.com/testops), we manage our tests more efficiently, as we can plan, execute, and report on tests from a single platform. TestOps provides detailed analytics and reporting capabilities, allowing our team to track test results, identify trends, and make informed decisions about future testing efforts.
 
 ### DataDog monitoring
 
@@ -59,6 +59,6 @@ The QA sprint report, on the other hand, provides information on the testing pro
 
 By performing manual testing, our team ensures that the client's web application is of high quality and free from any unintended consequences or issues. Moreover, the team collaborates effectively by utilizing Jira for ticket verification and issue reporting, which enables everyone to work towards the same goals and identify potential issues and roadblocks early on.
 
-With the implementation of the codeless automation tool (Katalon), we have established a more accessible, faster, easier to maintain, flexible, and cost&#8209;effective solution compared to code&#8209;based automation.
+With the implementation of the codeless automation tool ([Katalon](https://katalon.com/)), we have established a more accessible, faster, easier to maintain, flexible, and cost&#8209;effective solution compared to code&#8209;based automation.
 
 Having been involved in the project from its early stages, we possess a thorough understanding of its intricacies, which makes us an integrated part of the client's team. Our attention to detail and proactive approach have contributed to the smooth operation of the project for over three years.
