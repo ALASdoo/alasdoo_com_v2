@@ -36,7 +36,7 @@ In 2022, our client was acquired by one of Europe's leading providers of online 
 
 At the outset of the project, we offered manual testing services to our client. Our team collaborated closely with the development team to deliver a tool that was bug&#8209;free and provided a seamless user experience. By maintaining constant communication and leveraging our expertise, we were able to identify and resolve potential issues early in the development cycle, ensuring that the final product met the client's requirements and exceeded their expectations.
 
-To further support our client's testing efforts, we also created automated test cases using Katalon solutions. By automating the testing process, we were able to quickly and efficiently test features and functionality, saving our client valuable time and resources. This enabled them to focus on other critical aspects of their business while ensuring the quality and reliability of their tool.
+To further support our client's testing efforts, we also created automated test cases using [Katalon solutions](https://katalon.com/). By automating the testing process, we were able to quickly and efficiently test features and functionality, saving our client valuable time and resources. This enabled them to focus on other critical aspects of their business while ensuring the quality and reliability of their tool.
 
 ### Backend development
 
@@ -62,7 +62,7 @@ We cooperated with this client for over 15 years. During the last 2 years on the
 
 We take great pride in being an integral part of our client's journey by providing a comprehensive range of services that have been instrumental in supporting their operations. Our collaborative efforts have contributed to the success of their tool, which has been tried by an astounding 30 million users, with 10 million active free trials. These impressive numbers are a testament to the quality and effectiveness of their services, as well as the hard work and dedication of our team.
 
-Our development expertise, manual testing, and creating automated test cases using Katalon have ensured that the website&#8209;building tool is robust and reliable. In addition, our DevOps services in the AWS stack have helped our client optimize their website&#8209;building tool's performance and scalability, making it even more accessible to a wider audience.
+Our development expertise, manual testing, and creating automated test cases using [Katalon](https://katalon.com/) have ensured that the website&#8209;building tool is robust and reliable. In addition, our DevOps services in the AWS stack have helped our client optimize their website&#8209;building tool's performance and scalability, making it even more accessible to a wider audience.
 
 In addition to our range of services, we are proud to have provided our client with a dedicated Team Lead position for developers and DevOps teams, which resulted in increased efficiency and productivity.
 
