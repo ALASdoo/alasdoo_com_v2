@@ -19,13 +19,13 @@ keywords:
 
 ## About the client
 
-An award-winning family organization app, which was launched in 2016, has been making a significant impact on the way families, schools, and teams organize transportation. The app, now available worldwide, offers a convenient solution for carpool scheduling and includes additional features such as route optimization, reminders, and an in-app chat.
+An award&#8209;winning family organization app, which was launched in 2016, has been making a significant impact on the way families, schools, and teams organize transportation. The app, now available worldwide, offers a convenient solution for carpool scheduling and includes additional features such as route optimization, reminders, and an in&#8209;app chat.
 
 ## Client’s challenges
 
-In today's fast-paced world, effective organization is crucial, especially when it comes to handling the schedules and activities of children. Arranging transportation with other families while also handling work obligations can be difficult.
+In today's fast&#8209;paced world, effective organization is crucial, especially when it comes to handling the schedules and activities of children. Arranging transportation with other families while also handling work obligations can be difficult.
 
-As the client has hired us to achieve assimilation of the app into the daily routine of families, schools, and teams, our focus during testing is on ensuring that the shared transportation solution is user-friendly, time-efficient, and seamlessly integrated.
+As the client has hired us to achieve assimilation of the app into the daily routine of families, schools, and teams, our focus during testing is on ensuring that the shared transportation solution is user&#8209;friendly, time&#8209;efficient, and seamlessly integrated.
 
 Above all, the safety of children and the peace of mind of parents are prioritized during the testing process.
 
@@ -53,7 +53,7 @@ We test automated reminders for kids and parents, including notifications that r
 
 #### School platform
 
-Another important part of testing involves cross-browser testing of web platforms created for schools and parents. This platform helps schools gather basic information about families to facilitate connections for carpooling. Our testing includes verifying parent logins, displaying all families' locations on the map, and testing carpool invitations and in-app messaging to improve parent connections.
+Another important part of testing involves cross&#8209;browser testing of web platforms created for schools and parents. This platform helps schools gather basic information about families to facilitate connections for carpooling. Our testing includes verifying parent logins, displaying all families' locations on the map, and testing carpool invitations and in&#8209;app messaging to improve parent connections.
 
 ### The biggest challenge: Ensuring safety of the users
 
@@ -69,10 +69,10 @@ The main challenge with live tracking testing is that it obviously cannot be don
 
 On a ride, we brainstorm and test out possible security inconveniences like missing notifications or even a crash of the application, then recover from it.
 
-Notifications that a parent receives when a child has entered a car or is dropped at the desired location are always tested in real-time while driving, with multiple devices that we bring to test rides to check if parents will be informed promptly.
+Notifications that a parent receives when a child has entered a car or is dropped at the desired location are always tested in real&#8209;time while driving, with multiple devices that we bring to test rides to check if parents will be informed promptly.
 
 ## Value delivered
 
-The aim of the testing was to ensure that the family organization app is straightforward, reliable, and useful, ultimately leading to a well-organized community. By thoroughly testing the app's features, such as carpool scheduling, route optimization, reminders, and in-app chat, our testing team ensures that the app meets the needs of families, schools, and teams.
+The aim of the testing was to ensure that the family organization app is straightforward, reliable, and useful, ultimately leading to a well&#8209;organized community. By thoroughly testing the app's features, such as carpool scheduling, route optimization, reminders, and in-app chat, our testing team ensures that the app meets the needs of families, schools, and teams.
 
-One of the key aspects of the app is its ability to help families organize carpools with trusted friends, families, and neighbors without the involvement of strangers or paid drivers. By testing the security and safety features of the app, such as ensuring that only families with their kids in a carpool can be drivers and testing real-time notifications when a child has entered or exited a car, our team ensures that the app provides a secure and reliable transportation solution for families.
+One of the key aspects of the app is its ability to help families organize carpools with trusted friends, families, and neighbors without the involvement of strangers or paid drivers. By testing the security and safety features of the app, such as ensuring that only families with their kids in a carpool can be drivers and testing real&#8209;time notifications when a child has entered or exited a car, our team ensures that the app provides a secure and reliable transportation solution for families.
