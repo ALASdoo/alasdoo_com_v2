@@ -184,7 +184,7 @@ approach:
     - title: 'Onboarding'
       image: '/images/approach/4.svg'
       alt: "number four"
-      content: 'Requiring your project presentation as wider picture and also defining the specific tasks that will be performed'
+      content: 'You, as a client, are presenting the project and together we are defining the specific tasks that will be performed'
     - title: 'Implementation'
       image: '/images/approach/5.svg'
       alt: "number five"
