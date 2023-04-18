@@ -1,7 +1,7 @@
 ---
 date: '2023-03-09'
 draft: false
-title: 'Enhancing clinical test management software with DMS and in-app signing'
+title: 'Enhancing clinical test management software with DMS and in&#8209;app signing'
 subtitle: 'Employing automated and manual testing to ensure efficient and reliable software for medical and clinical studies'
 image: 'images/case-studies/SureClinical.jpg'
 alt: 'Clinical study being conducted in a lab.'
@@ -24,9 +24,9 @@ keywords:
 
 ## About the client
 
-Our client provides cloud-native eClinical applications that accelerate the delivery of new treatments to patients worldwide.
+Our client provides cloud&#8209;native eClinical applications that accelerate the delivery of new treatments to patients worldwide.
 
-Their smart, unified, and easy-to-use platform streamlines clinical trial and quality management processes for life science companies in Biotech, Pharma, Clinical Research, Medical Devices, and Medical Research.
+Their smart, unified, and easy&#8209;to&#8209;use platform streamlines clinical trial and quality management processes for life science companies in Biotech, Pharma, Clinical Research, Medical Devices, and Medical Research.
 
 By automating and accelerating the delivery of new drugs, therapies, and treatments, they are making a significant impact on the healthcare industry.
 
