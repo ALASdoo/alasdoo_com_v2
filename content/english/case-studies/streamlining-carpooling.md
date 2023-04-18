@@ -43,7 +43,7 @@ Our testing process starts by setting up a family account, adding family members
 
 We check if carpool scheduling is working correctly by adding kids or automatically selecting a kid when there's only one child in the family. Google Map integrations are used to verify the correct address for the kid's home and to show the route with all the stopping places.
 
-Tests have also been conducted on the process of joining a carpool as an invitee. Simultaneously, we sync Google calendar and TeamSnap/SportsEngine integrations to schedule group activities and handle carpool organization, which can be affected by changing schedules.
+Tests have also been conducted on the process of joining a carpool as an invitee. Simultaneously, we sync Google calendar and [TeamSnap](https://www.teamsnap.com/)/[SportsEngine](https://www.sportsengine.com/) integrations to schedule group activities and handle carpool organization, which can be affected by changing schedules.
 
 We conduct parallel testing on multiple devices to verify the details of invitations sent to families or received from other families. Once the carpool is set up, it must be visible in all participants' schedules, with parents having the option to volunteer as a driver. Testing this feature is crucial since the schedule screen can become overloaded and prone to crashing.
 
