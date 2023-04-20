@@ -22,7 +22,7 @@ Candidates are increasingly looking for more than just a paycheck when consideri
 
 On the other hand, companies are looking for more than just technical skills when hiring. They also consider the candidate's fit with the company's culture and values, candidate's attitude, work ethic, ability to colaborate with others, and potential for growth and development.
 
-When a candidate's values align with those of the company, they are more likely to feel a sense of purpose and fulfillment in their work. Additionally, they are more likely to stay with the organization for a longer period of time, which can provide more job stability and career growth opportunities. Working in an environment where personal values are aligned with the company's values can also lead to better work&#8209;)life balance and better mental and emotional well&#8209;)being.
+When a candidate's values align with those of the company, they are more likely to feel a sense of purpose and fulfillment in their work. Additionally, they are more likely to stay with the organization for a longer period of time, which can provide more job stability and career growth opportunities. Working in an environment where personal values are aligned with the company's values can also lead to better work&#8209;life balance and better mental and emotional well&#8209;being.
 
 At Alas, we are making efforts to achieve this through our thorough employer branding strategy.
 
@@ -46,7 +46,7 @@ To ensure that we are bringing on individuals who fit with our values, we have i
 
 It is crucial to not only assess if a candidate or employee aligns with the values and beliefs of the organization but also to consider the unique contributions they can bring to the company. Diverse perspectives and ideas can lead to innovation and growth. Additionally, it is important to acknowledge and appreciate individuals who not only embody the company's values but actively work to strengthen them through their actions and energy. This is why we choose the “culture contribution” over the “culture fit” approach.
 
-Both values fit and culture contribution are important for the hiring process because a candidate who aligns with both of them will be more likely to be a successful and long&#8209;)term employee in the company.
+Both values fit and culture contribution are important for the hiring process because a candidate who aligns with both of them will be more likely to be a successful and long&#8209;term employee in the company.
 
 ## How do we estimate if a candidate suits us?
 
@@ -60,7 +60,7 @@ We are making sure that the company's values and mission statement are clearly c
 
 Reviewing a candidate's past experiences, such as previous job responsibilities, volunteer work, or extracurricular activities, helps us see if they have demonstrated values that align with the company's values.
 
-### 3. Conducting in&#8209;)person or online interviews to gain a better understanding of the candidate's qualifications and fit with the company
+### 3. Conducting in&#8209;person or online interviews to gain a better understanding of the candidate's qualifications and fit with the company
 
 This means considering the values fit and work style of the candidate during the interview process and trying to understand how they would contribute to our company culture and the team.
 
@@ -99,7 +99,7 @@ Reviews from current and former employees can provide valuable insights into ove
 
 ### Inquire about the company culture during the interview
 
-Asking about the company culture gives you the opportunity to learn more about the company, its employees, and what it's like to work there beyond just the responsibilities of the job. Maybe you're curious about how the teams work. Perhaps you simply want to make sure you have the right work&#8209;)life balance. Never be hesitant to bring up any culture queries you may have during the interview.
+Asking about the company culture gives you the opportunity to learn more about the company, its employees, and what it's like to work there beyond just the responsibilities of the job. Maybe you're curious about how the teams work. Perhaps you simply want to make sure you have the right work&#8209;life balance. Never be hesitant to bring up any culture queries you may have during the interview.
 
 ### Consider your personal values and career goals
 
@@ -119,6 +119,6 @@ Speaking of reviews, another great resource to check out is [our company profile
 
 Finally, to get an even more comprehensive look into our company culture and what it's like to work with us, be sure to visit our [LinkedIn](https://www.linkedin.com/company/alas-doo), [Instagram](https://www.instagram.com/alasdoocom/) and [Facebook](https://www.facebook.com/ALASdoocom) profiles. By doing so, you will be able to get a sense of the energy and enthusiasm that our team brings to the workplace every day.
 
-Whether you're considering us as a potential employer or just curious about what we do, taking the time to research is a great way to come to a well&#8209;)informed conclusion about us.
+Whether you're considering us as a potential employer or just curious about what we do, taking the time to research is a great way to come to a well&#8209;informed conclusion about us.
 
 And we are looking forward to getting to know more about You!
