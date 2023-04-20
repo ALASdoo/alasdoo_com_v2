@@ -73,13 +73,13 @@ Driven by these, we are looking for You - a reliable and talented Automated QA E
 
 #### ALAS mouthwatering perks
 
-- Enjoy sponsored lunch, fresh fruit and delicious coffee at work
+- Enjoy sponsored lunch, fresh fruit, and delicious coffee at work
 - Enjoy a customized bonus you can use as you wish (gym/private health insurance, etc.)
 - Monthly Friday bars, table tennis tournaments, and gaming sessions on a PS5
 
 ---
 
-### Are we the perfect match?
+### ARE WE THE PERFECT MATCH?
 
 If you think so, simply send your resume to <jobs@alasdoo.com> and leave the rest to us.
 
