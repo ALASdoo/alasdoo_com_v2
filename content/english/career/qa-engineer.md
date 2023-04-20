@@ -8,7 +8,7 @@ category: 'QA'
 
 ALAS d.o.o. is a Software Development and Quality Assurance outsourcing company with extensive experience in web development, project management, manual and automated testing.
 
-Our software QA services are recognized worldwide under the WeDoQA brand.
+Our software QA services are recognized worldwide under [the WeDoQA brand](https://www.wedoqa.com/).
 
 Aligning the product vision with the technical team is our specialty. Through open communication and a personal approach, we consider every aspect of the project so that we are empowered to assist and consult in every step of the development process.
 
