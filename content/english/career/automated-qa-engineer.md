@@ -25,7 +25,7 @@ Driven by these, we are looking for You - a reliable and talented Automated QA E
 - Work in an Agile development environment
 - Write and execute test cases, and document results
 - Verify that corrective actions meet quality objectives
-- View log files, understand them and assist developer in finding root&#8209;)cause of the bug
+- View log files, understand them and assist developer in finding root&#8209;cause of the bug
 - Assist with investigating potential bugs, issues, etc.
 - Define required testing scope and test scenarios, and review with developers and product management
 - Contribute to automation test suites to support new functionality as well as regression coverage
@@ -41,7 +41,7 @@ Driven by these, we are looking for You - a reliable and talented Automated QA E
 - Experience with QA tools and techniques, bug tracking systems, test design and execution
 - Working knowledge of SDLC and the following QA methods: unit, integration, functional regression, and system testing
 - Self&#8209;starter able to quickly learn new applications, tools, and technologies, and desire to become a product expert
-- Attention to detail, outstanding analytical and problem&#8209;)solving skills
+- Attention to detail, outstanding analytical and problem&#8209;solving skills
 - Ability to multitask in a dynamic environment and maintain a professional attitude with team members
 - Strong interpersonal skills with ability to work in a collaborative environment
 - Fluency in English
