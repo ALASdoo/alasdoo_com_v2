@@ -163,7 +163,7 @@ testimonials:
   content: 'Our [WeDoQA](https://www.wedoqa.com/) brand is one of the top rated QA service providers on [Upwork](https://www.upwork.com/o/companies/~01ea0de13226020013/), where you can find more of our clients’ honest reviews.'
   testimonials_item:
     - name: Jeff Zucker, CEO ADVault, Inc. - MyDirectives.com
-      content: We have worked with the WeDoQA team for over ten years. They have always exceeded our high expectations. The team is focused, smart, organized and consistently delivers results. We highly recommend them if you’re looking for a best&#8209;)in&#8209;)class QA partner.
+      content: We have worked with the WeDoQA team for over ten years. They have always exceeded our high expectations. The team is focused, smart, organized and consistently delivers results. We highly recommend them if you’re looking for a best&#8209;in&#8209;class QA partner.
 
     - name: Jamil Greor, HyperMedia
       content: These guys always do a great job for us, can highly recommend for any testing work. Will definitely continue to use their services in the future.
