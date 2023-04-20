@@ -51,7 +51,7 @@ With [Katalon](https://katalon.com/), we are able to automate our testing proces
 
 We cover both the technical and legal perspectives of the platform's functionality. It is crucial to provide practitioners and facilitators with the necessary tools to process enrollees' wishes. Practitioners review different types of documentation, while facilitators create them for enrollees who cannot do so themselves. Practitioners also supervise facilitators and communicate with both types of users.
 
-Testing of the units and phases is performed daily in the form of manual smoke and exploratory testing for different kinds of end&#8209;)users. After completing comprehensive general exploratory testing of each unit in the QA environment, we move on to ticket verification, regression testing, and sanity testing on the UAT staging server. Before the end of each sprint, we thoroughly test the live production server and verify the update based on the sprint's scope.
+Testing of the units and phases is performed daily in the form of manual smoke and exploratory testing for different kinds of end&#8209;users. After completing comprehensive general exploratory testing of each unit in the QA environment, we move on to ticket verification, regression testing, and sanity testing on the UAT staging server. Before the end of each sprint, we thoroughly test the live production server and verify the update based on the sprint's scope.
 
 Throughout the testing process, we provide developers with hourly status reports and report any regression defects immediately. This allows for a quick response to any issues and minimizes any negative impact on users.
 
@@ -59,6 +59,6 @@ Throughout the testing process, we provide developers with hourly status reports
 
 With our rigorous testing approach, we set out to identify any potential issues that threatened to impact the platform's effectiveness. Our focus on testing across multiple browsers and platforms helps us ensure that the application is accessible to a wide range of users, regardless of their device or preferred browser.
 
-Our team is particularly focused on making sure that the platform is inclusive and user&#8209;)friendly. By leveraging our deep understanding of user experience and accessibility best practices, we are able to provide valuable feedback to the development team. This feedback is instrumental in improving the platform's user interface and accessibility features.
+Our team is particularly focused on making sure that the platform is inclusive and user&#8209;friendly. By leveraging our deep understanding of user experience and accessibility best practices, we are able to provide valuable feedback to the development team. This feedback is instrumental in improving the platform's user interface and accessibility features.
 
 We are proud to play an important role in helping our client deliver a solution that meets the needs of all users, regardless of their age or ability.
