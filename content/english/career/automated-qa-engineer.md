@@ -12,7 +12,7 @@ Our software QA services are recognized worldwide under [the WeDoQA brand](https
 
 Aligning the product vision with the technical team is our specialty. Through open communication and a personal approach, we consider every aspect of the project so that we are empowered to assist and consult in every step of the development process.
 
-We thrive in a positive environment where everybody’s heard and understood, people are polite and assertive, and tackle challenges head&#8209;)on, having fun along the way.
+We thrive in a positive environment where everybody’s heard and understood, people are polite and assertive, and tackle challenges head&#8209;on, having fun along the way.
 
 Driven by these, we are looking for You - a reliable and talented Automated QA Engineer to join our QA team.
 
@@ -36,11 +36,11 @@ Driven by these, we are looking for You - a reliable and talented Automated QA E
 ### WHAT QUALIFIES YOU?
 
 - Minimum 5 years of experience working as a QA Engineer
-- At least 3 years of hands&#8209;)on experience using Selenium WebDriver with Java or Cypress for test automation is a must
+- At least 3 years of hands&#8209;on experience using Selenium WebDriver with Java or Cypress for test automation is a must
 - Knowledge of test management, test development, and/or test process
 - Experience with QA tools and techniques, bug tracking systems, test design and execution
 - Working knowledge of SDLC and the following QA methods: unit, integration, functional regression, and system testing
-- Self&#8209;)starter able to quickly learn new applications, tools, and technologies, and desire to become a product expert
+- Self&#8209;starter able to quickly learn new applications, tools, and technologies, and desire to become a product expert
 - Attention to detail, outstanding analytical and problem&#8209;)solving skills
 - Ability to multitask in a dynamic environment and maintain a professional attitude with team members
 - Strong interpersonal skills with ability to work in a collaborative environment
@@ -61,9 +61,9 @@ Driven by these, we are looking for You - a reliable and talented Automated QA E
 
 #### ALAS is one energetic and exciting workplace
 
-- Stable and on&#8209;)going employment with a steady stream of exciting duties
+- Stable and on&#8209;going employment with a steady stream of exciting duties
 - An easily accessible workplace by car, bus, bike or foot
-- A refreshing work environment with a yard and plenty chill&#8209;)out areas
+- A refreshing work environment with a yard and plenty chill&#8209;out areas
 
 #### ALAS cares about its talents
 
@@ -88,6 +88,6 @@ If you think so, simply send your resume to <jobs@alasdoo.com> and leave the res
 ### WHEN TO APPLY?
 
 As soon as possible!
-We conduct interviews on a first&#8209;)come, first&#8209;)served basis, so be fast & fearless!
+We conduct interviews on a first&#8209;come, first&#8209;served basis, so be fast & fearless!
 
-Only short&#8209;)listed candidates will be invited for an interview. We can’t wait to meet You!
+Only short&#8209;listed candidates will be invited for an interview. We can’t wait to meet You!
