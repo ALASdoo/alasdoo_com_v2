@@ -11,7 +11,7 @@ ALAS d.o.o. is an outsource Software Development and Quality Assurance company w
 
 We have a cozy office with a yard in Novi Sad, where we develop some pretty useful skills, drink a lot of coffee, play darts, table tennis and board games, and create awesome software solutions along the way.
 
-We thrive in a positive environment where everybody’s heard and understood, people are polite, assertive, and tackle challenges head on, having fun along the way.
+We thrive in a positive environment where everybody’s heard and understood, people are polite, assertive, and tackle challenges head&#8209;on, having fun along the way.
 
 Driven by these, we are looking for You - a reliable, kind & fun person to join our management department.
 
@@ -42,7 +42,7 @@ Your role would be to create and maintain a pleasant work environment, ensuring 
 - Proactivity and resourcefulness
 - Ability to work independently, but also within a team
 - Excellent time management skills and ability to multitask and prioritize work
-- Problem-solving skills with a Can Do mindset
+- Problem&#8209;solving skills with a Can Do mindset
 - Excellent written and verbal communication skills
 - A creative mind with an ability to suggest improvements
 - Willingness to grow and improve
@@ -56,34 +56,34 @@ Your role would be to create and maintain a pleasant work environment, ensuring 
 
 ### WHAT QUALIFIES US?
 
-**ALAS is one Energetic and Exciting Workplace**
+**ALAS is one energetic and exciting workplace**
 
-- Stable and on-going employment with a steady stream of exciting duties.
+- Stable and on&#8209;going employment with a steady stream of exciting duties.
 - An easily accessible workplace by car, bus, bike or foot.
-- A refreshing work environment with a yard and plenty chill-out areas.
+- A refreshing work environment with a yard and plenty chill&#8209;out areas.
 
-**ALAS cares about its Talents**
+**ALAS cares about its talents**
 
 - Your private time is safe with our 8 hour work day and no forced overtime.
-- An attractive pay check that keeps you motivated.
+- An attractive pay check that keeps you motivated
 - A fertile environment for development and growth
 
-**ALAS mouthwatering Perks**
+**ALAS mouthwatering perks**
 
-- Enjoy sponsored lunch and delicious coffee at work.
-- Enjoy weekly visits from a massage therapist.
+- Enjoy sponsored lunch, frsh fruit, and delicious coffee at work.
 - Enjoy a customized bonus you can use as you wish (gym/private health insurance, etc).
+- Monthly Friday bars, table tennis tournaments, and gaming sessions on a PS5
 
 ---
 
-### Are we the perfect match?
+### ARE WE THE PERFECT MATCH?
 
-If You think so, simply send your resume to <jobs@alasdoo.com> and leave the rest to us.
+If you think so, simply send your resume to <jobs@alasdoo.com> and leave the rest to us.
 
 ---
 
 ### WHEN TO APPLY?
 
 As soon as possible!
-We conduct interviews on a first-come, first-served basis, so be fast & fearless!
-Only short-listed candidates will be invited for an interview. We can’t wait to meet You!
+We conduct interviews on a first&#8209;come, first&#8209;served basis, so be fast & fearless!
+Only short&#8209;listed candidates will be invited for an interview. We can’t wait to meet You!
