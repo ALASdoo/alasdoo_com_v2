@@ -23,7 +23,7 @@ keywords:
 
 ## About the client
 
-Our client provides a comprehensive technology platform for the cannabis industry. With fully integrated solutions they help small cannabis businesses build from the ground up as well as the world's best cannabis retailers manage their complex, multi&#8209;)location operations.
+Our client provides a comprehensive technology platform for the cannabis industry. With fully integrated solutions they help small cannabis businesses build from the ground up as well as the world's best cannabis retailers manage their complex, multi&#8209;location operations.
 
 With over 6,000 dispensary partners in the USA, they process over $14B in cannabis sales annually.
 
@@ -39,9 +39,9 @@ We were hired for our testing services to ensure compliance with these regulatio
 
 We conducted comprehensive manual testing of the client's web application on both desktop and mobile platforms. Additionally, testing of various payment and delivery integrations was conducted on both mobile and tablet devices, which ensured that all platforms were covered and worked as intended.
 
-Our testing approach included smoke testing to ensure basic functionality, regression testing to detect any potential defects that may have been introduced, and exploratory testing to uncover any hidden issues. This helped us verify that the software was fully functional and user&#8209;)friendly, providing a seamless experience for our client's customers. Daily smoke tests were a necessary step for us to ensure that the system was functioning smoothly, given that the client was working on daily releases.
+Our testing approach included smoke testing to ensure basic functionality, regression testing to detect any potential defects that may have been introduced, and exploratory testing to uncover any hidden issues. This helped us verify that the software was fully functional and user&#8209;friendly, providing a seamless experience for our client's customers. Daily smoke tests were a necessary step for us to ensure that the system was functioning smoothly, given that the client was working on daily releases.
 
-To meticulously manage defects and prioritize bug fixes, we utilized [JIRA](https://www.atlassian.com/software/jira) for verifying tickets and reporting any issues that we uncovered during our testing. This powerful issue&#8209;)tracking and project management tool allowed us to maintain a clear and organized record of all reported issues, monitor their status, and track the progress of bug fixes.
+To meticulously manage defects and prioritize bug fixes, we utilized [JIRA](https://www.atlassian.com/software/jira) for verifying tickets and reporting any issues that we uncovered during our testing. This powerful issue&#8209;tracking and project management tool allowed us to maintain a clear and organized record of all reported issues, monitor their status, and track the progress of bug fixes.
 
 In order to ensure that our testing efforts were organized and efficient, our team diligently maintained test cases and executed test runs in [TestRail](https://www.gurock.com/testrail) in accordance with a predefined schedule. By doing so, we could consistently report our results accurately, allowing us to quickly identify any issues or defects that required prompt attention.
 
@@ -57,7 +57,7 @@ To ensure the terminal's accuracy and compliance with regulations, we conducted 
 
 Each day, we generated reports that outlined the completed work, specific tickets that were addressed, and the testing sections that were covered. Every week, we shared metrics on the total number of bugs discovered, the number of test cases executed, and the percentage of passed and failed test cases. In addition, we sent monthly statistics on the total number of bugs reported, the number and percentage of bugs that were resolved, and the reasons for closure.
 
-By regularly providing updates and maintaining communication, we made sure that our client was well&#8209;)informed about the progress of their product.
+By regularly providing updates and maintaining communication, we made sure that our client was well&#8209;informed about the progress of their product.
 
 ## Value delivered
 
@@ -65,4 +65,4 @@ By providing our testing services, we played a crucial role in ensuring complian
 
 To ensure the smooth functioning of the system, we conducted daily smoke tests since the client was working on daily releases. Within smoke testing, we executed around 1.700 test cases weekly. When necessary, we created new test cases and conducted maintenance on the existing ones.
 
-Our team's use of tracking tools like [JIRA](https://www.atlassian.com/software/jira) and [TestRail](https://www.gurock.com/testrail) allowed for efficient management of defects and accurate reporting of results. Regular performance reports on various metrics also helped our client stay up&#8209;)to&#8209;)date and informed about the state of their product, ultimately helping them achieve their business objectives and goals.
+Our team's use of tracking tools like [JIRA](https://www.atlassian.com/software/jira) and [TestRail](https://www.gurock.com/testrail) allowed for efficient management of defects and accurate reporting of results. Regular performance reports on various metrics also helped our client stay up&#8209;to&#8209;date and informed about the state of their product, ultimately helping them achieve their business objectives and goals.
