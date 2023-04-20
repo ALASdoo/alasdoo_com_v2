@@ -32,15 +32,15 @@ history:
 
   - title : "The company today"
     image: "images/nowdays.jpg"
-    alt: "Co-founders in front of the new Alas logo and company values which are on the wall."
-    content : "Nowadays, Alas is located in Novi Sad, Serbia, with more than [60 experts](/team) from different fields on board. Although the company has significantly grown, it has still kept its non-corporate, people-focused approach, home-like atmosphere, and family values at its core. We have [clients from all over the world](/clients) thanks to our enthusiasm for innovation and dedication to quality. With our knowledge and experience, we successfully handle even the most demanding projects in the financial, accounting, and healthcare sectors-fields with zero tolerance for errors."
+    alt: "Co-founders Vilmos Somogyi and Tibor Dudjik standing in front of the new Alas logo and company values mural on the wall."
+    content : "Nowadays, Alas is located in Novi Sad, Serbia, with more than [60 experts](/team) from different fields on board. Although the company has significantly grown, it has still kept its non&#8209;)corporate, people&#8209;)focused approach, home&#8209;)like atmosphere, and family values at its core. We have [clients from all over the world](/clients) thanks to our enthusiasm for innovation and dedication to quality. With our knowledge and experience, we successfully handle even the most demanding projects in the financial, accounting, and healthcare sectors - fields with zero tolerance for errors."
 
 ######################### mission #####################
 mission:
   enable: true
   subtitle: "Our mission"
   title: "We provide more than expertise"
-  content: "Our mission is to provide our clients with next-level service, which includes not just deep domain expertise, but also a sense of ownership and responsibility. We cultivate a culture of loyal and committed colleagues who care and are cared for."
+  content: "Our mission is to provide our clients with next&#8209;)level service, which includes not just deep domain expertise, but also a sense of ownership and responsibility. We cultivate a culture of loyal and committed colleagues who care and are cared for."
 
 ######################### values #####################
 values:
@@ -66,7 +66,7 @@ values:
 
   - title: "Responsible flexibility"
     content: "
-    Our employees are given the freedom and flexibility to build a responsible work-life model that reflects the needs of their unique lifestyles while still enabling them to achieve maximum productivity."
+    Our employees are given the freedom and flexibility to build a responsible work&#8209;)life model that reflects the needs of their unique lifestyles while still enabling them to achieve maximum productivity."
     image: "images/values/responsible-flexibility.svg"
     alt: "An employee leaving his desk with an inflatable mattress under his arm and going to the beach."
 
@@ -92,7 +92,7 @@ values:
     alt: "A young woman, surrounded by flowers, watering herself. "
 
   - title: "Work hard, play harder"
-    content: "An environment with less stress and more positive energy is what we all strive for. Alas is about giving everybody their space and a distraction-free environment, as well as opportunities for fun, relaxation, and socializing."
+    content: "An environment with less stress and more positive energy is what we all strive for. Alas is about giving everybody their space and a distraction&#8209;)free environment, as well as opportunities for fun, relaxation, and socializing."
     image: "images/values/play-harder.svg"
     alt: "Young people dancing at the party."
 
@@ -118,7 +118,7 @@ specialites:
       label: 'Meet our clients'
       link: '/clients'
 
-  - name: "Long-term partnerships"
+  - name: "Long&#8209;)term partnerships"
     type: "illustration"
     content: "
     * uncompromising honesty and integrity
