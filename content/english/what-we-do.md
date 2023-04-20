@@ -12,7 +12,7 @@ banner:
   image: 'images/what-we-do.svg'
   alt: "A rocket lounching from a computer monitor, with a clock and a calendar on the wall."
   content: 'by providing experienced and devoted
-    experts, as well as in&#8209;)depth analyses
+    experts, as well as in&#8209;depth analyses
     and consulting on improving software
     development and QA processes'
   button:
@@ -166,13 +166,13 @@ technologies:
 approach:
   enable: true
   title: 'Our approach'
-  content: "Each project is unique and requires a customized strategy, but what guides us through every communication and relationship is our in&#8209;)depth domain experience, thoroughness in everything we do, transparency, and taking the human aspect into account. These are just a few of the [values](/our-story#values) we uphold and live by every day."
+  content: "Each project is unique and requires a customized strategy, but what guides us through every communication and relationship is our in&#8209;depth domain experience, thoroughness in everything we do, transparency, and taking the human aspect into account. These are just a few of the [values](/our-story#values) we uphold and live by every day."
   content_bottom: "Our company's founders have more than 17 years of experience in each stage of the development and testing processes and are proficient in the procedures themselves. They are the ones who go through all the motions of an initial meeting, assessment, planning, and choosing the perfect team for you."
   workflow_item:
     - title: 'Initial assessment'
       image: '/images/approach/1.svg'
       alt: "number one"
-      content: 'Understanding your needs, goals, and pain points through a detailed interview and in&#8209;)depth research'
+      content: 'Understanding your needs, goals, and pain points through a detailed interview and in&#8209;depth research'
     - title: 'Customized plan'
       image: '/images/approach/2.svg'
       alt: "number two"
