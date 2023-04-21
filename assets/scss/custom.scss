@@ -218,7 +218,7 @@ video {
   .card-body {
     font-size: 16px;
   }
-  .partnerships {
+  .jobs {
     .nav-link:hover {
       background-color: rgba($alas-color-yellow, .1);
     }
@@ -230,7 +230,7 @@ video {
       border-color: $alas-color-yellow;
     }
   }
-  .jobs {
+  .partnerships {
     .nav-link:hover {
       background-color: rgba($alas-color-blue, .1);
     }
@@ -262,12 +262,12 @@ video {
 
 #partnerships-tab-pane {
   .contact-img {
-    border-color: $alas-color-yellow;
+    border-color: $alas-color-blue;
   }
 }
 #jobs-tab-pane {
   .contact-img {
-    border-color: $alas-color-blue;
+    border-color: $alas-color-yellow;
   }
 }
 #services-tab-pane {
