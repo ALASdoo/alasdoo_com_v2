@@ -37,17 +37,7 @@
 {{with .Params.culture}}
 <section id="culture" class="section">
   <div class="container">
-    <div class="row text-center justify-content-center">
-      <div class="col-lg-10"
-        data-aos="fade-up"
-        data-aos-offset="180"
-        data-aos-duration="600"
-        data-aos-easing="ease-in-out-sine">
-        <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
-        <subtitle class="h2">{{.title | markdownify}}</subtitle>
-        {{ .content | markdownify }}
-      </div>
-    </div>
+    {{ partial "content-block" .}}
     <div class="row"
       data-aos="fade-up"
       data-aos-offset="180"
@@ -68,17 +58,8 @@
 {{with .Params.benefits}}
 <section class="section bg-light-blue">
   <div class="container">
-    <div class="row justify-content-center pb-5"
-      data-aos="fade-up"
-      data-aos-offset="180"
-      data-aos-duration="600"
-      data-aos-easing="ease-in-out-sine">
-      <div class="col-lg-8 text-center">
-        <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
-        <subtitle class="h2">{{.title | markdownify}}</subtitle>
-        {{ .content | markdownify }}
-      </div>
-    </div>
+    {{ partial "content-block" .}}
+
     {{with .perks}}
     <div class="row justify-content-center"
       data-aos="fade-up"
@@ -121,18 +102,8 @@
 {{ with .Params.process }}
 <section class="section bg-light-gray">
   <div class="container">
-    <div class="row justify-content-center pb-5"
-      data-aos="fade-up"
-      data-aos-offset="180"
-      data-aos-duration="600"
-      data-aos-easing="ease-in-out-sine">
-      <div class="col-lg-8 text-center">
-        <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
-        <subtitle class="h2">{{.title | markdownify}}</subtitle>
-        {{ .content | markdownify }}
-      </div>
-    </div>
-    <div class="row gy-4 process-text"
+    {{ partial "content-block" .}}
+    <div class="row gy-4 pt-5 process-text"
       data-aos="fade-up"
       data-aos-offset="180"
       data-aos-duration="600"
@@ -147,18 +118,13 @@
 
 {{ with .Params.onboarding }}
 <section class="section">
-  <div class="container"
-    data-aos="fade-up"
-    data-aos-offset="180"
-    data-aos-duration="600"
-    data-aos-easing="ease-in-out-sine">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 text-center">
-        <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
-        <subtitle class="h2">{{.title | markdownify}}</subtitle>
-      </div>
-    </div>
-    <div class="row">
+  <div class="container">
+    {{ partial "content-block" .}}
+    <div class="row"
+      data-aos="fade-up"
+      data-aos-offset="180"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
       <div class="col-6">
         {{ .content1 | markdownify }}
       </div>
@@ -175,16 +141,7 @@
 {{ with .Params.jobs }}
 <section class="section bg-light-blue" id="jobs">
   <div class="container">
-    <div class="row justify-content-center pb-0"
-      data-aos="fade-up"
-      data-aos-offset="180"
-      data-aos-duration="600"
-      data-aos-easing="ease-in-out-sine">
-      <div class="col-lg-8 text-center">
-        <h2 class="h2">{{.title | markdownify}}</h2>
-        {{ .content | markdownify }}
-      </div>
-    </div>
+    {{ partial "content-block" .}}
     <div class="row gy-4"
       data-aos="fade-up"
       data-aos-offset="180"

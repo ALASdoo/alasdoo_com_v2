@@ -21,17 +21,8 @@
 
 {{with .relationships}}
 <section class="section">
-  <div class="container"
-    data-aos="fade-up"
-    data-aos-offset="180"
-    data-aos-duration="600"
-    data-aos-easing="ease-in-out-sine">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 text-center">
-        <h2 class="h2">{{.title | markdownify}}</h2>
-        {{.content | markdownify}}
-      </div>
-    </div>
+  <div class="container">
+    {{ partial "content-block" .}}
   </div>
 </section>
 {{end}}
@@ -39,19 +30,8 @@
 {{with .industries}}
 <section id="industries" class="section bg-light-gray">
   <div class="container">
-    <div class="row justify-content-center pb-5"
-      data-aos="fade-up"
-      data-aos-offset="180"
-      data-aos-duration="600"
-      data-aos-easing="ease-in-out-sine">
-      <div class="col-lg-10 text-center">
-        <h2 class="h3">{{.title | markdownify}}</h2>
-      </div>
-      <div class="col-lg-8 text-center">
-        {{.content | markdownify}}
-      </div>
-    </div>
-    <div class="row justify-content-center">
+    {{ partial "content-block" .}}
+    <div class="row justify-content-center pt-5">
       {{range .industries_item}}
       <div class="col-sm-6 col-md-4 col-lg-3 p-4 text-center"
         data-aos="fade-up"
@@ -97,18 +77,8 @@
 {{with .testimonials}}
 <section class="section bg-light-gray">
   <div class="container">
-    <div class="row justify-content-center pb-4"
-      data-aos="fade-up"
-      data-aos-offset="180"
-      data-aos-duration="600"
-      data-aos-easing="ease-in-out-sine">
-      <div class="col-lg-8 text-center">
-        <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
-        <subtitle class="h2">{{.title | markdownify}}</subtitle>
-        <p>{{.content | markdownify}}</p>
-      </div>
-    </div>
-    <div class="row">
+    {{ partial "content-block" .}}
+    <div class="row pt-5">
       <div class="swiper testimonial-carousel">
         <div class="swiper-wrapper">
           {{range .testimonials_item}}

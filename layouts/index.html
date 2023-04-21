@@ -24,19 +24,8 @@
 {{ if .Params.about.enable }}
 {{ with .Params.about }}
 <section class="section" id="about">
-  <div
-    class="container"
-    data-aos="fade-up"
-    data-aos-offset="180"
-    data-aos-duration="600"
-    data-aos-easing="ease-in-out-sine">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 text-center">
-        <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
-        <subtitle class="h2">{{.title | markdownify}}</subtitle>
-        {{ .content | markdownify }}
-      </div>
-    </div>
+  <div class="container">
+    {{ partial "content-block" .}}
   </div>
 </section>
 {{ end }}
@@ -48,20 +37,9 @@
 {{ if .enable }}
 <section class="section bg-light-gray">
   <div class="container">
+    {{ partial "content-block" .}}
     <div
-      class="row justify-content-center"
-      data-aos="fade-up"
-      data-aos-offset="180"
-      data-aos-duration="600"
-      data-aos-easing="ease-in-out-sine">
-      <div class="col-lg-8 text-center mb-5">
-        <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
-        <subtitle class="h2">{{.title | markdownify}}</subtitle>
-        <p>{{ .content | markdownify }}</p>
-      </div>
-    </div>
-    <div
-      class="row gy-5 services-cards"
+      class="row gy-5 mt-3 services-cards"
       data-aos="fade-up"
       data-aos-offset="180"
       data-aos-duration="400"
@@ -90,20 +68,8 @@
 {{ if .Params.clients.enable }}
 {{ with .Params.clients }}
 <section class="section pb-5" id="clients">
-  <div class="container"
-    data-aos="fade-up"
-    data-aos-offset="180"
-    data-aos-duration="600"
-    data-aos-easing="ease-in-out-sine">
-    <div class="row justify-content-center">
-      <div class="col-lg-10 text-center">
-        <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
-        <subtitle class="h2">{{.title | markdownify}}</subtitle>
-      </div>
-      <div class="col-lg-8 text-center">
-        {{ .content | markdownify }}
-      </div>
-    </div>
+  <div class="container">
+    {{ partial "content-block" .}}
   </div>
 </section>
 {{ end }}

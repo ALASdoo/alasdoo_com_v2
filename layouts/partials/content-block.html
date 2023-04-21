@@ -1,0 +1,17 @@
+<div class="row justify-content-center">
+  <div class="col-lg-8 text-center">
+    <div data-aos="fade-up"
+      data-aos-offset="180"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
+      <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
+      <subtitle class="h2">{{.title | markdownify}}</subtitle>
+    </div>
+    <div data-aos="fade-up"
+      data-aos-offset="180"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
+      {{ .content | markdownify }}
+    </div>
+  </div>
+</div>

@@ -87,15 +87,19 @@
 {{ if .enable }}
 <section class="section bg-light-blue">
   <div class="container">
-    <div class="row"
-      data-aos="fade-up"
-      data-aos-offset="180"
-      data-aos-duration="600"
-      data-aos-easing="ease-in-out-sine">
-      <div class="col-lg-10 text-center mx-auto">
+    <div class="row">
+      <div class="col-lg-10 text-center mx-auto"
+        data-aos="fade-up"
+        data-aos-offset="180"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out-sine">
         <h2 class="section-title h3">{{ .title | markdownify }}</h2>
       </div>
-      <div class="col-12 text-center pb-4">
+      <div class="col-12 text-center pb-4"
+        data-aos="fade-up"
+        data-aos-offset="100"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out-sine">
         <p>{{.content | markdownify}}</p>
       </div>
     </div>
@@ -124,19 +128,9 @@
 {{ if .enable }}
 <section class="section bg-light-gray" id="approach">
   <div class="container">
-    <div class="row justify-content-center pb-5"
-      data-aos="fade-up"
-      data-aos-offset="180"
-      data-aos-duration="600"
-      data-aos-easing="ease-in-out-sine">
-      <div class="col-xl-10 text-center">
-        <h2 class="section-title h3">{{ .title | markdownify }}</h2>
-      </div>
-      <div class="col-lg-8 text-center">
-        {{.content | markdownify}}
-      </div>
-    </div>
-    <div class="row gy-4 pb-5">
+    {{ partial "content-block" .}}
+
+    <div class="row gy-4 pb-5 pt-5">
       {{ range .workflow_item }}
       <div class="col-lg-4 col-sm-6 d-lg-flex"
         data-aos="fade-up"
