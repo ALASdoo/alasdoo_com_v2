@@ -70,7 +70,7 @@ video {
     &:hover {
       img {
         transition: 0.2s ease;
-        transform: scale3d(1.02,1.02,1.02);
+        transform: scale3d(1.04,1.04,1.04);
       }
     }
   }
@@ -132,13 +132,14 @@ video {
 .approach-text {
   padding-left: 20px;
 
-  p {
+  .p {
     font-size: 16px;
   }
 }
 .process-text {
-  h4 {
+  .h6 {
     color: $alas-color-blue;
+    font-size: 25px;
   }
   p {
     font-size: 16px;
@@ -180,6 +181,10 @@ video {
   margin: 0 auto;
 }
 
+#values-list .accordion-header {
+  font-family: $font-primary;
+}
+
 .contact-img {
   border-bottom: 5px solid;
 }
@@ -213,7 +218,7 @@ video {
   .card-body {
     font-size: 16px;
   }
-  .services {
+  .partnerships {
     .nav-link:hover {
       background-color: rgba($alas-color-yellow, .1);
     }
@@ -237,7 +242,7 @@ video {
       border-color: $alas-color-blue;
     }
   }
-  .partnerships {
+  .services {
     .nav-link:hover {
       background-color: rgba($alas-color-orange, .1);
     }
@@ -255,7 +260,7 @@ video {
   font-size: 16px;
 }
 
-#services-tab-pane {
+#partnerships-tab-pane {
   .contact-img {
     border-color: $alas-color-yellow;
   }
@@ -265,7 +270,7 @@ video {
     border-color: $alas-color-blue;
   }
 }
-#partnerships-tab-pane {
+#services-tab-pane {
   .contact-img {
     border-color: $alas-color-orange;
   }
@@ -309,6 +314,9 @@ video {
 }
 .w-70 {
   width: 70% !important;
+}
+.w-80 {
+  width: 80% !important;
 }
 
 .benefit-icon {

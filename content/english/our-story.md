@@ -99,7 +99,7 @@ values:
 ######################### specialites #####################
 specialites:
   enable: true
-  title: "Why clients choose us"
+  title: "Why clients choose&nbsp;us"
   content: "We are committed to providing our very best effort, upholding rigorous standards, and accepting responsibility for the outcomes, regardless of how big or small the project is."
   specialites_list:
   - name: "Proven track record"

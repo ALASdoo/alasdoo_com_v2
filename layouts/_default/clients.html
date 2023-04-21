@@ -1,10 +1,15 @@
 {{define "main"}}
+<h1 class="d-none">Clients</h1>
 
 {{with .Params}}
 <section class="section bg-light-gray">
   <div class="container">
     <div class="row">
-      <div class="col-4 align-items-center d-flex">
+      <div class="col-4 align-items-center d-flex"
+        data-aos="fade-right"
+        data-aos-offset="0"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out-sine">
         <div class="h5 mb-0">{{.cta.content | markdownify}}</div>
       </div>
       <div class="col-8">
@@ -23,7 +28,7 @@
     data-aos-easing="ease-in-out-sine">
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
-        <h1 class="h2">{{.title | markdownify}}</h1>
+        <h2 class="h2">{{.title | markdownify}}</h2>
         {{.content | markdownify}}
       </div>
     </div>
@@ -98,7 +103,8 @@
       data-aos-duration="600"
       data-aos-easing="ease-in-out-sine">
       <div class="col-lg-8 text-center">
-        <h3>{{.title | markdownify}}</h3>
+        <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
+        <subtitle class="h2">{{.title | markdownify}}</subtitle>
         <p>{{.content | markdownify}}</p>
       </div>
     </div>
@@ -136,7 +142,7 @@
       data-aos-duration="600"
       data-aos-easing="ease-in-out-sine">
       <div class="col-lg-8 text-center">
-        <h2 class="h2">{{.title | markdownify}}</h2>
+        <h2 class="h3">{{.title | markdownify}}</h2>
       </div>
     </div>
     <div class="row gy-5 justify-content-center pb-5"

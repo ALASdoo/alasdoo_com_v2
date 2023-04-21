@@ -137,7 +137,9 @@
   new Swiper(".testimonial-carousel", {
     speed: 600,
     loop: true,
-    autoplay: true,
+    autoplay: {
+      delay: 6000,
+    },
     spaceBetween: 70,
     pagination: {
       el: ".swiper-pagination",

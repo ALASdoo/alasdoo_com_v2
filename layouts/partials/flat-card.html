@@ -10,7 +10,7 @@
     </div>
     {{ end }}
     <div class="card-body p-4">
-      <h4 class="h6">{{ .name | title }}</h4>
+      <p class="h6">{{ .name | title }}</p>
       <p class="m-0">{{ .content | markdownify }}</p>
     </div>
     {{ if .button }}

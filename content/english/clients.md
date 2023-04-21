@@ -159,6 +159,7 @@ industries:
       alt: 'Lorry icon'
 
 testimonials:
+  subtitle: 'Testimonials'
   title: 'What our clients say about us'
   content: 'Our [WeDoQA](https://www.wedoqa.com/) brand is one of the top rated QA service providers on [Upwork](https://www.upwork.com/o/companies/~01ea0de13226020013/), where you can find more of our clients’ honest reviews.'
   testimonials_item:

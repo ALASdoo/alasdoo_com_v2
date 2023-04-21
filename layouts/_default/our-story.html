@@ -8,7 +8,7 @@
   data-aos-offset="0"
   data-aos-duration="600"
   data-aos-easing="ease-in-out-sine">
-  <h2>{{.subtitle | markdownify}}</h2>
+  <h1 class="h2">{{.subtitle | markdownify}}</h1>
 </section>
 {{ $list := .blocks }}
 {{ $len := (len $list) }}
@@ -18,20 +18,17 @@
     <div class="block {{if modBool $i 2}}block-right-image{{end}} row align-items-center g-5">
       <div class="col-lg-6 {{if modBool $i 2}}order-lg-0 text-lg-end{{end}} order-1">
         <div class="px-0 px-lg-4 history-container">
-          <h2
-            class="section-title h4"
-            data-aos="{{if modBool $i 2}}fade-right{{else}}fade-left{{end}}"
-            data-aos-offset="150"
-            data-aos-duration="600"
-            data-aos-easing="ease-in-out-sine">
-            {{ .title | markdownify }}
-          </h2>
           <div
             data-aos="{{if modBool $i 2}}fade-right{{else}}fade-left{{end}}"
             data-aos-offset="150"
             data-aos-duration="600"
             data-aos-easing="ease-in-out-sine">
-            {{ .content | markdownify }}
+            <h2 class="section-title h4">
+              {{ .title | markdownify }}
+            </h2>
+            <div>
+              {{ .content | markdownify }}
+            </div>
           </div>
         </div>
       </div>
@@ -66,7 +63,7 @@
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
-        <h3 class="h2">{{.title | markdownify}}</h3>
+        <subtitle class="h2">{{.title | markdownify}}</subtitle>
         {{ .content | markdownify }}
       </div>
     </div>
@@ -98,11 +95,11 @@
         <div class="accordion" id="values-list">
           {{ range $i, $e := .values_list }}
           <div class="accordion-item border-0 mb-3 rounded-1">
-            <h4 class="accordion-header mb-0" id="heading-{{ sha1 .title | urlize }}_">
+            <h3 class="accordion-header mb-0" id="heading-{{ sha1 .title | urlize }}_">
               <button class="accordion-button border rounded-1 shadow-none h6 mb-0 p-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-{{ sha1 .title | urlize }}_" aria-expanded="{{if eq $i 0 }}true{{else}}false{{end}}" aria-controls="id-{{ sha1 .title | urlize }}_">
                 {{.title | markdownify}}
               </button>
-            </h4>
+            </h3>
             <div id="id-{{ sha1 .title | urlize }}_" class="accordion-collapse collapse" aria-labelledby="heading-{{ sha1 .title | urlize }}_" data-bs-parent="#faq">
               <div class="accordion-body p-4 content">
                 <div class="row">

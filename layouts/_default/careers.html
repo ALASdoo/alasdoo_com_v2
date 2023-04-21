@@ -1,11 +1,16 @@
 {{ define "main" }}
+<h1 class="d-none">Careers</h1>
 
 {{with .Params.hero}}
 <section class="section bg-light-blue pb-5 pt-5">
   <div class="container">
     <div class="row">
       <div class="col-6 d-flex align-items-center">
-        <div>
+        <div
+          data-aos="fade-right"
+          data-aos-offset="0"
+          data-aos-duration="600"
+          data-aos-easing="ease-in-out-sine">
           <div class="h5">{{.title | markdownify}}</div>
           <div class="pt-4">
             {{ partial "button" .button }}
@@ -39,7 +44,7 @@
         data-aos-duration="600"
         data-aos-easing="ease-in-out-sine">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
-        <h3 class="h2">{{.title | markdownify}}</h3>
+        <subtitle class="h2">{{.title | markdownify}}</subtitle>
         {{ .content | markdownify }}
       </div>
     </div>
@@ -70,7 +75,7 @@
       data-aos-easing="ease-in-out-sine">
       <div class="col-lg-8 text-center">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
-        <h3 class="h2">{{.title | markdownify}}</h3>
+        <subtitle class="h2">{{.title | markdownify}}</subtitle>
         {{ .content | markdownify }}
       </div>
     </div>
@@ -81,7 +86,7 @@
       data-aos-duration="600"
       data-aos-easing="ease-in-out-sine">
       <div class="col-lg-10 text-center">
-        <h2 class="section-title h4">{{.title | markdownify}}</h2>
+        <h3 class="section-title h4">{{.title | markdownify}}</h3>
       </div>
     </div>
 
@@ -102,7 +107,7 @@
             {{ partial "image" (dict "Src" .image "alt" "" "Class" "rounded-2 benefit-icon") }}
           </div>
           <div class="card-body pb-5 pt-0">
-            <h4 class="h6 content p-3 pb-0">{{ .name | markdownify }}</h4>
+            <div class="h6 content p-3 pb-0">{{ .name | markdownify }}</div>
           </div>
         </div>
       </div>
@@ -123,7 +128,7 @@
       data-aos-easing="ease-in-out-sine">
       <div class="col-lg-8 text-center">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
-        <h3 class="h2">{{.title | markdownify}}</h3>
+        <subtitle class="h2">{{.title | markdownify}}</subtitle>
         {{ .content | markdownify }}
       </div>
     </div>
@@ -150,7 +155,7 @@
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
-        <h3 class="h2">{{.title | markdownify}}</h3>
+        <subtitle class="h2">{{.title | markdownify}}</subtitle>
       </div>
     </div>
     <div class="row">
@@ -176,8 +181,7 @@
       data-aos-duration="600"
       data-aos-easing="ease-in-out-sine">
       <div class="col-lg-8 text-center">
-        <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
-        <h3 class="h2">{{.title | markdownify}}</h3>
+        <h2 class="h2">{{.title | markdownify}}</h2>
         {{ .content | markdownify }}
       </div>
     </div>

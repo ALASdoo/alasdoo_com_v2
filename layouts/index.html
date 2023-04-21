@@ -1,5 +1,5 @@
 {{ define "main" }}
-
+<h1 class="d-none">Home</h1>
 <!-- banner -->
 {{ with .Params.banner }}
 <section class="hero">
@@ -32,8 +32,8 @@
     data-aos-easing="ease-in-out-sine">
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
-        <h1 class="subtitle">{{.subtitle | markdownify}}</h1>
-        <h2 class="h2">{{.title | markdownify}}</h2>
+        <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
+        <subtitle class="h2">{{.title | markdownify}}</subtitle>
         {{ .content | markdownify }}
       </div>
     </div>
@@ -56,7 +56,7 @@
       data-aos-easing="ease-in-out-sine">
       <div class="col-lg-8 text-center mb-5">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
-        <h3 class="h2">{{.title | markdownify}}</h3>
+        <subtitle class="h2">{{.title | markdownify}}</subtitle>
         <p>{{ .content | markdownify }}</p>
       </div>
     </div>
@@ -98,7 +98,7 @@
     <div class="row justify-content-center">
       <div class="col-lg-10 text-center">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
-        <h3 class="h2">{{.title | markdownify}}</h3>
+        <subtitle class="h2">{{.title | markdownify}}</subtitle>
       </div>
       <div class="col-lg-8 text-center">
         {{ .content | markdownify }}
@@ -121,7 +121,7 @@
       data-aos-duration="600"
       data-aos-easing="ease-in-out-sine">
       <div class="col-xl-8 text-center">
-        <h2 class="h3">{{.title | markdownify}}</h2>
+        <h3 class="h3">{{.title | markdownify}}</h3>
       </div>
     </div>
     <div class="row gy-lg-0 gy-4"
@@ -166,7 +166,7 @@
               <span class="numbers-icon">
                 {{ partial "image" (dict "Src" .icon "alt" "") }}
               </span>
-              <h3 class="text-white mt-2 mt-lg-4 mb-1"><span class="counter" data-counter-time="1500">{{.counter}}</span>{{.counter_suffix}}</h3>
+              <p class="h3 text-white mt-2 mt-lg-4 mb-1"><span class="counter" data-counter-time="1500">{{.counter}}</span>{{.counter_suffix}}</p>
               <p class="text-white mb-0">{{.content | markdownify}}</p>
             </div>
           </div>
@@ -191,7 +191,7 @@
         data-aos-offset="180"
         data-aos-duration="600">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
-        <h3 class="h2">{{.title | markdownify}}</h3>
+        <subtitle class="h2">{{.title | markdownify}}</subtitle>
         {{ .content | markdownify }}
         <div class="row text-center">
           <div class="pt-4">
@@ -233,7 +233,7 @@
       data-aos-easing="ease-in-out-sine">
       <div class="col-xl-10 text-center">
         <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
-        <h3 class="h2">{{.title | markdownify}}</h3>
+        <subtitle class="h2">{{.title | markdownify}}</subtitle>
       </div>
     </div>
     <div class="row gy-lg-0 gy-4 pb-5"

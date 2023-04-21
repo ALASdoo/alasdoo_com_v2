@@ -24,10 +24,10 @@
           <div class="row">
             <div class="col-lg-5 gx-5 contact-person">
               <div class="mb-4 contact-img text-center">
-                {{ partial "image" (dict "Src" .image "Alt" .name "Class" "w-60") }}
+                {{ partial "image" (dict "Src" .image "Alt" .name "Class" "w-80") }}
               </div>
-              <h3 class="h4 text-center">{{.name}}</h3>
-              <p>{{.content}}</p>
+              <p class="h4 text-center">{{.name}}</p>
+              <p>{{.content | markdownify}}</p>
             </div>
             <div class="col-lg-7">
               <div class="card shadow bg-white rounded-2 border-0">

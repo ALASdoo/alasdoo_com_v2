@@ -14,13 +14,13 @@ p {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: $font-secondary;
   font-weight: 700;
   color: $text-dark;
 }
 
-h3,
 h4,
 h5,
 h6 {
@@ -30,6 +30,10 @@ h6 {
 small,
 .small {
   font-size: 0.8rem;
+}
+
+subtitle {
+  display: block;
 }
 
 footer {

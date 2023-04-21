@@ -6,7 +6,20 @@ subtitle: 'Leveraging manual testing and automation tools to guarantee high&#820
 image: 'images/case-studies/Cargo.jpg'
 alt: 'Air cargo transport represented with boxes conected with a line and a toy plane.'
 industry: 'TRANSPORTATION'
-keywords: []
+keywords:
+  [
+    'Transportation',
+    'Jira',
+    'Automated testing',
+    'Katalon',
+    'TestOps',
+    'Exploratory testing',
+    'Agile methodology',
+    'End-to-end testing',
+    'Regression testing',
+    'QA sprint reports',
+    'Sprint release reports',
+  ]
 ---
 
 ## About the client
