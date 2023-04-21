@@ -111,7 +111,7 @@
               <div class="col-lg-8">
                 <div class="card bg-white rounded-2 border-0">
                   <div class="card-body p-4">
-                    <p class="mb-3">{{.content}}</p>
+                    <p class="mb-3">{{.content | markdownify}}</p>
                     <h5 class="h6">{{.name | markdownify}}</h5>
                   </div>
                 </div>
