@@ -44,6 +44,16 @@ maxAge = "720h"
 
 
 ############################# Markup ###############################
+[related]
+includeNewer = true
+threshold = 80
+toLower = false
+[related.indices]
+name = "keywords"
+weight = 100
+
+
+############################# Markup ###############################
 [markup]
 [markup.goldmark.renderer]
 unsafe = true
