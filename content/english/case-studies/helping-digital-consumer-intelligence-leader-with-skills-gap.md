@@ -1,8 +1,8 @@
 ---
 date: '2023-03-10'
 draft: false
-title: 'Helping digital consumer intelligence leader with skills gap'
-subtitle: 'Accelerating the process from ideation to realization'
+title: 'Helping digital consumer intelligence leader with skills&nbsp;gap'
+subtitle: 'Accelerating the process from ideation to&nbsp;realization'
 image: 'images/case-studies/Brandwatch.jpg'
 alt: 'A man looking at a social media data charts on a tablet.'
 industry: 'SOCIAL MEDIA ANALYTICS'
@@ -30,25 +30,25 @@ Thanks to their advanced technology and expertise, our client is a trusted partn
 
 ## Client’s challenges
 
-As a leading provider of social analytics software, their goal is to become a world leader in this industry. To get there, the company needs the best experts on board, which can be a difficult task.
+As a leading provider of social analytics software, their goal is to become a world leader in this industry. To get there, the company needs the best experts on board, which can be a difficult&nbsp;task.
 
 Recent trends indicate that there is a growing disparity between the skills that employers are seeking in potential employees and the skill sets possessed by job applicants. This mismatch poses significant challenges for employers, especially when seeking individuals with expertise in the latest technologies and a passion for their work, as well as a strong sense of ownership. These were precisely the requirements that our client emphasized.
 
-As this is our strong suit, we were able to help our client overcome these challenges. We handpicked the perfect experts for the positions in backend and frontend development and have provided a full software QA team to ensure top&#8209;notch quality.
+As this is our strong suit, we were able to help our client overcome these challenges. We handpicked the perfect experts for the positions in backend and frontend development and have provided a full software QA team to ensure top&#8209;notch&nbsp;quality.
 
 ## Our approach
 
 Our professional journey with this client began more than a decade ago and today we provide them with a wide range of services to help them achieve the goal of becoming a global leader in social analytics.
 
-Initially, they hired us for manual and automation testing, recognizing our expertise in these areas. As we worked with diligence and dedication, we demonstrated our capabilities and proved to be an asset to the company. Therefore, we were entrusted with the responsibility of frontend and backend development too.
+Initially, they hired us for manual and automation testing, recognizing our expertise in these areas. As we worked with diligence and dedication, we demonstrated our capabilities and proved to be an asset to the company. Therefore, we were entrusted with the responsibility of frontend and backend development&nbsp;too.
 
-Our team has contributed to the development of a complex web application, with a plethora of backend microservices to support it. In addition to building the software, we have created a complete testing environment, including a fully functional test framework to ensure quality assurance at every step of the process.
+Our team has contributed to the development of a complex web application, with a plethora of backend microservices to support it. In addition to building the software, we have created a complete testing environment, including a fully functional test framework to ensure quality assurance at every step of the&nbsp;process.
 
-## Streamlining workflows and increase efficiency with Agile and Kanban
+## Streamlining workflows and increase efficiency with Agile and&nbsp;Kanban
 
 The Agile approach helps us to stay nimble and responsive to our client's needs, ensuring that we are always working towards the most impactful goals and deliverables.
 
-By breaking down work into smaller, manageable tasks and visualizing each stage of the development process on a Kanban board, we can quickly identify and eliminate bottlenecks, prioritize work, and improve the overall flow of the development process.
+By breaking down work into smaller, manageable tasks and visualizing each stage of the development process on a Kanban board, we can quickly identify and eliminate bottlenecks, prioritize work, and improve the overall flow of the development&nbsp;process.
 
 ## Backend development
 
@@ -57,7 +57,9 @@ Currently, we are focused on developing new APIs and features, which we test rig
 Maintenance is also a significant part of our work, as we strive to keep the software up&#8209;to&#8209;date and running smoothly.
 
 Our team of experts uses a variety of tools and platforms, such as AWS, Kubernetes, Docker, Solr, and Jenkins, to build and maintain features. Additionally, Grafana and Elasticsearch are used for monitoring services.
-Writing and maintaining documentation is an important aspect of our services.
+
+Writing and maintaining documentation is an important aspect of our&nbsp;services.
+
 We recognize that software development is an ongoing process, and documentation needs to be updated regularly to reflect changes in the application and its environment.
 
 ## Frontend development
