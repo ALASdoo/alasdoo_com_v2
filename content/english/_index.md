@@ -56,7 +56,9 @@ services:
   enable: true
   title: 'What we do'
   subtitle: 'Services'
-  content: 'Our top focus is writing a code that meets the highest standards, while our quality assurance team has the skills and experience to ensure that the software satisfies the strictest criteria. Each project is unique and requires a customized approach. We supply [a vast range of services](what-we-do/) to provide the most efficient solution for the unique demands and requirements of our&nbsp;clients.'
+  content: 'Our top focus is writing a code that meets the highest standards, while our quality assurance team has the skills and experience to ensure that the software satisfies the strictest criteria.
+  
+Each project is unique and requires a customized approach. We supply [a vast range of services](what-we-do/) to provide the most efficient solution for the unique demands and requirements of our&nbsp;clients.'
   services_item:
     # services item loop
     - name: 'Frontend and backend staff augmentation'
