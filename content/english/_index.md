@@ -16,13 +16,13 @@ about:
   enable: true
   subtitle: 'About us'
   title: 'More personal, always'
-  content: 'ALAS d.o.o. is a Software Development and Quality Assurance outsourcing company with extensive experience in web development, project management, manual and automated testing.
+  content: 'ALAS d.o.o. is a Software Development and Quality Assurance outsourcing company with extensive experience in web development, project management, manual and automated&nbsptesting.
 
 
-  Aligning the product vision with the technical team is our specialty. Through open communication and a personal approach, we consider every aspect of the project so that we are empowered to assist and consult in every step of the development process.
+  Aligning the product vision with the technical team is our specialty. Through open communication and a personal approach, we consider every aspect of the project so that we are empowered to assist and consult in every step of the development&nbspprocess.
 
 
-  Our software QA services are recognized worldwide under [the WeDoQA brand](https://www.wedoqa.com).'
+  Our software QA services are recognized worldwide under [the WeDoQA&nbspbrand](https://www.wedoqa.com).'
   button:
     enable: false
     type: 'primary'
@@ -56,7 +56,7 @@ services:
   enable: true
   title: 'What we do'
   subtitle: 'Services'
-  content: 'Our top focus is writing a code that meets the highest standards, while our quality assurance team has the skills and experience to ensure that the software satisfies the strictest criteria. Each project is unique and requires a customized approach. We supply [a vast range of services](what-we-do/) to provide the most efficient solution for the unique demands and requirements of our clients.'
+  content: 'Our top focus is writing a code that meets the highest standards, while our quality assurance team has the skills and experience to ensure that the software satisfies the strictest criteria. Each project is unique and requires a customized approach. We supply [a vast range of services](what-we-do/) to provide the most efficient solution for the unique demands and requirements of our&nbspclients.'
   services_item:
     # services item loop
     - name: 'Frontend and backend staff augmentation'
@@ -96,8 +96,8 @@ services:
 ######################### Consulting #####################
 consulting:
   enable: true
-  title: 'Looking to outsource your software development and QA needs?'
-  content: 'Contact us to learn how we can help your project skyrocket!'
+  title: 'Looking to outsource your software development and QA&nbspneeds?'
+  content: 'Contact us to learn how we can help your project&nbspskyrocket!'
   button:
     enable: true
     type: 'primary'
@@ -109,10 +109,10 @@ clients:
   enable: true
   title: 'Proven track record'
   subtitle: 'Clients'
-  content: 'From small businesses and startups to well&#8209;established international corporations, we work with a wide range of [industries](/clients#industries). We have developed trustworthy relationships with [clients](/clients) and their development teams from all over the world.
+  content: 'From small businesses and startups to well&#8209;established international corporations, we work with a wide range of [industries](/clients#industries). We have developed trustworthy relationships with [clients](/clients) and their development teams from all over the&nbspworld.
 
 
-  In our [case studies](/case-studies), you can read more about how we were able to help them improve company practices and increase revenue.'
+  In our [case studies](/case-studies), you can read more about how we were able to help them improve company practices and increase&nbsprevenue.'
 
 ######################### Case studies #####################
 case_studies:
@@ -125,10 +125,10 @@ jobs:
   enable: true
   title: 'Working at ALAS'
   subtitle: 'Careers'
-  content: 'ALAS is all about providing [a vibrant culture](/careers#culture) through a pleasant atmosphere, possibilities for professional growth, relaxation, entertainment, and social interaction.
+  content: 'ALAS is all about providing [a vibrant culture](/careers#culture) through a pleasant atmosphere, possibilities for professional growth, relaxation, entertainment, and social&nbspinteraction.
 
 
-  We encourage people to have a healthy work/life balance, and devote time and energy to their families and hobbies.'
+  We encourage people to have a healthy work/life balance, and devote time and energy to their families and&nbsphobbies.'
   button:
     enable: true
     type: 'primary'
