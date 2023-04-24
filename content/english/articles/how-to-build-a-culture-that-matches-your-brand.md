@@ -1,5 +1,6 @@
 ---
 date: '2021-07-11'
+
 draft: false
 title: 'How to build a culture that matches your&nbsp;brand?'
 image: 'images/articles/company-culture.jpg'
@@ -79,7 +80,7 @@ Ensure that your company's principles and values shine through your marketing ef
 
 ### STEP SIX: Evaluating the outcome of&nbsp;changes
 
-The aim of this step is to determine the impact of the changes on customers, employees, and the company culture overall. It is vital to evaluate the effectiveness of the implemented&nbsp;actions.
+The aim of this step is to determine the impact of the changes on customers, employees, and the company culture overall. It is vital to evaluate the effectiveness of the implemented actions.
 
 ### STEP SEVEN: Culture's evolution
 
