@@ -167,7 +167,7 @@ approach:
   enable: true
   title: 'Our approach'
   content: "Each project is unique and requires a customized strategy, but what guides us through every communication and relationship is our in&#8209;depth domain experience, thoroughness in everything we do, transparency, and taking the human aspect into account. These are just a few of the [values](/our-story#values) we uphold and live by every&nbsp;day."
-  content_bottom: "Our company's founders have more than 17 years of experience in each stage of the development and testing processes and are proficient in the procedures themselves. They are the ones who go through all the motions of an initial meeting, assessment, planning, and choosing the perfect team for&nbsp;ou."
+  content_bottom: "Our company's founders have more than 17 years of experience in each stage of the development and testing processes and are proficient in the procedures themselves. They are the ones who go through all the motions of an initial meeting, assessment, planning, and choosing the perfect team for&nbsp;you."
   workflow_item:
     - title: 'Initial assessment'
       image: '/images/approach/1.svg'
