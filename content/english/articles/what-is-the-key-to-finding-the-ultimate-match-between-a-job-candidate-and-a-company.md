@@ -74,7 +74,7 @@ Adequate onboarding and training are essential to help new employees adapt to th
 
 This period typically lasts for 3 months and allows us to assess the employee's skills, work ethic, and compatibility with the company culture and, based on that, decide whether to extend the contract. The probation period also allows the employee to determine if the job and company are a good fit for them before making a final&nbsp;decision.
 
-By taking a comprehensive and thorough approach, we are increasing the chances of finding the best fit for both the candidate and the company. We make sure to continuously assess and evaluate our hiring process to ensure that we are bringing in the right &nbsp;eople.
+By taking a comprehensive and thorough approach, we are increasing the chances of finding the best fit for both the candidate and the company. We make sure to continuously assess and evaluate our hiring process to ensure that we are bringing in the right&nbsp;people.
 
 ## How to estimate if a company suits&nbsp;you?
 
