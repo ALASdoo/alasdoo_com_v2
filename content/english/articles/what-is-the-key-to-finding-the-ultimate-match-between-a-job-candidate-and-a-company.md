@@ -28,7 +28,7 @@ At Alas, we are making efforts to achieve this through our thorough employer bra
 
 ## What employer branding has to do with&nbsp;it?
 
-Employer branding is the process of creating and maintaining a positive image of an organization as an employer. It is built on a foundation of strong values, a clear vision, and a commitment to providing a supportive and conducive &nbsp;orkplace.
+Employer branding is the process of creating and maintaining a positive image of an organization as an employer. It is built on a foundation of strong values, a clear vision, and a commitment to providing a supportive and conducive&nbsp;workplace.
 
 Employer branding is also closely linked to recruitment. We understand the importance of employer branding and have made it a top priority in our recruitment and retention strategies.
 
@@ -44,7 +44,7 @@ A team with shared values is a team that can work together effectively and effic
 
 To ensure that we are bringing on individuals who fit with our values, we have implemented a "values fit and culture contribution” hiring approach. This approach involves not only evaluating a candidate's qualifications and experience but also assessing how well their personal values align with those of our&nbsp;company.
 
-It is crucial to not only assess if a candidate or employee aligns with the values and beliefs of the organization but also to consider the unique contributions they can bring to the company. Diverse perspectives and ideas can lead to innovation and growth. Additionally, it is important to acknowledge and appreciate individuals who not only embody the company's values but actively work to strengthen them through their actions and energy. This is why we choose the “culture contribution” over the “culture fit” approach.
+It is crucial to not only assess if a candidate or employee aligns with the values and beliefs of the organization but also to consider the unique contributions they can bring to the company. Diverse perspectives and ideas can lead to innovation and growth. Additionally, it is important to acknowledge and appreciate individuals who not only embody the company's values but actively work to strengthen them through their actions and energy. This is why we choose the “culture contribution” over the “culture&nbsp;fit” approach.
 
 Both values fit and culture contribution are important for the hiring process because a candidate who aligns with both of them will be more likely to be a successful and long&#8209;term employee in the&nbsp;company.
 
