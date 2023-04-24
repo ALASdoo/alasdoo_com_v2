@@ -1,7 +1,7 @@
 ---
 date: '2023-03-09'
 draft: false
-title: 'A 15-year-long partnership in building a robust and scalable website creation tool'
+title: 'A 15-year-long partnership in building a robust and scalable website creation&nbsp;tool'
 subtitle: 'Supporting a website builder with backend development, testing, and project management services'
 image: 'images/case-studies/SimpleSite.jpg'
 alt: 'Laptop with website building elements on the screen'
@@ -22,13 +22,13 @@ keywords:
 
 Our client's journey began in 2003 with a mission to make website creation accessible to everyone, regardless of their technical abilities. With a focus on simplicity and usability, they launched a website&#8209;building tool that became a household name in the industry.
 
-This tool has enabled over 30 million websites to be created worldwide, with over 500.000 new websites launched every month.
+This tool has enabled over 30 million websites to be created worldwide, with over 500.000 new websites launched every&nbsp;month.
 
 ## Client’s challenges
 
-Initially, the client engaged us to perform manual testing of their website&#8209;building tool. However, as our expertise and value became evident, we took steps to improve the testing process by introducing automated test scripts. Our efforts resulted in faster and more efficient testing, allowing the client to roll out updates and new features more quickly. Impressed with our performance, the client subsequently hired us to provide developer and DevOps services for their backend processes.
+Initially, the client engaged us to perform manual testing of their website&#8209;building tool. However, as our expertise and value became evident, we took steps to improve the testing process by introducing automated test scripts. Our efforts resulted in faster and more efficient testing, allowing the client to roll out updates and new features more quickly. Impressed with our performance, the client subsequently hired us to provide developer and DevOps services for their backend&nbsp;processes.
 
-In 2022, our client was acquired by one of Europe's leading providers of online solutions, including domains, web hosting, and website creation tools. This strategic move consolidated the buyer's position as a market leader. To ensure a seamless transition for our client's customers, we oversaw the migration of their websites to the new company's infrastructure. This effort resulted in a hassle&#8209;free experience for around 60.000 paid customers who wanted to switch between website builders.
+In 2022, our client was acquired by one of Europe's leading providers of online solutions, including domains, web hosting, and website creation tools. This strategic move consolidated the buyer's position as a market leader. To ensure a seamless transition for our client's customers, we oversaw the migration of their websites to the new company's infrastructure. This effort resulted in a hassle&#8209;free experience for around 60.000 paid customers who wanted to switch between website&nbsp;builders.
 
 ## Our approach
 
@@ -60,12 +60,12 @@ We cooperated with this client for over 15 years. During the last 2 years on the
 
 ## Value delivered
 
-We take great pride in being an integral part of our client's journey by providing a comprehensive range of services that have been instrumental in supporting their operations. Our collaborative efforts have contributed to the success of their tool, which has been tried by an astounding 30 million users, with 10 million active free trials. These impressive numbers are a testament to the quality and effectiveness of their services, as well as the hard work and dedication of our team.
+We take great pride in being an integral part of our client's journey by providing a comprehensive range of services that have been instrumental in supporting their operations. Our collaborative efforts have contributed to the success of their tool, which has been tried by an astounding 30 million users, with 10 million active free trials. These impressive numbers are a testament to the quality and effectiveness of their services, as well as the hard work and dedication of our&nbsp;team.
 
-Our development expertise, manual testing, and creating automated test cases using [Katalon](https://katalon.com/) have ensured that the website&#8209;building tool is robust and reliable. In addition, our DevOps services in the AWS stack have helped our client optimize their website&#8209;building tool's performance and scalability, making it even more accessible to a wider audience.
+Our development expertise, manual testing, and creating automated test cases using [Katalon](https://katalon.com/) have ensured that the website&#8209;building tool is robust and reliable. In addition, our DevOps services in the AWS stack have helped our client optimize their website&#8209;building tool's performance and scalability, making it even more accessible to a wider&nbsp;audience.
 
 In addition to our range of services, we are proud to have provided our client with a dedicated Team Lead position for developers and DevOps teams, which resulted in increased efficiency and productivity.
 
-Our COO services have also been invaluable in ensuring that our client's daily operations run seamlessly, allowing them to concentrate on their core mission of making website creation accessible to everyone.
+Our COO services have also been invaluable in ensuring that our client's daily operations run seamlessly, allowing them to concentrate on their core mission of making website creation accessible to&nbsp;everyone.
 
-As part of our commitment to delivering excellent service, we also made sure that the transition into the new buyer system was a smooth process for over 60.000 paying customers.
+As part of our commitment to delivering excellent service, we also made sure that the transition into the new buyer system was a smooth process for over 60.000 paying&nbsp;customers.
