@@ -18,7 +18,7 @@ intro:
     content: "Before the first billing hour, each team member completes in&#8209;depth training for the project they are undertaking, so they can seamlessly take over their role and hit the ground&nbsp;running.
 
 
-    We are proud of our excellent knowledge-sharing system and collaboration between colleagues. Through support, feedback, workshops and brainstorming, each person is enabled to work at full capacity."
+    We are proud of our excellent knowledge-sharing system and collaboration between colleagues. Through support, feedback, workshops and brainstorming, each person is enabled to work at full&nbsp;capacity."
     image: "images/constant-improvement.jpg"
     alt: ""
 
