@@ -110,7 +110,7 @@ Trustworthy vendors show a “human touch” and do their best to understand you
 
 You will inevitably have to lose some control, but the risk is lowered when you can trust the team to bring up concerns or issues early, without sugarcoating&nbsp;them.
 
-### Determine a&nbsp;communication&nbsp;cadence
+### Determine a communication cadence
 
 Regular check&#8209;ins can help alleviate worries about a lack of control. Vendor reports will give you an overview of their workflow and overall project progress. Regular status meetings should be a standard feature of any&nbsp;engagement.
 
