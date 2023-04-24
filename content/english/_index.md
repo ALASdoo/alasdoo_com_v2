@@ -61,7 +61,7 @@ services:
 Each project is unique and requires a customized approach. We supply [a vast range of services](what-we-do/) to provide the most efficient solution for the unique demands and requirements of our&nbsp;clients.'
   services_item:
     # services item loop
-    - name: 'Frontend and backend staff&nbsp;augmentation'
+    - name: 'Frontend and backend staff augmentation'
       type: 'illustration'
       image: 'images/development.svg'
       alt: "Developer working on laptop, with signs for CSS, HTML, JAVA and JS around him"
@@ -84,7 +84,7 @@ Each project is unique and requires a customized approach. We supply [a vast ran
 
 
     # services item loop
-    - name: 'IT consulting and project&nbsp;management'
+    - name: 'IT consulting and project management'
       type: 'illustration'
       image: 'images/PM.svg'
       alt: "Project manager consulting a client, showing him data presented through graphs and charts."
