@@ -18,7 +18,7 @@ relationships:
   content: 'Long&#8209;term partnerships are the measure of our success. Our passion and commitment in everything we do are reflected in relationships with our clients, a great part of whom we have been successfully conducting business with for longer than 10 years. We became a significant part of their teams, and what they most appreciate about us is our reliability and a sense of ownership and responsibility.'
 
 clients:
-  title: 'Some of our awesome clients'
+  title: 'Some of our awesome&nbsp;clients'
   clients_item:
     - title: 'Brandwatch'
       image: 'images/clients/brandwatch.svg'
