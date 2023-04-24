@@ -64,7 +64,7 @@ National and organizational culture differences can play a role in the offshorin
 
 Determining the risk points can be as easy as checking which non&#8209;working holidays are there in the country a managed service is from, or making sure the provider has a high level of multicultural competence and a positive attitude toward cultural differences by checking if they have multicultural clients or just a small region they deliver services&nbsp;for.
 
-Whether you choose a company from your close surroundings or one overseas, consider the company culture, level of formality, and values you share, especially in terms of conducting business and&nbsp;communication.
+Whether you choose a company from your close surroundings or one overseas, consider the company culture, level of formality, and values you share, especially in terms of conducting business and communication.
 
 ### 4. Time difference
 
