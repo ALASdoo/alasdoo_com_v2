@@ -58,7 +58,7 @@ By integrating Katalon with [TestOps](https://katalon.com/testops), we manage ou
 
 [DataDog](https://www.datadoghq.com/) monitoring is a tool we use to track various performance metrics and KPIs of our client's applications. By tracking these KPIs, we can quickly identify any issues and take corrective action before they impact end users. DataDog also offers powerful error-tracking capabilities. It automatically detects and aggregates errors from various sources, including logs, metrics, and&nbsp;traces.
 
-### Release and QA sprint reports
+### Release and QA sprint&nbsp;reports
 
 Our client is using the Agile methodology. Throughout each sprint, we have daily, sprint planning, and sprint demo meetings. Additionally, we have a "Weekly QA Review" with our client's CTO to discuss news, plans, and problems. Our team prioritizes honest and transparent communication during all interactions.
 
