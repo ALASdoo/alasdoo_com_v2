@@ -2,6 +2,25 @@
 
 {{ partial "page-header.html" .}}
 
-<div>SUCCESS</div>
-
+{{ with .Params }}
+<section class="section form-success pt-2">
+  <div class="container"
+  data-aos="fade-up"
+  data-aos-offset="180"
+  data-aos-duration="600"
+  data-aos-delay="400"
+  data-aos-easing="ease-in-out-sine">
+    <div class="row">
+      <div class="col-12 text-center">
+        {{ partial "image" (dict "Src" .image "Alt" .alt "Class" "w-50") }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        {{ .content | markdownify }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
 {{ end }}
