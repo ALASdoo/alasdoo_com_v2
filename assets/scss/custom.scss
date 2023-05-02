@@ -279,18 +279,18 @@ video {
     font-family: $font-primary;
   }
   h1 {
-    font-size: 40px;
+    @include font-size(40px);
   }
   h2 {
-    font-size: 35px;
+    @include font-size(35px);
     font-weight: 400;
     font-family: $font-primary;
   }
   h3 {
-    font-size: 30px;
+    @include font-size(30px);
   }
   h4 {
-    font-size: 28px;
+    @include font-size(28px);
   }
 }
 
