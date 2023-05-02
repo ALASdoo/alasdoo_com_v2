@@ -57,13 +57,13 @@ services:
   title: 'What we do'
   subtitle: 'Services'
   content: 'Our top focus is writing a code that meets the highest standards, while our quality assurance team has the skills and experience to ensure that the software satisfies the strictest criteria.
-  
+
 Each project is unique and requires a customized approach. We supply [a vast range of services](what-we-do/) to provide the most efficient solution for the unique demands and requirements of our&nbsp;clients.'
   services_item:
     # services item loop
     - name: 'Frontend and backend staff augmentation'
       type: 'illustration'
-      image: 'images/development.svg'
+      image: 'images/development.png'
       alt: "Developer working on laptop, with signs for CSS, HTML, JAVA and JS around him"
       button:
         enable: true
@@ -74,7 +74,7 @@ Each project is unique and requires a customized approach. We supply [a vast ran
     # services item loop
     - name: 'Manual and automated software QA&nbsp;services'
       type: 'illustration'
-      image: 'images/QA.svg'
+      image: 'images/QA.png'
       alt: "Woman doing manual testing on tablet while laptop with robot hand with magnifying glass is doing automation testing, finding a bug in the code."
       button:
         enable: true
@@ -86,7 +86,7 @@ Each project is unique and requires a customized approach. We supply [a vast ran
     # services item loop
     - name: 'IT consulting and project management'
       type: 'illustration'
-      image: 'images/PM.svg'
+      image: 'images/PM.png'
       alt: "Project manager consulting a client, showing him data presented through graphs and charts."
       button:
         enable: true
