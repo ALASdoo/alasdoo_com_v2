@@ -5,14 +5,14 @@
 <section class="section bg-light-gray">
   <div class="container">
     <div class="row">
-      <div class="col-4 align-items-center d-flex"
+      <div class="col-lg-4 align-items-center d-flex pb-5 pb-lg-0"
         data-aos="fade-right"
         data-aos-offset="0"
         data-aos-duration="600"
         data-aos-easing="ease-in-out-sine">
         <div class="h5 mb-0">{{.cta.content | markdownify}}</div>
       </div>
-      <div class="col-8">
+      <div class="col-lg-8">
         {{ partial "video" .cta.anim }}
       </div>
     </div>
@@ -61,7 +61,7 @@
     </div>
     <div class="row justify-content-center align-items-center">
       {{range .clients_item}}
-      <div class="col-3 p-5"
+      <div class="col-sm-6 col-lg-4 col-xl-3 col-lg-3 p-5"
         data-aos="fade-up"
         data-aos-offset="100"
         data-aos-duration="600"
@@ -78,7 +78,11 @@
 <section class="section bg-light-gray">
   <div class="container">
     {{ partial "content-block" .}}
-    <div class="row pt-5">
+    <div class="row pt-5"
+      data-aos="fade-up"
+      data-aos-offset="180"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out-sine">
       <div class="swiper testimonial-carousel">
         <div class="swiper-wrapper">
           {{range .testimonials_item}}

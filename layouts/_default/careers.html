@@ -5,7 +5,7 @@
 <section class="section bg-light-blue pb-5 pt-5">
   <div class="container">
     <div class="row">
-      <div class="col-6 d-flex align-items-center">
+      <div class="col-lg-6 d-flex align-items-center pb-4 text-center text-lg-start">
         <div
           data-aos="fade-right"
           data-aos-offset="0"
@@ -17,7 +17,7 @@
           </div>
         </div>
       </div>
-      <div class="col-6 overflow-hidden"
+      <div class="col-lg-6 overflow-hidden"
         data-aos="fade-left"
         data-aos-offset="0"
         data-aos-duration="600"
@@ -48,8 +48,7 @@
       data-aos-offset="180"
       data-aos-duration="600"
       data-aos-easing="ease-in-out-sine">
-      <div class="col-lg-6"
-        >
+      <div class="col-lg-6 pb-4 pb-lg-0">
         {{ .content1 | markdownify }}
       </div>
       <div class="col-lg-6">
@@ -83,7 +82,7 @@
       data-aos-delay="300"
       data-aos-easing="ease-in-out-sine">
       {{range .perks_item}}
-      <div class="col-lg-4 col-sm-6 d-lg-flex"
+      <div class="col-xl-4 col-md-6 d-lg-flex"
         data-aos="fade-up"
         data-aos-offset="100"
         data-aos-duration="600"
@@ -130,10 +129,10 @@
       data-aos-offset="180"
       data-aos-duration="600"
       data-aos-easing="ease-in-out-sine">
-      <div class="col-6">
+      <div class="col-md-6 pb-4 pb-md-0">
         {{ .content1 | markdownify }}
       </div>
-      <div class="col-6">
+      <div class="col-md-6">
         {{ .content2 | markdownify }}
       </div>
     </div>

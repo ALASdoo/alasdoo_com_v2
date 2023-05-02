@@ -3,7 +3,9 @@
   "use strict";
 
   // aos
-  AOS.init();
+  AOS.init({
+    disable: 'mobile',
+  });
 
   // gallery slider
   new Swiper(".gallery-slider", {
