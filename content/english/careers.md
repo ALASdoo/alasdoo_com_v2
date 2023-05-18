@@ -38,7 +38,7 @@ culture:
   subtitle: "Culture"
   title: "We take great pride in our&nbsp;culture"
   content1: "We are not corporate. We were founded as a small family company, and although we have significantly grown, our business approach still integrates family values. Our employees are participants in decision&#8209;making, as their opinions, initiatives, and ideas are always heard and&nbsp;welcomed."
-  content2: "With our personal approach we help employees achieve their full potential by taking into account strengths and aspirations of each worker, finding the right place in the company for them, and supporting and guiding them in their journey of professional self&#8209;actualization."
+  content2: "With our personal approach we help employees achieve their full potential by taking into account their strengths and aspirations, finding the right place in the company for them, and supporting and guiding them in the journey of professional self&#8209;actualization."
 
 benefits:
   subtitle: "Benefits"
