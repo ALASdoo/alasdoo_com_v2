@@ -18,7 +18,7 @@
             data-aos="fade-up"
             data-aos-offset="0"
             data-aos-duration="400"
-            data-aos-delay="600"
+            data-aos-delay="400"
             data-aos-easing="ease-in-out-sine">
             {{ partial "button" .button }}
           </div>
@@ -26,13 +26,14 @@
       </div>
     </div>
   </div>
-  <div id="hero-image" class="banner"
-    {{ partial "bg-image" (dict "Src" .image "Position" "top center" "Webp" false) | safeHTMLAttr }}
-    data-aos="fade-in"
+  <div data-aos="fade-in"
     data-aos-offset="0"
     data-aos-duration="400"
-    data-aos-delay="0"
+    data-aos-delay="800"
     data-aos-easing="ease-in-out-sine">
+    <div id="hero-image" class="banner"
+      {{ partial "bg-image" (dict "Src" .image "Position" "top center" "Webp" false) | safeHTMLAttr }}>
+    </div>
   </div>
 </section>
 {{ end }}
