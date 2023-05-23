@@ -3,6 +3,7 @@ hero: "Our true value lies in people who do the hard&nbsp;work.
 
 By understanding and valuing them everything else falls into&nbsp;place."
 hero_image: "images/quality-over-quantity.jpg"
+alt: "IT team leader working with her team on a project."
 description: ""
 draft: false
 layout: "team"
@@ -21,7 +22,7 @@ intro:
 
     We are proud of our excellent knowledge-sharing system and collaboration between colleagues. Through support, feedback, workshops and brainstorming, each person is enabled to work at full&nbsp;capacity."
     image: "images/constant-improvement.jpg"
-    alt: ""
+    alt: "A team of IT professionals collaborating at a workshop."
 
 cta:
   title: 'Do you need staff augmentation or a dedicated&nbsp;team?'
