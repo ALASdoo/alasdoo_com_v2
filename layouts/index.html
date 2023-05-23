@@ -7,12 +7,18 @@
     <div class="container">
       <div class="row">
         <div class="col-10 mx-auto text-center">
-          {{ partial "slide-text" .title }}
+          <!-- {{ partial "slide-text" .title }} -->
+          <div class="hero-text"
+            data-aos="fade-up"
+            data-aos-offset="0"
+            data-aos-duration="400"
+            data-aos-delay="0"
+            data-aos-easing="ease-in-out-sine">{{ .title }}</div>
           <div class="pt-4"
             data-aos="fade-up"
             data-aos-offset="0"
             data-aos-duration="400"
-            data-aos-delay="1600"
+            data-aos-delay="200"
             data-aos-easing="ease-in-out-sine">
             {{ partial "button" .button }}
           </div>
