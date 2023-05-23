@@ -81,7 +81,7 @@ clients:
       image: 'images/clients/gokid.png'
       alt: 'goKid logo'
     - title: 'Web Interpret'
-      image: 'images/clients/webinterpret.webp'
+      image: 'images/clients/webinterpret.png'
       alt: 'Web Interpret logo'
     - title: 'Konecranes'
       image: 'images/clients/konecranes.png'

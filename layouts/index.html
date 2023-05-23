@@ -26,7 +26,14 @@
       </div>
     </div>
   </div>
-  <div id="hero-image" class="banner" {{ partial "bg-image" (dict "Src" .image "Position" "top center" "Webp" false) | safeHTMLAttr }}></div>
+  <div id="hero-image" class="banner"
+    {{ partial "bg-image" (dict "Src" .image "Position" "top center" "Webp" false) | safeHTMLAttr }}
+    data-aos="fade-in"
+    data-aos-offset="0"
+    data-aos-duration="400"
+    data-aos-delay="0"
+    data-aos-easing="ease-in-out-sine">
+  </div>
 </section>
 {{ end }}
 <!-- /banner -->
@@ -50,7 +57,7 @@
   <div class="container">
     {{ partial "content-block" .}}
     <div
-      class="row gy-5 mt-3 services-cards justify-content-center"
+      class="row gy-3 mt-xl-3 services-cards justify-content-center"
       data-aos="fade-up"
       data-aos-offset="180"
       data-aos-duration="400"
@@ -138,7 +145,7 @@
       <div class="col-12">
         <div class="row justify-content-center">
           {{range .numbers_item}}
-          <div class="col-lg-4 col-sm-6 p-2">
+          <div class="col-lg-4 col-sm-6 p-2 pb-5 pb-lg-0">
             <div class="block">
               <span class="numbers-icon">
                 {{ partial "image" (dict "Src" .icon "alt" "") }}
