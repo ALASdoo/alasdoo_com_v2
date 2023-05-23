@@ -4,7 +4,7 @@ job_nature: 'Full Time'
 category: 'QA'
 ---
 
-### WHO ARE WE?
+## Who are we?
 
 ALAS d.o.o. is a Software Development and Quality Assurance outsourcing company with extensive experience in web development, project management, manual and automated testing.
 
@@ -18,7 +18,7 @@ Driven by these, we are looking for You - a reliable and talented QA Engineer to
 
 ---
 
-### WHAT DO WE EXPECT FROM YOU?
+## What do we expect from you?
 
 - Test clients’ applications and websites
 - Write and run unit tests, smoke tests and other test cases
@@ -27,7 +27,7 @@ Driven by these, we are looking for You - a reliable and talented QA Engineer to
 
 ---
 
-### WHAT QUALIFIES YOU?
+## What qualifies you?
 
 - Experience with different operating systems
 - Experience with mobile devices
@@ -39,7 +39,7 @@ Driven by these, we are looking for You - a reliable and talented QA Engineer to
 
 ---
 
-### WHAT IS NICE TO HAVE?
+## What is nice to have?
 
 - Experience with different bug trackers
 - Experience with Selenium
@@ -47,21 +47,21 @@ Driven by these, we are looking for You - a reliable and talented QA Engineer to
 
 ---
 
-### WHAT QUALIFIES US?
+## What qualifies us?
 
-#### ALAS is one energetic and exciting workplace
+### ALAS is one energetic and exciting workplace
 
 - Stable and on&#8209;going employment with a steady stream of exciting duties
 - An easily accessible workplace by car, bus, bike or foot
 - A refreshing work environment with a yard and plenty chill&#8209;out areas
 
-#### ALAS cares about its talents
+### ALAS cares about its talents
 
 - Your private time is safe with our 8 hour work day and no forced overtime
 - An attractive pay check that keeps you motivated
 - A fertile environment for development and growth
 
-#### ALAS mouthwatering perks
+### ALAS mouthwatering perks
 
 - Enjoy sponsored lunch, fresh fruit, and delicious coffee at work
 - Enjoy a customized bonus you can use as you wish (gym/private health insurance, etc.)
@@ -69,13 +69,13 @@ Driven by these, we are looking for You - a reliable and talented QA Engineer to
 
 ---
 
-### ARE WE THE PERFECT MATCH?
+## Are we the perfect match?
 
 If you think so, simply send your resume to <jobs@alasdoo.com> and leave the rest to us.
 
 ---
 
-### WHEN TO APPLY?
+## When to apply?
 
 As soon as possible!
 We conduct interviews on a first&#8209;come, first&#8209;served basis, so be fast & fearless!

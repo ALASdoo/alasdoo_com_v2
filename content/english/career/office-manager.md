@@ -5,7 +5,7 @@ category: 'Management'
 draft: true
 ---
 
-### WHO ARE WE?
+## Who are we?
 
 ALAS d.o.o. is an outsource Software Development and Quality Assurance company with broad experience in web development, project management, manual and automated testing.
 
@@ -19,7 +19,7 @@ Your role would be to create and maintain a pleasant work environment, ensuring 
 
 ---
 
-### WHAT DO WE EXPECT FROM YOU?
+## What do we expect from you?
 
 - Managing office space, coordinating and executing office activities, making sure everything is running smoothly
 - Assisting and supporting the management team
@@ -37,7 +37,7 @@ Your role would be to create and maintain a pleasant work environment, ensuring 
 
 ---
 
-### WHAT QUALIFIES YOU?
+## What qualifies you?
 
 - Proactivity and resourcefulness
 - Ability to work independently, but also within a team
@@ -54,7 +54,7 @@ Your role would be to create and maintain a pleasant work environment, ensuring 
 
 ---
 
-### WHAT QUALIFIES US?
+## What qualifies us?
 
 **ALAS is one energetic and exciting workplace**
 
@@ -76,13 +76,13 @@ Your role would be to create and maintain a pleasant work environment, ensuring 
 
 ---
 
-### ARE WE THE PERFECT MATCH?
+## Are we the perfect match?
 
 If you think so, simply send your resume to <jobs@alasdoo.com> and leave the rest to us.
 
 ---
 
-### WHEN TO APPLY?
+## When to apply?
 
 As soon as possible!
 We conduct interviews on a first&#8209;come, first&#8209;served basis, so be fast & fearless!

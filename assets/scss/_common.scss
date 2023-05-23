@@ -441,3 +441,10 @@ form label {
     }
   }
 }
+
+#js-cookie-button {
+  &:hover {
+    box-shadow: none !important;
+    transform: none !important;
+  }
+}

@@ -88,11 +88,14 @@
           {{range .testimonials_item}}
           <div class="swiper-slide text-center">
             <div class="row justify-content-center">
-              <div class="col-lg-8">
+              <div class="col-lg-10">
                 <div class="card bg-white rounded-2 border-0">
-                  <div class="card-body p-4">
-                    <p class="mb-3">{{.content | markdownify}}</p>
-                    <h5 class="h6">{{.name | markdownify}}</h5>
+                  <div class="card-body p-5">
+                    <div class="quotation-marks pb-3">
+                      {{ partial "image" (dict "Src" "/images/quotation-marks.png" "Alt" "Quation mark") }}
+                    </div>
+                    <p class="mb-3 fst-italic">{{.content | markdownify}}</p>
+                    <p class="h6">{{.name | markdownify}}</p>
                   </div>
                 </div>
               </div>

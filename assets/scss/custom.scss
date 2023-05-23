@@ -78,7 +78,8 @@ video {
     right: 0;
     position: absolute;
     content: "";
-    background-color: rgba(0,0,0,.5);
+    background: rgba(0,40,41,.5);
+    background: linear-gradient(0deg, rgba(0,40,41,.5) 0%, rgba(0,40,41,.7) 100%);
     z-index: 1;
   }
 }
@@ -303,7 +304,8 @@ video {
 }
 
 .article,
-.case-study {
+.case-study,
+.job-content {
   h1,
   h2,
   h3 {
@@ -323,6 +325,17 @@ video {
   }
   h4 {
     @include font-size(28px);
+  }
+}
+.job-content {
+  h2 {
+    @include font-size(30px);
+  }
+  h3 {
+    @include font-size(25px);
+  }
+  h4 {
+    @include font-size(22px);
   }
 }
 
@@ -348,4 +361,9 @@ video {
 
 .benefit-icon {
   width: 40%;
+}
+
+.quotation-marks img {
+  max-height: 25px;
+  width: auto;
 }

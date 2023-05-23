@@ -1,5 +1,6 @@
 ---
-hero: "Our true value lies in people who do the hard work.
+hero: "Our true value lies in people who do the hard&nbsp;work.
+
 By understanding and valuing them everything else falls into&nbsp;place."
 hero_image: "images/quality-over-quantity.jpg"
 description: ""
@@ -336,7 +337,7 @@ team_members:
 
 join:
   title: "Want to become a part of our&nbsp;team?"
-  content: "We are always looking for candidates who share [our values](/our-story#values), goals, and [culture](/culture). If you recognize yourself in them, we are a great&nbsp;match."
+  content: "We are always looking for candidates who share [our values](/our-story#values), goals, and [culture](/careers#culture). If you recognize yourself in them, we are a great&nbsp;match."
   button:
     enable: true
     type: 'primary'

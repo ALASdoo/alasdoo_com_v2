@@ -31,7 +31,7 @@ hero:
   button:
     enable : true
     type: 'primary'
-    label : "Are we a match?"
+    label : "Do our values match?"
     link : "/our-story#values"
 
 culture:
