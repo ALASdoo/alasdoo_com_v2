@@ -46,7 +46,7 @@ We conduct end&#8209;to&#8209;end testing, testing the user journey from the fir
 
 Regression testing helps us verify that changes or new features added to the project do not have any unintended consequences or cause any issues with existing functionality. We also maintain our test cases based on new user stories to make sure that our testing remains relevant and up to date. As new features are introduced, we update our test cases to ensure that we continue to cover all aspects of the&nbsp;application.
 
-We utilize Jira for ticket verification. Once the tickets have been verified, the next step is to report any issues that may have been identified. Using Jira for ticket verification and issue reporting enables us to collaborate effectively, ensuring that everyone is on the same page and working towards the same goals. It also helps to identify issues and potential roadblocks early on, allowing our client's development team to take corrective action before they become major&nbsp;problems.
+We utilize [JIRA](https://www.atlassian.com/software/jira) for ticket verification. Once the tickets have been verified, the next step is to report any issues that may have been identified. Using JIRA for ticket verification and issue reporting enables us to collaborate effectively, ensuring that everyone is on the same page and working towards the same goals. It also helps to identify issues and potential roadblocks early on, allowing our client's development team to take corrective action before they become major&nbsp;problems.
 
 ### Automated testing
 
