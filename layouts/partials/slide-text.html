@@ -1,0 +1,12 @@
+{{ range $i, $text := split . " " }}
+  <div class="overflow-hidden slide-text-container">
+    <p class="slide-text"
+      data-aos="slide-up"
+      data-aos-offset="0"
+      data-aos-duration="400"
+      data-aos-delay="{{ mul $i 200 }}"
+      data-aos-easing="ease-in-out-sine">
+      {{ $text }}
+    </p>
+  </div>
+{{ end }}
