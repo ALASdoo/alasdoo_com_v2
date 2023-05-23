@@ -3,7 +3,7 @@
 <!-- banner -->
 {{ with .Params.banner }}
 <section class="hero">
-  <div class="hero-container p-5">
+  <div class="hero-container sticky-top">
     <div class="container">
       <div class="row">
         <div class="col-10 mx-auto text-center">
@@ -26,7 +26,7 @@
       </div>
     </div>
   </div>
-  <div class="banner" {{ partial "bg-image" (dict "Src" .image "Position" "top center" "Webp" false) | safeHTMLAttr }}></div>
+  <div id="hero-image" class="banner" {{ partial "bg-image" (dict "Src" .image "Position" "top center" "Webp" false) | safeHTMLAttr }}></div>
 </section>
 {{ end }}
 <!-- /banner -->

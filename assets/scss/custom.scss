@@ -40,11 +40,11 @@ video {
   background: #e1fdff;
 }
 .hero-container {
-  margin-bottom: -20vw;
-  padding-top: 8vw !important;
-  // background: rgba(255,255,255,.5);
-  position: relative;
-  z-index: 2;
+  .container .row {
+    padding-top: 20vh !important;
+    padding-bottom: 10vh;
+    margin-top: -10vh;
+  }
 }
 
 .banner {
@@ -52,8 +52,8 @@ video {
   background-size: contain !important;
   background-color: #dffcff;
   padding: 7vw 0 0;
-  opacity: .75;
   z-index: 1;
+  margin-top: -20vw;
 }
 
 .hero-bg {

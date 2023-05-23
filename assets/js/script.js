@@ -7,6 +7,13 @@
     disable: 'mobile',
   });
 
+  // hero image fading on scroll
+  window.addEventListener("scroll", function () {
+    let header = document.getElementById("hero-image");
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    header.style.opacity = 1 - scrollTop / 500;
+ });
+
   // gallery slider
   new Swiper(".gallery-slider", {
     slidesPerView: 1,
