@@ -46,7 +46,7 @@ We didn’t have huge resources for the rebranding, so there had to be careful p
 
 ### 2. Defining core values
 
-Through several interviews with our top management we defined our company's purpose, mission, and vision, as well as [nine unwavering values](/our-story#values). Yes, we do realize there are too many of them, but these are the ones we carefully chose and had clearly defined, as they are the ones we truly do live and work by. Not a single one of them could be left out. We also made sure we don’t fall into a trap of listing the ones that are expected of us, the ones that you can see used by default by the majority of&nbsp;businesses.
+Through several interviews with our top management we defined our company's purpose, mission, and vision, as well as [nine unwavering values](/our-story#values). Yes, we do realize there are too many of them, but these are the ones we truly do live and work by. Not a single one of them could be left out. We also made sure we don’t fall into a trap of listing the ones that are expected of us, the ones that you can see used by default by the majority of&nbsp;businesses.
 
 ### 3. In-house research
 
