@@ -9,6 +9,14 @@
   border: 2px solid;
   transition: 0.3s ease;
 
+  @include desktop {
+    font-size: 0.95em;
+  }
+
+  @include tablet {
+    font-size: 0.9em;
+  }
+
   &-sm {
     padding: 0.9em 1.6em;
     font-size: 0.9em;

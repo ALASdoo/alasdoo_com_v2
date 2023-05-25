@@ -1,5 +1,12 @@
 html {
   font-size: $font-size;
+  @include desktop {
+    font-size: calc(#{$font-size} * 0.95);
+  }
+
+  @include tablet {
+    font-size: calc(#{$font-size} * 0.9);
+  }
 }
 
 body {
@@ -60,12 +67,12 @@ $type-levels: 6, 5, 4, 3, 2, 1;
     // responsive for h1, h2, h3, h4
     &:not(h5, .h5, h6, .h6) {
       @include desktop {
-        font-size: calc(#{$font-size} * 0.9);
+        font-size: calc(#{$font-size} * 0.75);
         margin-bottom: 0.55em;
       }
 
       @include tablet {
-        font-size: calc(#{$font-size} * 0.8);
+        font-size: calc(#{$font-size} * 0.7);
       }
     }
 

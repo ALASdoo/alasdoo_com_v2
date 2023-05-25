@@ -56,7 +56,7 @@
   <div class="container">
     <h2 class="d-none">Services</h2>
     <div class="block {{if not (modBool $i 2)}}block-right-image{{end}} row align-items-center g-5">
-      <div class="col-lg-6 {{if not (modBool $i 2)}}order-lg-0{{end}} order-1 pe-lg-0 text-center text-lg-start"
+      <div class="col-lg-6 {{if not (modBool $i 2)}}order-lg-0{{end}} order-1 pe-lg-0"
         data-aos="{{if not (modBool $i 2)}}fade-right{{else}}fade-left{{end}}"
         data-aos-offset="150"
         data-aos-duration="600"
@@ -154,7 +154,7 @@
       data-aos-offset="80"
       data-aos-duration="600"
       data-aos-easing="ease-in-out-sine">
-      <div class="col-lg-8 text-center">
+      <div class="col-lg-8 text-start text-md-center">
         {{.content_bottom | markdownify}}
       </div>
     </div>

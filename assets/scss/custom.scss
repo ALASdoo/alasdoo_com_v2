@@ -35,6 +35,14 @@ video {
 
 .subtitle {
   font-size: 24px !important;
+
+  @include desktop {
+    font-size: calc(24px * 0.95) !important;
+  }
+
+  @include tablet {
+    font-size: calc(24px * 0.9) !important;
+  }
 }
 .hero {
   background: #e1fdff;
@@ -68,6 +76,14 @@ video {
   position: relative;
   z-index: 100;
   font-size: 2rem;
+
+  @include desktop {
+    font-size: 1.5rem;
+  }
+
+  @include tablet {
+    font-size: 1.4rem;
+  }
 }
 
 .backdrop-dark {
