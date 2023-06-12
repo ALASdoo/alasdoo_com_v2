@@ -101,7 +101,7 @@
   translation: Get a Demo
 
 - id: cv_note
-  translation: doc or pdf files, up to 2MB
+  translation: doc or pdf files
 
 - id: upload_cv
   translation: Upload CV

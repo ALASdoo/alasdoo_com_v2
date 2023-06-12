@@ -148,4 +148,16 @@
       clickable: true,
     },
   });
+
+  // Check the size of uploaded file (max 2MB ~ 2097152 bytes)
+  // document.addEventListener("DOMContentLoaded", function () {
+  //   var uploadField = document.getElementById("cv");
+
+  //   uploadField.onchange = function() {
+  //     if(this.files[0].size > 2097152) {
+  //       alert("Max size of the file is 2MB");
+  //       this.value = ""
+  //     }
+  //   }
+  // })
 })();
