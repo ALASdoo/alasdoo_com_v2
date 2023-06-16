@@ -50,22 +50,6 @@
 
 						<button class="btn btn-sm btn-primary w-100" type="submit" aria-label="{{i18n `apply_now`}}">{{i18n `apply_now`}}</button>
 					</form>
-
-					<div class="share-this-post d-flex flex-wrap align-items-center rounded-2 mt-4">
-						<span class="m-1 me-2 mt-0 text-dark fw-500">{{i18n `share_this_job`}}</span>
-						<ul class="m-1 mt-0 list-inline d-inline-block">
-							{{ $url := printf "%s" .RelPermalink | absLangURL }}
-							<li class="list-inline-item">
-								<a class="text-dark p-1" href="https://facebook.com/sharer/sharer.php?u={{ $url }}"><i class="fab fa-facebook-f"></i></a>
-							</li>
-							<li class="list-inline-item">
-								<a class="text-dark p-1" href="https://twitter.com/intent/tweet/?text={{ .Title }}&amp;url={{ $url }}"><i class="fab fa-twitter"></i></a>
-							</li>
-							<li class="list-inline-item">
-								<a class="text-dark p-1" href="mailto:?subject={{ .Title }}&amp;body={{ $url }}"><i class="fas fa-envelope"></i></a>
-							</li>
-						</ul>
-					</div>
 				</div>
 
 				<div class="sidebar-widget bg-white rounded-2 shadow">
