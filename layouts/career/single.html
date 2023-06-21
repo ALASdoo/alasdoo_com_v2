@@ -54,13 +54,18 @@
 
 				<div class="sidebar-widget bg-white rounded-2 shadow">
 					<h4 class="mb-3 h5">{{i18n `other_jobs`}}</h4>
-					{{ range first 4 (where site.RegularPages "Section" "career") }}
-          <a href="{{.RelPermalink}}" class="p-4 rounded-2 is-hoverable border mb-3 text-reset d-block">
-            <p class="text-dark fw-bold mb-1">{{.Title | markdownify}}</p>
-            <p class="mb-0"><span>{{.Params.job_nature | markdownify}}</span> | {{.Params.category | markdownify}}</p>
-          </a>
-					{{end}}
-
+          {{ $currentPage := . }}
+          {{ $pages := where site.RegularPages "Section" "career" }}
+          {{ $count := 0 }}
+          {{ range $pages}}
+            {{ if and (ne .Permalink $currentPage.Permalink) (lt $count 4) }}
+              <a href="{{.RelPermalink}}" class="p-4 rounded-2 is-hoverable border mb-3 text-reset d-block">
+                <p class="text-dark fw-bold mb-1">{{.Title | markdownify}}</p>
+                <p class="mb-0"><span>{{.Params.job_nature | markdownify}}</span> | {{.Params.category | markdownify}}</p>
+              </a>
+              {{ $count = add $count 1 }}
+            {{ end }}
+          {{ end }}
 					<div class="text-center mt-4">
             <a href="/careers#jobs" class="btn btn-sm btn-outline-primary ">
               {{i18n `view_all_positions`}}
