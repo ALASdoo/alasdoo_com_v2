@@ -160,4 +160,19 @@
   //     }
   //   }
   // })
+
+  // Close mobile navigation when user click outside
+  document.addEventListener("DOMContentLoaded", function () {
+    var navigation = document.querySelector(".navbar");
+    var navigationCollapse = document.getElementById("navigation");
+    var navigationButton = document.querySelector(".navbar-toggler");
+    var isMobileNavigation = window.matchMedia("(max-width: 1199px)");
+    
+    document.addEventListener("click", function(event) {
+      if(!navigation.contains(event.target) && isMobileNavigation.matches && navigationCollapse.classList.contains("show")) {
+        navigationButton.click();
+      }
+      
+    })
+  })
 })();
