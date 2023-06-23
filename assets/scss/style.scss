@@ -23,6 +23,7 @@ $bg-orange: {{.bg_orange | default "#FF8602"}};
 $bg-light-blue: {{.bg_light_blue | default "#E6FFFF"}};
 $bg-light-yellow: {{.bg_light_yellow | default "#fff3e6"}};
 $bg-light-gray: {{.bg_light_gray | default "#f4f4f4"}};
+$bg-light-gray-2: {{.bg_light_gray_2 | default "#F5F4F6"}};
 
 // Font Variables
 $font-size: {{.font_size | default "16px"}};
