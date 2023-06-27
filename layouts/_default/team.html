@@ -87,7 +87,10 @@
         data-aos-duration="600"
         data-aos-easing="ease-in-out-sine">
         <div class="card bg-transparent border-0 text-center">
-          {{ partial "image" (dict "Src" .image "Alt" .name "Class" "card-img-top rounded-2") }}
+          <div class="team-card rounded-2 position-relative overflow-hidden transition">
+            {{ partial "image" (dict "Src" .image "Alt" .name "Class" "card-img-top rounded-2") }}
+            <p class="p-4 mb-0 text-white designation w-100 position-absolute opacity-0" data-aos="ease-in-out-quart" data-aos-duration="500">{{.content | markdownify}}</p>
+          </div>
           <div class="card-body px-0">
             <h3 class="h6 mb-1">{{.name | markdownify }}</h3>
             <p class="designation mb-0">{{.designation | markdownify }}</p>

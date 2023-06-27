@@ -17,6 +17,25 @@ video {
   }
 }
 
+.team-card {
+  p {
+    background-color: $text-dark;
+    height: 100%;
+    bottom: -100%;
+    transition: 0.6s cubic-bezier(0.76, 0, 0.24, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.team-card:hover {
+  p {
+    opacity: 1 !important;
+    bottom: 0;
+  }
+}
+
 @media (min-width: 1200px) {
   .contact-header-btn {
     margin-left: 12px;

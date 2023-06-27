@@ -82,7 +82,7 @@ team_members:
   image: images/team/ivana.jpg
   categories: ['Manual QA']
   designation: QA Lead
-  content: Perfectionist in QA, loves traveling, snowboarding, HOG and ping&#8209;pong.
+  content: Perfectionist in QA, loves traveling, snowboarding, HOG and ping-pong.
   link: ''
 
 - name: Marta Gajin
