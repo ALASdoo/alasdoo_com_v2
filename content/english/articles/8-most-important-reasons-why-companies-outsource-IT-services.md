@@ -45,7 +45,7 @@ By outsourcing IT services, companies can allocate their resources towards more 
 
 Finding contractors is the best way to deal with the skills gap. The latest trends in the hiring field show that filling the position with the right candidate is increasingly getting harder. The mismatch between the skills that employers seek in their employees and the skills that job applicants possess makes it difficult for employers to find appropriately trained&nbsp;workers.
 
-{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/talent-shortage.svg" alt="" >}}
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/talent-shortage.png" alt="" >}}
 
 According to the comprehensive [ManpowerGroup Talent Shortage survey](https://go.manpowergroup.com/talent-shortage), 77% of companies have reported quality workforce shortages and difficulty hiring. As their infographic shows, it is a 16&#8209;year high. It is obvious that it is getting harder and harder to hire skilled IT specialists, especially for an affordable price. Outsourcing IT services allows companies to access a pool of specialized experts in various fields of technology, which is their primary field of&nbsp;expertise.
 

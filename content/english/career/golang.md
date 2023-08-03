@@ -1,5 +1,5 @@
 ---
-title: JavaScript Frontend Software Developer
+title: Golang Software Developer
 job_nature: 'Full Time'
 category: 'Development'
 ---
@@ -12,30 +12,20 @@ Aligning the product vision with the technical team is our specialty. Through op
 
 We thrive in a positive environment where everybody’s heard and understood, people are polite and assertive, and tackle challenges head&#8209;on, having fun along the way.
 
-Driven by these, we are looking for You - a reliable and talented JavaScript Frontend Developer to join our development department.
-
----
-
-## What do we expect from you?
-
-- Work within a highly&#8209;skilled cross&#8209;functional team
-- Use modern technologies such as ES6, Vue, React, Angular, and Node
-- Implement useful and beautiful features and data visualizations
-- Work with the team lead to report on progress and blockers
+Driven by these, we are looking for You - a reliable and talented Software Developer to join our development department.
 
 ---
 
 ## What qualifies you?
 
-- At least a few years of relevant industry experience or minimum of BSC from a computer science university
-- A good programming&#8209;related degree or other technical background
-- Good modern JavaScript programming skills, solid understanding of HTML5, CSS, and Web standards
-- Enthusiasm for keeping up with industry tools and best practices
-- Experience with Git (a link to your GitHub or GitLab account is a plus)
-- Exposure to Node.js
-- Experience with Vue / React or similar
-- A desire to write clean and modular code
-- An easygoing nature, working with a diverse team of disparate personalities
+- 5+ years of practical experience with Go (Golang) programming language + OpenAPI3 Rest
+- Proficiency with PostgreSQL (CloudSQL)
+- Experience with Docker
+- Experience with Kubernetes
+- Experience with Redis
+- Ability to multitask in a dynamic environment and maintain a professional attitude with team members
+- Strong interpersonal skills with the ability to work in a collaborative environment
+- Fluency in English
 
 ---
 

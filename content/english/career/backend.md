@@ -1,5 +1,5 @@
 ---
-title: JavaScript Frontend Software Developer
+title: Java Backend Software Developer
 job_nature: 'Full Time'
 category: 'Development'
 ---
@@ -16,26 +16,21 @@ Driven by these, we are looking for You - a reliable and talented JavaScript Fro
 
 ---
 
-## What do we expect from you?
+## What qualifies you?
 
-- Work within a highly&#8209;skilled cross&#8209;functional team
-- Use modern technologies such as ES6, Vue, React, Angular, and Node
-- Implement useful and beautiful features and data visualizations
-- Work with the team lead to report on progress and blockers
+- Demonstrated experience of 1-3 years in the industry, showcasing your ability to write and deliver high-quality Java code
+- Proficient in Java and well-versed in the Spring Framework
+- A bachelor’s degree in computer science, information systems or related fields is a plus
+- Familiarity with Git and SQL databases is a plus
+- Ability and eagerness to learn new technologies and ways of working
+- Excellent problem-solving skills
+- Strong communication and collaboration skills
 
 ---
 
-## What qualifies you?
+## What is nice to know?
 
-- At least a few years of relevant industry experience or minimum of BSC from a computer science university
-- A good programming&#8209;related degree or other technical background
-- Good modern JavaScript programming skills, solid understanding of HTML5, CSS, and Web standards
-- Enthusiasm for keeping up with industry tools and best practices
-- Experience with Git (a link to your GitHub or GitLab account is a plus)
-- Exposure to Node.js
-- Experience with Vue / React or similar
-- A desire to write clean and modular code
-- An easygoing nature, working with a diverse team of disparate personalities
+- Kafka or AWS would be considered a plus
 
 ---
 
