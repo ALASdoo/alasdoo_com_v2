@@ -2,6 +2,7 @@
 title: Python Developer
 job_nature: 'Full Time'
 category: 'Development'
+draft: true
 ---
 
 ## Who are we?

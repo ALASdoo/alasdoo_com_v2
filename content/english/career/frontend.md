@@ -19,9 +19,8 @@ Driven by these, we are looking for You - a reliable and talented JavaScript Fro
 ## What do we expect from you?
 
 - Work within a highly&#8209;skilled cross&#8209;functional team
-- Use modern technologies such as ES6, Vue, Vuex, and Node
+- Use modern technologies such as ES6, Vue, React, Angular, and Node
 - Implement useful and beautiful features and data visualizations
-- Be involved with the direction of the Incubator team, and the design and functionality of the prototypes, projects, moon shots, and revenue&#8209;generating products for which we are responsible
 - Work with the team lead to report on progress and blockers
 
 ---
@@ -56,7 +55,7 @@ Driven by these, we are looking for You - a reliable and talented JavaScript Fro
 
 ### ALAS mouthwatering perks
 
-- Enjoy sponsored lunch,fresh fruit, and delicious coffee at work
+- Enjoy sponsored lunch, fresh fruit, and delicious coffee at work
 - Enjoy a customized bonus you can use as you wish (gym/private health insurance, etc.)
 - Monthly Friday bars, table tennis tournaments, and gaming sessions on a PS5
 
