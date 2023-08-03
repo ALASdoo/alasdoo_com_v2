@@ -115,6 +115,15 @@ team_members:
   content: FPL manager, Nature and basketball lover, Biker and hiker, IT enthusiast
   link: ''
 
+- name: Aleksandar Lakatoš
+  image: images/team/aleksandar_lakatos.jpg
+  categories: ['Development']
+  designation: Front&#8209;End Developer
+  content: |
+    Movies addict. Car enthusiast.
+    'I can't carry it for you, but I can carry you' &#8209; Samwise Gamgee
+  link: ''
+
 - name: Aleksandra Krstić
   image: images/team/anja.jpg
   categories: ['Manual QA']
@@ -129,6 +138,13 @@ team_members:
   content: Angular Developer, Coffee Lover, Yogi Enthusiast
   link: ''
 
+- name: Anastasia Loshchenkova
+  image: images/team/anastasia.jpg
+  categories: ['Manual QA']
+  designation: QA Engineer
+  content: Not a ceramist but made a plate with the text 'I love memes' on it (and yes, she loves memes). Sometimes she bakes and takes pics of her 'creations' (brave ones say they are tasty).
+  link: ''
+
 - name: Anna Martinović
   image: images/team/ana.jpg
   categories: ['Manual QA']
@@ -141,13 +157,6 @@ team_members:
   categories: ['Manual QA']
   designation: QA Engineer
   content: By far the best table tennis player the company has ever had; sports fan, animal and nature lover, retired javelin thrower
-  link: ''
-
-- name: Damjan Marcikić
-  image: images/team/damjan.jpg
-  categories: ['Manual QA']
-  designation: QA Engineer
-  content: QA fanatic, music engineer & songwriter, Hakuna Matata enthusiast
   link: ''
 
 - name: Dane Dukić
@@ -225,6 +234,13 @@ team_members:
   categories: ['Development']
   designation: Front&#8209;End Developer
   content: Programmer by day, Musician by night. Street workout enthusiast
+  link: ''
+
+- name: Milica Nikolić
+  image: images/team/milica.jpg
+  categories: ['Automated QA']
+  designation: Automated QA Engineer
+  content: Strong background in philosophy, passion for coding and puzzles, the insatiable appetite for learning new skills makes her tick
   link: ''
 
 - name: Miloš Jevtić
@@ -331,7 +347,6 @@ team_members:
   designation: Automated QA Engineer
   content: Biker, E&#8209;sports fan, Gamer
   link: ''
-
 
 
 ####################################################
