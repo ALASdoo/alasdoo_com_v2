@@ -143,13 +143,6 @@ team_members:
   content: By far the best table tennis player the company has ever had; sports fan, animal and nature lover, retired javelin thrower
   link: ''
 
-- name: Damjan Marcikić
-  image: images/team/damjan.jpg
-  categories: ['Manual QA']
-  designation: QA Engineer
-  content: QA fanatic, music engineer & songwriter, Hakuna Matata enthusiast
-  link: ''
-
 - name: Dane Dukić
   image: images/team/dane.jpg
   categories: ['Automated QA']
