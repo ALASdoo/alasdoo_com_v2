@@ -71,6 +71,13 @@ team_members:
   content: Lover of the written word, good listener and assertive communicator, master surprise maker
   link: ''
 
+- name: Kristina Nosović
+  image: images/team/kristina.jpg
+  categories: ['Management']
+  designation: Marketing Manager
+  content: “Disney movies“ pub quiz champion, HP fan, Gin tonic lover, dance floor maniac, nerd, bookworm, has always dreamed of becoming Čola’s back vocal - hope springs eternal!
+  link: ''
+
 - name: Ákos Szabó
   image: images/team/akos.jpg
   categories: ['Manual QA']
@@ -121,7 +128,7 @@ team_members:
   designation: Front&#8209;End Developer
   content: |
     Movies addict. Car enthusiast.
-    'I can't carry it for you, but I can carry you' &#8209; Samwise Gamgee
+    “I can't carry it for you, but I can carry you“ &#8209; Samwise Gamgee
   link: ''
 
 - name: Aleksandra Krstić
@@ -142,7 +149,7 @@ team_members:
   image: images/team/anastasia.jpg
   categories: ['Manual QA']
   designation: QA Engineer
-  content: Not a ceramist but made a plate with the text 'I love memes' on it (and yes, she loves memes). Sometimes she bakes and takes pics of her 'creations' (brave ones say they are tasty).
+  content: Not a ceramist but made a plate with the text “I love memes“ on it (and yes, she loves memes). Sometimes she bakes and takes pics of her 'creations' (brave ones say they are tasty).
   link: ''
 
 - name: Anna Martinović
@@ -347,7 +354,6 @@ team_members:
   designation: Automated QA Engineer
   content: Biker, E&#8209;sports fan, Gamer
   link: ''
-
 
 ####################################################
 
