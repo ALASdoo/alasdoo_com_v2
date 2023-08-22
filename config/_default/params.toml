@@ -18,6 +18,7 @@ theme_default = "light" # available options [light/dark/automatic]
 mainSections = ["blog"]
 # contact form action
 contact_form_action = "/form-success" # contact form works with [https://airform.io/] or [https://formspree.io]
+career_form_action = "/form-success" # contact form works with [https://airform.io/] or [https://formspree.io]
 # demo form action
 demo_form_action = "#!" # demo form works with [https://airform.io/] or [https://formspree.io]
 # google tag manager, see https://developers.google.com/tag-manager/
