@@ -101,20 +101,6 @@ team_members:
     Mr. Eugene Lewis Fordsworthe
   link: ''
 
-- name: Aleksa Petrović
-  image: images/team/aleksa.jpg
-  categories: ['Manual QA']
-  designation: QA Engineer
-  content: Bug whisperer, Frenchie owner, Movies and TV shows addict, Master of PES and NBA
-  link: ''
-
-- name: Aleksandar Gajić
-  image: images/team/aleksandar.jpg
-  categories: ['Manual QA']
-  designation: QA Engineer
-  content: QA tester, gamer and traveler
-  link: ''
-
 - name: Aleksandar Gospodinović
   image: images/team/lesa.jpg
   categories: ['Automated QA']
@@ -222,13 +208,6 @@ team_members:
   content: Pub quiz fanatic, movie addict, blues&rock lover
   link: ''
 
-- name: Maja Marić
-  image: images/team/maja_maric.jpg
-  categories: ['Manual QA']
-  designation: QA Engineer
-  content: Painter, art lover, qa enthusiastic and music addict
-  link: ''
-
 - name: Milan Guzina
   image: images/team/milan_guzina.jpg
   categories: ['Manual QA']
@@ -297,13 +276,6 @@ team_members:
   categories: ['Automated QA']
   designation: Automated QA Engineer
   content: Amateur singer, kettlebell enthusiast, avid meme user, binge watcher, millennial
-  link: ''
-
-- name: Sanja Segedinski
-  image: images/team/sanja.jpg
-  categories: ['Manual QA']
-  designation: QA Engineer
-  content: Bugs&discounts hunter, cat lover, hedonist, nature and life enthusiast
   link: ''
 
 - name: Tibor Szakmány
