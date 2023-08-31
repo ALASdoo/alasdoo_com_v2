@@ -12,7 +12,7 @@ Aligning the product vision with the technical team is our specialty. Through op
 
 We thrive in a positive environment where everybody’s heard and understood, people are polite and assertive, and tackle challenges head&#8209;on, having fun along the way.
 
-Driven by these, we are looking for You - a reliable and talented JavaScript Frontend Developer to join our development department.
+Driven by these, we are looking for You - a reliable and talented Java Backend Software Developer to join our development department.
 
 ---
 

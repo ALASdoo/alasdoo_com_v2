@@ -14,7 +14,7 @@ intro:
   quality:
     title: "Quality over quantity"
     content2: "We believe that only great people can achieve great results; that is why we hire for quality, not quantity. We nurture a culture of loyal teammates who have a sense of ownership and truly care about achieving&nbsp;results."
-    content1: "Our team comprises more than 60 talented and knowledge&#8209;rich software developers and automated/manual QA engineers, as well as project managers and UX experts. As English is a very important part of our business, each member of our team is proficient in&nbsp;it."
+    content1: "Our team comprises more than 50 talented and knowledge&#8209;rich software developers and automated/manual QA engineers, as well as project managers and UX experts. As English is a very important part of our business, each member of our team is proficient in&nbsp;it."
   streangths:
     title: "Always improving"
     content: "Before the first billing hour, each team member completes in&#8209;depth training for the project they are undertaking, so they can seamlessly take over their role and hit the ground&nbsp;running.
