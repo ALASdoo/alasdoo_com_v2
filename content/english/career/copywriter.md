@@ -16,7 +16,7 @@ Driven by these, we are looking for You - a creative and talented Copywriter to 
 
 ---
 
-## Aabout the client
+## About the client
 
 The client's team is passionate about showing the world how easy, magical, and tailor&#8209;made life can be. And such a life is just a click away from all of us because they have built a platform for spiritual arts, personal development, and spiritual growth that is different from all others in this universe full of possibilities. Their platform is growing at a rapid pace, and the marketing team is expanding with it.
 
