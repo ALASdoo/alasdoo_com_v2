@@ -1,8 +1,7 @@
 ---
-title: Automated QA Engineer
+title: German-speaking Automated QA Engineer
 job_nature: 'Full Time'
 category: 'QA'
-draft: true
 ---
 
 ## Who are we?
@@ -36,7 +35,7 @@ Driven by these, we are looking for You - a reliable and talented Automated QA E
 
 ## What qualifies you?
 
-- Minimum 5 years of experience working as a QA Engineer
+- Business German proficiency is a must
 - At least 3 years of hands&#8209;on experience using Selenium WebDriver with Java or Cypress for test automation is a must
 - Knowledge of test management, test development, and/or test process
 - Experience with QA tools and techniques, bug tracking systems, test design and execution
