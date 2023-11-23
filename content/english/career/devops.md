@@ -1,8 +1,7 @@
 ---
-title: DevOps Engineer
+title: IT system administrator / DevOps Engineer
 job_nature: 'Full Time'
 category: 'Development'
-draft: true
 ---
 
 ## Who are we?
@@ -17,25 +16,17 @@ Driven by these, we are looking for You - a reliable and talented DevOps Enginee
 
 ---
 
-## What do we expect from you?
-
-- Collaborative team spirit
-- Problem&#8209;solving attitude
-- Initiative to stay present with the latest DevOps trends
-
----
-
 ## What qualifies you?
 
-- Experience as a DevOps engineer or in a similar software engineering role
-- Experience with Unix/Linux systems
-- Working knowledge of databases and SQL
-- Experience with AWS or GCP services
-- Knowledge of how the microservice architecture works
-- Proficiency with Git and Github Actions
-- Knowledge of scripting/programming languages such as Python, Bash
+- 3+ years of hands-on experience in configuration, operation, optimization, scaling, automation and monitoring of web and application servers
+- Practical experience with the following stack: Nginx, HAProxy, Puppet, Nagios, Varnish, Kubernetes
+- Experience with Hetzner Cloud Load Balancing
+- Experience in one or more scripting languages, preferably Python, PowerShell or Shell
+- IT security and data protection
+- Passionate about working with open source solutions
+- Good communication skills, reliability, resilience and high quality standards for your own work
 - Fluency in English
-- Bachelor's degree in Computer Science, Engineering, or a related field
+- The German language is a plus
 
 ---
 
