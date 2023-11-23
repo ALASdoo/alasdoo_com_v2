@@ -2,6 +2,7 @@
 title: 'A wizard with words: Russian-speaking copywriter'
 job_nature: 'Full Time'
 category: 'Development'
+draft: true
 ---
 
 ## Who are we?

@@ -2,6 +2,7 @@
 title: Experienced Graphic Designer
 job_nature: 'Full Time'
 category: 'Development'
+draft: true
 ---
 
 ## Who are we?
