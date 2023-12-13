@@ -39,7 +39,7 @@ They are opening a position for an aspiring artist who will create additional ma
 ### ALAS is one energetic and exciting workplace
 
 - Work in a dynamic and creative team
-- Opportunity to switch to the digital canvas of the cutting&#8209;edge illustration app - [ProCreate]<https://procreate.com/>
+- Opportunity to switch to the digital canvas of the cutting&#8209;edge illustration app - [ProCreate](https://procreate.com/)
 - An easily accessible workplace by car, bus, bike, or on foot
 - A refreshing work environment with a yard and plenty chill&#8209;out areas
 
