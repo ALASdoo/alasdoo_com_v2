@@ -2,7 +2,6 @@
 title: Automated QA Engineer
 job_nature: 'Full Time'
 category: 'QA'
-draft: true
 ---
 
 ## Who are we?
