@@ -1,79 +1,86 @@
 ---
-title: Experienced Graphic Designer
+title: Visual Designer
 job_nature: 'Full Time'
 category: 'Development'
-draft: true
 ---
 
 ## Who are we?
 
-ALAS d.o.o. is a Software Development and Quality Assurance outsourcing company with extensive experience in web development, project management, manual and automated testing.
+ALAS d.o.o. is a Software Development and Quality Assurance outsourcing company with over 15 years of experience in web development, project management, branding and design, manual and automated testing.
 
-Aligning the product vision with the technical team is our specialty. Through open communication and a personal approach, we consider every aspect of the project so that we are empowered to assist and consult in every step of the development process.
+Aligning the product vision with the technical team is our specialty. Through open communication and a personal approach, we consider every aspect of the project, enabling us to provide insightful support and guidance.
 
-We thrive in a positive environment where everybody’s heard and understood, people are polite and assertive, and tackle challenges head&#8209;on, having fun along the way.
-
-Driven by these, we are looking for You - a creative and talented Designer to join our team.
+We thrive in a positive environment where everybody’s heard and understood, people are polite and assertive, and tackle challenges head-on, having fun along the way.
 
 ---
 
 ## What do we expect from you?
 
-- Foster a culture of outside&#8209;the&#8209;box thinking, consistently pushing creative boundaries to deliver innovative concepts.
-- Fearlessly venture out of your comfort zone, exploring unconventional design approaches that inspire fresh perspectives.
-- Stay abreast of design trends, leveraging this knowledge to produce forward&#8209;thinking and impactful visuals.
-- Collaborate closely with the product owner and UX designer ensuring a deep understanding of project objectives, user needs, and business goals.
-- Propose diverse design solutions and alternatives.
-- Collaborate closely with the marketing team to design materials that support campaigns, events, and product launches.
-- Contribute to different marketing initiatives.
+You will have the opportunity to create user&#8209;centered designs, from concept to final hand&#8209;off. It is important to have good interpersonal and communication skills to thrive in our collaborative atmosphere, working closely with UX designers, product managers, developers, and the marketing team.
+
+### Responsibilities
+
+- Develop and strengthen brand assets, including style and brand guidelines.
+- Build and maintain a design system to improve workflows and overall productivity.
+- Design user&#8209;centered interaction models, wireframes, and responsive layouts.
+- Design logos, icons, and infographics.
+- Create and refine images using AI visual design tools.
+- Improve and create banners, social media graphics and videos, brand campaigns, and visual elements for email communications.
+- Design of merchandise and print materials.
+- Present and explain design decisions based on the overall design roadmap as well as your own design thinking and best practices.
+- Report your progress in the form of a presentation, highlighting KPIs.
+- Continuously keep yourself and your team updated with the latest changes in industry standards.
 
 ---
 
 ## What qualifies you?
 
-- 3+ years of hands&#8209;on experience in product design
-- Proficiency in industry&#8209;standard design software such as Photoshop, Illustrator, InDesign, or Sketch
-- Proficiency in web design
-- Proficiency in crafting compelling social media content
-- Proven track record of successfully delivering high&#8209;quality design projects in a deadline&#8209;driven environment
-- Strong interpersonal aptitude for collaborative teamwork
-- Excellent written and verbal English communication skills
-- Previous experience in an agency or creative studio environment is a plus, demonstrating versatility in design styles and approaches
-- A portfolio is a requisite
+- Bachelor’s degree or an equivalent combination of education, training and experience in visual/graphic/digital design, or a related field.
+- Portfolio showcasing UI and graphic designs.
+- Proficiency in visual design tools: Figma, Photoshop, and Illustrator.
+- Excellent knowledge of user&#8209;centered design principles and guidelines.
+- Confidence in fluently presenting and explaining your design decision in English.
+- Strong interpersonal, collaboration, problem&#8209;solving, and active listening skills.
+- Willingness to learn and stay updated with new tools and trends
+- Good time&#8209;management skills.
+- Ability to apply analytical and abstract thinking – to analyze detailed information, identify key insights, and develop strategic, user&#8209;centered designs based on broad design principles.
+- Bonus:
+  - Experience in utilizing AI visual&#8209;generating tools.
+  - Knowledge of basic video montage.
 
 ---
 
 ## What qualifies us?
 
-### ALAS is one energetic and exciting workplace
+### Work at an exciting and easygoing workplace
 
-- Stable and on&#8209;going employment with a steady stream of exciting duties
-- An easily accessible workplace by car, bus, bike or foot
-- A refreshing work environment with a yard and plenty chill&#8209;out areas
+- Steady stream of exciting duties to challenge yourself.
+- Opportunities for learning new skills and improving existing ones.
+- Collaborative culture that values innovation and diversity.
+- Homelike atmosphere and supportive colleagues.
+- Easily accessible workplace by car, bus, bike, or foot.
+- Refreshing work environment with a yard and plenty of chill&#8209;out areas.
 
-### ALAS cares about its talents
+### We care about our talents
 
 - Your private time is safe with our 8 hour work day and no forced overtime
 - An attractive pay check that keeps you motivated
 - A fertile environment for development and growth
 
-### ALAS mouthwatering perks
+### Enjoy perks
 
-- Enjoy sponsored lunch, fresh fruit, and delicious coffee at work
-- Enjoy a customized bonus you can use as you wish (gym/private health insurance, etc.)
-- Monthly Friday bars, table tennis tournaments, and gaming sessions on a PS5
+- Sponsored lunch, fruits, and delicious coffee at work.
+- Customized bonus you can use as you wish (gym/private health insurance, etc.).
+- Recreational activities such as table tennis, PS5, darts, and a small gym.
 
 ---
 
 ## Are we the perfect match?
 
-If you think so, simply send your resume to <jobs@alasdoo.com> and leave the rest to us.
+If you think so, please send your resume and portfolio showcasing relevant work to <jobs@alasdoo.com>.
 
----
+We value your time and are committed to a transparent and fair selection process. Therefore, we respond to ALL applications promptly. Short&#8209;listed candidates will be invited for an interview.
 
-## When to apply?
+Apply as soon as possible because we conduct interviews on a first&#8209;come, first&#8209;served basis. Be fast & fearless!
 
-As soon as possible!
-We conduct interviews on a first&#8209;come, first&#8209;served basis, so be fast & fearless!
-
-Only short&#8209;listed candidates will be invited for an interview. We can’t wait to meet You!
+We look forward to meeting You.
