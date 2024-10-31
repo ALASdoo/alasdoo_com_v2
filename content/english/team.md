@@ -71,13 +71,6 @@ team_members:
   content: Lover of the written word, good listener and assertive communicator, master surprise maker
   link: ''
 
-- name: Kristina Nosović
-  image: images/team/kristina.jpg
-  categories: ['Management']
-  designation: Marketing Manager
-  content: “Disney movies“ pub quiz champion, HP fan, Gin tonic lover, dance floor maniac, nerd, bookworm, has always dreamed of becoming Čola’s back vocal - hope springs eternal!
-  link: ''
-
 - name: Ákos Szabó
   image: images/team/akos.jpg
   categories: ['Manual QA']
@@ -99,13 +92,6 @@ team_members:
   content: |
     'Assumption is the Mother of All F*** Ups'
     Mr. Eugene Lewis Fordsworthe
-  link: ''
-
-- name: Aleksandar Gospodinović
-  image: images/team/lesa.jpg
-  categories: ['Automated QA']
-  designation: Automated QA Engineer
-  content: FPL manager, Nature and basketball lover, Biker and hiker, IT enthusiast
   link: ''
 
 - name: Aleksandar Lakatoš
@@ -152,13 +138,6 @@ team_members:
   content: By far the best table tennis player the company has ever had; sports fan, animal and nature lover, retired javelin thrower
   link: ''
 
-- name: Dane Dukić
-  image: images/team/dane.jpg
-  categories: ['Automated QA']
-  designation: Automated QA Engineer
-  content: Hardcore “Ličanin”, Devotee of Danube, Biker, Football tactician, Tank crewman
-  link: ''
-
 - name: Dániel Snejder
   image: images/team/daniel.jpg
   categories: ['Manual QA']
@@ -166,25 +145,11 @@ team_members:
   content: Assisted karate coach for children, Hiker, Motobiker
   link: ''
 
-- name: Eduard Pinter
-  image: images/team/eduard.jpg
-  categories: ['Automated QA']
-  designation: Automated QA Engineer
-  content: Social dancer, Gamer, Photography enthusiast, Master chef, Favorite genres to watch/read are Horror/Mystery/Thriller
-  link: ''
-
 - name: Filip Marinković
   image: images/team/filipm.jpg
   categories: ['Manual QA']
   designation: QA Engineer
   content: Master of useless information, cat whisperer
-  link: ''
-
-- name: František Prokopec
-  image: images/team/frantisek.jpg
-  categories: ['Manual QA']
-  designation: QA Engineer
-  content: If someone is able to show me that what I think or do is not right, I will happily change, for I seek the truth, by which no one ever was truly harmed.
   link: ''
 
 - name: Janos Bednarik
@@ -208,32 +173,11 @@ team_members:
   content: Pub quiz fanatic, movie addict, blues&rock lover
   link: ''
 
-- name: Milan Guzina
-  image: images/team/milan_guzina.jpg
-  categories: ['Manual QA']
-  designation: QA Engineer
-  content: Sports lover, QA enthusiast and gaming addict
-  link: ''
-
 - name: Milan Stojanović
   image: images/team/milan.jpg
   categories: ['Development']
   designation: Front&#8209;End Developer
   content: Programmer by day, Musician by night. Street workout enthusiast
-  link: ''
-
-- name: Milica Nikolić
-  image: images/team/milica.jpg
-  categories: ['Automated QA']
-  designation: Automated QA Engineer
-  content: Strong background in philosophy, passion for coding and puzzles, the insatiable appetite for learning new skills makes her tick
-  link: ''
-
-- name: Miloš Jevtić
-  image: images/team/milosjevtic.jpg
-  categories: ['Development']
-  designation: Python Developer
-  content: In love with Python, Serbian traditional cuisine aficionado, Sportsman
   link: ''
 
 - name: Miloš Rodić
@@ -271,13 +215,6 @@ team_members:
   content: Bookworm, BuJo addict
   link: ''
 
-- name: Sandra Kostić
-  image: images/team/sandra.jpg
-  categories: ['Automated QA']
-  designation: Automated QA Engineer
-  content: Amateur singer, kettlebell enthusiast, avid meme user, binge watcher, millennial
-  link: ''
-
 - name: Tibor Szakmány
   image: images/team/tiborsz.jpg
   categories: ['Development']
@@ -292,13 +229,6 @@ team_members:
   content: JS Ninja, Sci&#8209;fi and Fantasy bookworm, Biker Hiker Camper, Scout Leader, Kite Enthusiast, Board game geek
   link: ''
 
-- name: Uros Vidaković
-  image: images/team/uros.jpg
-  categories: ['Manual QA']
-  designation: QA Engineer
-  content: 'The least toxic DotA 2 player; not a drummer but can play drums; favorite animals: capybaras, frogs and monkeys'
-  link: ''
-
 - name: Valentino Milanov
   image: images/team/valentino.jpg
   categories: ['Automated QA']
@@ -311,13 +241,6 @@ team_members:
   categories: ['Development']
   designation: Back&#8209;End Developer
   content: Nature, Chess and sport enthusiast, Car specialist, Gourmet
-  link: ''
-
-- name: Zoltán Horvát
-  image: images/team/zoltan.jpg
-  categories: ['Development']
-  designation: Back&#8209;End Developer
-  content: (E&#8209;)sports fan, Proud owner of a samoyed, Passionate about cooking, Physicist by nature, programmer by choice
   link: ''
 
 - name: Zoltán Meze
