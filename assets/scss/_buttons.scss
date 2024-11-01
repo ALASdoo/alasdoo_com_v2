@@ -22,6 +22,11 @@
     font-size: 0.9em;
   }
 
+  &:hover {
+    transform: scale3d(1.005,1.005,1.005);
+    box-shadow: 0px 8px 15px rgba(0,160,163,.50) !important;
+  }
+  
   &:hover,
   &:focus,
   &.focus {
@@ -30,8 +35,14 @@
     background: $color-primary-darker !important;
     border-color: $color-primary-darker !important;
     // transform: translateY(-1px);
-    transform: scale3d(1.005,1.005,1.005);
-    box-shadow: 0px 8px 15px rgba(0,160,163,.50) !important;
+  }
+
+  &:focus, 
+  &:focus-visible {
+    outline: 2px solid $color-primary-darker;
+    outline-offset: 2px;
+    border-radius: 50px;
+    box-shadow: unset;
   }
 
   &:active,
@@ -43,11 +54,9 @@
     transform: translateY(0px);
     box-shadow: 0px 5px 7px rgba(0,160,163,.50) !important;
   }
-
-  &:focus {
-    outline: 2px solid $color-primary-darker;
-    outline-offset: 2px;
-    border-radius: 50px;
+  
+  &:visited {
+    color: #fff;
   }
 }
 

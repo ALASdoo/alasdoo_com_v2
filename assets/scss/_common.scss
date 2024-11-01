@@ -10,6 +10,9 @@ html.wf-active {
 body {
   background-color: $body-bg;
   overflow-x: hidden;
+  text-underline-offset: 0.1em;
+  hyphenate-character: "–";
+  text-wrap: pretty;
 }
 
 .preloader {
@@ -40,27 +43,33 @@ img {
   height: auto;
 }
 
-a,
-a:hover,
-a:focus {
-  color: $link-color;
+a {
+  color: $text-color;
   text-decoration: underline;
 }
 
-a:hover,
-a:focus {
-  color: $link-hover-color;
+a:hover {
+  color: $color-primary-darker;
 }
+
+a:visited {
+  color: $color-primary-darker
+}
+
+
+a:focus,
+a:focus-visible {
+    color: $color_primary_darker;
+    outline: 2px solid $color-primary-darker !important;
+    outline-offset: 2px !important;
+    border-radius: 1px;
+  }
 
 a.text-dark:hover {
-  color: $link-hover-color !important;
+  color: $color_primary_darker !important;
 }
 
-a:focus {
-  outline: 2px solid $color-primary-darker !important;
-  outline-offset: 2px !important;
-  border-radius: 1px;
-}
+
 
 a,
 button,
@@ -159,12 +168,13 @@ select {
   border: 1px solid $text-dark;
   background-color: transparent;
   transition: 0.2s ease;
+  opacity: 1;
 
   &-active {
     background-color: $text-dark;
-    opacity: .5;
   }
 
+  &:hover,
   &:focus {
     outline: 2px solid $color-primary-darker;
     outline-offset: 2px;

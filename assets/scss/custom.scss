@@ -10,6 +10,11 @@ video {
   min-height: 91px;
 
   .nav-item {
+    &.active {
+      .nav-link {
+        text-decoration: underline;
+      }
+    }
     .nav-link:hover,
     &.active .nav-link {
       color: $link-color !important;
@@ -146,9 +151,15 @@ video {
     border-bottom-right-radius: 0 !important;
     border-bottom-left-radius: 0 !important;
   }
+
+  .card-tagline {
+    color: #737373;
+  }
+  
   .illustration-image img {
     padding: 1.5rem;
   }
+
   ul {
     padding-left: 0;
     margin-bottom: 1.2rem;
@@ -254,6 +265,7 @@ video {
   .shadow {
     box-shadow: 0 1px 0 rgba(0,0,0,.02), 0 2px 6px rgba(0,0,0,.05), 0 10px 20px rgba(0,0,0,.05) !important;
   }
+
   .nav-tabs {
     border: 0;
     padding: 0;
@@ -266,12 +278,13 @@ video {
   .tab-content {
     border: 0;
   }
+
   .nav-link {
     border: 0;
     border-radius: 0;
     color: $text-dark;
     text-transform: uppercase;
-    margin-bottom: -1px;
+    margin-bottom: -1px; 
     &.active {
       border-bottom: 5px solid;
     }
@@ -314,7 +327,7 @@ video {
     .active {
       border-color: $alas-color-orange;
     }
-  }
+   }
 }
 
 .contact-person {

@@ -11,7 +11,7 @@
     {{ end }}
     <div class="card-body p-4 {{ if not .content }}pb-0{{end}}">
       {{ if .category }}
-      <small class="opacity-50 pb-2 d-block">{{ .category | markdownify }}</small>
+      <small class="card-tagline pb-2 d-block">{{ .category | markdownify }}</small>
       {{ end }}
       <p class="h6">{{ .name | markdownify }}</p>
       {{ if .content }}
