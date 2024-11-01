@@ -25,10 +25,10 @@
   &:hover,
   &:focus,
   &.focus {
-    outline: 0;
+    color: #fff;
     // @extend .shadow;
-    background: $link-color !important;
-    border-color: $link-color !important;
+    background: $color-primary-darker !important;
+    border-color: $color-primary-darker !important;
     // transform: translateY(-1px);
     transform: scale3d(1.005,1.005,1.005);
     box-shadow: 0px 8px 15px rgba(0,160,163,.50) !important;
@@ -37,10 +37,17 @@
   &:active,
   &.active {
     outline: 0;
-    background: $color-primary !important;
-    border-color: $color-primary !important;
+    color: #fff;
+    background: $color-primary-darker !important;
+    border-color: $color-primary-darker !important;
     transform: translateY(0px);
     box-shadow: 0px 5px 7px rgba(0,160,163,.50) !important;
+  }
+
+  &:focus {
+    outline: 2px solid $color-primary-darker;
+    outline-offset: 2px;
+    border-radius: 50px;
   }
 }
 

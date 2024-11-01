@@ -1,7 +1,7 @@
 html {  
   opacity: 0;
   transition: 100ms ease;
-}
+ }
 
 html.wf-active {
   opacity: 1;
@@ -44,8 +44,9 @@ a,
 a:hover,
 a:focus {
   color: $link-color;
-  text-decoration: none;
+  text-decoration: underline;
 }
+
 a:hover,
 a:focus {
   color: $link-hover-color;
@@ -53,6 +54,12 @@ a:focus {
 
 a.text-dark:hover {
   color: $link-hover-color !important;
+}
+
+a:focus {
+  outline: 2px solid $color-primary-darker !important;
+  outline-offset: 2px !important;
+  border-radius: 1px;
 }
 
 a,
@@ -156,6 +163,11 @@ select {
   &-active {
     background-color: $text-dark;
     opacity: .5;
+  }
+
+  &:focus {
+    outline: 2px solid $color-primary-darker;
+    outline-offset: 2px;
   }
 }
 

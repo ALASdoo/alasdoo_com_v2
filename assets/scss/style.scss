@@ -1,6 +1,7 @@
 // Color Variables
 {{ with site.Params.variables }}
-$color-primary: {{.color_primary | default "#0AA8A7"}};
+$color-primary: {{.color_primary | default "#007d80"}};
+$color-primary-darker: {{.color_primary_darker | default "#006566"}};
 $color-secondary: {{.color_secondary | default "#376f92"}};
 $color-scrollbar: {{.color_scrollbar | default "#0AA8A7" }};
 $text-color: {{.text_color | default "#777"}};

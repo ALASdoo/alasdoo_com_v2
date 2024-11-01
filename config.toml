@@ -17,6 +17,7 @@ alas_color_orange = "#FF8602"
 alas_color_blue = "#00A0A3"
 
 color_primary = "#007d80"
+color_primary_darker = "#006566"
 color_secondary = "#376f92"
 color_scrollbar = "#B5BABA"
 body_color = "#fff"
