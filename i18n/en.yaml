@@ -108,3 +108,6 @@
 
 - id: search_faq
   translation: Click and search FAQ..
+
+- id: skip_link
+  translation: Skip navigation links

@@ -90,3 +90,6 @@
   
 - id: search_faq
   translation: Klicken und suchen FAQ..
+
+- id: skip_link
+  translation: Navigationslinks überspringen

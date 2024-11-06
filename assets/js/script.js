@@ -83,7 +83,7 @@
       );
     };
 
-    // Funciton that will get fired uppon scrolling
+    // Function that will get fired upon scrolling
     var handleScroll = function handleScroll() {
       elements.forEach(function (item, id) {
         if (true === item.counterAlreadyFired) return;
@@ -175,4 +175,14 @@
       
     })
   })
+
+  // adds anchor for Scroll-to-content link
+  document.querySelector("main").id = 'main';
+  document.querySelector(".skip-to-content").addEventListener("click", () => {
+    setTimeout(() => {
+      window.location.hash='';
+    }, 50)
+  });
+     
+
 })();

@@ -22,6 +22,11 @@
     color: rgba($black, 0.8);
   }
 
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
   .navbar-brand {
     &:focus-visible,
     &:active {
@@ -211,6 +216,29 @@
         }
       }
     }
+  }
+
+  /* Skip to content */
+  .skip-to-content {
+    position: absolute;
+    left: -999px;
+    top: -999px;
+    
+    width: 100%;
+    display: block;
+    margin-top: -10px;
+    outline: none !important;
+    
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-align: center;
+    text-decoration: underline;
+    background-color: $color-primary;
+    color: $white;
+  }
+  .skip-to-content:focus,
+  .skip-to-content:focus-within {
+    position: unset;
   }
 }
 
