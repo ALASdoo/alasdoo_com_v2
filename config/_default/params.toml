@@ -81,13 +81,6 @@ bing = ""     # Your verification code
 baidu = ""    # Your verification code
 facebook = "" # Your verification code
 
-# cookies
-[cookies]
-enable = true
-expire_days = 2
-content = "This site uses cookies. By continuing to use this website, you agree to their use."
-button = "I Accept"
-
 ############################# social site ########################
 # [[social]]
 # title = "twitter"

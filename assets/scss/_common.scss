@@ -476,15 +476,4 @@ form label {
   }
 }
 
-#js-cookie-button {
-  &:hover {
-    box-shadow: none !important;
-    transform: none !important;
-  }
-
-  @include tablet {
-    display: block;
-    margin-left: 0 !important;
-    margin-top: 1rem;
-  }
-}
+ 

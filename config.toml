@@ -91,8 +91,6 @@ link = "plugins/webfont/webfont-loader-2.js"
 [[params.plugins.js]]
 link = "plugins/glightbox.js"
 [[params.plugins.js]]
-link = "plugins/cookie.js"
-[[params.plugins.js]]
 link = "plugins/lazy-loader.js"
 [[params.plugins.js]]
 link = "plugins/aos/aos.js"
