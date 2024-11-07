@@ -184,6 +184,13 @@ video {
   }
 }
 
+
+/* Accordion */
+.accordion-button:focus {
+  outline: 3px solid $color-primary-darker;
+  outline-offset: 2px;
+}
+
 .accordion-button.collapsed {
   &:hover {
     background-color: $bg-light-blue;
