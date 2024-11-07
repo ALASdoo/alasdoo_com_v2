@@ -61,3 +61,5 @@ $font-icon: '{{.font_icon | default "Font Awesome 6 Free"}}';
 @import 'toc';
 
 @import 'custom.scss';
+
+@import 'cookieconsent';

@@ -111,3 +111,9 @@
 
 - id: skip_link
   translation: Skip navigation links
+
+- id: cookieconsent_accept
+  translation: "Accept cookies"
+
+- id: cookieconsent_decline
+  translation: "Decline cookies"

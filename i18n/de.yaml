@@ -93,3 +93,9 @@
 
 - id: skip_link
   translation: Navigationslinks überspringen
+
+- id: cookieconsent_accept
+  translation: "Cookies akzeptieren"
+
+- id: cookieconsent_decline
+  translation: "Cookies ablehnen"

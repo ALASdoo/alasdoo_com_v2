@@ -1,0 +1,29 @@
+ 
+<dialog class="cookieconsent layout__cookieconsent js-cookieconsent-open modal">
+    <div class="cookieconsent__modal modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-body">
+          {{ partial "image" (dict "Src" "images/cookies.svg" "alt" "Cookie image" "Class" "modal-image") }}
+
+          <h3 class="modal-title">Analytics cookies only</h3>
+    
+          <p> We use analytics cookies to improve your experience. No personal data is
+            collected. For more details on data storage and usage, see our
+            <a href="cookies/">Cookies page</a>.
+          </p>
+
+          <div class="modal-actions">
+            <button class="btn btn-sm btn-primary">
+              {{ i18n "cookieconsent_accept" }}
+            </button>
+            <button class="btn btn-sm btn-primary">
+              {{ i18n "cookieconsent_decline" }}
+            </button>
+          </div>
+        </div>
+ 
+      </div>
+    </div>
+</dialog>
+ 
