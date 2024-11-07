@@ -59,8 +59,8 @@ team_members:
 
 - name: Tajana Somogyi
   image: images/team/tajana.jpg
-  categories: ['Management']
-  designation: Chief Brand Officer
+  categories: ['Management', 'Accessibility Champion']
+  designation: Chief Accessibility Officer
   content: Always curious about what makes people tick; intentional designer, arts and crafts enthusiast, foodie, hiker, Tribal Fusion dancer
   link: ''
 
@@ -70,6 +70,36 @@ team_members:
   designation: Employer Branding Specialist
   content: Lover of the written word, good listener and assertive communicator, master surprise maker
   link: ''
+
+- name: Miloš Jovanović
+  image: images/team/milos.jpg
+  categories: ['Management', 'Accessibility Champion']
+  designation: Digital Accessibility Manager
+  content: Climber of small mountains, chaser of bigger dreams. Has used "Python for frontend" in a sentence.
+  link: ''
+
+- name: Nemanja Božić
+  image: images/team/placeholder.svg
+  categories: ['Automated QA', 'Accessibility Champion']
+  designation: QA Accessibility Champion
+  content: Voluptate dolore mollit urna nostrud nulla. Commodo irure
+  link: ''
+
+- name: Milan Stojanović
+  image: images/team/milan.jpg
+  categories: ['Development', 'Cha']
+  designation: Front&#8209;end Accessibility Champion
+  content: Programmer by day, Musician by night. Street workout enthusiast
+  link: ''
+
+- name: Aleksandra Kosanović
+  image: images/team/aleksandra.jpg
+  categories: ['Development']
+  designation: Front&#8209;end Developer
+  content: JS Developer, Coffee Lover, Yogi Enthusiast
+  link: ''
+
+
 
 - name: Ákos Szabó
   image: images/team/akos.jpg
@@ -97,7 +127,7 @@ team_members:
 - name: Aleksandar Lakatoš
   image: images/team/aleksandar_lakatos.jpg
   categories: ['Development']
-  designation: Front&#8209;End Developer
+  designation: Front&#8209;end Developer
   content: |
     Movies addict. Car enthusiast.
     “I can't carry it for you, but I can carry you“ &#8209; Samwise Gamgee
@@ -108,13 +138,6 @@ team_members:
   categories: ['Manual QA']
   designation: QA Engineer
   content: Shopaholic, extrovert, dog lover
-  link: ''
-
-- name: Aleksandra Kosanović
-  image: images/team/aleksandra.jpg
-  categories: ['Development']
-  designation: Front&#8209;End Developer
-  content: Angular Developer, Coffee Lover, Yogi Enthusiast
   link: ''
 
 - name: Anastasia Loshchenkova
@@ -173,12 +196,6 @@ team_members:
   content: Pub quiz fanatic, movie addict, blues&rock lover
   link: ''
 
-- name: Milan Stojanović
-  image: images/team/milan.jpg
-  categories: ['Development']
-  designation: Front&#8209;End Developer
-  content: Programmer by day, Musician by night. Street workout enthusiast
-  link: ''
 
 - name: Miloš Rodić
   image: images/team/milos_rodic.jpg
@@ -187,45 +204,39 @@ team_members:
   content: Interested in the physical world and everything in it, but lives in a virtual one.
   link: ''
 
-- name: Miloš Jovanović
-  image: images/team/milos.jpg
-  categories: ['Automated QA']
-  designation: Automated QA Engineer
-  content: Climber of small mountains, chaser of bigger dreams. Has used "Python for frontend" in a sentence.
-  link: ''
 
 - name: Miroljub Arbutina
   image: images/team/miroljub.jpg
   categories: ['Development']
-  designation: Back&#8209;End Developer
+  designation: Back&#8209;end Developer
   content: Python sage, Basketball legend, Hiking lover
   link: ''
 
 - name: Nemanja Milenković
   image: images/team/nemanja.jpg
   categories: ['Development']
-  designation: Back&#8209;End Developer
+  designation: Back&#8209;end Developer
   content: Gym addict, Health enthusiast, Believer in hard work
   link: ''
 
 - name: Noemi Szabados Szabó
   image: images/team/noemi.jpg
   categories: ['Development']
-  designation: Front&#8209;End Developer
+  designation: Front&#8209;end Developer
   content: Bookworm, BuJo addict
   link: ''
 
 - name: Tibor Szakmány
   image: images/team/tiborsz.jpg
   categories: ['Development']
-  designation: Back&#8209;End Developer
+  designation: Back&#8209;end Developer
   content: Master of Plone, Bug slayer, The first of his name
   link: ''
 
 - name: Tihomir Popov
   image: images/team/tihomir.jpg
   categories: ['Development']
-  designation: Front&#8209;End Developer
+  designation: Front&#8209;end Developer
   content: JS Ninja, Sci&#8209;fi and Fantasy bookworm, Biker Hiker Camper, Scout Leader, Kite Enthusiast, Board game geek
   link: ''
 
@@ -239,7 +250,7 @@ team_members:
 - name: Vlatko Dimitrovski
   image: images/team/vlatko.jpg
   categories: ['Development']
-  designation: Back&#8209;End Developer
+  designation: Back&#8209;end Developer
   content: Nature, Chess and sport enthusiast, Car specialist, Gourmet
   link: ''
 
