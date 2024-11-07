@@ -192,7 +192,8 @@
       }
     }
 
-    .navbar .dropdown:hover .dropdown-menu {
+    .navbar .dropdown:hover .dropdown-menu,
+    .dropdown-menu.show {
       height: auto;
       overflow: visible;
       visibility: visible;
