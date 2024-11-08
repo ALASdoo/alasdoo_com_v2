@@ -45,7 +45,7 @@ what_we_do:
         enable: true
         type: 'link'
         label: 'Meet our team'
-        link: '/team'
+        link: '/our-team'
 
     - title: 'Providing full software quality assurance'
       id: 'qa'
