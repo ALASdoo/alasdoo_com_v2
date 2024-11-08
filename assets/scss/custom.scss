@@ -21,9 +21,11 @@ video {
     }
   }
 }
+
 .opacity-70 {
   opacity: .7 !important;
 }
+
 .team-card {
   p {
     background-color: $text-dark;
@@ -267,6 +269,7 @@ video {
   font-family: $font-primary;
 }
 
+/** Contact Page */
 .contact-img {
   border-bottom: 5px solid;
 }
@@ -342,6 +345,20 @@ video {
 
 .contact-person {
   font-size: 16px;
+}
+
+#contact {
+  .nav-link:focus, 
+  .nav-link:focus-visible {
+    outline: 2px solid $color-primary-darker;
+    outline-offset: 3px;
+    border-radius: 1px;
+  }
+}
+
+#myTabContent .tab-pane:focus-visible,
+#myTabContent .container:focus-visible {
+    outline: none;
 }
 
 #partnerships-tab-pane {
