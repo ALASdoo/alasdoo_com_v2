@@ -9,7 +9,7 @@
           {{ with site.Params.social }}
           <ul class="list-inline social-icons">
             {{ range . }}
-            <li class="list-inline-item mb-0"><a href="{{ .link | safeURL }}" title="{{ .title }}" target="_blank"><i class="{{ .icon }}"></i></a></li>
+            <li class="list-inline-item mb-0"><a href="{{ .link | safeURL }}" target="_blank"><i class="{{ .icon }}"></i></a></li>
             {{ end }}
           </ul>
           {{ end }}
@@ -19,7 +19,7 @@
         {{ if site.Menus.footer_menu }}
         <ul class="list-unstyled footer-list mb-0">
           {{ range site.Menus.footer_menu }}
-          <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
+          <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
         {{ end }}
@@ -28,7 +28,7 @@
         {{ if site.Menus.footer_menu_2 }}
         <ul class="list-unstyled footer-list mb-0">
           {{ range site.Menus.footer_menu_2 }}
-          <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
+          <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
         {{ end }}
@@ -37,13 +37,7 @@
         <div class="d-inline-block">
           <div class="pb-2">{{ site.Params.footer_content | markdownify }}</div>
           <div>
-            {{ $button := dict
-              "enable" true
-              "type" "link"
-              "label" "Contact us"
-              "link" "/contact"
-            }}
-            {{ partial "button" $button }}
+            <a href="{{ site.Params.navigation_button.link | relLangURL }}">{{ site.Params.navigation_button.label }}</a>
           </div>
         </div>
       </div>

@@ -3,8 +3,8 @@
   "baseUrl": ".",
   "paths": {
    "*": [
-    "../../../.cache/hugo_cache/modules/filecache/modules/pkg/mod/github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2@v2.21100.20000/package/dist/cjs/*",
-    "../../../.cache/hugo_cache/modules/filecache/modules/pkg/mod/github.com/twbs/bootstrap@v5.2.1+incompatible/js/*"
+    "../../../../../../var/folders/vh/y2_wqk_x5vv21y9bql9qykkh0000gn/T/hugo_cache/modules/filecache/modules/pkg/mod/github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2@v2.21100.20000/package/dist/cjs/popper.js/*",
+    "../../../../../../var/folders/vh/y2_wqk_x5vv21y9bql9qykkh0000gn/T/hugo_cache/modules/filecache/modules/pkg/mod/github.com/twbs/bootstrap@v5.2.1+incompatible/js/*"
    ]
   }
  }

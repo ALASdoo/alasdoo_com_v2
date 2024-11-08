@@ -1,31 +1,31 @@
 # main menu
 [[main]]
-name = "What we do"
-url = "/what-we-do/"
+name = "Services"
+url = "/services/"
 weight = 2
 
 [[main]]
 weight = 3
-name = "Who we are"
-url = "/who-we-are/"
+name = "About us"
+url = "/about-us/"
 hasChildren = true
 
 [[main]]
-parent = "Who we are"
+parent = "About us"
 name = "Our story"
 url = "our-story/"
 weight = 1
 
 [[main]]
-parent = "Who we are"
-name = "Team"
-url = "team/"
+parent = "About us"
+name = "Our team"
+url = "our-team/"
 weight = 2
 
 [[main]]
-parent = "Who we are"
-name = "Clients"
-url = "clients/"
+parent = "About us"
+name = "Our clients"
+url = "our-clients/"
 weight = 3
 
 
@@ -44,15 +44,20 @@ name = "Articles"
 url = "/articles/"
 weight = 6
 
+[[main]]
+name = "Contact us"
+url = "/contact/"
+weight = 6
+
 # footer menu
 
 [[footer_menu]]
-name = "What We Do"
-url = "/what-we-do/"
+name = "Services"
+url = "/services/"
 weight = 2
 
 [[footer_menu]]
-name = "Who We Are"
+name = "About us"
 url = "/our-story/"
 weight = 3
 
@@ -101,13 +106,13 @@ weight = 6
 # weight = 1
 
 # [[footer_middle]]
-# name = "What We Do"
-# url = "what-we-do/"
+# name = "Services"
+# url = "wservices"
 # weight = 2
 
 # [[footer_middle]]
-# name = "Who We Are"
-# url = "who-we-are/"
+# name = "About us"
+# url = "about-us/"
 # weight = 3
 
 # [[footer_middle]]

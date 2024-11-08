@@ -6,7 +6,7 @@ hero_image: "images/quality-over-quantity.jpg"
 alt: "IT team leader working with her team on a project."
 description: ""
 draft: false
-layout: "team"
+layout: "our-team"
 
 
 intro:

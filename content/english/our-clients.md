@@ -4,7 +4,7 @@ subtitle: ''
 # meta description
 description: 'This is meta description'
 draft: false
-layout: 'clients'
+layout: 'our-clients'
 
 cta:
   content: 'We work for clients from all over the globe, from small businesses and startups to established global corporations.'

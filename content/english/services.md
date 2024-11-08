@@ -1,10 +1,10 @@
 ---
-title: 'What we do'
+title: 'Services'
 subtitle: ''
 # meta description
 description: 'This is meta description'
 draft: false
-layout: 'what-we-do'
+layout: 'services'
 
 ######################### banner #####################
 banner:

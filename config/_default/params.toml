@@ -18,7 +18,7 @@ theme_default = "light" # available options [light/dark/automatic]
 mainSections = ["blog"]
 # contact form action
 contact_form_action = "/form-success" # contact form works with [https://airform.io/] or [https://formspree.io]
-career_form_action = "/form-success" # contact form works with [https://airform.io/] or [https://formspree.io]
+career_form_action = "/form-success"  # contact form works with [https://airform.io/] or [https://formspree.io]
 # demo form action
 demo_form_action = "#!" # demo form works with [https://airform.io/] or [https://formspree.io]
 # google tag manager, see https://developers.google.com/tag-manager/
@@ -36,7 +36,7 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = true
+enable = false
 label = "Contact us"
 link = "contact/"
 
@@ -89,12 +89,12 @@ facebook = "" # Your verification code
 
 [[social]]
 title = "linkedin"
-icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+icon = "fab fa-linkedin"                           # fontawesome icon pack : https://fontawesome.com/icons/
 link = "https://www.linkedin.com/company/alas-doo"
 
 [[social]]
 title = "instagram"
-icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
+icon = "fab fa-instagram"                      # fontawesome icon pack : https://fontawesome.com/icons/
 link = "https://www.instagram.com/alasdoocom/"
 
 # [[social]]
@@ -104,6 +104,5 @@ link = "https://www.instagram.com/alasdoocom/"
 
 [[social]]
 title = "facebook"
-icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
+icon = "fab fa-facebook"                     # fontawesome icon pack : https://fontawesome.com/icons/
 link = "https://www.facebook.com/ALASdoocom"
-
