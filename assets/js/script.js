@@ -176,6 +176,7 @@
       }
     })
 
+    formHandler();
 
   })
 
@@ -191,20 +192,37 @@
   /*==============================
     Contact Form
   *==============================*/
-  window.addEventListener('load', function() {
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    var forms = document.getElementsByClassName('contact-form');
-    // Loop over them and prevent submission
-    var validation = Array.prototype.filter.call(forms, function(form) {
-      form.addEventListener('submit', function(event) {
-        if (form.checkValidity() === false) {
-          event.preventDefault();
-          event.stopPropagation();
-        }
-        form.classList.add('was-validated');
-      }, false);
-    });
-  }, false);
+ function formHandler() {
+   const formValidation = (form) => {
+    form.addEventListener("submit",   (event) => {
+      if (form.checkValidity() === false) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+
+    form.classList.add("was-validated");
+    const inputs = form.querySelectorAll('.form-control')
+    inputs.forEach((input) => {
+ 
+      // aria-invalid
+      if (input.checkValidity() === false) {
+        input.ariaInvalid = true
+      } else {
+        input.removeAttribute('aria-invalid');
+      }
+    })
+       
+     }, false);
+   };
+
+
+  const forms = document.querySelectorAll("form");
+  forms.forEach((form) => {
+    formValidation(form);
+  });
+}
+  
+
  
 
 })();
