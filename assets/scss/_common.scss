@@ -274,6 +274,21 @@ select {
   border-radius: 4px;
 }
 
+// Checkbox
+.form-check-input {
+  margin-right: 5px;
+  vertical-align: top;
+  &:checked {
+    background-color: $color-primary;
+    border-color: $color-primary;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.25rem rgba($color-primary, 0.25);
+  }
+}
+ 
+
+
  
 
 :not(.was-validated) {
@@ -287,13 +302,19 @@ select {
   }
 }
 
-
-
+.invalid-feedback::first-letter {
+  text-transform: capitalize;
+}
 
 .was-validated {
   .invalid-feedback {
     color:  $color-invalid;
   }
+
+  .form-check-input:invalid {
+    outline: 1px solid $color-invalid;
+  }
+
   .form-select:invalid,
   .form-control:invalid {
     border-color: $color-invalid;

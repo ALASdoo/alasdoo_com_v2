@@ -72,6 +72,13 @@
                       </div>
 
                       <div class="col-lg-12">
+                        <input type="checkbox" class="form-check-input" id="privacy-policy" name="privacy_policy" aria-errormessage="invalid-feedback-privacy-policy" required >
+                        <label class="mb-1" for="privacy-policy">{{i18n "privacy_policy_label" | markdownify }}</label>
+                        <div class="invalid-feedback" aria-errormessage="invalid-feedback-privacy-policy"> {{ i18n "invalid_required" }} </div>
+                      </div>
+
+
+                      <div class="col-lg-12">
                         <button class="btn btn-primary mt-2" type="submit">{{ i18n "send"}}</button>
                       </div>
                    </fieldset>

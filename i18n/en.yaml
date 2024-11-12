@@ -80,7 +80,7 @@
   translation: Last name
 
 - id: email
-  translation: Email Address
+  translation: Email address
 
 - id: website
   translation: Website
@@ -117,3 +117,6 @@
 
 - id: form_legend
   translation: (Please note that all fields are required)
+
+- id: privacy_policy_label 
+  translation: I have read and agree to the [Privacy Policy](/privacy-policy)
