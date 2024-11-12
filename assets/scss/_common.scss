@@ -259,8 +259,6 @@ select {
 
 // form control
 .form-legend {
-  margin-block-start: 2rem;
-  margin-block-end: -1rem;
   font-size: 0.8rem;
   color: $text-dark;
 }
@@ -355,7 +353,8 @@ textarea.form-control {
 }
 
 .form-control[type="file"] {
-  padding: 11px 14px;
+  padding: 0.375rem 0.75rem;
+  height: unset;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
