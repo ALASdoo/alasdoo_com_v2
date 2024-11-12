@@ -93,3 +93,9 @@
 
 - id: skip_link
   translation: Navigationslinks überspringen
+
+- id: invalid_required
+  translation: Feld ist erforderlich
+
+- id: form_legend
+  translation: (Bitte beachten Sie, dass alle Felder ausgefüllt werden müssen)

@@ -161,6 +161,7 @@
   //   }
   // })
 
+
   // Close mobile navigation when user click outside
   document.addEventListener("DOMContentLoaded", function () {
     var navigation = document.querySelector(".navbar");
@@ -168,12 +169,14 @@
     var navigationButton = document.querySelector(".navbar-toggler");
     var isMobileNavigation = window.matchMedia("(max-width: 1199px)");
     
+
     document.addEventListener("click", function(event) {
       if(!navigation.contains(event.target) && isMobileNavigation.matches && navigationCollapse.classList.contains("show")) {
         navigationButton.click();
       }
-      
     })
+
+
   })
 
   // adds anchor for Scroll-to-content link
@@ -184,5 +187,24 @@
     }, 50)
   });
      
+
+  /*==============================
+    Contact Form
+  *==============================*/
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('contact-form');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+ 
 
 })();

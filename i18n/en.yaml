@@ -71,13 +71,13 @@
   translation: All Jobs
 
 - id: fname
-  translation: First Name
+  translation: First name
 
-- id: full_name
-  translation: Full Name
+- id: fullnname
+  translation: Full name
 
 - id: lname
-  translation: Last Name
+  translation: Last name
 
 - id: email
   translation: Email Address
@@ -111,3 +111,9 @@
 
 - id: skip_link
   translation: Skip navigation links
+
+- id: invalid_required
+  translation: field is required
+
+- id: form_legend
+  translation: (Please note that all fields are required)
