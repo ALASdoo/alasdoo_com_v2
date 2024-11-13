@@ -26,10 +26,10 @@ In this case study you can read about:
 * [About the client](#about-the-client)
 * [Client’s challenges](#clients-challenges)
 * [Our approach](#our-approach)
- * [Increasing efficiency with Agile and Kanban](#increasing-efficiency-with-agile-and-kanban)
- * [Backend development](#backend-development)
- * [Frontend development](#frontend-development)
- * [Quality assurance](#quality-assurance)
+  * [Increasing efficiency with Agile and Kanban](#increasing-efficiency-with-agile-and-kanban)
+  * [Backend development](#backend-development)
+  * [Frontend development](#frontend-development)
+  * [Quality assurance](#quality-assurance)
 * [Value delivered](#value-delivered)
 
 ## About the client
