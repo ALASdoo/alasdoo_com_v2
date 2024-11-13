@@ -16,7 +16,7 @@
 <section class="section history {{if eq $i 0}} first-element {{end}} {{if eq (add $i 1) $len}} last-element {{if modBool $i 2}} has-bg-light {{end}} {{end}} overflow-hidden pt-0">
   <div class="container">
     <div class="block {{if modBool $i 2}}block-right-image{{end}} row align-items-center g-5">
-      <div class="col-lg-6 {{if modBool $i 2}}order-lg-0 text-lg-end{{end}} order-1">
+      <div class="col-lg-6 {{if modBool $i 2}}order-lg-0{{end}} order-1">
         <div class="px-0 px-lg-4 history-container">
           <div
             data-aos="{{if modBool $i 2}}fade-right{{else}}fade-left{{end}}"
