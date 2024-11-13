@@ -26,10 +26,10 @@ In this case study you can read about:
 * [About the client](#about-the-client)
 * [Client’s challenges](#clients-challenges)
 * [Our approach](#our-approach)
-* [Streamlining workflows and increase efficiency with Agile and&nbsp;Kanban](#streamlining-workflows-and-increase-efficiency-with-agile-andnbspkanban)
-* [Backend development](#backend-development)
-* [Frontend development](#frontend-development)
-* [Quality assurance](#quality-assurance)
+ * [Increasing efficiency with Agile and Kanban](#increasing-efficiency-with-agile-and-kanban)
+ * [Backend development](#backend-development)
+ * [Frontend development](#frontend-development)
+ * [Quality assurance](#quality-assurance)
 * [Value delivered](#value-delivered)
 
 ## About the client
@@ -54,13 +54,13 @@ Initially, they hired us for manual and automation testing, recognizing our expe
 
 Our team has contributed to the development of a complex web application, with a plethora of backend microservices to support it. In addition to building the software, we have created a complete testing environment, including a fully functional test framework to ensure quality assurance at every step of the&nbsp;process.
 
-## Increasing efficiency with Agile and Kanban
+### Increasing efficiency with Agile and Kanban
 
 The Agile approach helps us to stay nimble and responsive to our client's needs, ensuring that we are always working towards the most impactful goals and deliverables.
 
 By breaking down work into smaller, manageable tasks and visualizing each stage of the development process on a Kanban board, we can quickly identify and eliminate bottlenecks, prioritize work, and improve the overall flow of the development&nbsp;process.
 
-## Backend development
+### Backend development
 
 Currently, we are focused on developing new APIs and features, which we test rigorously before release. To ensure the best possible results, we collaborate with client developers from all over the world, combining our expertise to create cutting&#8209;edge innovations.
 
@@ -72,13 +72,13 @@ Writing and maintaining documentation is an important aspect of our&nbsp;service
 
 We recognize that software development is an ongoing process, and documentation needs to be updated regularly to reflect changes in the application and its environment.
 
-## Frontend development
+### Frontend development
 
 When it comes to frontend services, we build scalable, framework&#8209;agnostic UI components using WebComponents, such as buttons, text boxes, forms, and other user interface components that allow users to interact with the application. WebComponents are encapsulated, meaning that they don't interfere with the rest of the application and can be used across multiple frameworks and libraries.
 
 Accessibility is an important consideration. Therefore, all UI components were designed and coded up to the latest accessibility standards.
 
-## Quality assurance
+### Quality assurance
 
 We specialize in writing automation test cases for REST and RPC APIs, as well as other event&#8209;driven backend services. By performing regular performance testing on backend services, we help our client ensure that their application is running efficiently and that it can handle a high volume of requests, thereby improving the user experience and minimizing the risk of issues or downtime.
 
