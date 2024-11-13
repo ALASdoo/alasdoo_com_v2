@@ -84,16 +84,16 @@
       <div class="swiper testimonial-carousel">
         <div class="swiper-wrapper">
           {{range .testimonials_item}}
-          <div class="swiper-slide text-center">
+          <div class="swiper-slide">
             <div class="row justify-content-center">
-              <div class="col-lg-10">
+              <div class="col-lg-8">
                 <div class="card bg-white rounded-2 border-0">
                   <div class="card-body p-5">
-                    <div class="quotation-marks pb-3">
+                    <div class="quotation-marks text-center pb-3">
                       {{ partial "image" (dict "Src" "/images/quotation-marks.png" "Alt" "Quote") }}
                     </div>
                     <p class="mb-3 fst-italic">{{.content | markdownify}}</p>
-                    <p class="h6">{{.name | markdownify}}</p>
+                    <p class="h6 text-center">{{.name | markdownify}}</p>
                   </div>
                 </div>
               </div>
