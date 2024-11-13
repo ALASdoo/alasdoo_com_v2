@@ -47,11 +47,10 @@ footer {
   &,
   .footer-nav a {
     color: $text-dark;
-    &:hover {
-      color: #006365;
-    }
   }
-
+  .footer-nav a:hover {
+    color: #006365;
+  }
 }
 
 .hero-text,
