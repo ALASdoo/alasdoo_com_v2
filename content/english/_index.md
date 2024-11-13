@@ -9,7 +9,7 @@ banner:
     enable: true
     type: 'primary'
     label: 'More about our services'
-    link: 'what-we-do/'
+    link: 'services/'
 
 ####################### About #########################
 about:
@@ -27,7 +27,7 @@ about:
     enable: false
     type: 'primary'
     label: 'Learn more about who we are'
-    link: 'who-we-are/'
+    link: 'our-story/'
 
 ##################### Numbers ##########################
 numbers:
