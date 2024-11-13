@@ -5,7 +5,7 @@ title: 'A 15-year-long partnership in building a robust and scalable website cre
 subtitle: 'Supporting a website builder with backend development, testing, and project management services'
 image: 'images/case-studies/SimpleSite.jpg'
 alt: 'Laptop with website building elements on the screen'
-industry: 'INFORMATION AND INTERNET'
+industry: 'information and internet'
 keywords:
   [
     'Website-building tool',
@@ -17,6 +17,17 @@ keywords:
     'Automated testing',
   ]
 ---
+
+In this case study you can read about:
+
+* [About the client](#about-the-client)
+* [Client’s challenges](#clients-challenges)
+* [Our approach](#our-approach)
+ * [Quality assurance](#quality-assurance)
+ * [Backend development](#backend-development)
+ * [Frontend development](#frontend-development)
+ * [Project management](#project-management)
+* [Value delivered](#value-delivered)
 
 ## About the client
 
