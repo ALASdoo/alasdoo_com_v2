@@ -48,12 +48,12 @@ a {
   text-decoration: underline;
 }
 
-a:visited {
-  color: $link-active-color;
+a:hover {
+  color: $color-primary-darker;
 }
 
-a:hover {
-  color: $link-hover-color;
+a:visited {
+  color: $color-primary-darker
 }
 
 
