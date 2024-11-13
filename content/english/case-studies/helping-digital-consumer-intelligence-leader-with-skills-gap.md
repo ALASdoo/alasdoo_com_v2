@@ -43,7 +43,7 @@ Initially, they hired us for manual and automation testing, recognizing our expe
 
 Our team has contributed to the development of a complex web application, with a plethora of backend microservices to support it. In addition to building the software, we have created a complete testing environment, including a fully functional test framework to ensure quality assurance at every step of the&nbsp;process.
 
-## Streamlining workflows and increase efficiency with Agile and&nbsp;Kanban
+## Increasing efficiency with Agile and Kanban
 
 The Agile approach helps us to stay nimble and responsive to our client's needs, ensuring that we are always working towards the most impactful goals and deliverables.
 
