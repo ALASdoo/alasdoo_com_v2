@@ -37,12 +37,21 @@
         <div class="d-inline-block">
           <div class="pb-2">{{ site.Params.footer_content | markdownify }}</div>
           <div>
-            <a href="{{ site.Params.navigation_button.link | relLangURL }}">{{ site.Params.navigation_button.label }}</a>
+            <!-- TODO -->
+            <!-- <a href="{{ site.Params.navigation_button.link | relLangURL }}">{{ site.Params.navigation_button.label }}</a> -->
           </div>
         </div>
       </div>
-      <div class="border-top border-default text-center py-1 mt-4 footer-copyright">
-        <small class="content">{{site.Params.copyright | markdownify}}</small>
+
+       <div class="border-top border-default text-center py-2 mt-4 footer-copyright">
+        <small class="content">{{site.Params.copyright | markdownify}}</small> 
+        {{ if site.Menus.copyright_menu }}
+        <ul class="list-unstyled copyright-menu mb-0">
+          {{ range site.Menus.copyright_menu }}
+          <li class="mb-0"><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
       </div>
     </div>
   </div>
