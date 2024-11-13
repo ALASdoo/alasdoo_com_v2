@@ -21,16 +21,16 @@ keywords:
   ]
 ---
 
-In this case study you can read about
+In this case study you can read about:
 
-1. [About the client](#about-the-client)
-2. [Client’s challenges](#clients-challenges)
-3. [Our approach](#our-approach)
-4. [Streamlining workflows and increase efficiency with Agile and&nbsp;Kanban](#streamlining-workflows-and-increase-efficiency-with-agile-andnbspkanban)
-5. [Backend development](#backend-development)
-6. [Frontend development](#frontend-development)
-7. [Quality assurance](#quality-assurance)
-8. [Value delivered](#value-delivered)
+* [About the client](#about-the-client)
+* [Client’s challenges](#clients-challenges)
+* [Our approach](#our-approach)
+* [Streamlining workflows and increase efficiency with Agile and&nbsp;Kanban](#streamlining-workflows-and-increase-efficiency-with-agile-andnbspkanban)
+* [Backend development](#backend-development)
+* [Frontend development](#frontend-development)
+* [Quality assurance](#quality-assurance)
+* [Value delivered](#value-delivered)
 
 ## About the client
 
