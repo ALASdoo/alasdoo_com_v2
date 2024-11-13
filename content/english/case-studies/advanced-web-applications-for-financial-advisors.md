@@ -5,7 +5,7 @@ title: 'Advanced Web applications for financial&nbsp;advisors'
 subtitle: 'Improving retirement portfolios with complex calculations and user&#8209;friendly interfaces'
 image: 'images/case-studies/RetireUp.jpg'
 alt: 'An older couple doing together their finances.'
-industry: 'FINANCE'
+industry: 'finance'
 keywords:
   [
     'Finance',
@@ -19,6 +19,13 @@ keywords:
     'Confidentiality',
   ]
 ---
+
+In this case study you can read about:
+
+* [About the client](#about-the-client)
+* [Client’s challenges](#clients-challenges)
+* [Our approach](#our-approach)
+* [Value delivered](#value-delivered)
 
 ## About the client
 
