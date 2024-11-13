@@ -5,7 +5,7 @@ title: 'Helping digital consumer intelligence leader with skills&nbsp;gap'
 subtitle: 'Accelerating the process from ideation to&nbsp;realization'
 image: 'images/case-studies/Brandwatch.jpg'
 alt: 'A man looking at a social media data charts on a tablet.'
-industry: 'SOCIAL MEDIA ANALYTICS'
+industry: 'social media analytics'
 keywords:
   [
     'Social media analytics',
@@ -20,6 +20,17 @@ keywords:
     'Backend development',
   ]
 ---
+
+In this case study you can read about
+
+1. [About the client](#about-the-client)
+2. [Client’s challenges](#clients-challenges)
+3. [Our approach](#our-approach)
+4. [Streamlining workflows and increase efficiency with Agile and&nbsp;Kanban](#streamlining-workflows-and-increase-efficiency-with-agile-andnbspkanban)
+5. [Backend development](#backend-development)
+6. [Frontend development](#frontend-development)
+7. [Quality assurance](#quality-assurance)
+8. [Value delivered](#value-delivered)
 
 ## About the client
 
