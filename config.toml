@@ -26,9 +26,10 @@ text_color = "rgba(0,0,0,.8)"
 text_dark = "rgba(49,49,49,.85)"
 text_light = "#959595"
 link_color = "#007d80"
-link_hover_color = "#006566"
+link_hover_color = "#004D4F"
+link_active_color = "#006365"
 border_color = "#ECECEC"
-color_border_darker="rgba(49,49,49,.85)"
+color_border_darker = "rgba(49,49,49,.85)"
 dark_body_color = "#1E262C"
 dark_text_color = "#cbcbcb"
 dark_text_light = "#959595"
@@ -63,10 +64,10 @@ font_scale = "1.25" # default is "majorThird": 1.25
 # go to https://fonts.google.com/ to find the font you want to use. select your font and copy only the bold part from the URL. and paste it here.
 # example: "Work+Sans:wght@400;500;600"
 font_primary = "Inter:wght@500;600;700"
-font_primary_type = "sans-serif"           # [serif/sans-serif]
+font_primary_type = "sans-serif"          # [serif/sans-serif]
 font_secondary = "Comfortaa:wght@400;500"
-font_secondary_type = "sans-serif"         # [serif/sans-serif]
-font_icon = "Font Awesome 6 Free"          # https://fontawesome.com/v5.15/icons/
+font_secondary_type = "sans-serif"        # [serif/sans-serif]
+font_icon = "Font Awesome 6 Free"         # https://fontawesome.com/v5.15/icons/
 
 
 ############################# Plugins ##############################

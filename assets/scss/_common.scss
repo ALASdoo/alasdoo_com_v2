@@ -1,4 +1,4 @@
-html {  
+html {
   opacity: 0;
   transition: 100ms ease;
  }
@@ -48,12 +48,12 @@ a {
   text-decoration: underline;
 }
 
-a:hover {
-  color: $color-primary-darker;
+a:visited {
+  color: $link-active-color;
 }
 
-a:visited {
-  color: $color-primary-darker
+a:hover {
+  color: $link-hover-color;
 }
 
 
@@ -102,7 +102,7 @@ select {
   object-fit: cover !important;
 }
 
-// todo: replace border color 
+// todo: replace border color
 .border-default {
   border-color: $border-color !important;
 }
@@ -284,10 +284,10 @@ select {
     box-shadow: 0 0 0 0.25rem rgba($color-primary, 0.25);
   }
 }
- 
 
 
- 
+
+
 
 :not(.was-validated) {
   .form-control,
@@ -532,4 +532,3 @@ form label {
   }
 }
 
- 
