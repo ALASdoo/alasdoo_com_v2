@@ -169,28 +169,22 @@ approach:
   content: "Each project is unique and requires a customized strategy, but what guides us through every communication and relationship is our in&#8209;depth domain experience, thoroughness in everything we do, transparency, and taking the human aspect into account. These are just a few of the [values](/our-story#values) we uphold and live by every&nbsp;day."
   content_bottom: "Our company's founders have more than 17 years of experience in each stage of the development and testing processes and are proficient in the procedures themselves. They are the ones who go through all the motions of an initial meeting, assessment, planning, and choosing the perfect team for&nbsp;you."
   workflow_item:
-    - title: 'Initial assessment'
-      image: '/images/approach/1.svg'
+    - title: '1. Initial assessment'
       alt: "number one"
       content: 'Understanding your needs, goals, and pain points through a detailed interview and in&#8209;depth&nbsp;research'
-    - title: 'Customized plan'
-      image: '/images/approach/2.svg'
+    - title: '2. Customized plan'
       alt: "number two"
       content: 'Translating goals into concrete steps with detailed technical specifications, based on our&nbsp;expertise'
-    - title: 'Choosing talent'
-      image: '/images/approach/3.svg'
+    - title: '3. Choosing talent'
       alt: "number three"
       content: 'With crucial technical requirements defined, we are choosing the most suitable talent for your&nbsp;project'
-    - title: 'Onboarding'
-      image: '/images/approach/4.svg'
+    - title: '4. Onboarding'
       alt: "number four"
       content: 'You, as a client, are presenting the project and together we are defining the specific tasks that will be&nbsp;performed'
-    - title: 'Implementation'
-      image: '/images/approach/5.svg'
+    - title: '5. Implementation'
       alt: "number five"
       content: 'Doing the actual work, complemented with ongoing transparent communication and regular&nbsp;reporting'
-    - title: 'Agile adaptation'
-      image: '/images/approach/6.svg'
+    - title: '6. Agile adaptation'
       alt: "number six"
       content: 'Staying on top of things and adaptable when plans change, whether it is about the requirements or the team&nbsp;structure'
 

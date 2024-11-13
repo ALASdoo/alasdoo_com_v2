@@ -1,14 +1,14 @@
 {{define "main"}}
-
+<h1 class="d-none">Our team</h1>
 {{with .Params}}
 <section class="section p-0">
   <div class="hero-bg backdrop-dark" {{ partial "bg-image" (dict "Src" .hero_image "Position" "bottom center" "Webp" false) | safeHTMLAttr }}>
     <div class="container">
-      <h1 class="text-center text-white hero-text"
+      <div class="text-center text-white hero-text"
         data-aos="fade-up"
         data-aos-offset="180"
         data-aos-duration="600"
-        data-aos-easing="ease-in-out-sine">{{.hero | markdownify}}</h1>
+        data-aos-easing="ease-in-out-sine">{{.hero | markdownify}}</div>
     </div>
   </div>
 </section>
