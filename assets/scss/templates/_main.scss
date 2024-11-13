@@ -88,15 +88,23 @@
   gap: 20px;
   font-size: 0.8rem;
 
-  color: rgba($black, 0.7);
-  border-color: rgba($black, 0.15) !important;
- 
+  border-color: $color-border-darker !important;
+  .copyright-label {
+    color: $text-dark;
+    text-wrap: nowrap;
+  }
 }
 
 .copyright-menu {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  text-wrap: nowrap;
+  justify-content: center;
+
+  @media (min-width: 576px) {
+    justify-content: unset;
+  }
 }
 
 // social-icons
