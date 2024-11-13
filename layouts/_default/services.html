@@ -1,19 +1,17 @@
 {{ define "main" }}
-<h1 class="d-none">What we do</h1>
-
 {{with .Params.banner}}
 <section class="section pt-5 pb-5" id="what-we-do-hero">
   <div class="container">
     <div class="row align-items-center justify-content-center">
       <div class="col-lg-6 col-md-10 mb-5 mb-lg-0">
         <div class="pe-0 pe-lg-5 text-center text-lg-start">
-          <h2 class="section-title h3"
+          <h1 class="section-title h3"
             data-aos="fade-right"
             data-aos-offset="0"
             data-aos-duration="600"
             data-aos-easing="ease-in-out-sine">
             {{ .title | markdownify }}
-          </h2>
+          </h1>
           <p class="mb-4"
             data-aos="fade-right"
             data-aos-offset="0"
@@ -54,14 +52,13 @@
 {{ range $i, $p := $list }}
 <section id="{{.id}}" class="section what-we-do overflow-hidden">
   <div class="container">
-    <h2 class="d-none">Services</h2>
     <div class="block {{if not (modBool $i 2)}}block-right-image{{end}} row align-items-center g-5">
       <div class="col-lg-6 {{if not (modBool $i 2)}}order-lg-0{{end}} order-1 pe-lg-0"
         data-aos="{{if not (modBool $i 2)}}fade-right{{else}}fade-left{{end}}"
         data-aos-offset="150"
         data-aos-duration="600"
         data-aos-easing="ease-in-out-sine">
-        <h3 class="section-title h4">{{ .title | markdownify }}</h3>
+        <h2 class="section-title h4">{{ .title | markdownify }}</h2>
         <p class="mb-4">{{ .content | markdownify }}</p>
         {{ partial "button" .button }}
       </div>
@@ -141,7 +138,7 @@
           <div class="card-body pb-5 pt-5 d-flex">
             {{ partial "image" (dict "Src" .image "Alt" .alt "Class" "w-30") }}
             <div class="approach-text">
-              <p class="h6">{{ .title | markdownify }}</p>
+              <h3 class="h6">{{ .title | markdownify }}</h3>
               <p class="p mb-0">{{ .content | markdownify }}</p>
             </div>
           </div>

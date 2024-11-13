@@ -115,7 +115,7 @@
       data-aos-duration="600"
       data-aos-easing="ease-in-out-sine">
       <div class="col-xl-8 text-center">
-        <h3 class="h3">{{.title | markdownify}}</h3>
+        <h2 class="h3">{{.title | markdownify}}</h2>
       </div>
     </div>
     <div class="row gy-lg-0 gy-4 justify-content-center"
@@ -133,7 +133,6 @@
         }}
         {{ $card := dict
           "image" .Params.image
-          "category" .Params.industry
           "name" .Title
           "button" $button
         }}

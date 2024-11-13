@@ -51,7 +51,12 @@ footer {
 
 }
 
-.hero-text {
+.hero-text,
+.card-heading,
+.cta-heading,
+.approach-text h6,
+.clients-hero-text,
+.careers-hero-text {
   font-family: $font-primary;
   font-weight: 400;
 }

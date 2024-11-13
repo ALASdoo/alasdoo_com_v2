@@ -1,6 +1,4 @@
 {{ define "main" }}
-<h1 class="d-none">Careers</h1>
-
 {{with .Params.hero}}
 <section class="section bg-light-blue pb-5 pt-5">
   <div class="container">
@@ -11,7 +9,7 @@
           data-aos-offset="0"
           data-aos-duration="600"
           data-aos-easing="ease-in-out-sine">
-          <div class="h5">{{.title | markdownify}}</div>
+          <h1 class="h5 careers-hero-text">{{.title | markdownify}}</h1>
           <div class="pt-4">
             {{ partial "button" .button }}
           </div>
