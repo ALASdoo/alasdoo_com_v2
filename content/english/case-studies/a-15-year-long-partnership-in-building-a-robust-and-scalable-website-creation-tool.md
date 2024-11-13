@@ -23,10 +23,10 @@ In this case study you can read about:
 * [About the client](#about-the-client)
 * [Client’s challenges](#clients-challenges)
 * [Our approach](#our-approach)
- * [Quality assurance](#quality-assurance)
- * [Backend development](#backend-development)
- * [Frontend development](#frontend-development)
- * [Project management](#project-management)
+  * [Quality assurance](#quality-assurance)
+  * [Backend development](#backend-development)
+  * [Frontend development](#frontend-development)
+  * [Project management](#project-management)
 * [Value delivered](#value-delivered)
 
 ## About the client
