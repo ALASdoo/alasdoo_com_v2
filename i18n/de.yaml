@@ -100,5 +100,5 @@
 - id: form_legend
   translation: (Bitte beachten Sie, dass alle Felder ausgefüllt werden müssen)
 
-- id: privacy_policy_label 
-  translation: Ich habe die [Datenschutzbestimmungen](/privacy-policy) gelesen und stimme ihnen zu.
+- id: privacy_disclosure 
+  translation: Wir verwenden Ihre persönlichen Daten (Name und E-Mail) nur, um Ihre Anfrage zu beantworten. Weitere Einzelheiten zum Umgang mit Ihren Daten finden Sie in unserer [Datenschutzrichtlinie](/privacy-policy).

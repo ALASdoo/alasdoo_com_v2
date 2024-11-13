@@ -101,10 +101,10 @@
   translation: Get a Demo
 
 - id: cv_note
-  translation: doc or pdf files
-
+  translation: doc or pdf files	
+ 
 - id: upload_cv
-  translation: Upload CV
+  translation: Upload CV (.doc or .pdf)
 
 - id: search_faq
   translation: Click and search FAQ..
@@ -116,7 +116,7 @@
   translation: field is required
 
 - id: form_legend
-  translation: (Please note that all fields are required)
+  translation: All fields are required
 
-- id: privacy_policy_label 
-  translation: I have read and agree to the [Privacy Policy](/privacy-policy)
+- id: privacy_disclosure
+  translation: We only use your personal information (name and email) to respond to your inquiry. For more details on how we handle your data, please see our [Privacy Policy](/privacy-policy).
