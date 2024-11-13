@@ -5,7 +5,7 @@ title: 'Air cargo transport solutions for airlines and forwarders'
 subtitle: 'Leveraging manual testing and automation tools to guarantee high&#8209;quality application delivery'
 image: 'images/case-studies/Cargo.jpg'
 alt: 'Air cargo transport represented with boxes conected with a line and a toy plane.'
-industry: 'TRANSPORTATION'
+industry: 'transportation'
 keywords:
   [
     'Transportation',
@@ -21,6 +21,17 @@ keywords:
     'Sprint release reports',
   ]
 ---
+
+In this case study you can read about:
+
+* [About the client](#about-the-client)
+* [Client’s challenges](#clients-challenges)
+* [Our approach](#our-approach)
+  * [Manual testing](#manual-testing)
+  * [Automated testing](#automated-testing)
+  * [DataDog monitoring](#datadog-monitoring)
+  * [Release and QA sprint reports](#release-and-qa-sprintnbspreports)
+* [Value delivered](#value-delivered)
 
 ## About the client
 
