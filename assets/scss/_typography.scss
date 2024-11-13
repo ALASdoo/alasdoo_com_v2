@@ -51,6 +51,11 @@ footer {
 
 }
 
+.hero-text {
+  font-family: $font-primary;
+  font-weight: 400;
+}
+
 // List in descending order to prevent extra sort function
 $type-levels: 6, 5, 4, 3, 2, 1;
 
