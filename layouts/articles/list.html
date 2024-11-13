@@ -21,6 +21,7 @@
         {{ $card := dict
           "image" .Params.image
           "name" .Title
+          "headingLevel" "2"
           "button" $button
         }}
         {{ partial "card" $card }}

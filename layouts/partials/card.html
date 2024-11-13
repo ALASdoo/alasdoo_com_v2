@@ -13,7 +13,8 @@
       {{ if .category }}
       <small class="card-tagline pb-2 d-block">{{ .category | markdownify }}</small>
       {{ end }}
-      <h3 class="h6 card-heading">{{ .name | markdownify }}</h3>
+      {{ $headingLevel := .headingLevel | default 3 }}
+      <h{{ $headingLevel }} class="h6 card-heading">{{ .name | markdownify }}</h{{ $headingLevel }}>
       {{ if .content }}
       <p>{{ .content | markdownify }}</p>
       {{ end }}

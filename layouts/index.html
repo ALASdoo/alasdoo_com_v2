@@ -134,6 +134,7 @@
         {{ $card := dict
           "image" .Params.image
           "name" .Title
+          "headingLevel" "4"
           "button" $button
         }}
         {{ partial "card" $card }}
@@ -243,6 +244,7 @@
         {{ $card := dict
           "image" .Params.image
           "name" .Title
+          "headingLevel" "3"
           "button" $button
         }}
         {{ partial "card" $card }}
