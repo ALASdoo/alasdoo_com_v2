@@ -54,7 +54,7 @@ benefits:
       alt: "Illustration of a laptop, a clock and a plant."
       label: "Flexible work models"
       items:
-      - "at the office, hybrid, or remote"
+      - "at the office, hybrid, or remote work"
       - "no strict work hours"
     - image: "images/benefits/snacks.svg"
       alt: "Illustration of a hamburger, a cold drink and an apple."
@@ -62,7 +62,7 @@ benefits:
       items:
       - "snacks & drinks"
       - "sponsored lunch"
-      - "Friday bars once a&nbsp;month"
+      - "Friday bars"
     - image: "images/benefits/wellness.svg"
       alt: "Illustration of a woman in lotus pose."
       label: "Wellness"
