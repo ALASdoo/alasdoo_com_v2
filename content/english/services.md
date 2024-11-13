@@ -8,10 +8,10 @@ layout: 'services'
 
 ######################### banner #####################
 banner:
-  title: 'We save our clients’ time and money'
+  title: 'Services'
   image: 'images/what-we-do.svg'
   alt: "A rocket lounching from a computer monitor, with a clock and a calendar on the wall."
-  content: 'by providing experienced and devoted
+  content: 'We save our clients’ time and money by providing experienced and devoted
     experts, as well as in&#8209;depth analyses
     and consulting on improving software
     development and QA&nbsp;processes'

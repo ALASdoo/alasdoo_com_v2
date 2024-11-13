@@ -1,4 +1,5 @@
 ---
+title: "Our team"
 hero: "Our true value lies in people who do the hard&nbsp;work.
 
 By understanding and valuing them everything else falls into&nbsp;place."

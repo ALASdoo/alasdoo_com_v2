@@ -1,28 +1,25 @@
 {{ define "main" }}
-<h1 class="d-none">Services</h1>
 {{with .Params.banner}}
 <section class="section pt-5 pb-5" id="what-we-do-hero">
   <div class="container">
     <div class="row align-items-center justify-content-center">
       <div class="col-lg-6 col-md-10 mb-5 mb-lg-0">
         <div class="pe-0 pe-lg-5 text-center text-lg-start">
-          <p>
-            <div class="section-title h3"
-              data-aos="fade-right"
-              data-aos-offset="0"
-              data-aos-duration="600"
-              data-aos-easing="ease-in-out-sine">
-              {{ .title | markdownify }}
-            </div>
-            <div class="mb-4"
-              data-aos="fade-right"
-              data-aos-offset="0"
-              data-aos-duration="600"
-              data-aos-delay="200"
-              data-aos-easing="ease-in-out-sine">
-              {{ .content | markdownify }}
-            </div>
-          </p>
+          <h1 class="section-title h2"
+            data-aos="fade-right"
+            data-aos-offset="0"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out-sine">
+            {{ .title | markdownify }}
+          </h1>
+          <div class="mb-4"
+            data-aos="fade-right"
+            data-aos-offset="0"
+            data-aos-duration="600"
+            data-aos-delay="200"
+            data-aos-easing="ease-in-out-sine">
+            {{ .content | markdownify }}
+          </div>
           <div data-aos="fade-right"
             data-aos-offset="0"
             data-aos-duration="600"

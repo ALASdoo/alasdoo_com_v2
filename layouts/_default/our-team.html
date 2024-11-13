@@ -1,13 +1,20 @@
 {{define "main"}}
-<h1 class="d-none">Our team</h1>
 {{with .Params}}
 <section class="section p-0">
   <div class="hero-bg backdrop-dark" {{ partial "bg-image" (dict "Src" .hero_image "Position" "bottom center" "Webp" false) | safeHTMLAttr }}>
-    <div class="container">
-      <div class="text-center text-white hero-text"
+    <div class="container row justify-content-center">
+      <h1 class="h2 text-white text-center z-100"
         data-aos="fade-up"
-        data-aos-offset="180"
+        data-aos-offset="0"
         data-aos-duration="600"
+        data-aos-easing="ease-in-out-sine">
+        {{ .title | markdownify }}
+      </h1>
+      <div class="text-center text-white hero-text col-lg-10 text-center"
+        data-aos="fade-up"
+        data-aos-offset="0"
+        data-aos-duration="600"
+        data-aos-delay="200"
         data-aos-easing="ease-in-out-sine">{{.hero | markdownify}}</div>
     </div>
   </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Clients'
+title: 'Our clients'
 subtitle: ''
 # meta description
 description: 'This is meta description'
