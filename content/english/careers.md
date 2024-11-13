@@ -52,46 +52,42 @@ benefits:
     perks_item:
     - image: "images/benefits/flexible.svg"
       alt: "Illustration of a laptop, a clock and a plant."
-      name: "
-      * at the office, hybrid, or remote work&nbsp;models
-
-      * flexible work hours"
+      label: "Flexible work models"
+      items:
+      - "at the office, hybrid, or remote"
+      - "no strict work hours"
     - image: "images/benefits/snacks.svg"
       alt: "Illustration of a hamburger, a cold drink and an apple."
-      name: "
-      * snacks & drinks
-
-      * sponsored lunch
-
-      * Friday bar once a&nbsp;month"
+      label: "Mouthwatering perks"
+      items:
+      - "snacks & drinks"
+      - "sponsored lunch"
+      - "Friday bars once a&nbsp;month"
     - image: "images/benefits/wellness.svg"
       alt: "Illustration of a woman in lotus pose."
-      name: "
-      * massage therapies
-
-      * small gym
-
-      * plenty of outdoor spaces"
+      label: "Wellness"
+      items:
+      - "plenty of space for games and relaxation"
+      - "small gym"
     - image: "images/benefits/education.svg"
       alt: "Illustration of a graduation cap on a stack of books."
-      name: "
-      * English/German language courses
-
-      * Udemy & other courses"
+      label: "Support in education"
+      items:
+      - "English/German language courses"
+      - "Udemy & other courses"
     - image: "images/benefits/gifts.svg"
       alt: "Illustration of a gift with a bow."
-      name: "
-      * corporate gifts
-
-      * customized bonus
-
-      * team buildings"
+      label: "Gifts and bonuses"
+      items:
+      - "corporate gifts"
+      - "customized bonus"
+      - "team buildings"
     - image: "images/benefits/improvement.svg"
       alt: "Illustration of a hand holding a growth chart with an arrow pointing up."
-      name: "
-      * investment in your ideas
-
-      * yearly performance and salary reviews"
+      label: "Support for professional growth"
+      items:
+      - "investment in your ideas"
+      - "yearly performance and salary reviews"
 
 process:
   subtitle: "Hiring Process"

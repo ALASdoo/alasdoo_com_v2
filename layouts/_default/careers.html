@@ -90,7 +90,14 @@
             {{ partial "image" (dict "Src" .image "alt" "" "Class" "rounded-2 benefit-icon") }}
           </div>
           <div class="card-body pb-5 pt-0">
-            <div class="h6 content p-3 pb-0">{{ .name | markdownify }}</div>
+            <div class="h6 content p-3 pb-0">
+              <ul aria-label="{{ .label }}">
+                {{range .items}}
+                <li>{{ . | markdownify }}</li>
+                {{end}}
+              </ul>
+
+            </div>
           </div>
         </div>
       </div>

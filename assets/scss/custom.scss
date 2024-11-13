@@ -236,7 +236,7 @@ video {
 
 .designation {
   font-size: 16px;
-  color: rgba($black, .5);
+  // color: rgba($black, .5);
 }
 
 #what-we-do-hero {
@@ -301,7 +301,7 @@ video {
     &.active {
       border-bottom: 5px solid $color-primary !important;
     }
-    
+
     &:hover {
       outline: 2px solid $color-primary-darker;
       background-color: transparent !important;
@@ -356,7 +356,7 @@ video {
 }
 
 #contact {
-  .nav-link:focus, 
+  .nav-link:focus,
   .nav-link:focus-visible {
     outline: 2px solid $color-primary-darker;
     outline-offset: 3px;
