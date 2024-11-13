@@ -15,17 +15,22 @@
       <small class="card-tagline pb-2 d-block">{{ .category | markdownify }}</small>
       {{ end }}
 
-      {{ partial "button" (dict
-         "enable" "true" 
-         "label"  (.name | markdownify)
-         "type" "link-stretched" 
-         "link-stretched" "true" 
-         "link" .button.link   
-         ) 
-      }}
-      
-      <!-- {{ $headingLevel := .headingLevel | default 3 }}
-      <h{{ $headingLevel }} class="h6 card-heading">{{ .name | markdownify }}</h{{ $headingLevel }}> -->
+      {{ if and (.button) (.button.enable)  }}
+        <!-- Renders title inside the link if button is provided -->
+        {{ partial "button" (dict
+          "enable" "true" 
+          "label"  (.name | markdownify)
+          "type" "link-stretched" 
+          "link-stretched" "true" 
+          "link" .button.link   
+          ) 
+        }}
+      {{ else }}
+        {{ $headingLevel := .headingLevel | default 3 }}
+        <h{{ $headingLevel }} class="h6 card-heading">
+          {{ .name | markdownify }}
+        </h{{ $headingLevel }}>
+     {{end}}
 
       {{ if .content }}
       <p>{{ .content | markdownify }}</p>
