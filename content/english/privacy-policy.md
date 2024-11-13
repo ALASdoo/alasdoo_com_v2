@@ -56,9 +56,4 @@ We may update this privacy policy from time to time to reflect changes in our pr
 
 ### Contact Us
 
-If you have any questions about this privacy policy or how your personal data is handled, please contact us at:
-
-Alas d.o.o.
-{{< contact_info >}}
-
- 
+If you have any questions about this privacy policy or how your personal data is handled, please contact us at [info@alasdoo.com](mailto:info@alasdoo.com).
