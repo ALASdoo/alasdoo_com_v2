@@ -27,7 +27,7 @@ google_tag_manager = "" # example: G-XXXXXXXXXX
 custom_script = ""
 # copyright
 theme_copyright = true
-copyright = "Copyright by ALAS doo"
+copyright = "&#169;	ALAS doo"
 
 # Preloader
 [preloader]
