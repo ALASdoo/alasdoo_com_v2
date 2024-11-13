@@ -47,6 +47,9 @@ footer {
   &,
   .footer-nav a {
     color: $text-dark;
+    &:hover {
+      color: #006365;
+    }
   }
 
 }
