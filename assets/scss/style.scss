@@ -11,6 +11,8 @@ $text-light: {{.text_light | default "#999"}};
 $link-color: {{.link_color | default "#009598"}};
 $link-hover-color: {{.link_hover_color | default "#008083"}};
 $link-active-color: {{.link_active_color | default "#008083"}};
+$link-visited-color: {{.link_visited_color | default "#006365"}};
+$link-visited-hover-color: {{.link_visited_hover_color | default "#004D4F"}};
 $body-bg: {{.body_color | default "#fff"}};
 $border-color: {{.border_color | default "#ECECEC"}};
 $color-border-darker: {{.color_border_darker | default "#313131D9"}};

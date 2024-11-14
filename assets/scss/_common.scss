@@ -53,7 +53,10 @@ a:hover {
 }
 
 a:visited {
-  color: $color-primary-darker
+  color: $link-visited-color;
+}
+a:visited:hover {
+  color: $link-visited-hover-color;
 }
 
 
