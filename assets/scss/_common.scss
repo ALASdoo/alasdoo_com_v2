@@ -49,14 +49,11 @@ a {
 }
 
 a:hover {
-  color: $color-primary-darker;
+  color: $link-hover-color;
 }
 
 a:visited {
-  color: $link-visited-color;
-}
-a:visited:hover {
-  color: $link-visited-hover-color;
+  color: $link-hover-color;
 }
 
 
