@@ -52,13 +52,13 @@ Driven by these, we are looking for You - a reliable and talented DevOps Enginee
 
 ---
 
-## are we the perfect match?
+## Are we the perfect match?
 
 If you think so, simply send your resume to <jobs@alasdoo.com> and leave the rest to us.
 
 ---
 
-## when to apply?
+## When to apply?
 
 As soon as possible!
 We conduct interviews on a first&#8209;come, first&#8209;served basis, so be fast & fearless!
