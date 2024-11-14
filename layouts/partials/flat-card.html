@@ -1,8 +1,9 @@
-<div class="col-lg-6 col-sm-12 d-lg-flex"
-  data-aos="fade-up"
-  data-aos-offset="30"
-  data-aos-duration="400"
-  data-aos-easing="ease-in-out-sine">
+
+ {{ $cardMarkup := .cardMarkup | default "div" }}
+ {{ $openTag := printf "<%s class=\"col-lg-6 col-sm-12 d-lg-flex\" data-aos=\"fade-up\" data-aos-offset=\"30\" data-aos-duration=\"400\" data-aos-easing=\"ease-in-out-sine\">" $cardMarkup | safeHTML }}
+ {{ $closeTag := printf "</%s>" $cardMarkup | safeHTML }}
+
+{{ $openTag }}
   <div class="card {{.type}}-card bg-white rounded-2 border-0">
     {{ if .image }}
     <div class="card-header {{.type}}-image text-center bg-white rounded-2 border-0 p-0">
@@ -19,4 +20,4 @@
     </div>
     {{ end }}
   </div>
-</div>
+{{ $closeTag }}
