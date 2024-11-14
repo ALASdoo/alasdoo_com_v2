@@ -145,6 +145,7 @@ video {
   }
 }
 
+// Card Partials
 .card {
   width: 100%;
   &.is-hoverable {
@@ -167,6 +168,17 @@ video {
 
   .illustration-image img {
     padding: 1.5rem;
+  }
+
+  .btn-link {
+    @extend h6;
+    .fa-arrow-right {
+      display: none;
+    }
+    &:hover {
+      text-decoration: underline;
+      color: $text-dark;
+    }
   }
 
   ul {
@@ -311,6 +323,7 @@ video {
   .card-body {
     font-size: 16px;
   }
+
   .jobs {
     .nav-link:hover {
       background-color: rgba($alas-color-yellow, .1);
