@@ -1,7 +1,8 @@
 <footer class="bg-light-gray">
   <div class="container">
     <div class="row justify-content-center pt-5">
-      <div class="col-lg-3 col-sm-6 d-flex align-self-center justify-content-center text-center text-sm-start pb-4 pb-sm-0">
+      <div class="col-lg-3 col-sm-6 d-flex  justify-content-center justify-content-sm-start text-center text-sm-start pb-4 pb-sm-0">
+ 
         <div class="d-inline-block">
           <a class="d-block h5 pb-2" href="{{ site.BaseURL | absLangURL}}">
             {{ partial "logo.html" . }}
@@ -15,6 +16,7 @@
           {{ end }}
         </div>
       </div>
+
       <div class="col-lg-3 col-sm-6 d-none d-lg-flex justify-content-center footer-nav">
         {{ if site.Menus.footer_menu }}
         <ul class="list-unstyled footer-list mb-0">
@@ -33,7 +35,7 @@
         </ul>
         {{ end }}
       </div>
-      <div class="col-lg-3 col-sm-6 d-flex align-self-center justify-content-center text-center text-sm-start footer-contact">
+      <div class="col-lg-3 col-sm-6 d-flex justify-content-center text-center text-sm-start footer-contact">
         <div class="d-inline-block">
           <div class="pb-2">{{ site.Params.footer_content | markdownify }}</div>
           <div>
@@ -42,18 +44,17 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="border-top border-default text-center py-2 mt-4 footer-copyright row">
+      <small class="copyright-label col-sm-auto col-12 order-sm-0 order-1">{{site.Params.copyright | markdownify}}</small>
 
-       <div class="border-top border-default text-center py-2 mt-4 footer-copyright row">
-        <small class="copyright-label col-sm-auto col-12 order-sm-0 order-1">{{site.Params.copyright | markdownify}}</small>
-
-        {{ if site.Menus.copyright_menu }}
-        <ul class="list-unstyled copyright-menu mb-0 col-sm-auto col-12 order-sm-1 order-0">
-          {{ range site.Menus.copyright_menu }}
-          <li class="mb-0"><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
-          {{ end }}
-        </ul>
+      {{ if site.Menus.copyright_menu }}
+      <ul class="list-unstyled copyright-menu mb-0 col-sm-auto col-12 order-sm-1 order-0">
+        {{ range site.Menus.copyright_menu }}
+        <li class="mb-0"><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
         {{ end }}
-      </div>
+      </ul>
+      {{ end }}
     </div>
   </div>
 </footer>
