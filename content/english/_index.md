@@ -59,7 +59,7 @@ services:
   content: 'Our top focus is writing a code that meets the highest standards, while our quality assurance team has the skills and experience to ensure that the software satisfies the strictest criteria.
 
 
-Each project is unique and requires a customized approach. We supply [a vast range of services](what-we-do/) to provide the most efficient solution for the unique demands and requirements of our&nbsp;clients.'
+Each project is unique and requires a customized approach. We supply [a vast range of services](services/) to provide the most efficient solution for the unique demands and requirements of our&nbsp;clients.'
   services_item:
     # services item loop
     - name: 'Frontend and backend staff augmentation'
@@ -70,7 +70,7 @@ Each project is unique and requires a customized approach. We supply [a vast ran
         enable: true
         type: 'link'
         label: 'More about the service'
-        link: '/what-we-do#dev'
+        link: '/services#dev'
 
     # services item loop
     - name: 'Manual and automated software QA&nbsp;services'
@@ -81,7 +81,7 @@ Each project is unique and requires a customized approach. We supply [a vast ran
         enable: true
         type: 'link'
         label: 'More about the service'
-        link: '/what-we-do#qa'
+        link: '/services#qa'
 
 
     # services item loop
@@ -93,7 +93,7 @@ Each project is unique and requires a customized approach. We supply [a vast ran
         enable: true
         type: 'link'
         label: 'More about the service'
-        link: '/what-we-do#pm'
+        link: '/services#pm'
 
 
 ######################### Consulting #####################

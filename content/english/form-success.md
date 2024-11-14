@@ -6,5 +6,5 @@ draft: false
 layout: 'form-success'
 image: 'images/msg-confirmation.png'
 alt: ''
-content: 'In the meantime, check out more about [who we are](/our-story) and [what we do](/what-we-do). '
+content: 'In the meantime, check out more about [who we are](/our-story) and [what we do](/services). '
 ---

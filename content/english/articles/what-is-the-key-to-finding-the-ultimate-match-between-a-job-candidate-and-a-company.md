@@ -108,7 +108,7 @@ When choosing a company to work for, it's important to take a step back and refl
 
 Are you evaluating if we're the ideal fit? Don't worry, we've got you covered! Let us provide you with all the information you need to make a confident decision.
 
-It's wise that you get prepared for the initial interview in advance. You should familiarize yourself with our company [culture](/careers#culture) and [values](/our-story#values). This will provide you with a deeper understanding of who we are and what we stand for. In addition to that, you can also navigate our website and uncover more about [the essence of our company](/our-story). Furthermore, you'll have a better understanding of the kind of [services we&nbsp;offer](/what-we-do).
+It's wise that you get prepared for the initial interview in advance. You should familiarize yourself with our company [culture](/careers#culture) and [values](/our-story#values). This will provide you with a deeper understanding of who we are and what we stand for. In addition to that, you can also navigate our website and uncover more about [the essence of our company](/our-story). Furthermore, you'll have a better understanding of the kind of [services we&nbsp;offer](/services).
 
 Take a moment to delve into our [case studies](/case-studies) and explore the types of projects we undertake. Discover the wide range of [clients we work with](/clients#list) and the [industries we serve](/clients#industries). This will give you insights into the diversity of our work and how we make a difference for our&nbsp;clients.
 
