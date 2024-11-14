@@ -103,6 +103,7 @@ specialites:
   specialites_list:
   - name: "Proven track record"
     type: "illustration"
+    cardMarkup: "li"
     content: "
     * experience with a variety of industries
 
@@ -119,6 +120,7 @@ specialites:
 
   - name: "Long&#8209;term partnerships"
     type: "illustration"
+    cardMarkup: "li"
     content: "
     * uncompromising honesty and integrity
 
@@ -136,6 +138,7 @@ specialites:
 
   - name: "Young and creative"
     type: "illustration"
+    cardMarkup: "li"
     content: "
     * original approach
 
@@ -153,6 +156,7 @@ specialites:
 
   - name: "Being proactive"
     type: "illustration"
+    cardMarkup: "li"
     content: "
     * offering new ideas
 
@@ -170,6 +174,7 @@ specialites:
 
   - name: "Always improving"
     type: "illustration"
+    cardMarkup: "li"
     content: "
     * a culture of ongoing learning
 
@@ -189,6 +194,7 @@ specialites:
 
   - name: "Quality over quantity"
     type: "illustration"
+    cardMarkup: "li"
     content: "
     * hiring only the most talented developers and testers
 

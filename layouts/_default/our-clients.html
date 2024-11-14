@@ -131,7 +131,7 @@
         <h2 class="h3">{{.title | markdownify}}</h2>
       </div>
     </div>
-    <div class="row gy-5 justify-content-center pb-5"
+    <ul class="row gy-5 justify-content-center pb-5"
       data-aos="fade-up"
       data-aos-offset="180"
       data-aos-duration="600"
@@ -147,10 +147,11 @@
           "image" .Params.image
           "name" .Title
           "button" $button
+          "cardMarkup" "li"
         }}
         {{ partial "card" $card }}
       {{end}}
-    </div>
+    </ul>
     <div class="row"
       data-aos="fade-up"
       data-aos-offset="180"

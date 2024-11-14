@@ -112,7 +112,7 @@
 <section class="section bg-light-blue" id="specialites">
   <div class="container">
     {{ partial "content-block" .}}
-    <div class="row gy-4 pt-5"
+    <ul class="row gy-4 pt-5"
       data-aos="fade-up"
       data-aos-offset="180"
       data-aos-duration="600"
@@ -120,7 +120,7 @@
       {{range .specialites_list}}
         {{ partial "card" . }}
       {{end}}
-    </div>
+    </ul>
   </div>
 </section>
 {{ end }}

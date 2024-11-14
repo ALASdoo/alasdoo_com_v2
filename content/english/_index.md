@@ -66,6 +66,7 @@ Each project is unique and requires a customized approach. We supply [a vast ran
       type: 'illustration'
       image: 'images/development.png'
       alt: "Developer working on laptop, with signs for CSS, HTML, JAVA and JS around him"
+      cardMarkup: "li"
       button:
         enable: true
         type: 'link'
@@ -77,6 +78,7 @@ Each project is unique and requires a customized approach. We supply [a vast ran
       type: 'illustration'
       image: 'images/QA.png'
       alt: "Woman doing manual testing on tablet while laptop with robot hand with magnifying glass is doing automation testing, finding a bug in the code."
+      cardMarkup: "li"
       button:
         enable: true
         type: 'link'
@@ -89,6 +91,7 @@ Each project is unique and requires a customized approach. We supply [a vast ran
       type: 'illustration'
       image: 'images/PM.png'
       alt: "Project manager consulting a client, showing him data presented through graphs and charts."
+      cardMarkup: "li"
       button:
         enable: true
         type: 'link'
@@ -101,6 +104,7 @@ consulting:
   enable: true
   title: 'Looking to outsource your software development and QA&nbsp;needs?'
   content: 'Contact us to learn how we can help your project&nbsp;skyrocket!'
+  cardMarkup: "li"
   button:
     enable: true
     type: 'primary'

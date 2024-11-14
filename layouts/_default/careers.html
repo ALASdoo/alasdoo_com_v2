@@ -166,7 +166,7 @@
 <section class="section bg-light-blue" id="jobs">
   <div class="container">
     {{ partial "content-block" .}}
-    <div class="row gy-4"
+    <ul class="row gy-4"
       data-aos="fade-up"
       data-aos-offset="180"
       data-aos-duration="600"
@@ -183,10 +183,11 @@
           "image" .Params.logo
           "name" .Title
           "button" $button
+          "cardMarkup" "li"
         }}
         {{ partial "card" $card }}
       {{end}}
-    </div>
+    </ul>
   </div>
 </section>
 {{ end }}

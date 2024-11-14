@@ -25,7 +25,7 @@
         <h2 class="h3">Related case studies</h2>
       </div>
     </div>
-    <div class="row justify-content-center">
+    <ul class="row justify-content-center">
       {{ range . }}
         {{ $button := dict
           "enable" true
@@ -37,10 +37,11 @@
           "image" .Params.image
           "name" .Title
           "button" $button
+          "cardMarkup" "li"
         }}
         {{ partial "card" $card }}
       {{ end }}
-    </div>
+    </ul>
   </div>
 </section>
 {{ end }}

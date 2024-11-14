@@ -66,7 +66,7 @@
 <section class="section bg-light-gray">
   <div class="container">
     {{ partial "content-block" .}}
-    <div
+    <ul
       class="row gy-3 mt-xl-3 services-cards justify-content-center"
       data-aos="fade-up"
       data-aos-offset="180"
@@ -75,7 +75,7 @@
       {{ range .services_item }}
         {{ partial "card" . }}
       {{ end }}
-    </div>
+    </ul>
   </div>
 </section>
 {{ end }}
@@ -118,7 +118,7 @@
         <h3 class="h3">{{.title | markdownify}}</h3>
       </div>
     </div>
-    <div class="row gy-lg-0 gy-4 justify-content-center"
+    <ul class="row gy-lg-0 gy-4 justify-content-center"
       data-aos="fade-up"
       data-aos-offset="50"
       data-aos-duration="600"
@@ -135,11 +135,12 @@
           "image" .Params.image
           "name" .Title
           "headingLevel" "4"
+          "cardMarkup" "li"
           "button" $button
         }}
         {{ partial "card" $card }}
       {{end}}
-    </div>
+    </ul>
   </div>
 </section>
 {{ end }}
@@ -228,7 +229,7 @@
         <h2 class="h2">{{.title | markdownify}}</h2>
       </div>
     </div>
-    <div class="row gy-lg-0 gy-4 pb-5 justify-content-center"
+    <ul class="row gy-lg-0 gy-4 pb-5 justify-content-center"
       data-aos="fade-up"
       data-aos-offset="50"
       data-aos-duration="600"
@@ -244,12 +245,13 @@
         {{ $card := dict
           "image" .Params.image
           "name" .Title
+          "cardMarkup" "li"
           "headingLevel" "3"
           "button" $button
         }}
         {{ partial "card" $card }}
       {{end}}
-    </div>
+    </ul>
     <div class="row justify-content-center"
       data-aos="fade-up"
       data-aos-offset="50"
