@@ -6,7 +6,8 @@ draft: false
 layout: "careers"
 
 hero:
-  title: "We are always looking for individuals that are passionate, kind, and joyful in their pursuit of&nbsp;success."
+  title: "Careers"
+  content: "We are always looking for individuals that are passionate, kind, and joyful in their pursuit of&nbsp;success."
   image_item:
   - image: "images/home-gallery/01.jpg"
     alt: "Workshop about testing in a pleasent homely meeting space."
