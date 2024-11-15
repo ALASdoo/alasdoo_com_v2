@@ -22,7 +22,7 @@ about:
   Aligning the product vision with the technical team is our specialty. Through open communication and a personal approach, we consider every aspect of the project so that we are empowered to assist and consult in every step of the development&nbsp;process.
 
 
-  Our software QA services are recognized worldwide under [the WeDoQA&nbsp;brand](https://www.wedoqa.com).'
+  Our software QA services are recognized worldwide under the WeDoQA&nbsp;brand.'
   button:
     enable: false
     type: 'primary'

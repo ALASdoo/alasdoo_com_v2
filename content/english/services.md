@@ -53,7 +53,7 @@ what_we_do:
         avif: 'images/QA_anim.avif'
         mp4: 'images/QA_anim.mp4'
       alt: "Woman doing manual testing on tablet while laptop with robot hand with magnifying glass is doing automation testing, finding a bug in the code."
-      content: 'Worldwide software development teams recognize our brand, [WeDoQA](https://www.wedoqa.com), as a reputable international supplier of QA services. Our experience with a variety of technologies guarantees that you have access to the finest options for any type of&nbsp;project.
+      content: 'Worldwide software development teams recognize our brand, WeDoQA, as a reputable international supplier of QA services. Our experience with a variety of technologies guarantees that you have access to the finest options for any type of&nbsp;project.
 
 
       After the initial assessment, we offer free off charge advice on the best way to incorporate QA into your development process. With our dedication to clear communication, we know the questions to ask to hit the ground&nbsp;running.
@@ -61,7 +61,7 @@ what_we_do:
 
       Service packages vary per client’s needs, from manual and automated quality assurance, QA lead, project consulting to full project&nbsp;management.'
       button:
-        enable: true
+        enable: false
         external: true
         type: 'link'
         label: 'Learn about our QA approach'

@@ -161,7 +161,7 @@ industries:
 testimonials:
   subtitle: 'Testimonials'
   title: 'What our clients say about&nbsp;us'
-  content: 'Our [WeDoQA](https://www.wedoqa.com/) brand is one of the top rated QA service providers on [Upwork](https://www.upwork.com/o/companies/~01ea0de13226020013/), where you can find more of our clients’ honest&nbsp;reviews.'
+  content: 'Our WeDoQA brand is one of the top rated QA service providers on [Upwork](https://www.upwork.com/o/companies/~01ea0de13226020013/), where you can find more of our clients’ honest&nbsp;reviews.'
   testimonials_item:
     - name: Jeff Zucker, CEO ADVault, Inc. - MyDirectives.com
       content: We have worked with the Alas team for over ten years. They have always exceeded our high expectations. The team is focused, smart, organized and consistently delivers results. We highly recommend them if you’re looking for a best&#8209;in&#8209;class QA&nbsp;partner.

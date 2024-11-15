@@ -3,7 +3,7 @@ date: '2021-07-13'
 draft: false
 title: 'How to incorporate QA into software development process?'
 image: 'images/articles/qa-dev-process.jpg'
-alt: "A person is writing a checkmark next to a quality assurance hologram over a laptop."
+alt: 'A person is writing a checkmark next to a quality assurance hologram over a laptop.'
 author: 'Marta Gajin'
 description: '' # meta description
 keywords:
@@ -25,7 +25,7 @@ Have you ever had to hit “save” every couple of seconds because the software
 
 On top of that, if your app takes too long to load or crashes when there’s an influx of traffic, you can say goodbye to your customers’ money and trust. Having this in mind, you can clearly see how essential it is to ensure that your digital product works as advertised, all&nbsp;the&nbsp;time.
 
-That’s where [Software Quality Assurance](https://www.wedoqa.com/) (QA) comes in. Basically, QA is a process that aims to identify the requirements for creating reliable, secure, and stable software and verify that the end product meets those requirements.
+That’s where Software Quality Assurance (QA) comes in. Basically, QA is a process that aims to identify the requirements for creating reliable, secure, and stable software and verify that the end product meets those requirements.
 
 So, if you’re wondering why Software Quality Assurance is essential for your business and how to incorporate it the best way, this article should give you a&nbsp;good&nbsp;idea.
 
