@@ -1,5 +1,12 @@
 <meta charset="utf-8">
-<title>{{.Title | default site.Title}}</title>
+
+<title> 
+ {{ if .Title }}
+  {{.Title}} | {{ .Site.Title }}
+ {{ else }}
+    {{ .Site.Title }}
+ {{end}}
+</title>
 
 <!-- responsive meta -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
