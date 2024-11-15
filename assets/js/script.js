@@ -181,12 +181,7 @@
   })
 
   // adds anchor for Scroll-to-content link
-  document.querySelector("main").id = 'main';
-  document.querySelector(".skip-to-content").addEventListener("click", () => {
-    setTimeout(() => {
-      window.location.hash='';
-    }, 50)
-  });
+  document.querySelector("main").id = 'main'; 
      
 
   /*==============================
