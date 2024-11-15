@@ -31,3 +31,6 @@ import Tab from "js/bootstrap/src/tab";
 //     return new Popover(popoverTriggerEl);
 //   });
 // })();
+
+window.bootstrap = {Dropdown, Modal, Tab, Collapse};
+window.Modal = Modal;

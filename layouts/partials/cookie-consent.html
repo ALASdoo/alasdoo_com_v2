@@ -1,0 +1,58 @@
+<dialog class="cookie-modal modal cookieconsent" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      {{with .Params}}
+      <div class="modal-body">
+        {{ partial "image" (dict "Src" "images/cookies.svg" "alt" "Cookie image"
+        "Class" "modal-image") }} {{ .Params.cookieconsent.heading}}
+
+        <h2 class="h6 text-center">{{ .title }}</h2>
+
+        <p>
+          We use analytics cookies to improve your experience. No personal data
+          is collected. For more details on data storage and usage, see our
+          <a href="cookies/">Cookies page</a>.
+        </p>
+
+        <div class="modal-footer">
+          <button
+            class="btn btn-sm btn-primary"
+            data-bs-dismiss="modal"
+            data-consent="true"
+          >
+            Accept cookies
+          </button>
+          <button
+            class="btn btn-sm btn-primary"
+            data-bs-dismiss="modal"
+            data-consent="false"
+          >
+            Decline cookies
+          </button>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</dialog>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const COOKIE_STORAGE_KEY = "cookieconsent";
+
+    const cookieModalEl = document.querySelector(".cookie-modal");
+    var cookieModalRef = new bootstrap.Modal(cookieModalEl, {
+      // keyboard: false,
+      // backdrop: 'static'
+    });
+
+    cookieModalEl.addEventListener("hidden.bs.modal", (event) => {
+      localStorage.setItem(COOKIE_STORAGE_KEY, "true");
+    });
+
+    const storedConsent = localStorage.getItem(COOKIE_STORAGE_KEY);
+    if (!storedConsent) {
+      cookieModalRef.show();
+    }
+  });
+</script>
