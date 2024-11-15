@@ -18,20 +18,19 @@
 <section class="section">
   <div class="container">
     <div class="row gx-6 justify-content-center">
-      <div class="col-lg-8 col-md-10">
+      <div class="col-12">
         <div class="pe-0 pe-lg-5">
           <div class="job-content">{{.Content}}</div>
-
-          <a
-            href="javascript:document.getElementById('first-name').focus()"
-            class="btn btn-primary mt-5"
-          >
-            {{i18n `apply_now`}}</a
-          >
         </div>
       </div>
-      <div class="col-lg-4 col-md-10 mt-5 mt-lg-0">
-        <div id="career_form" class="sidebar-widget bg-white rounded-2 shadow">
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-10 col-lg-8 mt-5 mt-lg-0">
+        <div
+          id="career_form"
+          class="sidebar-widget bg-white rounded-2 shadow"
+        >
           <form
             action="{{site.Params.career_form_action}}"
             name="career_form"
@@ -105,31 +104,39 @@
             </fieldset>
           </form>
         </div>
-
-        <div class="sidebar-widget bg-white rounded-2 shadow">
-          <h4 class="mb-3 h5">{{i18n `other_jobs`}}</h4>
-          {{ $currentPage := . }} {{ $pages := where site.RegularPages "Section"
-          "career" }} {{ $count := 0 }} {{ range $pages}} {{ if and (ne
-          .Permalink $currentPage.Permalink) (lt $count 4) }}
-          <a
-            href="{{.RelPermalink}}"
-            class="p-4 rounded-2 is-hoverable border mb-3 text-reset d-block"
-          >
-            <p class="text-dark fw-bold mb-1">{{.Title | markdownify}}</p>
-            <p class="mb-0">
-              <span>{{.Params.job_nature | markdownify}}</span> |
-              {{.Params.category | markdownify}}
-            </p>
-          </a>
-          {{ $count = add $count 1 }} {{ end }} {{ end }}
-          <div class="text-center mt-4">
-            <a href="/careers#jobs" >
-              {{i18n `view_all_positions`}}
-            </a>
-          </div>
-        </div>
       </div>
     </div>
+     
+
+    <ul class="row mt-5 p-0 column-gap-3" style="list-style-type: none;">
+      <h2 class="mb-3 h5">{{i18n `other_jobs`}}</h2>
+        {{ $currentPage := . }} 
+        {{ $pages := where site.RegularPages "Section"
+        "career" }} 
+        {{ $count := 0 }} {{ range $pages}} {{ if and (ne .Permalink
+        $currentPage.Permalink) (lt $count 4) }}
+
+        {{ $button := dict
+          "enable" true
+          "type" "link-stretched"
+          "label" "Read case study"
+          "link" .RelPermalink
+        }}
+        {{ $content := printf "%s | %s" .Params.job_nature .Params.category }}
+        {{ $card := dict
+          "name" .Title 
+          "headingLevel" "3"
+          "cardMarkup" "li"
+          "button" $button
+          "content" $content
+        }}
+        {{ partial "card" $card }}
+        {{ $count = add $count 1 }} {{ end }} {{ end }}
+     
+        <div class="text-center mt-4">
+          <a href="/careers#jobs"> {{i18n `view_all_positions`}} </a>
+        </div>
+      </ul>
   </div>
 </section>
 
