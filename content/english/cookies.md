@@ -7,7 +7,7 @@ layout: 'cookies'
 cookies: 
   policy_item: 
     - title: ''
-      content: 'Last updated: Nov 13. 2024
+      content: 'Last updated: November 13, 2024
           
       At Alas d.o.o., we are committed to protecting your privacy. The cookies we use do not store any personal information.'
       
