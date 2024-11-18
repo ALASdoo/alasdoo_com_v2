@@ -64,7 +64,7 @@ font_scale = "1.25" # default is "majorThird": 1.25
 # example: "Work+Sans:wght@400;500;600"
 font_primary = "Inter:wght@500;600;700"
 font_primary_type = "sans-serif"          # [serif/sans-serif]
-font_secondary = "Comfortaa:wght@400;500"
+font_secondary = "Inter:wght@500;600;700"
 font_secondary_type = "sans-serif"        # [serif/sans-serif]
 font_icon = "Font Awesome 6 Free"         # https://fontawesome.com/v5.15/icons/
 
