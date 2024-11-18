@@ -91,6 +91,7 @@
       border-radius: 2px;
       transform: rotate(45deg);
       transition: 0s;
+      margin-inline: 15px;
     }
   }
 
@@ -130,14 +131,11 @@
     padding: 10px;
     border-radius: 6px;
     @include desktop-lg {
-      text-align: center;
-      border: 1px solid $light;
       padding: 12px;
       width: 100%;
-      max-width: 300px;
-      margin-left: auto;
-      margin-right: auto;
+      padding-left: 30px;
       columns: 1 !important;
+      background-color: #E9FFFB;
     }
     .dropdown-item {
       padding: 8px 15px;
