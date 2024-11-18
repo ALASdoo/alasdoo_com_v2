@@ -32,6 +32,7 @@ about:
 ##################### Numbers ##########################
 numbers:
   enable: true
+  numbers_title: Digital services you can trust
   numbers_item:
     # numbers item loop
     - icon: 'images/years-experience.svg'
