@@ -4,7 +4,7 @@ draft: false
 title: 'Trusted crypto-products exchange platform for institutional and professional traders'
 subtitle: 'Employing experience-based, cross-platform testing and KYC integration for a seamless trading experience'
 image: 'images/case-studies/Bitmex.jpg'
-industry: 'CRYPTOCURRENCY'
+industry: 'Cryptocurrency'
 alt: 'bitcoins and computer code'
 keywords:
   [
@@ -18,6 +18,17 @@ keywords:
     'Retesting',
   ]
 ---
+
+In this case study you can read about:
+
+- [About the client](#about-the-client)
+- [Client’s challenges](#clients-challenges)
+- [Our approach](#our-approach)
+  - [Experience&#8209;based testing](#experience8209based-testing)
+  - [Cross&#8209;browser and cross&#8209;platform testing](#cross8209browser-and-cross8209platform-testing)
+  - [KYC integration, system, and acceptance testing](#kyc-integration-system-and-acceptance-testing)
+  - [Retesting and verifying defects, user stories, and features](#retesting-and-verifying-defects-user-stories-and-features)
+- [Value delivered](#value-delivered)
 
 ## About the client
 

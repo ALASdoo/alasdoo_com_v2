@@ -5,7 +5,7 @@ title: 'Air cargo transport solutions for airlines and forwarders'
 subtitle: 'Leveraging manual testing and automation tools to guarantee high-quality application delivery'
 image: 'images/case-studies/Cargo.jpg'
 alt: 'Air cargo transport represented with boxes conected with a line and a toy plane.'
-industry: 'transportation'
+industry: 'Transportation'
 keywords:
   [
     'Transportation',

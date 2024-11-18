@@ -5,7 +5,7 @@ title: 'Ensuring user trust and satisfaction through complete testing of an acco
 subtitle: 'Design, functionality, and transaction testing for error-free cash flow and invoicing'
 image: 'images/case-studies/Coconut.jpg'
 alt: 'A woman doing her finances in an app.'
-industry: 'FINANCE'
+industry: 'Finance'
 keywords:
   [
     'Finance',
@@ -21,6 +21,17 @@ keywords:
     'Automated testing',
   ]
 ---
+
+In this case study you can read about:
+
+- [About the client](#about-the-client)
+- [Client’s challenges](#clients-challenges)
+- [Our approach](#our-approach)
+  - [To retain users’ trust, calculation errors are unacceptable](#quality-assurance)
+  - [Stress testing](#stress-testing)
+  - [Security testing](#security-testing)
+  - [Backend development](#backend-development)
+- [Value delivered](#value-delivered)
 
 ## About the client
 

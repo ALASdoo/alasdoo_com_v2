@@ -5,7 +5,7 @@ title: 'Streamlining carpooling'
 subtitle: 'Prioritizing convenience, safety, and integration for modern families'
 image: 'images/case-studies/GoKid.jpg'
 alt: 'A boy and a man discussing a route on a monitor in a car.'
-industry: 'TRANSPORTATION'
+industry: 'Transportation'
 keywords:
   [
     'Transportation',
@@ -16,6 +16,21 @@ keywords:
     'Cross-browser',
   ]
 ---
+
+In this case study you can read about:
+
+- [About the client](#about-the-client)
+- [Client’s challenges](#clients-challenges)
+- [Our approach](#our-approach)
+  - [Usability testing](#usability-testing)
+    - [Creating an account](#creating-an-account)
+    - [Scheduling a carpool](#scheduling-a-carpool)
+    - [Reminders](#reminders)
+    - [School platform](#school-platform)
+  - [The biggest challenge: Ensuring safety of the users](#the-biggest-challenge-ensuring-safety-of-the-users)
+    - [How do we assure that only trusted drivers can participate in the carpool?](#how-do-we-assure-that-only-trusted-drivers-can-participate-in-the-carpool)
+    - [How do we perform live tracking testing?](#how-do-we-perform-live-tracking-testing)
+- [Value delivered](#value-delivered)
 
 ## About the client
 

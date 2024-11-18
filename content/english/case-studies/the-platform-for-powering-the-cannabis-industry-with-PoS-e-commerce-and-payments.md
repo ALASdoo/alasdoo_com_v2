@@ -4,7 +4,7 @@ draft: false
 title: 'The platform for powering the cannabis industry with PoS, e-commerce, and payments'
 subtitle: 'Helping in compliance with complex legal frameworks and regulations, and providing a seamless experience for customers'
 image: 'images/case-studies/Dutchie.jpg'
-industry: 'CANNABIS'
+industry: 'Cannabis'
 alt: 'a smart register'
 keywords:
   [
@@ -20,6 +20,16 @@ keywords:
     'Tracking tools',
   ]
 ---
+
+In this case study you can read about:
+
+- [About the client](#about-the-client)
+- [Client’s challenges](#clients-challenges)
+- [Our approach](#our-approach)
+  - [iOS testing](#ios-testing)
+  - [IoT testing testing](#iot-testing)
+  - [Reporting](#reporting)
+- [Value delivered](#value-delivered)
 
 ## About the client
 

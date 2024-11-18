@@ -5,7 +5,7 @@ title: "Taking care that the patient's plans for the future are safe and sound"
 subtitle: 'Comprehensive testing services for securely storing and sharing confidential documents with healthcare professionals'
 image: 'images/case-studies/MyDirectives.jpg'
 alt: 'Healthcare proffessionals discussing a health insurance claim form.'
-industry: 'HEALTHCARE'
+industry: 'Healthcare'
 keywords:
   [
     'Healthcare',
@@ -18,6 +18,13 @@ keywords:
     'Automated testing',
   ]
 ---
+
+In this case study you can read about:
+
+- [About the client](#about-the-client)
+- [Client’s challenges](#clients-challenges)
+- [Our approach](#our-approach)
+- [Value delivered](#value-delivered)
 
 ## About the client
 
