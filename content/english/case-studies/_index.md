@@ -1,5 +1,5 @@
 ---
-title: 'Case Studies'
+title: 'Case studies'
 subtitle: "We recognize the importance of protecting our clients' privacy and follow the policies to maintain their confidentiality and security. Therefore, the companies' names are not disclosed in the case studies."
 # meta description
 description: ''

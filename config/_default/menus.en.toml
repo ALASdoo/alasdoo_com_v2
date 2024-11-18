@@ -71,7 +71,7 @@ weight = 4
 
 # footer menu 2
 [[footer_menu_2]]
-name = "Case Studies"
+name = "Case studies"
 url = "/case-studies/"
 weight = 5
 
