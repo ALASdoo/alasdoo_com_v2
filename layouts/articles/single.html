@@ -19,7 +19,8 @@
             {{ partial "image" (dict "Src" .Params.image "Alt" .Title "Class" "img-fluid rounded-circle" "Command" "Fill") }}
           </div>
           <div>
-            <h2 class="h5 title mb-1">The author:<br />{{ .Title }}</h2>
+            <span class="opacity-70">The author</span>
+            <h2 class="mb-1">{{ .Title }}</h2>
             <div class="content small">{{ .Content | markdownify}}</div>
           </div>
         </div>
@@ -36,7 +37,7 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-xl-10 text-center">
-        <h2 class="h3">Related articles</h2>
+        <h2 class="">Related articles</h2>
       </div>
     </div>
     <ul class="row justify-content-center">
