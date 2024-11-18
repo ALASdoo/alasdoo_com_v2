@@ -2,11 +2,11 @@
 {{ partial "page-header.html" .}} 
 {{ with .Params.cookies }}
 
-<div class="section">
+<div class="section cookies-page">
   <div class="container">
     <div class="row">
       {{range $i, $e := .policy_item}}
-      <h2 class="h4">{{.title}}</h2>
+      <h2 >{{.title}}</h2>
 
       <p>{{.content | markdownify}}</p>
       {{end}}
