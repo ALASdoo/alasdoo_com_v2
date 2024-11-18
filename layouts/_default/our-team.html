@@ -3,7 +3,7 @@
 <section class="section p-0">
   <div class="hero-bg backdrop-dark" {{ partial "bg-image" (dict "Src" .hero_image "Position" "bottom center" "Webp" false) | safeHTMLAttr }}>
     <div class="container row justify-content-center">
-      <h1 class="h2 text-white text-center z-100"
+      <h1 class="text-white text-center z-100"
         data-aos="fade-up"
         data-aos-offset="0"
         data-aos-duration="600"
@@ -77,7 +77,7 @@
       data-aos-duration="600"
       data-aos-easing="ease-in-out-sine">
       <div class="col-lg-10 text-center">
-        <h2 class="h3">{{ .team_members_title | markdownify }}</h2>
+        <h2>{{ .team_members_title | markdownify }}</h2>
       </div>
     </div>
     <div class="row gy-5 team"
@@ -97,7 +97,7 @@
             {{ partial "image" (dict "Src" .image "Alt" .name "Class" "card-img-top rounded-2") }}
           </div>
           <div class="card-body px-0">
-            <h3 class="h6 mb-1">{{.name | markdownify }}</h3>
+            <h3 class="mb-1">{{.name | markdownify }}</h3>
             <p class="designation mb-0">{{.designation | markdownify }}</p>
           </div>
         </div>
@@ -115,7 +115,7 @@
         data-aos-offset="180"
         data-aos-duration="600"
         data-aos-easing="ease-in-out-sine">
-        <h2 class="h3">{{.join.title | markdownify}}</h2>
+        <h2>{{.join.title | markdownify}}</h2>
         {{.join.content | markdownify}}
         <div class="row">
           <div class="pt-4">

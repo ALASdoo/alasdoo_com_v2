@@ -15,6 +15,7 @@ banner:
     experts, as well as in&#8209;depth analyses
     and consulting on improving software
     development and QA processes.
+    
 
     Contact us to get free recommendations for your project.'
   button:

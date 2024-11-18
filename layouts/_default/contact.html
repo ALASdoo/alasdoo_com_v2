@@ -27,13 +27,13 @@
               <div class="mb-4 contact-img text-center">
                 {{ partial "image" (dict "Src" .image "Alt" .name "Class" "") }}
               </div>
-              <h2 class="h4 text-center">{{.name}}</h2>
+              <h2 class="text-center">{{.name}}</h2>
               <p>{{.content | markdownify}}</p>
             </div>
             <div class="col-lg-7">
               <div class="card shadow bg-white rounded-2 border-0">
                 <div class="card-body p-4">
-                  <h2 class="h4">{{.form_title | markdownify}}</h2>
+                  <h2 class="">{{.form_title | markdownify}}</h2>
                   <p>{{.form_content | markdownify}}</p>
 
                   <form method="POST" class="contact-form" novalidate
