@@ -15,7 +15,7 @@ intro:
   quality:
     title: "Quality over quantity"
     content2: "We believe that only great people can achieve great results; that is why we hire for quality, not quantity. We nurture a culture of loyal teammates who have a sense of ownership and truly care about achieving results."
-    content1: "Our team comprises more than 50 talented and knowledge&#8209;rich software developers and automated/manual QA engineers, as well as project managers and UX experts. As English is a very important part of our business, each member of our team is proficient in it."
+    content1: "Our team comprises more than 30 talented and knowledge&#8209;rich software developers and automated/manual QA engineers, as well as project managers and UX experts. As English is a very important part of our business, each member of our team is proficient in it."
   streangths:
     title: "Always improving"
     content: "Before the first billing hour, each team member completes in&#8209;depth training for the project they are undertaking, so they can seamlessly take over their role and hit the ground running.
@@ -31,7 +31,7 @@ cta:
   button:
     enable: true
     type: 'primary'
-    label: 'Schedule a free consultation'
+    label: 'Contact us'
     link: '/contact'
 
 team_members_title: "Meet the people who make it happen"
@@ -268,7 +268,7 @@ team_members:
 
 join:
   title: "Want to become a part of our team?"
-  content: "We are always looking for candidates who share [our values](/our-story#values), goals, and [culture](/careers#culture). If you recognize yourself in them, we are a great match."
+  content: "We are always looking for candidates who share our [our values](/our-story#values) and goals. If you recognize yourself in them, we are a great match."
   button:
     enable: true
     type: 'primary'

@@ -7,7 +7,7 @@ subtitle: ''
 
 Last updated: November 13, 2024
 
-At Alas d.o.o., we respect your privacy and are committed to protecting your personal data. This Privacy policy explains how we collect, use, and protect your information when you submit it through our contact form.
+At Alas doo, we respect your privacy and are committed to protecting your personal data. This Privacy policy explains how we collect, use, and protect your information when you submit it through our contact form.
 
 ## Information we collect
 

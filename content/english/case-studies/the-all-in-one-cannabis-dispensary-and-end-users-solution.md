@@ -70,8 +70,7 @@ Database testing is a critical aspect of software testing, as it guarantees that
 ## Value delivered
 
 Through our testing services, we helped our client navigate the complex legal frameworks and regulations governing the cannabis industry. By achieving compliance, our client avoided potential legal consequences and provided a hassle&#8209;free experience for their customers.
-
-By conducting detailed testing of the web platform, including hardware (IoT) and database testing, we were able to make sure that the software was fully functional, user&#8209;friendly, and optimized for performance.
+By conducting detailed testing of the web platform, including the hardware (IoT), and database testing, we were able to make sure that the software was fully functional, user‑friendly, and optimized for performance.
 
 To provide a seamless experience for the end user and address any potential issues that may have arisen during integration with other systems, we conducted API testing. This approach helped us thoroughly validate the integrity of the system's data and ensure that any errors or discrepancies were identified and addressed promptly.
 

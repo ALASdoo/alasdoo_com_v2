@@ -32,13 +32,11 @@ Employer branding is the process of creating and maintaining a positive image of
 
 Employer branding is also closely linked to recruitment. We understand the importance of employer branding and have made it a top priority in our recruitment and retention strategies.
 
-{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/employer-branding-infographic.png" alt="colorful circle diagram with 4 company practices employer branding is crucial for: recruitment strategy (recognising talent, values-fit, culture-contribution, onboarding), social media (creating positive image, communicating values and vision, brand's voice), retainment methods (learning opportunities, support in professional growth, regular feedback, improvements in organization), company culture (mission, vision, values, people)." >}}
-
 One of the ways we have built our employer brand is by clearly communicating our values and vision to our employees and potential candidates. It was achieved by being transparent about what it's like to work at Alas and sharing this information as a part of our marketing strategy.
 
 Likewise, the company understands and values employees’ goals. We regularly seek feedback from our employees and use that feedback to make improvements in the workplace. Open communication enables us to gain valuable insights, discover creative solutions, and pursue our goals together.
 
-## Our “values fit and culture contribution” hiring approach
+## Our “values fit" and "culture contribution” hiring approach
 
 A team with shared values is a team that can work together effectively and efficiently, and move mountains.
 
@@ -90,8 +88,6 @@ The ‘About us’ and ‘What we do’ pages serve as a window into the heart o
 
 Exploring a company's social media profiles is like peeking behind the curtain and getting a glimpse into its unique character. By perusing its pages on networks like Instagram, Facebook, and LinkedIn, you can gain a deeper understanding of the brand’s personality, and the way it communicates with its audience. This information can give you a sense of the work environment and the values that guide the company, helping you determine if they align with your own.
 
-{{< image title="TODO" w="1200" o="webp q100" p="center" c="img-fluid shadow rounded-1" src="images/helloworld.png" alt="" >}}
-
 ### Learn about salaries and reviews
 
 Reviews from current and former employees can provide valuable insights into overall employee satisfaction. Learning about salaries and reviews of a company you are interested in working for can help you determine if the compensation offered is competitive and in line with your expectations. Please be mindful that the information on those websites may not always be reliable, as it is provided by individuals and not by company representatives.
@@ -108,11 +104,11 @@ When choosing a company to work for, it's important to take a step back and refl
 
 Are you evaluating if we're the ideal fit? Don't worry, we've got you covered! Let us provide you with all the information you need to make a confident decision.
 
-It's wise that you get prepared for the initial interview in advance. You should familiarize yourself with our company [culture](/careers#culture) and [values](/our-story#values). This will provide you with a deeper understanding of who we are and what we stand for. In addition to that, you can also navigate our website and uncover more about [the essence of our company](/our-story). Furthermore, you'll have a better understanding of the kind of [services we offer](/services).
+It's wise that you get prepared for the initial interview in advance. You should familiarize yourself with our company [culture](/careers#culture) and [values](/our-story#values). This will provide you with a deeper understanding of who we are and what we stand for. In addition to that, you can also learn more about the essence of our company by checking out [our story](/our-story). Furthermore, you'll have a better understanding of the kind of [services we offer](/services).
 
 Take a moment to delve into our [case studies](/case-studies) and explore the types of projects we undertake. Discover the wide range of [clients we work with](/clients#list) and the [industries we serve](/clients#industries). This will give you insights into the diversity of our work and how we make a difference for our clients.
 
-We invite you to take a look at [our Upwork profile](https://www.upwork.com/o/companies/~01ea0de13226020013/), which has earned top ratings in the software QA field. You'll find unbiased reviews from some of our satisfied clients there. This way you will get an idea of what it's like to work with us and what kind of results we've achieved for our clients.
+We invite you to take a look at [our WeDoQA profile on Upwork](https://www.upwork.com/o/companies/~01ea0de13226020013/), which has earned top ratings in the software QA field. You'll find unbiased reviews from some of our satisfied clients there. This way you will get an idea of what it's like to work with us and what kind of results we've achieved for our clients.
 
 Speaking of reviews, another great resource to check out is [our company profile on HelloWorld](https://www.helloworld.rs/kompanija/ALAS-d.o.o). This platform is a great place to find reviews from past/current employees and candidates who have gone through our hiring process.
 

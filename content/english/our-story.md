@@ -22,7 +22,7 @@ history:
   blocks:
   - title : "The beginning"
     image: "images/ALAS_start.jpg"
-    alt: "An old photo of the team of developers who founded Alas company."
+    alt: "An old photo of the team of developers who founded ALAS company."
     content : "The story of ALAS begins in 1988 when computer science was just finding its footing in Serbia. Sandor Somogyi and Dragan Nedeljkovic, the advocates of the application of computer technology, have joined forces with some of the most important IT developers in Zrenjanin, and founded the company that has become the symbol of change, a synonym of modern times, and the correct way of incorporating and developing information technologies in large agricultural and manufacturing systems."
 
   - title : "Modern times"
@@ -32,8 +32,8 @@ history:
 
   - title : "The company today"
     image: "images/nowdays.jpg"
-    alt: "Co-founders Vilmos Somogyi and Tibor Dudjik standing in front of the new Alas logo and company values mural on the wall."
-    content : "Nowadays, Alas is located in Novi Sad, Serbia, with more than [50 experts](/our-team) from different fields on board. Although the company has significantly grown, it has still kept its non&#8209;corporate, people&#8209;focused approach, home&#8209;like atmosphere, and family values at its core. We have [clients from all over the world](/our-clients) thanks to our enthusiasm for innovation and dedication to quality. With our knowledge and experience, we successfully handle even the most demanding projects in the financial, accounting, and healthcare sectors - fields with zero tolerance for errors."
+    alt: "Co-founders Vilmos Somogyi and Tibor Dudjik standing in front of the new ALAS logo and company values mural on the wall."
+    content : "Nowadays, ALAS is located in Novi Sad, Serbia, with more than 30 experts on [our team](/our-team). Although the company has significantly grown, it has still kept its non&#8209;corporate, people&#8209;focused approach, home&#8209;like atmosphere, and family values at its core. [Our clients](/our-clients) form all over the world appreciate our enthusiasm for innovation and dedication to quality. With our knowledge and experience, we successfully handle even the most demanding projects in the financial, accounting, and healthcare sectors - fields with zero tolerance for errors."
 
 ######################### mission #####################
 mission:
@@ -113,7 +113,7 @@ specialites:
     image: 'images/proven-record.png'
     alt: "Globe with pins connected to different industries: health, healthcare, airplane transport, data analytics, e-learning, manufacturing, finances, and telecommunication."
     button:
-      enable: true
+      enable: false
       type: 'link'
       label: 'Meet our clients'
       link: '/our-clients'
@@ -131,7 +131,7 @@ specialites:
     image: 'images/partnerships.png'
     alt: "A handshake with a partnership document in the background."
     button:
-      enable: true
+      enable: false
       type: 'link'
       label: 'View case studies'
       link: '/case-studies'
@@ -149,7 +149,7 @@ specialites:
     image: 'images/young.png'
     alt: "Creative young woman imagining all the possibilities for a product: new ideas, processes, people, marketing and lounching."
     button:
-      enable: true
+      enable: false
       type: 'link'
       label: 'Read our articles'
       link: '/articles'
@@ -167,7 +167,7 @@ specialites:
     image: 'images/proactive.png'
     alt: "Proactive woman inspecting the points on the  curve which represents a process."
     button:
-      enable: true
+      enable: false
       type: 'link'
       label: 'View our approach'
       link: '/services#approach'
@@ -187,7 +187,7 @@ specialites:
     image: 'images/improvement.png'
     alt: "Young woman learning on a laptop and drinking coffee, while sitting on a stack of books."
     button:
-      enable: true
+      enable: false
       type: 'link'
       label: 'Learn more about our culture'
       link: '/careers#culture'
@@ -205,7 +205,7 @@ specialites:
     image: 'images/quality.png'
     alt: "A man giving tambs up and a 5 star review for quality."
     button:
-      enable: true
+      enable: false
       type: 'link'
       label: 'Meet our team'
       link: '/our-team#team'

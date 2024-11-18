@@ -22,8 +22,6 @@ keywords:
 
 Company culture is all about the way a company treats its employees and the overall atmosphere and values of the company. It includes how employees interact with each other, the explicit and implicit rules they follow, and how the company supports both their professional and personal growth. A strong company culture should reflect the core values of the organization and attract people who don’t necessarily have the same beliefs and backgrounds, but share common goals and ethical principles.
 
-{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/kolaz.jpg" alt="photo collage with the company tagline 'More personal, always.' representing a vibrant company culture: people eating, drinking cocktails, playing board games and video games." >}}
-
 ## How has our company culture evolved?
 
 Think of company culture as the driving force behind an organization, like the powerful engine that fuels a sleek sports car. Neglecting to cultivate and sustain a culture that embodies your company's vision and aspirations is akin to neglecting the engine of that car. Without proper attention and upkeep, both will sputter and stall, leaving you stranded on the side of the road. To keep your company soaring, it's crucial to actively ignite and rev up a culture that mirrors your company's objectives and beliefs.
@@ -46,7 +44,7 @@ Fostering a fun and enjoyable work environment is just as important as fostering
 
 {{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/playing-ps5-halloween.jpg" alt="Two young men playing video games and eating snacks; one is in a Rambo halloween mask." >}}
 
-But crafting a great culture isn't just about creating a positive work environment, it's also about [hiring the right people](/articles/what-is-the-key-to-finding-the-ultimate-match-between-a-job-candidate-and-a-company). That's why, when it comes to the hiring process, we're flipping the script by placing equal emphasis on a candidate's values and cultural contribution as we do on their skills and experience. After all, what good are qualifications if they don't align with the company's mission and values? And what good is a perfect fit if they lack the skills to perform the job? Together, these factors are the key ingredients for not just a successful employee but a long&#8209;term one as well.
+But crafting a great culture isn't just about creating a positive work environment, it's also about hiring the right people. That's why, when it comes to the hiring process, we're flipping the script by placing equal emphasis on a candidate's values and cultural contribution as we do on their skills and experience. After all, what good are qualifications if they don't align with the company's mission and values? And what good is a perfect fit if they lack the skills to perform the job? Together, these factors are the key ingredients for not just a successful employee but a long&#8209;term one as well.
 
 It wasn't always easy to put these values into practice, but we were committed to making it happen. We made changes and took the necessary steps to ensure that our culture aligned with our values. It took time and effort, but it was worth it to create a company where everyone feels truly at home.
 
@@ -58,31 +56,31 @@ Creating a culture that aligns with [our values](/our-story#values) and goals is
 
 Each company is like a fingerprint&#8209;distinct and unique. To build a strong and successful company culture, there are guidelines that can be followed. We have developed a universal "game plan" that can help you create a culture that is truly your own, and sets your company apart from the rest.
 
-### STEP ONE: Defining the core beliefs and values
+### 1. Defining the core beliefs and values
 
 To establish a unique and successful company culture, it is important to first define your company’s vision, mission, and core values that will serve as a guide for all decision&#8209;making. These values should be distinct and unwavering.
 
-### STEP TWO: Gaining employee insights
+### 2. Gaining employee insights
 
 It is crucial to take action in order to identify and address any pain points within your company's culture. This can be achieved by conducting regular interviews with your employees and gathering their input and feedback. Additionally, it is important to research and analyze the perspectives and reviews of employees from other companies in order to gain a well&#8209;rounded understanding and make informed decisions for your own company culture.
 
-### STEP THREE: Crafting solutions that align with company goals and vision
+### 3. Crafting solutions that align with company goals and vision
 
 Once pain points have been identified, the next step is to develop solutions that align with the company's priorities and provide immediate and long&#8209;term results. It is important to consider how these solutions will align with the current culture and the overall vision of the company.
 
-### STEP FOUR: Bringing ideas to life
+### 4. Bringing ideas to life
 
 It's time to set the wheels in motion! The adjustments made will be contingent on various factors, such as resources and priorities. There isn't a one&#8209;size&#8209;fits&#8209;all strategy that works for everyone; it will be tailored to the specific company and its existing culture. A tried&#8209;and&#8209;true method is to kick off the changes with the recruitment process.
 
-### STEP FIVE: Communicating company’s identity
+### 5. Communicating company’s identity
 
 Ensure that your company's principles and values shine through your marketing efforts. This will make sure that potential and current employees, as well as clients, are aware of your company's identity and core values. The most suitable candidates will investigate your company and its values before applying to confirm that they are in tune with their own principles.
 
-### STEP SIX: Evaluating the outcome of changes
+### 6. Evaluating the outcome of changes
 
 The aim of this step is to determine the impact of the changes on customers, employees, and the company culture overall. It is vital to evaluate the effectiveness of the implemented actions.
 
-### STEP SEVEN: Culture's evolution
+### 7. Culture's evolution
 
 Creating and maintaining a strong company culture is an ongoing endeavor that demands constant attention and commitment from every level of the organization. Managers and leaders should walk the talk and serve as exemplars. To keep the culture thriving, discipline and support from all members are essential.
 

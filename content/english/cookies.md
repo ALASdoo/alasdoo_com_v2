@@ -4,13 +4,13 @@ title: 'Cookies'
 draft: false
 layout: 'cookies'
 
-cookies: 
-  policy_item: 
+cookies:
+  policy_item:
     - title: ''
       content: 'Last updated: November 13, 2024
-          
-      At Alas d.o.o., we are committed to protecting your privacy. The cookies we use do not store any personal information.'
-      
+
+      At Alas doo, we are committed to protecting your privacy. The cookies we use do not store any personal information.'
+
     - title: 'What are cookies?'
       content: 'Cookies are small text files placed on your device by websites you visit. They are widely used to make websites function more efficiently and to provide information to the website owner.'
 
@@ -21,16 +21,16 @@ cookies:
     **Google Analytics Cookies**:
 
         - **Purpose:** To collect anonymized data about user behavior, including the number of visitors, pages visited, traffic sources, and interactions with content.
-      
+
         - **Data stored**: Anonymous information, such as IP address, browser type, time spent on pages, and site interactions.
-        
+
         - **Retention period**: Stored for a maximum of 26 months, after which data is automatically deleted.'
 
     - title: 'How to manage or decline cookies'
       content: 'You have the right to accept or decline non-essential cookies:
 
       - **Accept Cookies**: You agree to the use of Google Analytics cookies.
-      
+
       - **Decline Cookies**: No Google Analytics cookies will be placed, and your activity on our website will not be tracked.
 
       Upon your first visit, a cookie popup will appear, allowing you to make your selection. You can adjust your cookie settings anytime by selecting “Cookies” in the footer or through your browser settings, where you can delete or block cookies.'
@@ -43,5 +43,5 @@ cookies:
 
     - title: 'Contact us'
       content: 'If you have any questions about our use of cookies or your data privacy, feel free to [contact us](https://www.alasdoo.com/contact/).'
-    
+
 ---

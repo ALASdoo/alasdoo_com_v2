@@ -47,7 +47,7 @@ Once this part of the testing is completed, we prepare comprehensive documentati
 
 The primary focus during testing is on the protection of the client's confidential data. Our exhaustive privacy and security assessment has to confirm that only authorized individuals can access and edit the document from the database. If the client is incapacitated, they can designate a trusted proxy with limited authorizations through an email&#8209;based invitation system. The proxy's access is restricted to the authorizations granted by the client.
 
-With [Katalon](https://katalon.com/), we are able to automate our testing process and reduce the time and effort required to run comprehensive tests on the client's software product.
+With [Katalon Studio](https://katalon.com/), we are able to automate our testing process and reduce the time and effort required to run comprehensive tests on the client's software product.
 
 We cover both the technical and legal perspectives of the platform's functionality. It is crucial to provide practitioners and facilitators with the necessary tools to process enrollees' wishes. Practitioners review different types of documentation, while facilitators create them for enrollees who cannot do so themselves. Practitioners also supervise facilitators and communicate with both types of users.
 

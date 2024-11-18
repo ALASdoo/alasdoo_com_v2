@@ -64,18 +64,17 @@ In-depth guides and insights on outsourcing, quality assurance, and IT best prac
 
 Information about our culture and current job openings:
 
-- [Automated QA Engineer](/career/automated-qa-engineer/)
-- [IT system administrator / DevOps Engineer](/career/devops/)
-- [JavaScript Frontend Software Developer](/career/frontend/)
-- [Visual Designer](/career/designer/)
+- [Automated quality assurance (QA) engineer](/career/automated-quality-assurance-qa-engineer/)
+- [DevOps engineer](/career/devops-engineer/)
+- [JavaScript frontend software developer](/career/javascript-frontend-software-developer/)
 
 ## [Contact us](/contact/)
 
 Forms for inquiries about:
 
-- Our services—sent directly to our CEO Vilmos Somogyi
-- Working at ALAS—sent directly to our employer branding specialist Jelena Obradovic
-- Partnerships—sent directly to our co-founder Tibor Dudjik
+- Our services — sent directly to our CEO Vilmos Somogyi
+- Working at ALAS — sent directly to our employer branding specialist Jelena Obradovic
+- Partnerships — sent directly to our co-founder Tibor Dudjik
 
 ## Legal and compliance pages
 

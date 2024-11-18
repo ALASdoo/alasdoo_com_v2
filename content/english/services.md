@@ -14,11 +14,13 @@ banner:
   content: 'We save our clients’ time and money by providing experienced and devoted
     experts, as well as in&#8209;depth analyses
     and consulting on improving software
-    development and QA processes'
+    development and QA processes.
+
+    Contact us to get free recommendations for your project.'
   button:
     enable: true
     type: 'primary'
-    label: 'Get a free assessment'
+    label: 'Contact us'
     link: '/contact'
 
 ######################### what_we_do #####################
@@ -166,7 +168,7 @@ technologies:
 approach:
   enable: true
   title: 'Our approach'
-  content: "Each project is unique and requires a customized strategy, but what guides us through every communication and relationship is our in&#8209;depth domain experience, thoroughness in everything we do, transparency, and taking the human aspect into account. These are just a few of the [values](/our-story#values) we uphold and live by every day."
+  content: "Each project is unique and requires a customized strategy, but what guides us through every communication and relationship is our in&#8209;depth domain experience, thoroughness in everything we do, transparency, and taking the human aspect into account. These are just a few of [our values](/our-story#values) we live by every day."
   content_bottom: "Our company's founders have more than 17 years of experience in each stage of the development and testing processes and are proficient in the procedures themselves. They are the ones who go through all the motions of an initial meeting, assessment, planning, and choosing the perfect team for you."
   workflow_item:
     - title: '1. Initial assessment'
@@ -196,6 +198,6 @@ cta:
   button:
     enable: true
     type: 'primary'
-    label: 'Send an inquiry'
+    label: 'Contact us'
     link: '/contact'
 ---

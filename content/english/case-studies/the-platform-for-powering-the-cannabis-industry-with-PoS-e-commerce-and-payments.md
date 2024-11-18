@@ -65,4 +65,4 @@ By providing our testing services, we played a crucial role in ensuring complian
 
 To ensure the smooth functioning of the system, we conducted daily smoke tests since the client was working on daily releases. Within smoke testing, we executed around 1.700 test cases weekly. When necessary, we created new test cases and conducted maintenance on the existing ones.
 
-Our team's use of tracking tools like [JIRA](https://www.atlassian.com/software/jira) and [TestRail](https://www.gurock.com/testrail) allowed for efficient management of defects and accurate reporting of results. Regular performance reports on various metrics also helped our client stay up&#8209;to&#8209;date and informed about the state of their product, ultimately helping them achieve their business objectives and goals.
+Our team's use of tracking tools like JIRA and TestRail allowed for efficient management of defects and accurate reporting of results. Regular performance reports on various metrics also helped our client stay up&#8209;to&#8209;date and informed about the state of their product, ultimately helping them achieve their business objectives and goals.

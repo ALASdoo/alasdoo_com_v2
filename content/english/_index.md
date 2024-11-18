@@ -16,7 +16,7 @@ about:
   enable: true
   subtitle: 'About us'
   title: 'More personal, always'
-  content: 'ALAS d.o.o. is a Software Development and Quality Assurance outsourcing company with extensive experience in web development, project management, manual and automated testing.
+  content: 'ALAS doo is a Software Development and Quality Assurance outsourcing company with extensive experience in web development, project management, manual and automated testing.
 
 
   Aligning the product vision with the technical team is our specialty. Through open communication and a personal approach, we consider every aspect of the project so that we are empowered to assist and consult in every step of the development process.
@@ -108,7 +108,7 @@ consulting:
   button:
     enable: true
     type: 'primary'
-    label: 'Get a free assessment'
+    label: 'Contact us'
     link: 'contact/'
 
 ######################### Clients #####################

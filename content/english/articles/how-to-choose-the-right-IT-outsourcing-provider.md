@@ -52,7 +52,7 @@ Apart from checking clients list, testimonials, and case studies, there is a mor
 
 A good start is to learn about general knowledge of the desired language in the country the potential vendor is from. It is also quite easy to draw conclusions if you have an initial interview with them.
 
-In Serbia, English is studied as a primary foreign language from day one of the educational journey. Through all the following stages, all students are required to have an excellent grasp of the language – both in writing and in speech – in order to graduate. Apart from the mandatory education, it is common for students to refine their knowledge of the English language in private language schools and get Cambridge certificates.
+In Serbia, English is studied as a primary foreign language from day one of the educational journey. Through all the following stages, all students are required to have an excellent grasp of the language &mdash; both in writing and in speech &mdash; in order to graduate. Apart from the mandatory education, it is common for students to refine their knowledge of the English language in private language schools and get Cambridge certificates.
 
 If you outsource to Serbia, the communication is guaranteed to be handled by professionals with decent&#8209;to&#8209;excellent command of the English language. At ALAS, we pay special attention to the fact that each member of our team is proficient in written and spoken English. In addition, our employees are provided language classes to further improve their knowledge.
 
@@ -74,13 +74,13 @@ When offshoring based on overlapping time zones, the work culture in the respect
 
 If a company’s business model requires the employer to be active 24/7, companies can hire talent from opposite time zones to ensure 24-hour workdays. Also, if there is no significant communication needed, working from opposite time zones is an option.
 
-We work in CET with slight adaptations to our work hours (9 am - 5 pm, 8 am - 4 pm or 10 am - 6 pm), to make it easier to arrange meetings with our clients from all over the world. We have tried&#8209;and&#8209;true methods and practices that enable us to successfully conduct business with our most remote clients.
+We work in CET with slight adaptations to our work hours (from 9 a.m. to 5 p.m., from 8 a.m. to 4 p.m., from 10 a.m. to 6 p.m.), to make it easier to arrange meetings with our clients from all over the world. We have tried&#8209;and&#8209;true methods and practices that enable us to successfully conduct business with our most remote clients.
 
 These are examples of how we schedule communication with clients in North America (CT) and Singapore (SGT):
 
-CT and CET: The best time to schedule a conference call or plan a meeting would be between 9:00 and 10:00 am in North America. That is between 4:00 and 5:00 pm in CET.
+CT and CET: The best time to schedule a conference call or plan a meeting would be between 9 a.m. and 10 a.m. in North America. That is between 4 p.m. and 5 p.m. in CET.
 
-SGT and CET: The best time for communication would be between 2:00 and 4:00 pm in SGT, which would be between 7:00 and 9:00 am in CET.
+SGT and CET: The best time for communication would be between 2 p.m. and 4 p.m. in SGT, which would be between 7 a.m. and 9 a.m. in CET.
 
 Overlapping time zones means always having a few hours during the workday where all the team members are available for a meeting. They won’t need to make drastic adjustments to their schedules, and you can conduct meetings seamlessly.
 

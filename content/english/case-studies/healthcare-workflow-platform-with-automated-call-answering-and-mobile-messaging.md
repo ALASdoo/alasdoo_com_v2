@@ -40,7 +40,7 @@ We conducted confirmatory testing right after implementation, with the goal of i
 
 We used [Redmine](https://www.redmine.org/), a project management tool, to report and track issues and defects, and we conducted retesting to ensure that issues had been resolved.
 
-Thorough cross&#8209;browser and cross&#8209;platform testing were implemented to ensure compatibility of the application on different devices and environments, including web and mobile applications, and VOIP answering service. We focused on verifying the compatibility and consistency of data across these environments.
+Thorough cross&#8209;browser and cross&#8209;platform testing were implemented to ensure compatibility of the application on different devices and environments, including web and mobile applications, and Voice over Internet Protocol (VoIP) answering service. We focused on verifying the compatibility and consistency of data across these environments.
 
 The platform's flexible and scalable on&#8209;call schedule is a standout feature that helps manage physician availability and ensures seamless patient care. We extensively tested the in&#8209;app call feature, including all possible flows based on the proposed algorithm. Additionally, we conducted acceptance testing of the Interactive Voice Response (IVR) system to ensure that it accurately recognized and responded to user input and provided appropriate responses.
 

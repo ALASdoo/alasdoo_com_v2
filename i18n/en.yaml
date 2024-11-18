@@ -50,16 +50,16 @@
   translation: INDUSTRY
 
 - id: apply_for_position
-  translation: Apply for Position
+  translation: Apply for position
 
 - id: view_all_positions
-  translation: View All Positions
+  translation: View all job openings
 
 - id: details
   translation: Details
 
 - id: apply_now
-  translation: Apply Now
+  translation: Apply now
 
 - id: share_this_job
   translation: 'Share this job:'
@@ -101,8 +101,8 @@
   translation: Get a Demo
 
 - id: cv_note
-  translation: doc or pdf files	
- 
+  translation: doc or pdf files
+
 - id: upload_cv
   translation: Upload CV (.doc or .pdf)
 

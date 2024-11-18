@@ -15,6 +15,6 @@ call_to_action:
   button:
     enable: true
     type: 'primary'
-    label: 'Send an inquiry'
+    label: 'Contact us'
     link: '/contact'
 ---
