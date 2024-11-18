@@ -5,7 +5,7 @@ title: 'Healthcare workflow platform with automated call answering and mobile me
 subtitle: 'Ensuring efficient communication and improved patient outcomes'
 image: 'images/case-studies/CareStratus.jpg'
 alt: 'Healthcare proffessionals looking at a workflow platform on a tablet.'
-industry: 'HEALTHCARE'
+industry: 'Healthcare'
 keywords:
   [
     'Healthcare',
@@ -15,6 +15,13 @@ keywords:
     'Confidentiality',
   ]
 ---
+
+In this case study you can read about:
+
+- [About the client](#about-the-client)
+- [Client’s challenges](#clients-challenges)
+- [Our approach](#our-approach)
+- [Value delivered](#value-delivered)
 
 ## About the client
 
