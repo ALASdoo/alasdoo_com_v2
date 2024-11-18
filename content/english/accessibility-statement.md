@@ -63,6 +63,7 @@ Some aspects of alasdoo.com may not display optimally in Internet Explorer or ol
 
 ALAS doo assessed the accessibility of the website through self-evaluation.
 
+
 ---
 
 This statement was created on November 18, 2024.
