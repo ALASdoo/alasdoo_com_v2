@@ -55,12 +55,10 @@ footer {
 
 
 .card-heading,
-.cta-heading,
-.approach-text h6,
-.clients-hero-text,
-.careers-hero-text {
+.cta-heading {
   font-family: $font-primary;
   font-weight: 400;
+  line-height: 1; // todo: test all places
 }
 
 // List in descending order to prevent extra sort function
@@ -91,7 +89,7 @@ $type-levels: 6, 5, 4, 3, 2, 1;
     font-size: 20px;
   }
 
-  p {
+  p, strong, a, span {
     font-size: 16px;
     line-height: 1.5;
    }
