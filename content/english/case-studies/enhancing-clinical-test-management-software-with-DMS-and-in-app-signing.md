@@ -22,6 +22,13 @@ keywords:
   ]
 ---
 
+In this case study you can read about:
+
+- [About the client](#about-the-client)
+- [Client’s challenges](#clients-challenges)
+- [Our approach](#our-approach)
+- [Value delivered](#value-delivered)
+
 ## About the client
 
 Our client provides cloud&#8209;native eClinical applications that accelerate the delivery of new treatments to patients worldwide.
