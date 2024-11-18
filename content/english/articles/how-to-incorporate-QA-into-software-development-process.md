@@ -88,7 +88,7 @@ Implementing an in&#8209;house QA process involves creating a dedicated departme
 
 One of the main advantages of having an in&#8209;house QA process is that it allows for better communication and collaboration between the QA team and other departments within the company.
 
-There are also potential drawbacks to having an in‑house QA process. One of the main disadvantages is that it can be costly to establish and maintain an in-house QA team. Additionally, it may be difficult to find and hire qualified QA specialists, and the team may not have the same level of expertise as an outsourced QA team. With the right IT outsourcing provider, the value of an offshore QA team can be greater than an in-house one. Learn [how to choose the right IT outsourcing provider?](/articles/how-to-choose-the-right-it-outsourcing-provider/).
+There are also potential drawbacks to having an in‑house QA process. One of the main disadvantages is that it can be costly to establish and maintain an in-house QA team. Additionally, it may be difficult to find and hire qualified QA specialists, and the team may not have the same level of expertise as an outsourced QA team. With the right IT outsourcing provider, the value of an offshore QA team can be greater than an in-house one. Learn [how to choose the right IT outsourcing provider](/articles/how-to-choose-the-right-it-outsourcing-provider/).
 
 #### 1.2. Outsourced QA Specialists
 
