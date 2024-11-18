@@ -86,6 +86,6 @@ Information about the types of cookies we use, their purpose, and settings.
 
 Detailed explanation of how we protect user data.
 
-### [Accessibility](/accessibility)
+### [Accessibility statement](/accessibility-statement)
 
 Information on how we ensure our website meets accessibility standards.

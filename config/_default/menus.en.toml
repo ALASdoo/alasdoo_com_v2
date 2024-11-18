@@ -103,8 +103,8 @@ url = "/privacy-policy/"
 weight = 8
 
 [[copyright_menu]]
-name = "Accessibility"
-url = "/accessibility/"
+name = "Accessibility statement"
+url = "/accessibility-statement/"
 weight = 9
 
 [[copyright_menu]]
