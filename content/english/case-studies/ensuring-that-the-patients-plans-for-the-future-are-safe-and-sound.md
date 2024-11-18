@@ -19,6 +19,13 @@ keywords:
   ]
 ---
 
+In this case study you can read about:
+
+- [About the client](#about-the-client)
+- [Client’s challenges](#clients-challenges)
+- [Our approach](#our-approach)
+- [Value delivered](#value-delivered)
+
 ## About the client
 
 Our client's award&#8209;winning application is revolutionizing the way hospitals care for patients who become unconscious or mentally disabled. The application is designed to provide clear instructions and priorities for hospital staff in those situations, and to empower patients to make their own decisions about their care, even when they can't communicate.
