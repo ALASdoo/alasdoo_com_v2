@@ -39,18 +39,23 @@ numbers:
       counter: '17'
       counter_suffix: '+'
       content: 'years of experience in the field'
+      content_sr_only: '17 plus years of experience in the field'
 
     # numbers item loop
     - icon: 'images/customers.svg'
       counter: '200'
       counter_suffix: '+'
       content: 'clients satisfied with our services'
+      content_sr_only: '200 plus clients satisfied with our services'
+
 
     # numbers item loop
     - icon: 'images/first-choice.svg'
       counter: '98'
       counter_suffix: '%'
       content: 'perfect initial team setups'
+      content_sr_only: '98 percent perfect initial team setups'
+
 
 ##################### What we do ##########################
 services:

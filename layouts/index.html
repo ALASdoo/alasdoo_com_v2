@@ -163,11 +163,11 @@
                 {{ partial "image" (dict "Src" .icon "alt" "") }}
               </span>
 
-              <p class="numbers-text text-white mt-2 mt-lg-4 mb-1">
-                <span class="counter" data-counter-time="1500">{{.counter}}</span>
-                {{.counter_suffix}}
-              </p>
-              <p class="text-white mb-0">{{.content | markdownify}}</p>
+              <p class="numbers-text text-white mt-2 mt-lg-4 mb-1" aria-hidden="true">
+                <span class="counter" data-counter-time="1500">{{.counter}}</span>{{.counter_suffix}}</p>
+              <p class="text-white mb-0" aria-hidden="true">{{.content | markdownify}}</p>
+
+              <p class="sr-only"> {{ .content_sr_only }} </p>
             </div>
           </li>
           {{end}}
