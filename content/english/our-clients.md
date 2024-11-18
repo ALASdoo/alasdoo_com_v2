@@ -166,32 +166,11 @@ testimonials:
     - name: Jeff Zucker, CEO ADVault, Inc. - MyDirectives.com
       content: We have worked with the Alas team for over ten years. They have always exceeded our high expectations. The team is focused, smart, organized and consistently delivers results. We highly recommend them if you’re looking for a best&#8209;in&#8209;class QA partner.
 
-    - name: Jamil Greor, HyperMedia
-      content: These guys always do a great job for us, can highly recommend for any testing work. Will definitely continue to use their services in the future.
-
     - name: Charles Swartz, SimplyMap
       content: Alas did a great job on this initial testing project. So well that we decided to continue to work with them on a separate hourly project. We are very happy with their work, skills, and communication. They are testing experts. We hope to have a long term relationship with Alas.
 
-    - name: Mike Lenyon
-      content: Fabulous testing as always! Professional, excellent communication, needs very little instruction because he knows his craft and pursues it diligently.
-
-    - name: Ben Hoffsteter
-      content: Alas are a slick professional team that delivered an excellent job with pinpoint accuracy. If you want an elite team, pick Alas!
-
-    - name: Lauren Coleman
-      content: Excellent work, went above and beyond. Very detail oriented. Gave suggestions to improve the application, I will implement most of them. Very smart test plan and execution was perfect. Thank you.
-
-    - name: Deven Kalra
-      content: Alas did a great job. They were willing to learn new tools to get the job done. He did a thorough job, provided continuous feedback, asked questions to clarify any doubts and produced good code. I would certainly hire him again.
-
     - name: David Hirschfeld, Tekyz
       content: Very professional. Produced excellent and complete test plans and completed the testing with a solid understanding of the requirements with a minimal amount of support from me.
-
-    - name: Nick Baugartner
-      content: Lightning fast work, and went beyond the scope of the project to please me. Excellent coder, highly recommended.
-
-    - name: Wesley Padgett, Magnetiks
-      content: Great Communication and went the extra mile. Great attitude and we will use them again for more projects.
 
 casestudies:
   title: 'Check out some of the clients’ success stories'

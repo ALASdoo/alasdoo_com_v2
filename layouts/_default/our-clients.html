@@ -100,37 +100,28 @@
 <section class="section bg-light-gray">
   <div class="container">
     {{ partial "content-block" .}}
-    <div class="row pt-5"
-      data-aos="fade-up"
-      data-aos-offset="180"
-      data-aos-duration="600"
-      data-aos-easing="ease-in-out-sine">
-      <div class="swiper testimonial-carousel">
-        <div class="swiper-wrapper">
-          {{range .testimonials_item}}
-          <div class="swiper-slide">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="card bg-white rounded-2 border-0">
-                  <div class="card-body p-5">
-                    <div class="quotation-marks text-center pb-3">
-                      {{ partial "image" (dict "Src" "/images/quotation-marks.png" "Alt" "Quote") }}
-                    </div>
-                    <p class="mb-3">{{.content | markdownify}}</p>
-                    <p class="h6 text-center">{{.name | markdownify}}</p>
-                  </div>
-                </div>
+    <div class="row justify-content-center mt-4">
+      {{range .testimonials_item}}
+        <div class="col-12 col-lg-4 mb-4">
+          <div class="card bg-white rounded-2 border-0">
+            <div class="card-body p-5">
+              <div class="quotation-marks text-center pb-3">
+                {{ partial "image" (dict 
+                  "Src" "/images/quotation-marks.png" 
+                  "Alt" "Quote"
+                ) }}
               </div>
+              <p class="mb-3">{{.content | markdownify}}</p>
+              <p class="h6 text-center">{{.name | markdownify}}</p>
             </div>
           </div>
-          {{end}}
         </div>
-        <div class="swiper-pagination"></div>
-      </div>
+      {{end}}
     </div>
   </div>
+  {{end}}
+
 </section>
-{{end}}
 
 {{ with .casestudies }}
 <section class="section bg-light-blue" id="case-studies">
