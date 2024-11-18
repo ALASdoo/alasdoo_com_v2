@@ -313,7 +313,6 @@ video {
     border: 0;
     border-radius: 0;
     color: $text-dark;
-    text-transform: uppercase;
     margin-bottom: -1px;
     &.active {
       border-bottom: 5px solid $color-primary !important;
@@ -412,6 +411,7 @@ video {
     font-weight: 400;
     font-family: $font-primary;
   }
+
   h1 {
     font-size: 38px;
     font-weight: 500;

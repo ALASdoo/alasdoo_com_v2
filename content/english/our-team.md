@@ -111,7 +111,7 @@ team_members:
   link: ''
 
 - name: Nemanja Božin
-  image: images/team/placeholder.svg
+  image: images/team/nemanja-bozin.jpg
   categories: ['Automated QA', 'Accessibility Champion']
   designation: QA Accessibility Champion
   content: Voluptate dolore mollit urna nostrud nulla. Commodo irure
