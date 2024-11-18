@@ -5,7 +5,7 @@ title: 'The all-in-one cannabis dispensary and end users solution'
 subtitle: 'Thorough testing of web, IoT, and database solutions to ensure functionality, usability, performance and compliance'
 image: 'images/case-studies/LLX.jpg'
 alt: 'A customer paying at a smart register in a shop.'
-industry: 'CANNABIS'
+industry: 'Cannabis'
 keywords:
   [
     'Cannabis',
@@ -20,6 +20,16 @@ keywords:
     'Database testing',
   ]
 ---
+
+In this case study you can read about:
+
+- [About the client](#about-the-client)
+- [Client’s challenges](#clients-challenges)
+- [Our approach](#our-approach)
+  - [Web application testing](#web-application-testing)
+  - [Hardware (IoT) testing](#hardware-iot-testing)
+  - [Database testing](#database-testing)
+- [Value delivered](#value-delivered)
 
 ## About the client
 
