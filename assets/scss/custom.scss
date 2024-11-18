@@ -103,14 +103,14 @@ video {
 .hero-text {
   position: relative;
   z-index: 100;
-  font-size: 2rem;
+  font-size: 20px;
 
   @include desktop {
-    font-size: 1.5rem;
+    // font-size: 1.5rem;
   }
 
   @include tablet {
-    font-size: 1.4rem;
+    // font-size: 1.4rem;
   }
 }
 
@@ -206,6 +206,13 @@ video {
 
 
 /* Accordion */
+.accordion-button {
+  font-size: 20px;
+  @media (min-width: 768px) {
+    font-size: inherit;
+  }
+}
+
 .accordion-button:focus {
   outline: 3px solid $color-primary-darker;
   outline-offset: 2px;
@@ -419,7 +426,9 @@ video {
   h4 {
     @include font-size(28px);
   }
+  
 }
+
 .job-content {
   h2 {
     @include font-size(30px);
