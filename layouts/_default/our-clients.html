@@ -22,7 +22,20 @@
         </div>
       </div>
       <div class="col-lg-8">
-        {{ partial "video" .cta.anim }}
+        {{ partial "image" (dict 
+          "Src" "images/clients-a11y.png" 
+          "Alt" "A world map showing locations of our clients." 
+          "longdesc" "#clients-longdes"
+          "Class" "mb-3"
+        )}}
+     
+        <div class="text-center" id="clients-longdes">
+          {{ partial "button" (dict 
+            "enable" "true"
+            "link" "/clients-locations/"
+            "label" "List of locations of our clients"
+          ) }}
+        </div>
       </div>
     </div>
   </div>

@@ -46,10 +46,10 @@
       </div>
     </div>
     <div class="border-top border-default text-center py-2 mt-4 footer-copyright row">
-      <small class="copyright-label col-sm-auto col-12 order-sm-0 order-1">{{site.Params.copyright | markdownify}}</small>
+      <small class="copyright-label col-sm-auto col-12 order-md-0 order-1">{{site.Params.copyright | markdownify}}</small>
 
       {{ if site.Menus.copyright_menu }}
-      <ul class="list-unstyled copyright-menu mb-0 col-sm-auto col-12 order-sm-1 order-0">
+      <ul class="list-unstyled copyright-menu mb-0 col-sm-auto col-12 order-md-1 order-0">
         {{ range site.Menus.copyright_menu }}
         <li class="mb-0"><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
         {{ end }}

@@ -32,6 +32,9 @@ How we choose our experts and who they are.
 
 Industries we have worked with, and some of our clients.
 
+- [Alas clients' locations](/clients-locations)
+
+
 ## [Case studies](/case-studies)
 
 The challenges our clients faced and how we helped them overcome them.
