@@ -104,8 +104,6 @@ However, there are also potential drawbacks to outsourcing QA. One of the main d
 
 An effective QA process runs along all stages of the software development lifecycle, from requirements gathering to maintenance. These processes and procedures can include the 4 general steps:
 
-{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/process.png" alt="Progress diagram for steps to develop QA processes and procedures: 1. requirements and QA analyses; 2. QA process (re)design; software testing; monitoring and improvement." >}}
-
 #### 2.1. Analysis of software requirements and existing QA process
 
 The first step in developing a QA process is to analyze the software requirements and any existing QA processes that are currently in place. This includes reviewing the functional and non&#8209;functional requirements, as well as any industry standards or regulations that must be met. The analysis will also consider the existing QA processes and identify any gaps or areas for improvement.
