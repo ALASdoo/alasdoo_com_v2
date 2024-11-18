@@ -21,7 +21,7 @@ For us, accessibility is an ongoing process of continuous improvement, including
 
 The Web Content Accessibility Guidelines (WCAG) define requirements for designers and developers to improve accessibility for people with disabilities. The ALAS doo website is fully conformant with the latest version, which is WCAG 2.2, at AA level.
 
-## Additional accessibility considerations
+### Additional accessibility considerations
 
 While our goal is WCAG 2.2 level AA conformance, we have also applied some level AAA Success Criteria:
 
@@ -35,7 +35,7 @@ While our goal is WCAG 2.2 level AA conformance, we have also applied some level
 - Components that receive keyboard focus are fully visible.
 - Visibility of the focus indicator is enhanced.
 
-## Ongoing efforts
+### Ongoing efforts
 
 We are constantly improving user experience and accessibility of our website, going beyond legal requirements. Current enhancements in progress include:
 
