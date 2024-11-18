@@ -23,8 +23,6 @@ At ALAS doo, we understand the importance of technology in today's fast&#8209;pa
 
 One of the main goals of outsourcing IT services is obviously to boost efficiency and reduce costs, but there are other underlying benefits to take into account.
 
-{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/why-outsource-inphographic.jpg" alt="colorful circle diagram of it outsourcing benefits: focus on key competences; cost efficiency; the best talent; global access; latest trends, methods and tools; improved efficiency; flexibility; preventing burnout" >}}
-
 ## 1. Enabling focus on key competences
 
 Every company has its main strengths, the fields it specializes in, and is equipped with all the necessary experience, resources, and organization to support them. It is a good practice to focus on them and assign secondary functions to a specialized third party.
@@ -44,8 +42,6 @@ By outsourcing IT services, companies can allocate their resources towards more 
 ## 3. Finding the best talent to fill job positions
 
 Finding contractors is the best way to deal with the skills gap. The latest trends in the hiring field show that filling the position with the right candidate is increasingly getting harder. The mismatch between the skills that employers seek in their employees and the skills that job applicants possess makes it difficult for employers to find appropriately trained workers.
-
-{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/talent-shortage.png" alt="" >}}
 
 According to the comprehensive [ManpowerGroup Talent Shortage survey](https://go.manpowergroup.com/talent-shortage), 77% of companies have reported quality workforce shortages and difficulty hiring. As their infographic shows, it is a 16&#8209;year high. It is obvious that it is getting harder and harder to hire skilled IT specialists, especially for an affordable price. Outsourcing IT services allows companies to access a pool of specialized experts in various fields of technology, which is their primary field of expertise.
 

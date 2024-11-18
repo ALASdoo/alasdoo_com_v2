@@ -1,7 +1,7 @@
 ---
 ####################### Banner #########################
 banner:
-  title: 'Tailored software development and quality assurance outsourcing'
+  title: 'Digital excellence in development, testing and accessibility'
   image: 'images/hero-home.png'
   alt: "An outsourcing company building side view with people working on laptops and computers, having meetings, workshops, brainstorming, playing table tennis, doing yoga, having lunch in the garden."
   content: ''

@@ -10,7 +10,7 @@ layout: 'services'
 banner:
   title: 'Services'
   image: 'images/what-we-do.svg'
-  alt: "A rocket lounching from a computer monitor, with a clock and a calendar on the wall."
+  alt: ""
   content: 'We save our clients’ time and money by providing experienced and devoted
     experts, as well as in&#8209;depth analyses
     and consulting on improving software
@@ -96,73 +96,73 @@ technologies:
   technology_list:
     - title: 'Java'
       image: 'images/technologies/java.svg'
-      alt: 'Java logo'
+      alt: ''
     - title: 'JavaScript'
       image: 'images/technologies/javascript.svg'
-      alt: 'JavaScript logo'
+      alt: ''
     - title: 'C#'
       image: 'images/technologies/c-sharp.svg'
-      alt: "C-Sharp logo"
+      alt: ""
     - title: 'Python'
       image: 'images/technologies/python.svg'
-      alt: "Python logo"
+      alt: ""
     - title: 'HTML'
       image: 'images/technologies/html.svg'
-      alt: "HTML logo"
+      alt: ""
     - title: 'CSS'
       image: 'images/technologies/css3.svg'
-      alt: "CSS logo"
+      alt: ""
     - title: 'SASS'
       image: 'images/technologies/sass.svg'
-      alt: "SASS logo"
+      alt: ""
     - title: '.NET'
       image: 'images/technologies/dotnet.svg'
-      alt: ".NET logo"
+      alt: ""
     - title: 'React'
       image: 'images/technologies/react.svg'
-      alt: "React logo"
+      alt: ""
     - title: 'Angular'
       image: 'images/technologies/angular.svg'
-      alt: "Angular logo"
+      alt: ""
     - title: 'jQuery'
       image: 'images/technologies/jquery.svg'
-      alt: "jQuery logo"
+      alt: ""
     - title: 'AWS'
       image: 'images/technologies/aws.svg'
-      alt: "AWS logo"
+      alt: ""
     - title: 'Docker'
       image: 'images/technologies/docker.svg'
-      alt: "Docker logo"
+      alt: ""
     - title: 'Jenkins'
       image: 'images/technologies/jenkins.svg'
-      alt: "Jenkins logo"
+      alt: ""
     - title: 'SQL'
       image: 'images/technologies/sql.svg'
-      alt: "SQL logo"
+      alt: ""
     - title: 'Selenium'
       image: 'images/technologies/selenium.svg'
-      alt: "Selenium logo"
+      alt: ""
     - title: 'Cypress'
       image: 'images/technologies/cypress.svg'
-      alt: "Cypress logo"
+      alt: ""
     - title: 'Appium'
       image: 'images/technologies/appium.svg'
-      alt: "Appium logo"
+      alt: ""
     - title: 'Django'
       image: 'images/technologies/django.svg'
-      alt: "Django logo"
+      alt: ""
     - title: 'Plone'
       image: 'images/technologies/plone.svg'
-      alt: "Plone logo"
+      alt: ""
     - title: 'AI'
       image: 'images/technologies/ai.svg'
-      alt: "AI icon"
+      alt: ""
     - title: 'Blockchain'
       image: 'images/technologies/blockchain.svg'
-      alt: "Blokchain icon"
+      alt: ""
     - title: 'Web3'
       image: 'images/technologies/web3.svg'
-      alt: "Web3 icon"
+      alt: ""
 
 ######################### approach #####################
 approach:
