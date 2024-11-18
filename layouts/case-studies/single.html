@@ -6,7 +6,7 @@
       <div class="case-study col-lg-8 col-md-10">
         {{ partial "image" (dict "Src" .Params.image "Alt" "" "Class" "rounded-2 mb-4") }}
 
-        <h1 class="h1 text-primary mb-2">{{.Title | markdownify}}</h1>
+        <h1 class="mb-3">{{.Title | markdownify}}</h1>
         <p>Industry: {{.Params.industry | markdownify}}</p>
         <div class="content pt-3">
           {{.Content}}
@@ -22,7 +22,7 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-xl-10 text-center">
-        <h2 class="h3">Related case studies</h2>
+        <h2 class="">Related case studies</h2>
       </div>
     </div>
     <ul class="row justify-content-center">

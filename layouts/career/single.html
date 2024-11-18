@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 mx-auto">
-          <h1 class="h2 mb-3">{{ .Title | markdownify }}</h1>
+          <h1 class="mb-3">{{ .Title | markdownify }}</h1>
           {{ with .Params.description }}
           <p class="mb-0">{{ . | markdownify }}</p>
           {{ end }}
