@@ -53,7 +53,7 @@ You will receive a response within 5 business days.
 
 ## Compatibility with browsers and assistive technology
 
-The ALAS doo website is designed to be compatible with assistive technologies and the last two versions of major browsers including Chrome, FireFox, and Safari.
+The ALAS doo website is designed to be compatible with assistive technologies and the last two versions of major browsers including Chrome, Firefox, and Safari.
 
 It has been tested with NVDA, Narrator, and VoiceOver screen readers.
 
