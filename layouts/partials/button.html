@@ -11,7 +11,7 @@
     {{ if eq .type "link" }}btn-link{{ end }}
     {{ if eq .type "link-stretched" }}btn-link stretched-link{{ end }}'>
   {{ .label }}
-  {{ if eq .type "link" }}<i class="fas fa-arrow-right"></i>{{ end }}
+  {{ if eq .type "link" }}<i class="fas fa-arrow-right" aria-hidden="true"></i>{{ end }}
   {{ if eq .type "link-stretched" }}<i class="fas fa-arrow-right"></i>{{ end }}
 </a>
 {{ end }}

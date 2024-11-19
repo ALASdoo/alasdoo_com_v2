@@ -8,9 +8,9 @@
             {{ partial "logo.html" . }}
           </a>
           {{ with site.Params.social }}
-          <ul class="list-inline social-icons">
+          <ul class="list-inline social-icons" aria-label="Social Links">
             {{ range . }}
-            <li class="list-inline-item mb-0"><a href="{{ .link | safeURL }}" target="_blank" title="{{ .title }}"><i class="{{ .icon }}"></i></a></li>
+            <li class="list-inline-item mb-0"><a href="{{ .link | safeURL }}" target="_blank" title="{{ .title }}" aria-label="{{ .title }}"><i class="{{ .icon }}" aria-hidden="true"></i></a></li>
             {{ end }}
           </ul>
           {{ end }}
