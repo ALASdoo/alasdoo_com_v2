@@ -40,7 +40,7 @@ The challenges in the healthcare field are increasing every year, the patients�
 
 For healthcare, the importance of the user experience cannot be overemphasized. The application has to be easy to use and accessible for people with all kinds of disabilities.
 
-Mainly, patients’ privacy and data security are priorities that have to be guaranteed on day&#8209;to&#8209;day bases.
+Mainly, patients’ privacy and data security are priorities that have to be guaranteed on a day&#8209;to&#8209;day bases.
 
 On the other hand, it is crucial to enable hospital staff to access critical information quickly and safely, ensuring that patients receive the best possible care.
 
