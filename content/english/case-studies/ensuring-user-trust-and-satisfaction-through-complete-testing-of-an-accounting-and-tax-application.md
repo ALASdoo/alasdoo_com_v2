@@ -51,7 +51,7 @@ When speaking of finances, security is one of the top&#8209;level priorities. It
 
 During the initial planning phase of the project, our team was hired in order to ensure a seamless and efficient development process. By being involved from the very beginning, we were able to address any potential issues or suggest improvements for the initial plans.
 
-Our collaboration with the design team allowed us to gain a deeper understanding of the user interface and experience. On the other hand, by working closely with the development team, we were able to create a comprehensive schedule that incorporated a sprint&#8209;based workflow, ensuring that each feature was thoroughly tested before moving onto the next phase.
+Our collaboration with the design team allowed us to gain a deeper understanding of the user interface and experience. On the other hand, by working closely with the development team, we were able to create a comprehensive schedule that incorporated a sprint&#8209;based workflow, ensuring that each feature was thoroughly tested before moving on to the next phase.
 
 During our user interface testing, our focus is on ensuring that the application is easy to navigate and understand, with clear and concise instructions, validation messages, and warning models that are easily understandable even by non&#8209;tech&#8209;savvy clients.
 
