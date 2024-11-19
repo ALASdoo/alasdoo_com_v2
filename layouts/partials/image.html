@@ -32,7 +32,7 @@
 
 <!-- image static/CDN -->
 {{ if or (hasPrefix $imagePath "http") (fileExists (add `static/` (string $imagePath))) }}
-<img loading="lazy" decoding="async" src="{{ $imagePath | absURL }}" alt="{{.Alt}}" class="{{$class}} img-fluid" height="{{$height}}" width="{{$width}}" longdesc="{{ .longdesc }}"
+<img loading="lazy" decoding="async" src="{{ $imagePath | absURL }}" alt="{{.Alt}}" class="{{$class}} img-fluid" height="{{$height}}" width="{{$width}}" 
 >
 {{ else }}
 <!-- /image cdn -->
@@ -159,7 +159,7 @@
   <source {{ if $placeholder }}src="data:image/jpeg;base64,{{ $placeholderImage.Content | base64Encode }}" data-srcset={{$imageFallback.RelPermalink}} {{else}} srcset="{{ $imageMD.RelPermalink }}" {{end}} media="(max-width: 767px)">
   <source {{ if $placeholder }}src="data:image/jpeg;base64,{{ $placeholderImage.Content | base64Encode }}" data-srcset={{$imageFallback.RelPermalink}} {{else}} srcset="{{ $imageLG.RelPermalink }}" {{end}} media="(max-width: 991px)">
   <source {{ if $placeholder }}src="data:image/jpeg;base64,{{ $placeholderImage.Content | base64Encode }}" data-srcset={{$imageFallback.RelPermalink}} {{else}} srcset="{{ $imageXL.RelPermalink }}" {{end}}>
-  <img {{ if $placeholder }}src="data:image/jpeg;base64,{{ $placeholderImage.Content | base64Encode }}" data-src={{$imageFallback.RelPermalink}} {{else}} loading="lazy" decoding="async" src="{{$imageFallback.RelPermalink}}"{{ end }}class="{{if $placeholder}}lazy{{end}} {{$class}} img-fluid" alt="{{.Alt}}" width="{{$image.Width}}" height="{{$image.Height}}" longdesc="{{ .longdesc }}">
+  <img {{ if $placeholder }}src="data:image/jpeg;base64,{{ $placeholderImage.Content | base64Encode }}" data-src={{$imageFallback.RelPermalink}} {{else}} loading="lazy" decoding="async" src="{{$imageFallback.RelPermalink}}"{{ end }}class="{{if $placeholder}}lazy{{end}} {{$class}} img-fluid" alt="{{.Alt}}" width="{{$image.Width}}" height="{{$image.Height}}">
 </picture>
 {{ end }} <!-- end image processing -->
 {{ end }} <!-- end single image -->
