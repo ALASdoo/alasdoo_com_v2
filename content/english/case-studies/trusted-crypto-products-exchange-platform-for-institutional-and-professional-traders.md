@@ -40,7 +40,7 @@ The platform prioritizes providing a smooth trading experience for its customers
 
 Our client faced the critical challenge of balancing the security of their platform with a seamless trading experience.
 
-As a exchange platform, the client had to make sure that their system's features and functionality were working correctly to provide their customers with fast and reliable access to the markets. At the same time, they had to prioritize the security of their customers' funds and personal information.
+As an exchange platform, the client had to make sure that their system's features and functionality were working correctly to provide their customers with fast and reliable access to the markets. At the same time, they had to prioritize the security of their customers' funds and personal information.
 
 Cryptocurrencies face limitations in certain countries due to concerns about regulation, with some countries banning their use over fear of illegal activities. The client enlisted our services primarily to verify the authorization of individuals from specific country before allowing them to engage in trading.
 
