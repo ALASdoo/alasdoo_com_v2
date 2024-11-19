@@ -29,7 +29,7 @@ Driven by these, we are looking for You - a reliable and talented Automated QA E
 - Assist with investigating potential bugs, issues, etc.
 - Define required testing scope and test scenarios, and review with developers and product management
 - Contribute to automation test suites to support new functionality as well as regression coverage
-- Support and contribute to QA team by sharing best practices, learnings, and providing peer QA code reviews
+- Support and contribute to the QA team by sharing best practices, learnings, and providing peer QA code reviews
 - Work in an Agile development environment
 
 ---
