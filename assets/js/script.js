@@ -190,55 +190,58 @@
         }
     })
 
+    // adds anchor for Scroll-to-content link
+    document.querySelector("main").id = 'main'; 
+
     formHandler();
     navigationHandler();
   })
 
-  // adds anchor for Scroll-to-content link
-  document.querySelector("main").id = 'main'; 
-     
+
   // Navigation handler
   navigationHandler = () => {
     const navigationEl = document.querySelector('.js-navigation');
     const navBarEl = navigationEl.querySelector('.js-navbar');
+    const mainEl = document.querySelector('#main');
 
     navigationEl.style.minHeight = navBarEl.offsetHeight + 'px';
+    // prevents navBar from overlapping the content
+    mainEl.style.paddingTop = navBarEl.offsetHeight + 'px';
+    mainEl.style.marginTop = '-' + navBarEl.offsetHeight + 'px';  
   }
 
   /*==============================
     Contact Form
   *==============================*/
- function formHandler() {
-   const formValidation = (form) => {
-    form.addEventListener("submit",   (event) => {
-      if (form.checkValidity() === false) {
-      event.preventDefault();
-      event.stopPropagation();
-    }
+  function formHandler() {
+    const formValidation = (form) => {
+      form.addEventListener(
+        "submit",
+        (event) => {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
 
-    form.classList.add("was-validated");
-    const inputs = form.querySelectorAll('.form-control')
-    inputs.forEach((input) => {
- 
-      // aria-invalid
-      if (input.checkValidity() === false) {
-        input.ariaInvalid = true
-      } else {
-        input.removeAttribute('aria-invalid');
-      }
-    })
-       
-     }, false);
-   };
+          form.classList.add("was-validated");
+          const inputs = form.querySelectorAll(".form-control");
+          inputs.forEach((input) => {
+            // aria-invalid
+            if (input.checkValidity() === false) {
+              input.ariaInvalid = true;
+            } else {
+              input.removeAttribute("aria-invalid");
+            }
+          });
+        },
+        false
+      );
+    };
 
-
-  const forms = document.querySelectorAll("form");
-  forms.forEach((form) => {
-    formValidation(form);
-  });
-}
-  
-
- 
+    const forms = document.querySelectorAll("form");
+    forms.forEach((form) => {
+      formValidation(form);
+    });
+  }
 
 })();
