@@ -74,15 +74,33 @@ $type-levels: 6, 5, 4, 3, 2, 1;
   }
 
   h1, .h1 {
-    font-size: 46px;
+    font-size: 26px;
+    @media screen and (min-width: 768px) {
+      font-size: 30px;      
+    }
+    @media screen and (min-width: 992px) {
+      font-size: 46px;
+    }
   }
 
   h2, .h2 {
-    font-size: 36px;
+    font-size: 24px;
+    @media screen and (min-width: 768px) {
+      font-size: 28px;      
+    }
+    @media screen and (min-width: 992px) {
+      font-size: 36px;
+    }
   }
   
   h3, .h3 { 
-    font-size: 24px;
+    font-size: 22px;
+    @media screen and (min-width: 768px) {
+      font-size: 24px;      
+    }
+    @media screen and (min-width: 992px) {
+      font-size: 24px;
+    }
   }
 
   h4, .h4 {
