@@ -32,7 +32,7 @@ contacts:
       name: 'Tibor Dudjik'
       image: 'images/contact/Tibor.png'
       alt: ''
-      content: 'As our main advisor and a co&#8209;founder, Tibor plays a crucial role in our decision&#8209;making processes, shaping the culture of the company, managing hiring procedures, supervising projects and client relationships, and ensuring that the business operations are efficient and compliant with all applicable regulations and laws.'
+      content: 'As our main advisor and co&#8209;founder, Tibor plays a crucial role in our decision&#8209;making processes, shaping the culture of the company, managing hiring procedures, supervising projects and client relationships, and ensuring that the business operations are efficient and compliant with all applicable regulations and laws.'
       form_title: 'Interested in hearing more about our company’s best practices?'
       form_content: 'If you are interested in forming a partnership or other type of business collaboration, send me an inquiry, and I will respond to you within a couple of working days.'
 ---
