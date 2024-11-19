@@ -14,7 +14,7 @@ Overview of our services, experience, and career possibilities.
 List of technologies we use and detailed descriptions of our services:
 
 - Augmenting development teams with experienced experts
-- Full software quality assurance—manual and automated testing
+- Full software quality assurance — manual and automated testing
 - Web accessibility assessment, remediation, and training
 - Consulting and project management
 
