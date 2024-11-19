@@ -52,7 +52,7 @@ In the research phase, detailed interviews were conducted between our HR personn
 
 ### 4. Competitor research
 
-To position our brand in the market, we did a thorough analysis of our direct and non&#8209;direct competitors, creating the differentiator that would define us in all relevant aspects: visual design, tone and voice, our values and the way we communicate them, as well as our hiring processes and other company practices. Apart from the companies’ websites, we had gathered public opinion through reviews on the company’s culture and hiring process. We obtained valuable information on certain advantages and mistakes. Learning from examples definitely helped us decide which changes we should apply going forward in our own brand building.
+To position our brand in the market, we did a thorough analysis of our direct and non&#8209;direct competitors, creating the differentiator that would define us in all relevant aspects: visual design, tone and voice, our values and the way we communicate them, as well as our hiring processes and other company practices. Apart from the companies’ websites, we gathered public opinion through reviews on the company’s culture and hiring process. We obtained valuable information on certain advantages and mistakes. Learning from examples definitely helped us decide which changes we should apply going forward in our own brand building.
 
 ### 5. Organizing data
 
