@@ -27,7 +27,7 @@ Driven by these, we are looking for you &mdash; a reliable and talented JavaScri
 
 ## What qualifies you?
 
-- At least a few years of relevant industry experience or minimum of BSC from a computer science university
+- At least a few years of relevant industry experience or a minimum of BSC from a computer science university
 - A good programming&#8209;related degree or other technical background
 - Good modern JavaScript programming skills, solid understanding of HTML5, CSS, and Web standards
 - Enthusiasm for keeping up with industry tools and best practices
