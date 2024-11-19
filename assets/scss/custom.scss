@@ -2,6 +2,13 @@ $alas-color-yellow: #FFB81F;
 $alas-color-orange: #FF8602;
 $alas-color-blue: #00A0A3;
 
+// @media (prefers-reduced-motion: no-preference) {
+//   [data-aos] {
+//     opacity: 1 !important;
+//     transform: translate(0) scale(1) !important;
+//   }
+// }
+ 
 video {
   max-inline-size: inherit;
   max-inline-size: -moz-available;
@@ -104,14 +111,6 @@ video {
   position: relative;
   z-index: 100;
   font-size: 20px;
-
-  @include desktop {
-    // font-size: 1.5rem;
-  }
-
-  @include tablet {
-    // font-size: 1.4rem;
-  }
 }
 
 .z-100 {
@@ -404,7 +403,11 @@ video {
 
 .article,
 .case-study,
-.job-content {
+.job-content,
+.form-success,
+.cookies-page,
+.single-page,
+.regular-page {
   h1,
   h2,
   h3 {
