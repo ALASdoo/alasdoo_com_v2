@@ -33,7 +33,7 @@ history:
   - title : "The company today"
     image: "images/nowdays.jpg"
     alt: "Co-founders Vilmos Somogyi and Tibor Dudjik standing in front of the new ALAS logo and company values mural on the wall."
-    content : "Nowadays, ALAS is located in Novi Sad, Serbia, with more than 30 experts on [our team](/our-team). Although the company has significantly grown, it has still kept its non&#8209;corporate, people&#8209;focused approach, home&#8209;like atmosphere, and family values at its core. [Our clients](/our-clients) from all over the world appreciate our enthusiasm for innovation and dedication to quality. With our knowledge and experience, we successfully handle even the most demanding projects in the financial, accounting, and healthcare sectors - fields with zero tolerance for errors."
+    content : "Nowadays, ALAS is located in Novi Sad, Serbia, with more than 30 experts on [our team](/our-team). Although the company has grown significantly, it still keeps its non‑corporate, people‑focused approach, home‑like atmosphere, and family values at its core. [Our clients](/our-clients) from all over the world appreciate our enthusiasm for innovation and dedication to quality. With our knowledge and experience, we successfully handle even the most demanding projects in the financial, accounting, and healthcare sectors - fields with zero tolerance for errors."
 
 ######################### mission #####################
 mission:
