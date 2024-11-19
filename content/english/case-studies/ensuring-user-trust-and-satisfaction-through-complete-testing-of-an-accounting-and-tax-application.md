@@ -61,7 +61,7 @@ We covered cross&#8209;browser and cross&#8209;platform testing, including mobil
 
 Good quality testing requires thorough verification of any cash flow into and out of the account. This implies sending all kinds of transactions via a simulator and verification on the app. When testing external connections, we pay close attention to ensure that those transactions are taken into account for tax estimation or Value Added Tax. Transaction testing, besides calculations, involves checking their categorization, merchant logos, and attachments.
 
-Invoicing is checked in the application, backend, and e&#8209;mail. Client’s details, due dates, VAT, PayPal integration, the preview of PDF file, etc., are double&#8209;checked in multiple scenarios to assure they are carried over to the client’s e&#8209;mail correctly. After confirmatory and investigative testing gave adequate results, a complete regression test run is done to maintain the quality of the application across release cycles.
+Invoicing is checked in the application, backend, and e&#8209;mail. Client’s details, due dates, VAT, PayPal integration, the preview of PDF file, etc., are double&#8209;checked in multiple scenarios to make sure they are carried over to the client’s e&#8209;mail correctly. After confirmatory and investigative testing gives adequate results, a complete regression test run is done to maintain the quality of the application across release cycles.
 We create test cases and automate them using Java, JUnit, and Appium for the mobile application to increase the regression testing’s runtime and efficiency.
 
 ### Stress testing
