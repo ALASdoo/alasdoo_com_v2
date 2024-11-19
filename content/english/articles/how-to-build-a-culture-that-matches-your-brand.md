@@ -20,7 +20,7 @@ keywords:
 
 ## What's the deal with company culture?
 
-Company culture is all about the way a company treats its employees and the overall atmosphere and values of the company. It includes how employees interact with each other, the explicit and implicit rules they follow, and how the company supports both their professional and personal growth. A strong company culture should reflect the core values of the organization and attract people who don’t necessarily have the same beliefs and backgrounds, but share common goals and ethical principles.
+Company culture is all about the way a company treats its employees and the overall atmosphere and values of the company. It includes how employees interact with each other, the explicit and implicit rules they follow, and how the company supports both their professional and personal growth. A strong company culture should reflect the core values of the organization and attract people who don’t necessarily have the same beliefs and backgrounds but share common goals and ethical principles.
 
 ## How has our company culture evolved?
 
@@ -34,7 +34,7 @@ Our mission was to break free from the constraints of a stifling, conventional c
 
 The next step in our evolution was the redesign of the physical workspace - creating a physical workspace that is not only inviting and comfortable but also allows for a relaxed dress code where employees can wear whatever makes them feel comfortable, even if that means trading in their dress shoes for a cozy pair of slippers. Meeting rooms were transformed into playful spaces that promote relaxation, fun, and creative thinking. And for those needing a more focused environment, soundproof "cubes" equipped with the latest technology for meetings and work were created. We're shaking things up and making the office feel like a true home away from home.
 
-{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/meeting-space.jpg" alt="Pleasant meeting space with colorful wallpaper, beenbags and armchairs." >}}
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/meeting-space.jpg" alt="Pleasant meeting space with colorful wallpaper, beanbags and armchairs." >}}
 
 Why settle for less when it comes to our remote team? Remote workers are supported just as much as in&#8209;office employees with a comfortable workspace which is reserved for them when they come to visit and work from the office.
 
@@ -50,7 +50,7 @@ It wasn't always easy to put these values into practice, but we were committed t
 
 Recent changes have been met with great enthusiasm and truly reflect the core values and principles of the company. Constantly looking for new ways to improve, the company has been pushing the boundaries and taking bold steps to align the culture with the values. We are not satisfied with just being okay, we’re aiming for greatness. Therefore, we will keep pushing, challenging the status quo, and striving to build a culture that truly reflects who we are and what we believe in.
 
-Creating a culture that aligns with [our values](/our-story#values) and goals is a constant effort, one that requires constant vigilance to ensure that our company culture doesn't devolve into a cutthroat environment where only the ruthless thrive. This is why we make it a priority to regularly take a step back and assess the pulse of the culture. By transparently communicating our values, mission, and vision, we empower our team to not just survive, but to thrive in a culture that aligns with their own personal values and goals. Together, we're building a culture that's not just good for business, but good for the soul. And it's not just talk; every aspect of our business - from how we interact with one another and our clients to the layout of our meeting rooms and company’s website - reflects our values. Visitors are greeted with a visual representation of our values as soon as they step foot in the door, serving as a constant reminder of the principles that drive us to be better.
+Creating a culture that aligns with [our values](/our-story#values) and goals is a constant effort, one that requires constant vigilance to ensure that our company culture doesn't devolve into a cutthroat environment where only the ruthless thrive. This is why we make it a priority to regularly take a step back and assess the pulse of the culture. By transparently communicating our values, mission, and vision, we empower our team to not just survive but to thrive in a culture that aligns with their own personal values and goals. Together, we're building a culture that's not just good for business, but good for the soul. And it's not just talk; every aspect of our business - from how we interact with one another and our clients to the layout of our meeting rooms and the company’s website - reflects our values. Visitors are greeted with a visual representation of our values as soon as they step foot in the door, serving as a constant reminder of the principles that drive us to be better.
 
 ## Fostering the culture you desire
 
