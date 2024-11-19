@@ -20,7 +20,7 @@ keywords:
 
 Candidates are increasingly looking for more than just a paycheck when considering job opportunities. They want to work for companies that align with their values, beliefs, and career goals.
 
-On the other hand, companies are looking for more than just technical skills when hiring. They also consider the candidate's fit with the company's culture and values, candidate's attitude, work ethic, ability to colaborate with others, and potential for growth and development.
+On the other hand, companies are looking for more than just technical skills when hiring. They also consider the candidate's fit with the company's culture and values, candidate's attitude, work ethic, ability to collaborate with others, and potential for growth and development.
 
 When a candidate's values align with those of the company, they are more likely to feel a sense of purpose and fulfillment in their work. Additionally, they are more likely to stay with the organization for a longer period of time, which can provide more job stability and career growth opportunities. Working in an environment where personal values are aligned with the company's values can also lead to better work&#8209;life balance and better mental and emotional well&#8209;being.
 
