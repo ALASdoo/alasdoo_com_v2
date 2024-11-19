@@ -61,7 +61,7 @@ The question of cultural competence can be raised, of course. Many of the outsou
 
 Outsourcing IT services can also provide companies with access to the latest technologies and best practices, which can help them stay competitive in their industry.
 
-You can outsource your development work to very skilled developers who are industry experts in the latest frameworks, design patterns, and programming languages. Similarly, if you outsource your QA process, you are making sure it is following the latest QA trends and using the best-proven tools and methods in the industry. Learn [how to incorporate QA into software development process](<(/articles/how-to-incorporate-qa-into-software-development-process)>).
+You can outsource your development work to very skilled developers who are industry experts in the latest frameworks, design patterns, and programming languages. Similarly, if you outsource your QA process, you are making sure it is following the latest QA trends and using the best-proven tools and methods in the industry. Learn [how to incorporate QA into a software development process](<(/articles/how-to-incorporate-qa-into-a-software-development-process)>).
 
 With the increasing use of cloud&#8209;enabled “as&#8209;a&#8209;service” models and process automation, using the most efficient technologies on the market is crucial to improving cost and quality.
 
@@ -69,7 +69,7 @@ Yesterday, outsourcing was all about cutting costs and reducing back office serv
 
 With the fast pace of IT innovations, many companies need to upgrade outdated infrastructure and do it fast in order to sustain a competitive advantage. This also needs to be done to ensure compliance with new regulations, improve security, and enhance the user experience.
 
-We, in ALAS, always keep up to date with the newest technologies and best practices, use the best&#8209;proven tools and methods in the industry, and constantly improve our workflows.
+We, at ALAS, always keep up to date with the newest technologies and best practices, use the best&#8209;proven tools and methods in the industry, and constantly improve our workflows.
 
 ## 6. Improved efficiency
 
