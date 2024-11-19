@@ -60,7 +60,7 @@ Furthermore, the possibility of product failure will decrease, resulting in proj
 
 Incorporating QA into the software development process helps create a more reliable and trustworthy product. Users are more likely to trust a product that is bug&#8209;free, doesn’t crash, and is meticulous about privacy and data security.
 
-{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/customer-satisfaction.jpg" alt="Two smiling young women using an app on the laptop and drinking tea and coffee in a caffee shop." >}}
+{{< image option="webp q100" position="center" class="img-fluid rounded-2" src="images/articles/customer-satisfaction.jpg" alt="Two smiling young women using an app on the laptop and drinking tea and coffee in a coffee shop." >}}
 
 Customer satisfaction is the key. When the end user is satisfied, he is likely to share his feelings with others, thus bringing you more users.
 
