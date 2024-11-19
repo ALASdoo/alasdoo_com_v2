@@ -8,6 +8,7 @@ cookies:
   policy_item:
     - title: ''
       content: 'Last updated: November 13, 2024
+      
 
       At Alas doo, we are committed to protecting your privacy. The cookies we use do not store any personal information.'
 
