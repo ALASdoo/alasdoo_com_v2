@@ -33,7 +33,7 @@ In this case study you can read about:
 
 ## About the client
 
-Our client offers a cannabis Point of Sale system designed for dispensaries of any size, with software solutions for both front&#8209;of&#8209;house and back&#8209;of&#8209;house operations. Its modern interface is designed to help dispensaries all over USA work more efficiently and comply with regulations.
+Our client offers a cannabis Point of Sale system designed for dispensaries of any size, with software solutions for both front&#8209;of&#8209;house and back&#8209;of&#8209;house operations. Its modern interface is designed to help dispensaries all over the USA work more efficiently and comply with regulations.
 
 The system includes essential hardware, such as a customer&#8209;facing display, cash drawer, receipt printer, back office printer, and barcode scanner, to streamline the in&#8209;store experience.
 
@@ -71,7 +71,7 @@ In addition to testing the web application, our team also conducted testing of s
 
 To ensure the reliability and accuracy of the devices, our testing approach was based on rigorous functional testing. We focused on configuring the devices properly and testing their ability to process transactions accurately. Additionally, we paid close attention to the connection between the cash register and the application, making sure that they were properly integrated and communicated seamlessly. This testing included both end&#8209;to&#8209;end testing and testing of individual components of the device's software to ensure that they were functioning as intended.
 
-For IoT solutions such as card readers and receipt printers, we employed a similar approach, focusing on functionality, usability, and compatibility with the client's software. We made certain that the proper receipt was printed when a user completed a transaction. This involved validating that the receipt contained all necessary information, such as transaction details and itemized prices.
+For IoT solutions such as card readers and receipt printers, we employed a similar approach, focusing on functionality, bility, and compatibility with the client's software. We made certain that the proper receipt was printed when a user completed a transaction. This involved validating that the receipt contained all necessary information, such as transaction details and itemized prices.
 
 ### Database testing
 
