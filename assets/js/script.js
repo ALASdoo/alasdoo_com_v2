@@ -1,10 +1,15 @@
 // main script
 (function () {
-  "use strict";
+  ("use strict");
+
+  // Detect prefers-reduced-motion config from the user
+  const hasPrefersReducedMotion =
+    window.matchMedia(`(prefers-reduced-motion: reduce)`) === true ||
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   // aos
   AOS.init({
-    disable: 'mobile',
+    disable: "mobile",
   });
 
   // gallery slider
@@ -88,6 +93,7 @@
       elements.forEach(function (item, id) {
         if (true === item.counterAlreadyFired) return;
         if (!isElementVisible(item)) return;
+        if (hasPrefersReducedMotion) return;
         item.updateCounter();
         item.counterAlreadyFired = true;
       });
