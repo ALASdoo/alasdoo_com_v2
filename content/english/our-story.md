@@ -23,7 +23,7 @@ history:
   - title : "The beginning"
     image: "images/ALAS_start.jpg"
     alt: "An old photo of the team of developers who founded ALAS company."
-    content : "The story of ALAS begins in 1988 when computer science was just finding its footing in Serbia. Sandor Somogyi and Dragan Nedeljkovic, the advocates of the application of computer technology, have joined forces with some of the most important IT developers in Zrenjanin, and founded the company that has become the symbol of change, a synonym of modern times, and the correct way of incorporating and developing information technologies in large agricultural and manufacturing systems."
+    content : "The story of ALAS begins in 1988 when computer science was just finding its footing in Serbia. Sandor Somogyi and Dragan Nedeljkovic, the advocates of the application of computer technology, have joined forces with some of the most important IT developers in Zrenjanin and founded the company that has become the symbol of change, a synonym of modern times, and the correct way of incorporating and developing information technologies in large agricultural and manufacturing systems."
 
   - title : "Modern times"
     image: "images/modern-times.jpg"
@@ -55,7 +55,7 @@ values:
 
   - title: "Controlled growth"
     content: "Steady but slow and controlled growth is our chosen path.
-    Every change is met by an adequate organization and a period of adaptation, taking care that the quality of work is not affected."
+    Every change is met by an adequate organization and a period of adaptation, ensuring the quality of work is not affected."
     image: "images/values/controlled-growth.png"
     alt: "A man and a woman discussing a growth chart."
 
