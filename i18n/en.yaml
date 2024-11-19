@@ -65,7 +65,7 @@
   translation: 'Share this job:'
 
 - id: other_jobs
-  translation: Other job opening
+  translation: Other job openings
 
 - id: all_jobs
   translation: All Jobs
