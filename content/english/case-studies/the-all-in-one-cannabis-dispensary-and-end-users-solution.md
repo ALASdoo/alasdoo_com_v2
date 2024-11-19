@@ -53,7 +53,7 @@ The client utilized our services to ensure their business was compliant with var
 
 ### Web application testing
 
-We performed manual testing of the web application on desktop, utilizing various testing methods such as smoke testing, regression testing, and exploratory testing. This allowed us to thoroughly test the software's functionality and ensure that it was user&#8209;friendly and intuitive for our client's customers. To verify that the system was functioning smoothly, we had to perform smoke tests every day, as the client was working on daily releases.
+We performed manual testing of the web application on a desktop, utilizing various testing methods such as smoke testing, regression testing, and exploratory testing. This allowed us to thoroughly test the software's functionality and ensure that it was user&#8209;friendly and intuitive for our client's customers. To verify that the system was functioning smoothly, we had to perform smoke tests every day, as the client was working on daily releases.
 
 We conducted API testing, which included validating the API's functionality, performance, reliability, and security, to make sure it met the requirements outlined by the client.
 
