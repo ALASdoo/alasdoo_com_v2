@@ -268,7 +268,7 @@ team_members:
 
 join:
   title: "Want to become a part of our team?"
-  content: "We are always looking for candidates who share our [our values](/our-story#values) and goals. If you recognize yourself in them, we are a great match."
+  content: "We are always looking for candidates who share [our values](/our-story#values) and goals. If you recognize yourself in them, we are a great match."
   button:
     enable: true
     type: 'primary'
