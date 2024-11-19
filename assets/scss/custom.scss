@@ -2,12 +2,12 @@ $alas-color-yellow: #FFB81F;
 $alas-color-orange: #FF8602;
 $alas-color-blue: #00A0A3;
 
-// @media (prefers-reduced-motion: no-preference) {
-//   [data-aos] {
-//     opacity: 1 !important;
-//     transform: translate(0) scale(1) !important;
-//   }
-// }
+@media (prefers-reduced-motion: reduce) {
+  [data-aos] {
+    opacity: 1 !important;
+    transform: translate(0) scale(1) !important;
+  }
+}
  
 video {
   max-inline-size: inherit;
