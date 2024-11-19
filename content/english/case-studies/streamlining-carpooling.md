@@ -28,7 +28,7 @@ In this case study you can read about:
     - [Reminders](#reminders)
     - [School platform](#school-platform)
   - [The biggest challenge: Ensuring safety of the users](#the-biggest-challenge-ensuring-safety-of-the-users)
-    - [How do we assure that only trusted drivers can participate in the carpool?](#how-do-we-assure-that-only-trusted-drivers-can-participate-in-the-carpool)
+    - [How do we ensure that only trusted drivers can participate in the carpool?](#how-do-we-ensure-that-only-trusted-drivers-can-participate-in-the-carpool)
     - [How do we perform live tracking testing?](#how-do-we-perform-live-tracking-testing)
 - [Value delivered](#value-delivered)
 
@@ -72,9 +72,9 @@ Another important part of testing involves cross&#8209;browser testing of web pl
 
 ### The biggest challenge: Ensuring safety of the users
 
-#### How do we assure that only trusted drivers can participate in the carpool?
+#### How do we ensure that only trusted drivers can participate in the carpool?
 
-As a part of security testing, we test the invitations that parents send to other families to join, thus assuring that only trusted drivers can participate in the carpool. Only families with their kids in a carpool can be drivers; we test that the user cannot create a carpool if no kids are registered or drive if their kid is not in that carpool.
+As a part of security testing, we test the invitations that parents send to other families to join, thus making sure that only trusted drivers can participate in the carpool. Only families with their kids in a carpool can be drivers; we test that the user cannot create a carpool if no kids are registered or drive if their kid is not in that carpool.
 
 Kids must be able to log into the family account, so they can be certain who is picking them up on that day and get home safely.
 
