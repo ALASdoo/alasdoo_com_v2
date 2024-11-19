@@ -32,7 +32,7 @@ How we choose our experts and who they are.
 
 Industries we have worked with, and some of our clients.
 
-- [Alas clients' locations](/clients-locations)
+- [List of locations of our clients](/clients-locations)
 
 
 ## [Case studies](/case-studies)
