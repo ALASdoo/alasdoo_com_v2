@@ -70,7 +70,7 @@ We completed rigorous functional testing on the integrated "Know Your Customer" 
 
 Ensuring that the application was fully compatible with the regulations of all supported states was a top priority. To achieve this, we conducted extensive localization testing with additional verification methods for user identity.
 
-We performed system and acceptance testing to assure that the system was functioning as expected and met the client's requirements. The testing process involved multiple activities, including verifying the accuracy and completeness of customer information, validating identification documents, and performing several other checks to uphold the integrity of the KYC process.
+We performed system and acceptance testing to ensure that the system was functioning as expected and met the client's requirements. The testing process involved multiple activities, including verifying the accuracy and completeness of customer information, validating identification documents, and performing several other checks to uphold the integrity of the KYC process.
 
 ### Retesting and verifying defects, user stories, and features
 
