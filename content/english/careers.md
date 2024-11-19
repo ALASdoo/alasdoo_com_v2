@@ -26,7 +26,7 @@ culture:
 
 benefits:
   subtitle: "Benefits"
-  title: "Cherrished employee is the best employee"
+  title: "Cherished employee is the best employee"
   content: "We work in a homey atmosphere, without cubicles and open space areas, with enough comfortable room for peace and quiet, and a friendly and fun atmosphere to relax. We develop fantastic software solutions while also learning some fairly practical skills, consuming delicious coffee, and playing PS5, darts, table tennis, and board games.
 
 
