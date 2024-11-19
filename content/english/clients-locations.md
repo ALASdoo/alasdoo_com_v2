@@ -39,7 +39,7 @@ subtitle: ''
 
 * New Zealand  
 * Sidney, New South Wales  
-* Seyshelles  
+* Seychelles  
 * Singapore  
 * Israel
 
