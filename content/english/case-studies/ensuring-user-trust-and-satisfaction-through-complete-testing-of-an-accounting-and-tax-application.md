@@ -27,7 +27,7 @@ In this case study you can read about:
 - [About the client](#about-the-client)
 - [Client’s challenges](#clients-challenges)
 - [Our approach](#our-approach)
-  - [To retain users’ trust, calculation errors are unacceptable](#quality-assurance)
+  - [To retain users’ trust, calculation errors are unacceptable](#to-retain-users-trust-calculation-errors-are-unacceptable)
   - [Stress testing](#stress-testing)
   - [Security testing](#security-testing)
   - [Backend development](#backend-development)
