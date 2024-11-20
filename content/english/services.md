@@ -33,7 +33,8 @@ what_we_do:
       anim:
         avif: 'images/dev_anim.avif'
         mp4: 'images/dev_anim.mp4'
-      alt: "Developer working on laptop, with signs for CSS, HTML, JAVA and JS around him."
+        staticImg: 'images/development.svg'
+        alt: "Developer working on laptop, with signs for CSS, HTML, JAVA and JS around him."
       content: 'We can provide both staff augmentation and dedicated teams, depending on your needs.
 
 
@@ -55,7 +56,8 @@ what_we_do:
       anim:
         avif: 'images/QA_anim.avif'
         mp4: 'images/QA_anim.mp4'
-      alt: "Woman doing manual testing on tablet while laptop with robot hand with magnifying glass is doing automation testing, finding a bug in the code."
+        staticImg: 'images/QA.svg'
+        alt: "Woman doing manual testing on tablet while laptop with robot hand with magnifying glass is doing automation testing, finding a bug in the code."
       content: 'Worldwide software development teams recognize our brand, WeDoQA, as a reputable international supplier of QA services. Our experience with a variety of technologies guarantees that you have access to the finest options for any type of project.
 
 
@@ -75,7 +77,8 @@ what_we_do:
       anim:
         avif: 'images/PM_anim.avif'
         mp4: 'images/PM_anim.mp4'
-      alt: "Project manager consulting a client, showing him data presented through graphs and charts."
+        staticImg: 'images/PM.svg'
+        alt: "Project manager consulting a client, showing him data presented through graphs and charts."
       content: 'In the fast pace of the IT industry, we are devoted to helping our clients use their resources as efficiently as possible.
 
 
