@@ -30,7 +30,7 @@ In this case study you can read about:
   - [Manual testing](#manual-testing)
   - [Automated testing](#automated-testing)
   - [DataDog monitoring](#datadog-monitoring)
-  - [Release and QA sprint reports](#release-and-qa-sprintnbspreports)
+  - [Release and QA sprint reports](#release-and-qa-sprint-reports)
 - [Value delivered](#value-delivered)
 
 ## About the client
