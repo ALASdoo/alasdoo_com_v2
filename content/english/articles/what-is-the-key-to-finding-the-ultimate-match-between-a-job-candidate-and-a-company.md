@@ -106,7 +106,7 @@ Are you evaluating if we're the ideal fit? Don't worry, we've got you covered! L
 
 It's wise that you get prepared for the initial interview in advance. You should familiarize yourself with our company [culture](/careers#culture) and [values](/our-story#values). This will provide you with a deeper understanding of who we are and what we stand for. In addition to that, you can also learn more about the essence of our company by checking out [our story](/our-story). Furthermore, you'll have a better understanding of the kind of [services we offer](/services).
 
-Take a moment to delve into our [case studies](/case-studies) and explore the types of projects we undertake. Discover the wide range of [clients we work with](/clients#list) and the [industries we serve](/clients#industries). This will give you insights into the diversity of our work and how we make a difference for our clients.
+Take a moment to delve into our [case studies](/case-studies) and explore the types of projects we undertake. Discover the wide range of clients we work with and the industries we serve. This will give you insights into the diversity of our work and how we make a difference for our clients.
 
 We invite you to take a look at [our WeDoQA profile on Upwork](https://www.upwork.com/o/companies/~01ea0de13226020013/), which has earned top ratings in the software QA field. You'll find unbiased reviews from some of our satisfied clients there. This way you will get an idea of what it's like to work with us and what kind of results we've achieved for our clients.
 
