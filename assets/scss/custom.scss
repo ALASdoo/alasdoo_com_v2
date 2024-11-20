@@ -7,6 +7,12 @@ $alas-color-blue: #00A0A3;
     opacity: 1 !important;
     transform: translate(0) scale(1) !important;
   }
+
+  a, button,
+  .card.is-hoverable:hover img {
+    transition: none !important;
+    transform: none !important;
+  }
 }
  
 video {
