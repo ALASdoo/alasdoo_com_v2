@@ -370,6 +370,9 @@ form label {
 .list-unstyled {
   li {
     margin-bottom: 0.8rem;
+    &::before {
+      content: none !important;
+    }
   }
 }
 

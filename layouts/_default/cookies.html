@@ -1,19 +1,31 @@
 {{ define "main" }} 
-{{ partial "page-header.html" .}} 
-{{ with .Params.cookies }}
 
-<div class="section cookies-page">
+<section class="section pt-3 cookies-page">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto">
-        {{range $i, $e := .policy_item}}
-        <h2>{{.title}}</h2>
-
-        <p>{{.content | markdownify}}</p>
-        {{end}}
+    <div class="row justify-content-center">
+      <div class="col-xl-8 col-lg-10 mx-auto">
+        <h1 class="mb-3 mt-3 text-center">{{ .Title | markdownify }}</h1>
       </div>
     </div>
   </div>
-</div>
-{{ end }} 
+  
+<div class="section cookies-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto content">
+        <div> {{ .Params.subtitle | markdownify}}</div>
+        {{ with .Params.cookies }}
+
+        {{range $i, $e := .policy_item}}
+          {{ if .title }} <h2>{{.title}}</h2> {{ end }}
+          {{ if .content }} <p>{{.content | markdownify}}</p>  {{ end }}
+        {{end}}
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ end }} 
+</section>
+
+
 {{ end }}

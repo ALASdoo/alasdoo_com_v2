@@ -3,15 +3,13 @@ date: "2024-11-13"
 title: 'Cookies'
 draft: false
 layout: 'cookies'
+subtitle: 'Last updated: November 13, 2024 
+
+
+At Alas doo, we are committed to protecting your privacy. The cookies we use do not store any personal information.'
 
 cookies:
   policy_item:
-    - title: ''
-      content: 'Last updated: November 13, 2024
-      
-
-      At Alas doo, we are committed to protecting your privacy. The cookies we use do not store any personal information.'
-
     - title: 'What are cookies?'
       content: 'Cookies are small text files placed on your device by websites you visit. They are widely used to make websites function more efficiently and to provide information to the website owner.'
 
