@@ -9,9 +9,9 @@ $alas-color-blue: #00A0A3;
   }
 
   a, button,
-  .card.is-hoverable:hover img {
-    transition: none !important;
-    transform: none !important;
+  .card.is-hoverable:hover .card-header img {
+    transition: none;
+    transform: none;
   }
 }
  

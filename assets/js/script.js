@@ -200,7 +200,7 @@
 
 
   // Navigation handler
-  function navigationHandler() {
+  const navigationHandler = () => {
     const navigationEl = document.querySelector('.js-navigation');
     const navBarEl = navigationEl.querySelector('.js-navbar');
     const mainEl = document.querySelector('#main');
