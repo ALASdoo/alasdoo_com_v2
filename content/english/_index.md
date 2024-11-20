@@ -141,7 +141,7 @@ jobs:
   content: 'ALAS is all about providing [a vibrant culture](/careers#culture) through a pleasant atmosphere, possibilities for professional growth, relaxation, entertainment, and social interaction.
 
 
-  We encourage people to have a healthy work/life balance, and devote time and energy to their families and hobbies.'
+  We encourage people to have a healthy work/life balance and devote time and energy to their families and hobbies.'
   button:
     enable: true
     type: 'primary'
