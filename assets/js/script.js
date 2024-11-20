@@ -205,10 +205,20 @@
     const navBarEl = navigationEl.querySelector('.js-navbar');
     const mainEl = document.querySelector('#main');
 
+    const caseStudiesPage = document.querySelector('.case-studies');
+    const headings = caseStudiesPage?.querySelectorAll('h2, h3, h4');
+ 
+    
     navigationEl.style.minHeight = navBarEl.offsetHeight + 'px';
     // prevents navBar from overlapping the content
     mainEl.style.paddingTop = navBarEl.offsetHeight + 'px';
-    mainEl.style.marginTop = '-' + navBarEl.offsetHeight + 'px';  
+    mainEl.style.marginTop = '-' + navBarEl.offsetHeight + 'px';
+    
+    // spacing for Case Studies page
+    headings && headings.forEach(heading => {
+      heading.style.marginTop = '-' + navBarEl.offsetHeight + 'px';
+      heading.style.paddingTop = navBarEl.offsetHeight + 30  + 'px';
+    })
   }
 
   /*==============================
