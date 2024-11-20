@@ -47,6 +47,7 @@
 
   // counterUp
   document.addEventListener("DOMContentLoaded", function () {
+
     // You can change this class to specify which elements are going to behave as counters.
     var elements = document.querySelectorAll(".counter");
 
@@ -199,7 +200,7 @@
 
 
   // Navigation handler
-  navigationHandler = () => {
+  function navigationHandler() {
     const navigationEl = document.querySelector('.js-navigation');
     const navBarEl = navigationEl.querySelector('.js-navbar');
     const mainEl = document.querySelector('#main');
