@@ -1,6 +1,6 @@
 {{define "main"}}
 
-<section class="section pt-3">
+<section class="section pt-3 case-studies" id="case-studies">
   <div class="container">
     <div class="row justify-content-center">
       <div class="case-study col-lg-8 col-md-10">
@@ -25,7 +25,7 @@
         <h2 class="">Related case studies</h2>
       </div>
     </div>
-    <ul class="row justify-content-center">
+    <ul class="row justify-content-center list-unstyled">
       {{ range . }}
         {{ $button := dict
           "enable" true
