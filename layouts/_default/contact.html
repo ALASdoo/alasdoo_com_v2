@@ -37,37 +37,46 @@
                   <p>{{.form_content | markdownify}}</p>
 
                   <form method="POST" class="contact-form" novalidate
-                  action="{{site.Params.contact_form_action | safeURL}}"
-                      data-netlify="true"
-                      name="{{.id}}">
+                    action="{{site.Params.contact_form_action | safeURL}}"
+                    data-netlify="true"
+                    name="{{.id}}">
+
                    <fieldset class="row g-4 ">
                       <legend class="form-legend mt-5 mb-0">{{ i18n "form_legend" }}</legend>
                       <div class="col-lg-12">
-                        <label class="mb-1" for="first-name">{{ i18n "fname"}}</label>
-                        <input class="form-control shadow-none" type="text" name="first_name" id="first-name" required
-                          autocomplete="given-name" placeholder={{ i18n "fname" }}
+                        <label class="mb-1" 
+                          for="{{.id}}-first-name"
+                        >{{ i18n "fname"}}</label>
+                        <input class="form-control shadow-none" type="text" name="first_name" 
+                          id="{{.id}}-first-name" 
+                          required
+                          autocomplete="given-name"
                           aria-errormessage="invalid-feedback-first-name">
-                        <div class="invalid-feedback" id="invalid-feedback-first-name"> {{ i18n "fname"}} {{ i18n "invalid_required"}} </div>
+
+                        <div class="invalid-feedback" id="invalid-feedback-first-name"> 
+                          {{ i18n "fname"}} {{ i18n "invalid_required"}} 
+                        </div>
                       </div>
+
                       <div class="col-lg-12">
-                        <label class="mb-1" for="last-name">{{ i18n "lname"}}</label>
-                        <input class="form-control shadow-none" type="text" name="last_name" id="last-name" required autocomplete="family-name" placeholder={{ i18n "lname" }}
-                        aria-errormessage="invalid-feedback-last-name">
+                        <label class="mb-1" for="{{.id}}-last-name">{{ i18n "lname"}}</label>
+                        <input class="form-control shadow-none" type="text" name="last_name" id="{{.id}}-last-name" required 
+                          autocomplete="family-name" aria-errormessage="invalid-feedback-last-name">
                         <div class="invalid-feedback" id="invalid-feedback-last-name"> {{ i18n "lname"}} {{ i18n "invalid_required"}} </div>
                       </div>
 
                       <div class="col-lg-12">
-                        <label class="mb-1" for="email">{{i18n "email"}}</label>
-                        <input class="form-control shadow-none" type="email" name="email_address" id="email"
-                          pattern="[a-z0-9.]+@[a-z]+\.[a-z]{2,3}" required autocomplete="email" placeholder={{ i18n "email" }}
+                        <label class="mb-1" for="{{.id}}-email">{{i18n "email"}}</label>
+                        <input class="form-control shadow-none" type="email" name="email_address" id="{{.id}}-email"
+                          pattern="[a-z0-9.]+@[a-z]+\.[a-z]{2,3}" required autocomplete="email"
                           aria-errormessage="invalid-feedback-email">
                         <div class="invalid-feedback" id="invalid-feedback-email"> {{ i18n "email"}} {{ i18n "invalid_required"}} </div>
                       </div>
 
                       <div class="col-lg-12">
-                        <label class="mb-1" for="message">{{i18n "message"}}</label>
-                        <textarea class="form-control shadow-none" name="message" id="message" rows="4" required placeholder={{ i18n "message" }}
-                        aria-errormessage="invalid-feedback-message"></textarea>
+                        <label class="mb-1" for="{{.id}}-message">{{i18n "message"}}</label>
+                        <textarea class="form-control shadow-none" name="message" id="{{.id}}-message" rows="4" required 
+                          aria-errormessage="invalid-feedback-message"></textarea>
                         <div class="invalid-feedback" aria-errormessage="invalid-feedback-message"> {{ i18n "message"}} {{ i18n "invalid_required"}} </div>
                       </div>
 

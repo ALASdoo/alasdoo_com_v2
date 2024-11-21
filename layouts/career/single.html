@@ -51,7 +51,6 @@
                   id="first-name"
                   required 
                   autocomplete="given-name" 
-                  placeholder={{ i18n "fname" }} 
                   aria-errormessage="invalid-feedback-first-name">
                 <div class="invalid-feedback" id="invalid-feedback-first-name"> {{ i18n "fname"}} {{ i18n "invalid_required"}} </div>
               </div>
@@ -63,7 +62,6 @@
                   id="last-name"
                   required 
                   autocomplete="family-name" 
-                  placeholder={{ i18n "lname" }}
                   aria-errormessage="invalid-feedback-last-name">
                 <div class="invalid-feedback" id="invalid-feedback-last-name"> 
                   {{ i18n "lname"}} {{ i18n "invalid_required"}} 
@@ -76,7 +74,6 @@
                   pattern="[a-z0-9.]+@[a-z]+\.[a-z]{2,3}"
                   required 
                   autocomplete="email" 
-                  placeholder={{ i18n "email" }}
                   aria-errormessage="invalid-feedback-email">
                 <div class="invalid-feedback" id="invalid-feedback-email"> {{ i18n "email"}} {{ i18n "invalid_required"}} </div>
               </div>
