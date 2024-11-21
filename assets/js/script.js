@@ -218,20 +218,26 @@
     const formValidation = (form) => {
       const inputs = form.querySelectorAll(".form-control");
 
+      if (form.classList.contains("was-validated")) {
 
-      /**
-       * Blur validation 
-       */
-      inputs.forEach((input) => {
-        input.addEventListener("input", (event) => {
+        handleInputFileValidation(form);
+        
+        /**
+         * Blur validation 
+         */
+        inputs.forEach((input) => {
+          input.addEventListener("input", (event) => {
 
-          if (input.checkValidity() === false) {
-            input.ariaInvalid = true;
-          } else {
-            input.removeAttribute("aria-invalid");
-          }
+            if (input.checkValidity() === false) {
+              input.ariaInvalid = true;
+            } else {
+              input.removeAttribute("aria-invalid");
+            }
+          });
         });
-      });
+      }
+
+
 
       /**
        * Form Submit Validation 
@@ -262,7 +268,6 @@
     const forms = document.querySelectorAll("form");
     forms.forEach((form) => {
       formValidation(form);
-      handleInputFileValidation(form);
     });
   }
 
