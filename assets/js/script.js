@@ -156,17 +156,7 @@
     },
   });
 
-  // Check the size of uploaded file (max 2MB ~ 2097152 bytes)
-  // document.addEventListener("DOMContentLoaded", function () {
-  //   var uploadField = document.getElementById("cv");
 
-  //   uploadField.onchange = function() {
-  //     if(this.files[0].size > 2097152) {
-  //       alert("Max size of the file is 2MB");
-  //       this.value = ""
-  //     }
-  //   }
-  // })
 
 
   // Close mobile navigation when user click outside
@@ -226,6 +216,26 @@
   *==============================*/
   function formHandler() {
     const formValidation = (form) => {
+      const inputs = form.querySelectorAll(".form-control");
+
+
+      /**
+       * Blur validation 
+       */
+      inputs.forEach((input) => {
+        input.addEventListener("input", (event) => {
+
+          if (input.checkValidity() === false) {
+            input.ariaInvalid = true;
+          } else {
+            input.removeAttribute("aria-invalid");
+          }
+        });
+      });
+
+      /**
+       * Form Submit Validation 
+       */
       form.addEventListener(
         "submit",
         (event) => {
@@ -235,9 +245,9 @@
           }
 
           form.classList.add("was-validated");
-          const inputs = form.querySelectorAll(".form-control");
+
+          // Validate all inputs and update aria-invalid
           inputs.forEach((input) => {
-            // aria-invalid
             if (input.checkValidity() === false) {
               input.ariaInvalid = true;
             } else {
@@ -252,7 +262,46 @@
     const forms = document.querySelectorAll("form");
     forms.forEach((form) => {
       formValidation(form);
+      handleInputFileValidation(form);
     });
+  }
+
+  function handleInputFileValidation(form) {
+    const inputFileEl = form.querySelector('input[type="file"]');
+    
+    if (!inputFileEl) return; 
+    const invalidFeedbackEl = inputFileEl?.parentNode.querySelector('.invalid-feedback');
+    inputFileEl.ariaInvalid = true;
+
+
+    const isValidFile = (fileName) => {
+      if (!fileName) return; 
+      const supportedFileTypes = ["doc", "docx", "pdf", "msword"];
+      const uploadedFileType = fileName.split('.').pop().toLowerCase();
+
+      return supportedFileTypes.includes(uploadedFileType);
+    }
+
+
+    inputFileEl.addEventListener("change", (event) => {
+      const file = event.target.files[0];
+      if (!file) return;
+
+      if (!isValidFile(file.name)) {
+        inputFileEl.setCustomValidity('Invalid file type');
+        invalidFeedbackEl.textContent = 'Invalid file type';
+
+      } else if (file.size > 2097152) {
+        inputFileEl.setCustomValidity('Invalid file size');
+        invalidFeedbackEl.textContent = 'File is too large. Please upload a file smaller than 2MB';
+
+      } else {
+        // Remove custom validation
+        inputFileEl.setCustomValidity('');
+        inputFileEl.removeAttribute("aria-invalid");
+      }
+    });
+
   }
 
 })();
