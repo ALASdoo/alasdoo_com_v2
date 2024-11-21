@@ -1,6 +1,6 @@
-{{ define "main" }} 
+{{ define "main" }}
 
-<section class="section pt-3 cookies-page">
+<section class="pt-3 cookies-page">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-xl-8 col-lg-10 mx-auto">
@@ -8,24 +8,22 @@
       </div>
     </div>
   </div>
-  
-<div class="section cookies-page">
+
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto content">
-        <div> {{ .Params.subtitle | markdownify}}</div>
+        <div>{{ .Params.subtitle | markdownify}}</div>
         {{ with .Params.cookies }}
-
-        {{range $i, $e := .policy_item}}
-          {{ if .title }} <h2>{{.title}}</h2> {{ end }}
-          {{ if .content }} <p>{{.content | markdownify}}</p>  {{ end }}
-        {{end}}
-        </div>
+          {{range $i, $e := .policy_item}} 
+            {{ if .title }} <h2>{{.title}}</h2> {{ end }}
+            {{ if .content }}
+            <p>{{.content | markdownify}}</p>
+            {{ end }} 
+          {{end}}
+        {{ end }}
       </div>
     </div>
   </div>
-  {{ end }} 
 </section>
-
 
 {{ end }}
