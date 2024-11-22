@@ -51,7 +51,8 @@
                           id="{{.id}}-first-name" 
                           required
                           autocomplete="given-name"
-                          aria-describedby="invalid-feedback-first-name">
+                          aria-describedby="invalid-feedback-first-name"
+                          maxlength="50">
 
                         <div class="invalid-feedback" id="invalid-feedback-first-name" role="alert"> 
                           {{ i18n "fname"}} {{ i18n "invalid_required"}} 
@@ -61,7 +62,8 @@
                       <div class="col-lg-12">
                         <label class="mb-1" for="{{.id}}-last-name">{{ i18n "lname"}}</label>
                         <input class="form-control shadow-none" type="text" name="last_name" id="{{.id}}-last-name" required 
-                          autocomplete="family-name" aria-describedby="invalid-feedback-last-name">
+                          autocomplete="family-name" aria-describedby="invalid-feedback-last-name"
+                          maxlength="100">
                       
                           <div class="invalid-feedback" id="invalid-feedback-last-name" role="alert"> {{ i18n "lname"}} {{ i18n "invalid_required"}} </div>
                       </div>
@@ -71,13 +73,17 @@
                         <input class="form-control shadow-none" type="email" name="email_address" id="{{.id}}-email"
                           pattern="[a-z0-9.]+@[a-z]+\.[a-z]{2,3}" required autocomplete="email"
                           aria-describedby="invalid-feedback-email">
-                        <div class="invalid-feedback" id="invalid-feedback-email" role="alert"> {{ i18n "email"}} {{ i18n "invalid_required"}} </div>
+                        <div class="invalid-feedback" id="invalid-feedback-email" role="alert"
+                        maxlength="254"> {{ i18n "email"}} {{ i18n "invalid_required"}} </div>
                       </div>
 
                       <div class="col-lg-12">
                         <label class="mb-1" for="{{.id}}-message">{{i18n "message"}}</label>
-                        <textarea class="form-control shadow-none" name="message" id="{{.id}}-message" rows="4" required 
-                          aria-describedby="invalid-feedback-message"></textarea>
+                        <textarea class="form-control shadow-none" 
+                          name="message" 
+                          id="{{.id}}-message" rows="4" required 
+                          aria-describedby="invalid-feedback-message"
+                          maxlength="2000"></textarea>
                         <div class="invalid-feedback" aria-describedby="invalid-feedback-message" role="alert"> {{ i18n "message"}} {{ i18n "invalid_required"}} </div>
                       </div>
                       <div class="col-lg-12">

@@ -106,6 +106,9 @@
 - id: upload_cv
   translation: Upload CV (.doc or .pdf)
 
+- id: cv_required
+  translation: This field is required. Please provide a document in .doc or .pdf format
+
 - id: search_faq
   translation: Click and search FAQ..
 

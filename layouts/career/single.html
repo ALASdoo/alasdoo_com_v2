@@ -51,7 +51,8 @@
                   id="first-name"
                   required 
                   autocomplete="given-name" 
-                  aria-describedby="invalid-feedback-first-name">
+                  aria-describedby="invalid-feedback-first-name"
+                  maxlength="50">
                 <div class="invalid-feedback" id="invalid-feedback-first-name" role="alert"> {{ i18n "fname"}} {{ i18n "invalid_required"}} </div>
               </div>
               <div class="form-group mb-3">
@@ -62,7 +63,8 @@
                   id="last-name"
                   required 
                   autocomplete="family-name" 
-                  aria-describedby="invalid-feedback-last-name">
+                  aria-describedby="invalid-feedback-last-name"
+                  maxlength="100">
                 <div class="invalid-feedback" id="invalid-feedback-last-name" role="alert"> 
                   {{ i18n "lname"}} {{ i18n "invalid_required"}} 
                 </div>
@@ -74,7 +76,8 @@
                   pattern="[a-z0-9.]+@[a-z]+\.[a-z]{2,3}"
                   required 
                   autocomplete="email" 
-                  aria-describedby="invalid-feedback-email">
+                  aria-describedby="invalid-feedback-email"
+                  maxlength="254" >
                 <div class="invalid-feedback" id="invalid-feedback-email" role="alert"> {{ i18n "email"}} {{ i18n "invalid_required"}} </div>
               </div>
 
@@ -88,7 +91,7 @@
                   id="cv"
                   required
                   aria-describedby="invalid-feedback-cv">
-                 <div class="invalid-feedback" id="invalid-feedback-cv" role="alert"> {{ i18n "invalid_required"}} </div>
+                 <div class="invalid-feedback" id="invalid-feedback-cv" role="alert"> {{ i18n "cv_required"}} </div>
               </div>
 
               <button

@@ -87,6 +87,9 @@
   
 - id: upload_cv
   translation: Lebenslauf hochladen
+
+- id: cv_required
+  translation: Dieses Feld ist erforderlich. Bitte stellen Sie ein Dokument im .doc oder .pdf Format zur Verfügung
   
 - id: search_faq
   translation: Klicken und suchen FAQ..
