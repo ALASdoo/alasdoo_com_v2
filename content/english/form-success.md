@@ -1,6 +1,6 @@
 ---
-title: 'Thank you for showing interest!'
-subtitle: 'Your message has been sent. We will get back to you soon.'
+title: 'Message sent'
+subtitle: "Thank you for showing interest! We'll get back to you soon."
 description: 'This is meta description'
 draft: false
 layout: 'form-success'
