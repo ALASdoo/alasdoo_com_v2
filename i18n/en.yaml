@@ -120,3 +120,9 @@
 
 - id: privacy_disclosure
   translation: We only use your personal information (name and email) to respond to your inquiry. For more details on how we handle your data, please see our [Privacy Policy](/privacy-policy).
+
+- id: menu_open
+  translation: Open menu
+
+- id: menu_close
+  translation: Close menu

@@ -52,11 +52,35 @@
 
     &:focus {
       box-shadow: none;
+      outline: 2px solid $color-primary-darker;
+      outline-offset: 3px;
     }
     &:hover {
       color: $color-primary;
     }
   }
+
+  .navbar-toggler {
+    /**
+    * Toggle Menu button icon when mobile menu is open/close
+    */
+    .fa-bars {
+      display: block;
+    }
+    .fa-xmark {
+      display: none;
+    }
+  
+    &[aria-expanded="true"] {
+      .fa-bars {
+        display: none;
+      }
+      .fa-xmark {
+        display: block;
+      }
+    }
+  }
+ 
 
   .nav-item {
     .nav-link {

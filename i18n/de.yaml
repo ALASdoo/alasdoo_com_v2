@@ -102,3 +102,9 @@
 
 - id: privacy_disclosure 
   translation: Wir verwenden Ihre persönlichen Daten (Name und E-Mail) nur, um Ihre Anfrage zu beantworten. Weitere Einzelheiten zum Umgang mit Ihren Daten finden Sie in unserer [Datenschutzrichtlinie](/privacy-policy).
+
+- id: menu_open
+  translation: Menü öffnen
+
+- id: menu_close
+  translation: Menü schließen
