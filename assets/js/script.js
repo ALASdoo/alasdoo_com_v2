@@ -218,15 +218,14 @@
     const formValidation = (form) => {
       const inputs = form.querySelectorAll(".form-control");
 
-      if (form.classList.contains("was-validated")) {
-
         handleInputFileValidation(form);
-        
+
         /**
-         * Blur validation 
+         * Attaches input validation after form was validated on submit  
          */
         inputs.forEach((input) => {
           input.addEventListener("input", (event) => {
+            if (!form.classList.contains("was-validated")) return;
 
             if (input.checkValidity() === false) {
               input.ariaInvalid = true;
@@ -235,7 +234,7 @@
             }
           });
         });
-      }
+
 
 
 
