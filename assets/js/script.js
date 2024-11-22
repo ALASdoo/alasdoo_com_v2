@@ -293,7 +293,7 @@
 
       if (!isValidFile(file.name)) {
         inputFileEl.setCustomValidity('Invalid file type');
-        invalidFeedbackEl.textContent = 'Invalid file type';
+        invalidFeedbackEl.textContent = 'Invalid file type. Please upload a file in .pdf or .doc format.';
 
       } else if (file.size > 2097152) {
         inputFileEl.setCustomValidity('Invalid file size');
