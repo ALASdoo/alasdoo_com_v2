@@ -47,7 +47,6 @@
 
   // counterUp
   document.addEventListener("DOMContentLoaded", function () {
-
     // You can change this class to specify which elements are going to behave as counters.
     var elements = document.querySelectorAll(".counter");
 
@@ -156,9 +155,6 @@
     },
   });
 
-
-
-
   // Close mobile navigation when user click outside
   document.addEventListener("DOMContentLoaded", function () {
     var navigation = document.querySelector(".navbar");
@@ -167,49 +163,53 @@
     var isMobileNavigation = window.matchMedia("(max-width: 1199px)");
     const skipToContent = navigation.querySelector(".js-skip-to-content");
 
-
-    document.addEventListener("click", function(event) {
-
-      if(!navigation.contains(event.target) && isMobileNavigation.matches && navigationCollapse.classList.contains("show")) {
+    document.addEventListener("click", function (event) {
+      if (
+        !navigation.contains(event.target) &&
+        isMobileNavigation.matches &&
+        navigationCollapse.classList.contains("show")
+      ) {
         navigationButton.click();
       }
 
       /** close mobile nav when `skip-to-content` is clicked  */
-      if (isMobileNavigation.matches && 
-        navigationCollapse.classList.contains("show") && event.target === skipToContent) {
-          navigationButton.click();
-        }
-    })
+      if (
+        isMobileNavigation.matches &&
+        navigationCollapse.classList.contains("show") &&
+        event.target === skipToContent
+      ) {
+        navigationButton.click();
+      }
+    });
 
     // adds anchor for Scroll-to-content link
-    document.querySelector("main").id = 'main'; 
+    document.querySelector("main").id = "main";
 
     formHandler();
     navigationHandler();
-  })
-
+  });
 
   // Navigation handler
   const navigationHandler = () => {
-    const navigationEl = document.querySelector('.js-navigation');
-    const navBarEl = navigationEl.querySelector('.js-navbar');
-    const mainEl = document.querySelector('#main');
+    const navigationEl = document.querySelector(".js-navigation");
+    const navBarEl = navigationEl.querySelector(".js-navbar");
+    const mainEl = document.querySelector("#main");
 
-    const caseStudiesPage = document.querySelector('.case-studies');
-    const headings = caseStudiesPage?.querySelectorAll('h2, h3, h4');
- 
-    
-    navigationEl.style.minHeight = navBarEl.offsetHeight + 'px';
+    const caseStudiesPage = document.querySelector(".case-studies");
+    const headings = caseStudiesPage?.querySelectorAll("h2, h3, h4");
+
+    navigationEl.style.minHeight = navBarEl.offsetHeight + "px";
     // prevents navBar from overlapping the content
-    mainEl.style.paddingTop = navBarEl.offsetHeight + 'px';
-    mainEl.style.marginTop = '-' + navBarEl.offsetHeight + 'px';
-    
+    mainEl.style.paddingTop = navBarEl.offsetHeight + "px";
+    mainEl.style.marginTop = "-" + navBarEl.offsetHeight + "px";
+
     // spacing for Case Studies page
-    headings && headings.forEach(heading => {
-      heading.style.marginTop = '-' + navBarEl.offsetHeight + 'px';
-      heading.style.paddingTop = navBarEl.offsetHeight + 30  + 'px';
-    })
-  }
+    headings &&
+      headings.forEach((heading) => {
+        heading.style.marginTop = "-" + navBarEl.offsetHeight + "px";
+        heading.style.paddingTop = navBarEl.offsetHeight + 30 + "px";
+      });
+  };
 
   /*==============================
     Contact Form
@@ -218,28 +218,27 @@
     const formValidation = (form) => {
       const inputs = form.querySelectorAll(".form-control");
 
-        handleInputFileValidation(form);
+      handleInputFileValidation(form);
 
+      inputs.forEach((input) => {
         /**
-         * Attaches input validation after form was validated on submit  
+         * Validate fields on change
          */
-        inputs.forEach((input) => {
-          input.addEventListener("input", (event) => {
-            if (!form.classList.contains("was-validated")) return;
+        input.addEventListener("input", () => {
+          if (!form.classList.contains("was-validated")) return;
 
-            if (input.checkValidity() === false) {
-              input.ariaInvalid = true;
-            } else {
-              input.removeAttribute("aria-invalid");
-            }
-          });
+          handleInputFieldValidation(input);
+
+          if (input.checkValidity() === false) {
+            input.ariaInvalid = true;
+          } else {
+            input.removeAttribute("aria-invalid");
+          }
         });
-
-
-
+      });
 
       /**
-       * Form Submit Validation 
+       * Form Submit Validation
        */
       form.addEventListener(
         "submit",
@@ -251,8 +250,13 @@
 
           form.classList.add("was-validated");
 
-          // Validate all inputs and update aria-invalid
           inputs.forEach((input) => {
+            /**
+             * Shows error messages on submit 
+             */
+            handleInputFieldValidation(input);
+
+            // Updates aria-invalid
             if (input.checkValidity() === false) {
               input.ariaInvalid = true;
             } else {
@@ -270,42 +274,75 @@
     });
   }
 
+  function handleInputFieldValidation(inputField) {
+    const invalidFeedbackContainerEl = inputField.parentNode.querySelector(
+      ".feedback-container"
+    );
+
+    /** Hide error messages  */
+    inputField.parentNode.querySelectorAll(".feedback-msg")?.forEach((msg) => {
+      if (msg?.classList.contains("d-block")) {
+        msg?.classList.remove("d-block");
+      }
+    });
+
+    if (!inputField.checkValidity()) {
+      const validity = inputField.validity;
+      if (validity.valueMissing) {
+        invalidFeedbackContainerEl
+          ?.querySelector(".valueMissing")
+          ?.classList.add("d-block");
+      } else if (validity.patternMismatch) {
+        invalidFeedbackContainerEl
+          ?.querySelector(".patternMismatch")
+          ?.classList.add("d-block");
+      } else if (validity.customError) {
+        const errMessageSelector = inputField.validationMessage;
+        invalidFeedbackContainerEl
+          ?.querySelector('.' + errMessageSelector)
+          ?.classList.add("d-block")
+      }
+    } else {
+      // Mark as valid
+      invalidFeedbackContainerEl
+        ?.querySelector(".valid-feedback")
+        ?.classList?.add("d-block");
+    }
+  }
+
   function handleInputFileValidation(form) {
     const inputFileEl = form.querySelector('input[type="file"]');
-    
-    if (!inputFileEl) return; 
-    const invalidFeedbackEl = inputFileEl?.parentNode.querySelector('.invalid-feedback');
+
+    if (!inputFileEl) return;
+    const invalidFeedbackEl =
+      inputFileEl?.parentNode.querySelector(".invalid-feedback");
     inputFileEl.ariaInvalid = true;
 
-
     const isValidFile = (fileName) => {
-      if (!fileName) return; 
+      if (!fileName) return;
       const supportedFileTypes = ["doc", "docx", "pdf", "msword"];
-      const uploadedFileType = fileName.split('.').pop().toLowerCase();
+      const uploadedFileType = fileName.split(".").pop().toLowerCase();
 
       return supportedFileTypes.includes(uploadedFileType);
-    }
-
+    };
 
     inputFileEl.addEventListener("change", (event) => {
       const file = event.target.files[0];
       if (!file) return;
 
       if (!isValidFile(file.name)) {
-        inputFileEl.setCustomValidity('Invalid file type');
-        invalidFeedbackEl.textContent = 'Invalid file type. Please upload a file in .pdf or .doc format.';
+        inputFileEl.setCustomValidity("js-invalid-file-type");
 
       } else if (file.size > 2097152) {
-        inputFileEl.setCustomValidity('Invalid file size');
-        invalidFeedbackEl.textContent = 'File is too large. Please upload a file smaller than 2MB';
-
+        inputFileEl.setCustomValidity("js-too-large-file");
+      
       } else {
         // Remove custom validation
-        inputFileEl.setCustomValidity('');
+        inputFileEl.setCustomValidity("");
         inputFileEl.removeAttribute("aria-invalid");
       }
+
+      handleInputFieldValidation(inputFileEl);
     });
-
   }
-
 })();
