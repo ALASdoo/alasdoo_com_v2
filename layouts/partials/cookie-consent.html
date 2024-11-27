@@ -1,4 +1,7 @@
-<dialog class="cookie-modal modal cookieconsent" tabindex="-1" role="dialog">
+<dialog class="cookie-modal modal cookieconsent" 
+  tabindex="-1" 
+  role="dialog" 
+  aria-label="Cookie modal">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       {{with .Params}}
@@ -6,7 +9,7 @@
         {{ partial "image" (dict "Src" "images/cookies.svg" "alt" "Cookie image"
         "Class" "modal-image") }} {{ .Params.cookieconsent.heading}}
 
-        <h2 class="h6 text-center">Analytics cookies only</h2>
+        <h2 class="h3 text-center" id="modal-header">Analytics cookies only</h2>
 
         <p>
           We use analytics cookies to improve your experience. No personal data
@@ -16,14 +19,14 @@
 
         <div class="modal-footer">
           <button
-            class="btn btn-sm btn-primary"
+            class="btn btn-primary"
             data-bs-dismiss="modal"
             data-consent="true"
           >
             Accept cookies
           </button>
           <button
-            class="btn btn-sm btn-primary"
+            class="btn btn-primary"
             data-bs-dismiss="modal"
             data-consent="false"
           >
