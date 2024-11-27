@@ -101,6 +101,7 @@
     a.nav-link:active {
       color: darken($color-primary, 10) !important;
     }
+
     &.dropdown .nav-link::after {
       display: inline-block;
       vertical-align: 0.2em;
@@ -114,7 +115,7 @@
       border-radius: 2px;
       transform: rotate(45deg);
       transition: 0s;
-      margin-inline: 15px;
+      margin-inline-start: 10px;
     }
   }
 

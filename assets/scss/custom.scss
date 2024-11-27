@@ -64,6 +64,13 @@ video {
   }
 }
 
+@media (max-width: 1200px) {
+  .navbar > .container {
+    max-height: 100vh;
+    overflow: auto;
+  }
+}
+
 .slide-text-container {
   display: inline-block;
   height: 3rem;

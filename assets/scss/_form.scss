@@ -114,15 +114,6 @@ form label {
   @extend .text-dark;
 }
 
-// list-unstyled
-.list-unstyled {
-  li {
-    margin-bottom: 0.8rem;
-    &::before {
-      content: none !important;
-    }
-  }
-}
 
 // check-mark
 .check-mark {

@@ -34,3 +34,4 @@ import Tab from "js/bootstrap/src/tab";
 
 window.bootstrap = {Dropdown, Modal, Tab, Collapse};
 window.Modal = Modal;
+window.Dropdown = Dropdown;
