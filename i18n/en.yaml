@@ -104,10 +104,10 @@
   translation: doc or pdf files
 
 - id: upload_cv
-  translation: Upload CV (.doc or .pdf)
+  translation: Upload CV (.doc, .docx or .pdf)
 
 - id: cv_required
-  translation: This field is required. Please provide a document in .doc or .pdf format
+  translation: This field is required. Please provide a document in .doc, .docx or .pdf format
 
 - id: email_invalid_pattern
   translation: Invalid email address pattern
@@ -123,6 +123,9 @@
 
 - id: invalid_required
   translation: field is required
+
+- id: invalid_pattern
+  translation: field has invalid invalid characters
 
 - id: field_valid
   translation: field is valid

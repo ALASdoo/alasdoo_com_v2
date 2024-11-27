@@ -54,12 +54,15 @@
                   required 
                   autocomplete="given-name" 
                   aria-describedby="feedback-validation-first-name"
-                  maxlength="50">
+                  maxlength="50"
+                  pattern="^[a-zA-ZÀ-ÖØ-öø-ÿ0-9\-.' ]*$"
+                  >
                 <div class="feedback-container" 
                   id="feedback-validation-first-name" role="alert">  
                   <div class="feedback-msg valueMissing invalid-feedback">{{ i18n "fname"}} {{ i18n "invalid_required"}}</div>
                   <div class="feedback-msg valid-feedback visually-hidden"> 
                     {{ i18n "fname"}} {{ i18n "field_valid"}} </div>
+                  <div class="feedback-msg patternMismatch invalid-feedback"> {{ i18n "fname"}} {{ i18n "invalid_pattern"}} </div>
                 </div>
               </div>
 
@@ -73,7 +76,9 @@
                   required 
                   autocomplete="family-name" 
                   aria-describedby="feedback-validation-last-name"
-                  maxlength="100">
+                  maxlength="100"
+                  pattern="^[a-zA-ZÀ-ÖØ-öø-ÿ0-9\-.' ]*$"
+                  >
 
                 <div class="feedback-container" 
                   id="feedback-validation-last-name" role="alert">
@@ -81,6 +86,7 @@
                     {{ i18n "lname"}} {{ i18n "invalid_required"}}</div>
                   <div class="feedback-msg valid-feedback visually-hidden"> 
                       {{ i18n "lname"}} {{ i18n "field_valid"}} </div>
+                  <div class="feedback-msg patternMismatch invalid-feedback"> {{ i18n "lname"}} {{ i18n "invalid_pattern"}} </div>
                 </div>
               </div>
 
@@ -121,7 +127,7 @@
                  id="feedback-validation-cv" 
                  role="alert" > 
                  <div class="feedback-msg valueMissing invalid-feedback">{{ i18n "cv_required"}}</div>
-                 <div class="feedback-msg js-invalid-file-type invalid-feedback">Invalid file type. Please upload a file in .pdf or .doc format</div>
+                 <div class="feedback-msg js-invalid-file-type invalid-feedback">Invalid file type. Please upload a file in .pdf, .doc or .docx format</div>
                  <div class="feedback-msg js-too-large-file invalid-feedback"> File is too large. Please upload a file smaller than 2MB </div>
                  <div class="feedback-msg valid-feedback visually-hidden"> CV {{ i18n "field_valid"}} </div>
                 </div>
