@@ -125,7 +125,7 @@
   translation: field is required
 
 - id: invalid_pattern
-  translation: field has invalid invalid characters
+  translation: field has invalid characters
 
 - id: field_valid
   translation: field is valid
