@@ -57,8 +57,8 @@
                   maxlength="50"
                   pattern="^[a-zA-ZÀ-ÖØ-öø-ÿ0-9\-.' ]*$"
                 >
-                <div class="feedback-container" 
-                  id="feedback-validation-first-name" role="alert">  
+                <div class="feedback-container" id="feedback-validation-first-name" role="alert">  </div>
+                <div class="feedback-msg-container">
                   <div class="feedback-msg valueMissing invalid-feedback"> 
                     {{ i18n "fname"}} {{ i18n "invalid_required"}}</div>
                   <div class="feedback-msg patternMismatch invalid-feedback"> 
@@ -82,8 +82,9 @@
                   pattern="^[a-zA-ZÀ-ÖØ-öø-ÿ0-9\-.' ]*$"
                   >
 
-                <div class="feedback-container" 
-                  id="feedback-validation-last-name" role="alert">
+                <div class="feedback-container" id="feedback-validation-last-name" role="alert"> </div>
+               
+                <div class="feedback-msg-container">
                   <div class="feedback-msg valueMissing invalid-feedback"> 
                     {{ i18n "lname"}} {{ i18n "invalid_required"}}</div>
                   <div class="feedback-msg patternMismatch invalid-feedback"> 
@@ -106,7 +107,8 @@
                   maxlength="254" >
 
                 <div class="feedback-container" 
-                  id="feedback-validation-email" role="alert" > 
+                  id="feedback-validation-email" role="alert" > </div>
+                <div class="feedback-msg-container">
                   <div class="feedback-msg valueMissing invalid-feedback">{{ i18n "email"}} {{ i18n "invalid_required"}}</div>
                   <div class="feedback-msg patternMismatch invalid-feedback"> {{ i18n "email_invalid_pattern"}} </div>
                   <div class="feedback-msg valid-feedback visually-hidden"> 
@@ -128,7 +130,8 @@
 
                 <div class="feedback-container" 
                  id="feedback-validation-cv" 
-                 role="alert" > 
+                 role="alert" > </div>
+                <div class="feedback-msg-container">
                  <div class="feedback-msg valueMissing invalid-feedback">{{ i18n "cv_required"}}</div>
                  <div class="feedback-msg js-invalid-file-type invalid-feedback">Invalid file type. Please upload a file in .pdf, .doc or .docx format</div>
                  <div class="feedback-msg js-too-large-file invalid-feedback"> File is too large. Please upload a file smaller than 2MB </div>

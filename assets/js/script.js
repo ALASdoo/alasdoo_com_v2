@@ -212,7 +212,7 @@
   };
 
   /*==============================
-    Contact Form
+    Form
   *==============================*/
   function formHandler() {
     const formValidation = (form) => {
@@ -224,21 +224,21 @@
         /**
          * Validate fields on change / autocomplete
          */
-        ['input', 'change',  'blur'].forEach(event => {
-          input.addEventListener(event, () => {          
+        ["input", "change", "blur"].forEach((event) => {
+          input.addEventListener(event, () => {
             if (!form.classList.contains("was-validated")) return;
 
-          handleTextareaValidation(input);
-          handleInputFieldValidation(input);
+            handleTextareaValidation(input);
+            handleInputFieldValidation(input);
 
-          if (input.checkValidity() === false) {
-            input.ariaInvalid = true;
-          } else {
-            input.removeAttribute("aria-invalid");
-          }
+            if (input.checkValidity() === false) {
+              input.ariaInvalid = true;
+            } else {
+              input.removeAttribute("aria-invalid");
+            }
+          });
         });
-      })
-       });
+      });
 
       /**
        * Form Submit Validation
@@ -255,7 +255,7 @@
 
           inputs.forEach((input) => {
             /**
-             * Shows error messages on submit 
+             * Shows error messages on submit
              */
             handleTextareaValidation(input);
             handleInputFieldValidation(input);
@@ -279,64 +279,77 @@
   }
 
   function handleInputFieldValidation(inputField) {
-    const invalidFeedbackContainerEl = inputField.parentNode.querySelector(
+    let feedbackContainer = inputField.parentNode.querySelector(
       ".feedback-container"
     );
+    feedbackContainer.innerHTML = "";
+
+    const feedbackMsgContainer = inputField.parentNode.querySelector(
+      ".feedback-msg-container"
+    );
+    let feedbackMessage = null;
 
     /** Hide error messages  */
-    inputField.parentNode.querySelectorAll(".feedback-msg")?.forEach((msg) => {
-      if (msg?.classList.contains("d-block")) {
-        msg?.classList.remove("d-block");
-      }
-    });
+    // inputField.parentNode.querySelectorAll(".feedback-msg")?.forEach((msg) => {
+    //   if (msg?.classList.contains("d-block")) {
+    //     msg?.classList.remove("d-block");
+    //   }
+    // });
 
     if (!inputField.checkValidity()) {
       const validity = inputField.validity;
       if (validity.valueMissing) {
-        invalidFeedbackContainerEl
-          ?.querySelector(".valueMissing")
-          ?.classList.add("d-block");
+        feedbackMessage = feedbackMsgContainer?.querySelector(".valueMissing");
       } else if (validity.patternMismatch) {
-        invalidFeedbackContainerEl
-          ?.querySelector(".patternMismatch")
-          ?.classList.add("d-block");
+        feedbackMessage =
+          feedbackMsgContainer?.querySelector(".patternMismatch");
       } else if (validity.customError) {
         const errMessageSelector = inputField.validationMessage;
-        invalidFeedbackContainerEl
-          ?.querySelector('.' + errMessageSelector)
-          ?.classList.add("d-block")
+        feedbackMessage = feedbackMsgContainer?.querySelector(
+          "." + errMessageSelector
+        );
       }
     } else {
       // Mark as valid
-      invalidFeedbackContainerEl
-        ?.querySelector(".valid-feedback")
-        ?.classList?.add("d-block");
+      feedbackMessage = feedbackMsgContainer?.querySelector(".valid-feedback");
     }
+
+    feedbackMessage?.classList.add("d-block");
+    feedbackContainer.innerHTML = feedbackMessage?.outerHTML;
+    inputField.after(feedbackContainer);
   }
 
+  /**
+   * TextArea validation
+   * @param {textarea} inputFieldEl
+   */
   function handleTextareaValidation(inputFieldEl) {
-    if (inputFieldEl.nodeName === 'TEXTAREA') { 
-      const textAreaPattern = [ /[<>]/, 
+    if (inputFieldEl.nodeName === "TEXTAREA") {
+      const textAreaPattern = [
+        /[<>]/,
         /(\balert\b|\bscript\b)/i,
-        /(\bSELECT\b|\bDROP\b|\bINSERT\b|\bDELETE\b|--|;)/i
+        /(\bSELECT\b|\bDROP\b|\bINSERT\b|\bDELETE\b|--|;)/i,
       ];
-      const hasInvalidPattern = textAreaPattern.some(pattern => pattern.test(inputFieldEl.value));
+      const hasInvalidPattern = textAreaPattern.some((pattern) =>
+        pattern.test(inputFieldEl.value)
+      );
 
       if (hasInvalidPattern) {
         inputFieldEl.setCustomValidity("js-invalid-pattern");
       } else {
-        inputFieldEl.setCustomValidity('');
-      };
+        inputFieldEl.setCustomValidity("");
+      }
     }
-
   }
 
+  /**
+   * Resume validation (input[type=file])
+   * @param {textarea} inputFieldEl
+   */
   function handleInputFileValidation(form) {
     const inputFileEl = form.querySelector('input[type="file"]');
 
     if (!inputFileEl) return;
-    const invalidFeedbackEl =
-      inputFileEl?.parentNode.querySelector(".invalid-feedback");
     inputFileEl.ariaInvalid = true;
 
     const isValidFile = (fileName) => {
@@ -353,10 +366,8 @@
 
       if (!isValidFile(file.name)) {
         inputFileEl.setCustomValidity("js-invalid-file-type");
-
       } else if (file.size > 2097152) {
         inputFileEl.setCustomValidity("js-too-large-file");
-      
       } else {
         // Remove custom validation
         inputFileEl.setCustomValidity("");

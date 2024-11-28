@@ -58,7 +58,9 @@
                           pattern="^[a-zA-ZÀ-ÖØ-öø-ÿ0-9\-.' ]*$"
                           >
 
-                        <div class="feedback-container" id="{{.id}}-feedback-validation-first-name" role="alert">  
+                        <div class="feedback-container" id="{{.id}}-feedback-validation-first-name" role="alert"> </div>
+
+                        <div class="feedback-msg-container">
                           <div class="feedback-msg valueMissing invalid-feedback">{{ i18n "fname"}} {{ i18n "invalid_required"}}</div>
                           <div class="feedback-msg patternMismatch invalid-feedback"> {{ i18n "fname"}} {{ i18n "invalid_pattern"}} </div>
                           <div class="feedback-msg valid-feedback visually-hidden"> 
@@ -77,11 +79,12 @@
                           pattern="^[a-zA-ZÀ-ÖØ-öø-ÿ0-9\-.' ]*$"
                           >
 
-                        <div class="feedback-container" id="{{.id}}-feedback-validation-last-name" role="alert">
+                        <div class="feedback-container" id="{{.id}}-feedback-validation-last-name" role="alert"></div>
+                        <div class="feedback-msg-container">
                           <div class="feedback-msg valueMissing invalid-feedback" > 
                             {{ i18n "lname"}} {{ i18n "invalid_required"}}
                            </div>
-                           <div class="feedback-msg patternMismatch invalid-feedback"> {{ i18n "lname"}} {{ i18n "invalid_pattern"}} </div>
+                           <div class="feedback-msg patternMismatch invalid-feedback" > {{ i18n "lname"}} {{ i18n "invalid_pattern"}} </div>
                            <div class="feedback-msg valid-feedback visually-hidden"> 
                             {{ i18n "lname"}} {{ i18n "field_valid"}} </div>
                         </div>
@@ -95,7 +98,8 @@
                           pattern="[a-z0-9.]+@[a-z]+\.[a-z]{2,3}" required autocomplete="email"
                           aria-describedby="{{.id}}-feedback-validation-email" maxlength="254">
 
-                        <div class="feedback-container" id="{{.id}}-feedback-validation-email" role="alert" > 
+                        <div class="feedback-container" id="{{.id}}-feedback-validation-email" role="alert" > </div>
+                        <div class="feedback-msg-container">
                           <div class="feedback-msg valueMissing invalid-feedback">{{ i18n "email"}} {{ i18n "invalid_required"}}</div>
                           <div class="feedback-msg patternMismatch invalid-feedback"> {{ i18n "email_invalid_pattern"}} </div>
                           <div class="feedback-msg valid-feedback visually-hidden"> 
@@ -113,9 +117,10 @@
                           maxlength="2000"
                         ></textarea>
 
-                        <div class="feedback-container" id="{{.id}}-feedback-validation-message" role="alert"> 
+                        <div class="feedback-container" id="{{.id}}-feedback-validation-message" role="alert"> </div>
+                        <div class="feedback-msg-container">
                           <div class="feedback-msg valueMissing invalid-feedback">{{ i18n "message"}} {{ i18n "invalid_required"}}</div>
-                          <div class="feedback-msg patternMismatch  js-invalid-pattern invalid-feedback"> {{ i18n "message"}} {{ i18n "invalid_pattern"}} </div>
+                          <div class="feedback-msg patternMismatch js-invalid-pattern invalid-feedback"> {{ i18n "message"}} {{ i18n "invalid_pattern"}} </div>
                           <div class="feedback-msg valid-feedback visually-hidden"> 
                             {{ i18n "message"}} {{ i18n "field_valid"}} </div>
                         </div>

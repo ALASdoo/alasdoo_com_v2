@@ -44,14 +44,11 @@
   text-transform: capitalize;
 }
 
-.feedback-container {
+.feedback-msg-container {
   display: none;
 }
 
-.was-validated {
-  .feedback-container {
-    display: block;
-  }
+.was-validated { 
   
   .invalid-feedback {
     color:  $color-invalid;
