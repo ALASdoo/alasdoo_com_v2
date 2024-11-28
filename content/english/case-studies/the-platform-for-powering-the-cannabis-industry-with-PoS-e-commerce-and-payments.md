@@ -27,7 +27,7 @@ In this case study you can read about:
 - [Client’s challenges](#clients-challenges)
 - [Our approach](#our-approach)
   - [iOS testing](#ios-testing)
-  - [IoT testing testing](#iot-testing)
+  - [IoT testing](#iot-testing)
   - [Reporting](#reporting)
 - [Value delivered](#value-delivered)
 

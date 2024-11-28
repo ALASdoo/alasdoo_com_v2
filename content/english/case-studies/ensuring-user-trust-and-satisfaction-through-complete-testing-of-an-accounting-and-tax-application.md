@@ -30,7 +30,7 @@ In this case study you can read about:
   - [To retain users’ trust, calculation errors are unacceptable](#to-retain-users-trust-calculation-errors-are-unacceptable)
   - [Stress testing](#stress-testing)
   - [Security testing](#security-testing)
-  - [Backend development](#backend-development)
+  - [Backend testing](#backend-testing)
 - [Value delivered](#value-delivered)
 
 ## About the client
