@@ -56,13 +56,15 @@
                   aria-describedby="feedback-validation-first-name"
                   maxlength="50"
                   pattern="^[a-zA-ZÀ-ÖØ-öø-ÿ0-9\-.' ]*$"
-                  >
+                >
                 <div class="feedback-container" 
                   id="feedback-validation-first-name" role="alert">  
-                  <div class="feedback-msg valueMissing invalid-feedback">{{ i18n "fname"}} {{ i18n "invalid_required"}}</div>
+                  <div class="feedback-msg valueMissing invalid-feedback"> 
+                    {{ i18n "fname"}} {{ i18n "invalid_required"}}</div>
+                  <div class="feedback-msg patternMismatch invalid-feedback"> 
+                    {{ i18n "fname"}} {{ i18n "invalid_pattern"}} </div>
                   <div class="feedback-msg valid-feedback visually-hidden"> 
                     {{ i18n "fname"}} {{ i18n "field_valid"}} </div>
-                  <div class="feedback-msg patternMismatch invalid-feedback"> {{ i18n "fname"}} {{ i18n "invalid_pattern"}} </div>
                 </div>
               </div>
 
@@ -84,9 +86,10 @@
                   id="feedback-validation-last-name" role="alert">
                   <div class="feedback-msg valueMissing invalid-feedback"> 
                     {{ i18n "lname"}} {{ i18n "invalid_required"}}</div>
+                  <div class="feedback-msg patternMismatch invalid-feedback"> 
+                    {{ i18n "lname"}} {{ i18n "invalid_pattern"}} </div>
                   <div class="feedback-msg valid-feedback visually-hidden"> 
                       {{ i18n "lname"}} {{ i18n "field_valid"}} </div>
-                  <div class="feedback-msg patternMismatch invalid-feedback"> {{ i18n "lname"}} {{ i18n "invalid_pattern"}} </div>
                 </div>
               </div>
 

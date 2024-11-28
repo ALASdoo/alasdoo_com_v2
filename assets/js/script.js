@@ -222,11 +222,13 @@
 
       inputs.forEach((input) => {
         /**
-         * Validate fields on change
+         * Validate fields on change / autocomplete
          */
-        input.addEventListener("input", () => {
-          if (!form.classList.contains("was-validated")) return;
+        ['input', 'change',  'blur'].forEach(event => {
+          input.addEventListener(event, () => {          
+            if (!form.classList.contains("was-validated")) return;
 
+          handleTextareaValidation(input);
           handleInputFieldValidation(input);
 
           if (input.checkValidity() === false) {
@@ -235,7 +237,8 @@
             input.removeAttribute("aria-invalid");
           }
         });
-      });
+      })
+       });
 
       /**
        * Form Submit Validation
@@ -254,6 +257,7 @@
             /**
              * Shows error messages on submit 
              */
+            handleTextareaValidation(input);
             handleInputFieldValidation(input);
 
             // Updates aria-invalid
@@ -308,6 +312,23 @@
         ?.querySelector(".valid-feedback")
         ?.classList?.add("d-block");
     }
+  }
+
+  function handleTextareaValidation(inputFieldEl) {
+    if (inputFieldEl.nodeName === 'TEXTAREA') { 
+      const textAreaPattern = [ /[<>]/, 
+        /(\balert\b|\bscript\b)/i,
+        /(\bSELECT\b|\bDROP\b|\bINSERT\b|\bDELETE\b|--|;)/i
+      ];
+      const hasInvalidPattern = textAreaPattern.some(pattern => pattern.test(inputFieldEl.value));
+
+      if (hasInvalidPattern) {
+        inputFieldEl.setCustomValidity("js-invalid-pattern");
+      } else {
+        inputFieldEl.setCustomValidity('');
+      };
+    }
+
   }
 
   function handleInputFileValidation(form) {

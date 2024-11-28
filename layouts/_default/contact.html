@@ -54,10 +54,13 @@
                           required
                           autocomplete="given-name"
                           aria-describedby="{{.id}}-feedback-validation-first-name"
-                          maxlength="50">
+                          maxlength="50"
+                          pattern="^[a-zA-ZÀ-ÖØ-öø-ÿ0-9\-.' ]*$"
+                          >
 
                         <div class="feedback-container" id="{{.id}}-feedback-validation-first-name" role="alert">  
                           <div class="feedback-msg valueMissing invalid-feedback">{{ i18n "fname"}} {{ i18n "invalid_required"}}</div>
+                          <div class="feedback-msg patternMismatch invalid-feedback"> {{ i18n "fname"}} {{ i18n "invalid_pattern"}} </div>
                           <div class="feedback-msg valid-feedback visually-hidden"> 
                             {{ i18n "fname"}} {{ i18n "field_valid"}} </div>
                         </div>
@@ -70,12 +73,15 @@
                           name="last_name" id="{{.id}}-last-name" required 
                           autocomplete="family-name" 
                           aria-describedby="{{.id}}-feedback-validation-last-name"
-                          maxlength="100">
+                          maxlength="100"
+                          pattern="^[a-zA-ZÀ-ÖØ-öø-ÿ0-9\-.' ]*$"
+                          >
 
                         <div class="feedback-container" id="{{.id}}-feedback-validation-last-name" role="alert">
                           <div class="feedback-msg valueMissing invalid-feedback" > 
                             {{ i18n "lname"}} {{ i18n "invalid_required"}}
                            </div>
+                           <div class="feedback-msg patternMismatch invalid-feedback"> {{ i18n "lname"}} {{ i18n "invalid_pattern"}} </div>
                            <div class="feedback-msg valid-feedback visually-hidden"> 
                             {{ i18n "lname"}} {{ i18n "field_valid"}} </div>
                         </div>
@@ -104,10 +110,12 @@
                           name="message" 
                           id="{{.id}}-message" rows="4" required 
                           aria-describedby="{{.id}}-feedback-validation-message"
-                          maxlength="2000"></textarea>
+                          maxlength="2000"
+                        ></textarea>
 
                         <div class="feedback-container" id="{{.id}}-feedback-validation-message" role="alert"> 
                           <div class="feedback-msg valueMissing invalid-feedback">{{ i18n "message"}} {{ i18n "invalid_required"}}</div>
+                          <div class="feedback-msg patternMismatch  js-invalid-pattern invalid-feedback"> {{ i18n "message"}} {{ i18n "invalid_pattern"}} </div>
                           <div class="feedback-msg valid-feedback visually-hidden"> 
                             {{ i18n "message"}} {{ i18n "field_valid"}} </div>
                         </div>
