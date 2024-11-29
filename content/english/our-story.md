@@ -51,7 +51,7 @@ values:
   - title: "Personal approach"
     content: "Our main focus is on people's needs, dreams, and pain points. They guide us as we try to solve their problems, offer advice, set the direction, and create the optimal work model."
     image: "images/values/personal-approach.png"
-    alt: "Two women helping a man reach a star by holding a leader for him."
+    alt: "Two women helping a man reach a star by holding a ladder for him."
 
   - title: "Controlled growth"
     content: "Steady but slow and controlled growth is our chosen path.
@@ -62,7 +62,7 @@ values:
   - title: "Highest standards"
     content: "No matter how big or small the project, we are devoted to giving our very best, maintaining rigorous standards, and holding ourselves accountable for the results. We take great care to fully grasp our client's needs and see the whole picture."
     image: "images/values/highest-standards.png"
-    alt: "A man makes sure that everything is top quality on different devices and gives a quality quarantee."
+    alt: "A man makes sure that everything is top quality on different devices and gives a quality quarantine."
 
   - title: "Responsible flexibility"
     content: "

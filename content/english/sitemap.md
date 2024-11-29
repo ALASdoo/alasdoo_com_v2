@@ -85,7 +85,7 @@ Forms for inquiries about:
 
 Information about the types of cookies we use, their purpose, and settings.
 
-### [Privacy Policy](/privacy-policy/)
+### [Privacy policy](/privacy-policy/)
 
 Detailed explanation of how we protect user data.
 

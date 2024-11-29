@@ -35,7 +35,7 @@ cookies:
       Upon your first visit, a cookie popup will appear, allowing you to make your selection. You can adjust your cookie settings anytime by selecting “Cookies” in the footer or through your browser settings, where you can delete or block cookies.'
 
     - title: 'Your data privacy'
-      content: 'All information collected by cookies is anonymous and will not be used to personally identify you. For more information on how we protect your privacy and handle your data, please refer to our [Privacy Policy](/privacy-policy).'
+      content: 'All information collected by cookies is anonymous and will not be used to personally identify you. For more information on how we protect your privacy and handle your data, please refer to our [Privacy policy](/privacy-policy).'
 
     - title: 'Changes to our cookies'
       content: 'We may update our cookie practices for operational, legal, or regulatory reasons. Please check this page periodically for the latest information.'

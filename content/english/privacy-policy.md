@@ -49,10 +49,10 @@ Under Data Protection Law, you have the following rights regarding your personal
 
 If you wish to exercise any of these rights, please [contact us](https://www.alasdoo.com/contact/).
 
-## Changes to this privacy policy
+## Changes to this Privacy policy
 
-We may update this privacy policy from time to time to reflect changes in our practices or for legal or regulatory reasons. Please check this page periodically to stay informed about how we protect your data.
+We may update this Privacy policy from time to time to reflect changes in our practices or for legal or regulatory reasons. Please check this page periodically to stay informed about how we protect your data.
 
 ## Contact Us
 
-If you have any questions about this privacy policy or how your personal data is handled, please contact us at [info@alasdoo.com](mailto:info@alasdoo.com).
+If you have any questions about this Privacy policy or how your personal data is handled, please contact us at [info@alasdoo.com](mailto:info@alasdoo.com).
