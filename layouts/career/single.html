@@ -57,7 +57,7 @@
                   maxlength="50"
                   pattern="^[a-zA-ZÀ-ÖØ-öø-ÿ0-9\-.' ]*$"
                 >
-                <div class="feedback-container" id="feedback-validation-first-name" role="alert">  </div>
+                <div class="feedback-container" id="feedback-validation-first-name">  </div>
                 <div class="feedback-msg-container">
                   <div class="feedback-msg valueMissing invalid-feedback"> 
                     {{ i18n "fname"}} {{ i18n "invalid_required"}}</div>
@@ -82,7 +82,7 @@
                   pattern="^[a-zA-ZÀ-ÖØ-öø-ÿ0-9\-.' ]*$"
                   >
 
-                <div class="feedback-container" id="feedback-validation-last-name" role="alert"> </div>
+                <div class="feedback-container" id="feedback-validation-last-name"> </div>
                
                 <div class="feedback-msg-container">
                   <div class="feedback-msg valueMissing invalid-feedback"> 
@@ -107,7 +107,7 @@
                   maxlength="254" >
 
                 <div class="feedback-container" 
-                  id="feedback-validation-email" role="alert" > </div>
+                  id="feedback-validation-email" > </div>
                 <div class="feedback-msg-container">
                   <div class="feedback-msg valueMissing invalid-feedback">{{ i18n "email"}} {{ i18n "invalid_required"}}</div>
                   <div class="feedback-msg patternMismatch invalid-feedback"> {{ i18n "email_invalid_pattern"}} </div>
@@ -130,7 +130,7 @@
 
                 <div class="feedback-container" 
                  id="feedback-validation-cv" 
-                 role="alert" > </div>
+                 > </div>
                 <div class="feedback-msg-container">
                  <div class="feedback-msg valueMissing invalid-feedback">{{ i18n "cv_required"}}</div>
                  <div class="feedback-msg js-invalid-file-type invalid-feedback">Invalid file type. Please upload a file in .pdf, .doc or .docx format</div>
@@ -151,7 +151,7 @@
                   {{ i18n "privacy_disclosure" | markdownify }}
                 </label>
 
-                <div class="feedback-container" id="feedback-privacy-policy" role="alert"> </div>
+                <div class="feedback-container" id="feedback-privacy-policy"> </div>
 
                 <div class="feedback-msg-container">
                   <div class="feedback-msg valueMissing invalid-feedback"> Privacy policy  {{ i18n "invalid_required"}}</div>

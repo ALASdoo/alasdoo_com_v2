@@ -58,7 +58,7 @@
                           pattern="^[a-zA-ZÀ-ÖØ-öø-ÿ0-9\-.' ]*$"
                         >
 
-                        <div class="feedback-container" id="{{.id}}-feedback-validation-first-name" role="alert"> </div>
+                        <div class="feedback-container" id="{{.id}}-feedback-validation-first-name"> </div>
 
                         <div class="feedback-msg-container">
                           <div class="feedback-msg valueMissing invalid-feedback">{{ i18n "fname"}} {{ i18n "invalid_required"}}</div>
@@ -79,7 +79,7 @@
                           pattern="^[a-zA-ZÀ-ÖØ-öø-ÿ0-9\-.' ]*$"
                           >
 
-                        <div class="feedback-container" id="{{.id}}-feedback-validation-last-name" role="alert"></div>
+                        <div class="feedback-container" id="{{.id}}-feedback-validation-last-name"></div>
                         <div class="feedback-msg-container">
                           <div class="feedback-msg valueMissing invalid-feedback" > 
                             {{ i18n "lname"}} {{ i18n "invalid_required"}}
@@ -98,7 +98,7 @@
                           pattern="[a-z0-9.]+@[a-z]+\.[a-z]{2,3}" required autocomplete="email"
                           aria-describedby="{{.id}}-feedback-validation-email" maxlength="254">
 
-                        <div class="feedback-container" id="{{.id}}-feedback-validation-email" role="alert" > </div>
+                        <div class="feedback-container" id="{{.id}}-feedback-validation-email" > </div>
                         <div class="feedback-msg-container">
                           <div class="feedback-msg valueMissing invalid-feedback">{{ i18n "email"}} {{ i18n "invalid_required"}}</div>
                           <div class="feedback-msg patternMismatch invalid-feedback"> {{ i18n "email_invalid_pattern"}} </div>
@@ -117,7 +117,7 @@
                           maxlength="1000"
                         ></textarea>
 
-                        <div class="feedback-container" id="{{.id}}-feedback-validation-message" role="alert"> </div>
+                        <div class="feedback-container" id="{{.id}}-feedback-validation-message" > </div>
 
                         <div class="feedback-msg-container">
                           <div class="feedback-msg valueMissing invalid-feedback">{{ i18n "message"}} {{ i18n "invalid_required"}}</div>
@@ -140,7 +140,7 @@
                           {{ i18n "privacy_disclosure" | markdownify }}
                         </label>
                         
-                        <div class="feedback-container" id="{{.id}}-invalid-feedback-privacy-policy" role="alert"> </div>
+                        <div class="feedback-container" id="{{.id}}-invalid-feedback-privacy-policy"> </div>
 
                         <div class="feedback-msg-container">
                           <div class="feedback-msg valueMissing invalid-feedback"> Privacy policy  {{ i18n "invalid_required"}}</div>

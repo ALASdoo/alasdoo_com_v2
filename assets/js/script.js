@@ -218,18 +218,18 @@
     const formValidation = (form) => {
       const inputs = form.querySelectorAll(".js--form-control");
 
-      handleInputFileValidation(form);
+      handleResumeFileValidation(form);
 
       inputs.forEach((input) => {
         /**
          * Validate fields on change / autocomplete
          */
-        ["input", "change", "blur"].forEach((event) => {
+        ["input", "change"].forEach((event) => {
           input.addEventListener(event, () => {
             if (!form.classList.contains("was-validated")) return;
 
             handleTextareaValidation(input);
-            handleInputFieldValidation(input);
+            handleFieldValidation(input, true);
 
             if (input.checkValidity() === false) {
               input.ariaInvalid = true;
@@ -258,7 +258,7 @@
              * Shows error messages on submit
              */
             handleTextareaValidation(input);
-            handleInputFieldValidation(input);
+            handleFieldValidation(input);
  
             // Updates aria-invalid
             if (input.checkValidity() === false) {
@@ -279,19 +279,19 @@
     });
   }
 
-  function handleInvalidField(form) {
-    const inputs = form.querySelectorAll(".js--form-control");
 
-    const firstInvalidField = [...inputs].find((input) => { 
-      return input.checkValidity() === false;
-    });
-    firstInvalidField?.focus();
-  }
-
-  function handleInputFieldValidation(inputField) {
+  function handleFieldValidation(inputField, isAlreadySubmitted) {
     const formGroupEl = inputField.closest('.js--form-group');
     const feedbackContainer = formGroupEl.querySelector(".feedback-container");
+    feedbackContainer.removeAttribute('role', 'alert')
     feedbackContainer.innerHTML = "";
+    
+    if (isAlreadySubmitted) {
+      /**
+       * Only announce error messages on input 
+       */
+      feedbackContainer.setAttribute("role","alert");
+    }
 
     const feedbackMsgContainer = formGroupEl.querySelector(".feedback-msg-container");
     let feedbackMessage = null;
@@ -345,7 +345,7 @@
    * Resume validation (input[type=file])
    * @param {textarea} inputFieldEl
    */
-  function handleInputFileValidation(form) {
+  function handleResumeFileValidation(form) {
     const inputFileEl = form.querySelector('input[type="file"]');
 
     if (!inputFileEl) return;
@@ -373,7 +373,20 @@
         inputFileEl.removeAttribute("aria-invalid");
       }
 
-      handleInputFieldValidation(inputFileEl);
+      handleFieldValidation(inputFileEl);
     });
+  }
+
+  /**
+   * A11y: sets focus to the first invalid field when form is submitted
+   * so that screen readers announce it in correct order 
+   */
+  function handleInvalidField(form) {
+    const inputs = form.querySelectorAll(".js--form-control");
+
+    const firstInvalidField = [...inputs].find((input) => { 
+      return input.checkValidity() === false;
+    });
+    firstInvalidField?.focus();
   }
 })();
