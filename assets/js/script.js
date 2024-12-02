@@ -259,7 +259,7 @@
              */
             handleTextareaValidation(input);
             handleInputFieldValidation(input);
-
+ 
             // Updates aria-invalid
             if (input.checkValidity() === false) {
               input.ariaInvalid = true;
@@ -267,6 +267,7 @@
               input.removeAttribute("aria-invalid");
             }
           });
+          handleInvalidField(form);
         },
         false
       );
@@ -278,6 +279,15 @@
     });
   }
 
+  function handleInvalidField(form) {
+    const inputs = form.querySelectorAll(".js--form-control");
+
+    const firstInvalidField = [...inputs].find((input) => { 
+      return input.checkValidity() === false;
+    });
+    firstInvalidField?.focus();
+  }
+
   function handleInputFieldValidation(inputField) {
     const formGroupEl = inputField.closest('.js--form-group');
     const feedbackContainer = formGroupEl.querySelector(".feedback-container");
@@ -286,20 +296,13 @@
     const feedbackMsgContainer = formGroupEl.querySelector(".feedback-msg-container");
     let feedbackMessage = null;
 
-    /** Hide error messages  */
-    // inputField.parentNode.querySelectorAll(".feedback-msg")?.forEach((msg) => {
-    //   if (msg?.classList.contains("d-block")) {
-    //     msg?.classList.remove("d-block");
-    //   }
-    // });
 
     if (!inputField.checkValidity()) {
       const validity = inputField.validity;
       if (validity.valueMissing) {
         feedbackMessage = feedbackMsgContainer?.querySelector(".valueMissing");
       } else if (validity.patternMismatch) {
-        feedbackMessage =
-          feedbackMsgContainer?.querySelector(".patternMismatch");
+        feedbackMessage = feedbackMsgContainer?.querySelector(".patternMismatch");
       } else if (validity.customError) {
         const errMessageSelector = inputField.validationMessage;
         feedbackMessage = feedbackMsgContainer?.querySelector(
