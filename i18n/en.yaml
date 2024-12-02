@@ -134,7 +134,7 @@
   translation: All fields are required
 
 - id: privacy_disclosure
-  translation: We only use your personal information to respond to your inquiry. By submitting this form, you agree to our [Privacy policy](/privacy-policy).
+  translation: I agree that my personal information will only be used to respond to my inquiry, and I agree with the [Privacy policy](/privacy-policy).
 
 - id: menu_open
   translation: Open menu

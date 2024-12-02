@@ -113,7 +113,7 @@
   translation: (Bitte beachten Sie, dass alle Felder ausgefüllt werden müssen)
 
 - id: privacy_disclosure 
-  translation: Wir verwenden Ihre persönlichen Daten (Name und E-Mail) nur, um Ihre Anfrage zu beantworten. Weitere Einzelheiten zum Umgang mit Ihren Daten finden Sie in unserer [Datenschutzrichtlinie](/privacy-policy).
+  translation: Ich erkläre mich damit einverstanden, dass meine persönlichen Daten nur zur Beantwortung meiner Anfrage verwendet werden, und ich bin mit den  [Datenschutzrichtlinie](/privacy-policy).
 
 - id: menu_open
   translation: Menü öffnen
