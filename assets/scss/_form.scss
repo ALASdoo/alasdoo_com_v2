@@ -15,7 +15,8 @@
 }
 
 // Checkbox
-.form-check-input {
+.form-check-input,
+.form-check-input.form-control {
   margin-right: 5px;
   vertical-align: top;
   &:checked {

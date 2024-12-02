@@ -45,9 +45,9 @@
                       <legend class="form-legend mt-5 mb-0">{{ i18n "form_legend" }}</legend>
                      
                       <!-- First Name -->
-                      <div class="col-lg-12">
+                      <div class="col-lg-12 js--form-group">
                         <label class="mb-1" for="{{.id}}-first-name"> {{ i18n "fname"}} </label>
-                        <input class="form-control shadow-none my-1" 
+                        <input class="form-control js--form-control shadow-none my-1" 
                           type="text" 
                           name="first_name" 
                           id="{{.id}}-first-name" 
@@ -56,7 +56,7 @@
                           aria-describedby="{{.id}}-feedback-validation-first-name"
                           maxlength="50"
                           pattern="^[a-zA-ZÀ-ÖØ-öø-ÿ0-9\-.' ]*$"
-                          >
+                        >
 
                         <div class="feedback-container" id="{{.id}}-feedback-validation-first-name" role="alert"> </div>
 
@@ -69,9 +69,9 @@
                       </div>
                       
                       <!-- Last Name -->
-                      <div class="col-lg-12">
+                      <div class="col-lg-12 js--form-group">
                         <label class="mb-1" for="{{.id}}-last-name">{{ i18n "lname"}}</label>
-                        <input class="form-control shadow-none my-1" type="text"
+                        <input class="form-control js--form-control shadow-none my-1" type="text"
                           name="last_name" id="{{.id}}-last-name" required 
                           autocomplete="family-name" 
                           aria-describedby="{{.id}}-feedback-validation-last-name"
@@ -91,9 +91,9 @@
                       </div>
                      
                       <!-- Email -->
-                      <div class="col-lg-12">
+                      <div class="col-lg-12 js--form-group">
                         <label class="mb-1" for="{{.id}}-email">{{i18n "email"}}</label>
-                        <input class="form-control shadow-none my-1" type="email"
+                        <input class="form-control js--form-control shadow-none my-1" type="email"
                           name="email_address" id="{{.id}}-email"
                           pattern="[a-z0-9.]+@[a-z]+\.[a-z]{2,3}" required autocomplete="email"
                           aria-describedby="{{.id}}-feedback-validation-email" maxlength="254">
@@ -108,9 +108,9 @@
                       </div>
 
                       <!-- Message -->
-                      <div class="col-lg-12">
+                      <div class="col-lg-12 js--form-group">
                         <label class="mb-1" for="{{.id}}-message">{{i18n "message"}}</label>
-                        <textarea class="form-control shadow-none my-1" 
+                        <textarea class="form-control js--form-control shadow-none my-1" 
                           name="message" 
                           id="{{.id}}-message" rows="4" required 
                           aria-describedby="{{.id}}-feedback-validation-message"
@@ -118,6 +118,7 @@
                         ></textarea>
 
                         <div class="feedback-container" id="{{.id}}-feedback-validation-message" role="alert"> </div>
+
                         <div class="feedback-msg-container">
                           <div class="feedback-msg valueMissing invalid-feedback">{{ i18n "message"}} {{ i18n "invalid_required"}}</div>
                           <div class="feedback-msg patternMismatch js-invalid-pattern invalid-feedback"> {{ i18n "message"}} {{ i18n "invalid_pattern"}} </div>
@@ -127,12 +128,32 @@
                       </div>
 
 
+                      <!-- Checkbox -->
+                      <div class="col-lg-12 js--form-group">
+                        <label class="mb-1" for="{{.id}}-privacy-policy">
+                          <input type="checkbox"  required 
+                          class="form-check-input js--form-control" 
+                          id="{{.id}}-privacy-policy" 
+                          name="privacy_policy" 
+                          aria-describedby="{{.id}}-invalid-feedback-privacy-policy"
+                          aria-errormessage="{{.id}}-invalid-feedback-privacy-policy" >
+                          {{ i18n "privacy_disclosure" | markdownify }}
+                        </label>
+                        
+                        <div class="feedback-container" id="{{.id}}-invalid-feedback-privacy-policy" role="alert"> </div>
+
+                        <div class="feedback-msg-container">
+                          <div class="feedback-msg valueMissing invalid-feedback"> Privacy policy field {{ i18n "invalid_required"}}</div>
+                          <div class="feedback-msg valid-feedback visually-hidden">  Privacy policy field {{ i18n "field_valid"}} </div>
+                        </div>
+                      </div>
+
+                      <!-- Button -->
                       <div class="col-lg-12">
-                        <button class="btn btn-primary mt-2" type="submit" aria-describedby="{{.id}}-form-description-privacy-disclosure"> 
+                        <button class="btn btn-primary mt-2" type="submit"> 
                           {{ i18n "send"}}
                         </button>
                       </div>
-                      <p class="form-legend mt-3 mb-0" id="{{.id}}-form-description-privacy-disclosure">{{ i18n "privacy_disclosure" | markdownify }}</p>
                    </fieldset>
                   </form>
                 </div>

@@ -216,7 +216,7 @@
   *==============================*/
   function formHandler() {
     const formValidation = (form) => {
-      const inputs = form.querySelectorAll(".form-control");
+      const inputs = form.querySelectorAll(".js--form-control");
 
       handleInputFileValidation(form);
 
@@ -279,14 +279,11 @@
   }
 
   function handleInputFieldValidation(inputField) {
-    let feedbackContainer = inputField.parentNode.querySelector(
-      ".feedback-container"
-    );
+    const formGroupEl = inputField.closest('.js--form-group');
+    const feedbackContainer = formGroupEl.querySelector(".feedback-container");
     feedbackContainer.innerHTML = "";
 
-    const feedbackMsgContainer = inputField.parentNode.querySelector(
-      ".feedback-msg-container"
-    );
+    const feedbackMsgContainer = formGroupEl.querySelector(".feedback-msg-container");
     let feedbackMessage = null;
 
     /** Hide error messages  */
@@ -316,7 +313,6 @@
 
     feedbackMessage?.classList.add("d-block");
     feedbackContainer.innerHTML = feedbackMessage?.outerHTML;
-    inputField.after(feedbackContainer);
   }
 
   /**

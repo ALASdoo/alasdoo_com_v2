@@ -44,10 +44,10 @@
               <input type="hidden" name="job" value="{{.Title}}" />
               
               <!-- First Name -->
-              <div class="form-group mb-3">
+              <div class="form-group mb-3 js--form-group">
                 <label class="mb-1" for="first-name">{{ i18n `fname`}}</label>
                 <input 
-                  class="form-control shadow-none my-1"
+                  class="form-control js--form-control shadow-none my-1"
                   type="text" 
                   name="first_name" 
                   id="first-name"
@@ -69,9 +69,9 @@
               </div>
 
               <!-- Last Name -->
-              <div class="form-group mb-3">
+              <div class="form-group mb-3 js--form-group">
                 <label class="mb-1" for="last-name">{{ i18n `lname`}}</label>
-                <input class="form-control shadow-none my-1" 
+                <input class="form-control js--form-control shadow-none my-1" 
                   type="text"
                   name="last_name"
                   id="last-name"
@@ -95,9 +95,9 @@
               </div>
 
               <!-- Email -->
-              <div class="form-group mb-3">
+              <div class="form-group mb-3 js--form-group">
                 <label class="mb-1" for="email">{{i18n "email"}}</label>
-                <input class="form-control shadow-none my-1" 
+                <input class="form-control js--form-control shadow-none my-1" 
                   type="email" 
                   name="email_address" id="email" 
                   pattern="[a-z0-9.]+@[a-z]+\.[a-z]{2,3}"
@@ -117,10 +117,10 @@
               </div>
 
               <!-- Resume -->
-              <div class="form-group mb-3">
+              <div class="form-group mb-3 js--form-group">
                 <label class="mb-1" for="cv">{{i18n `upload_cv`}} </label>
                 <input
-                  class="text-dark my-1 w-100 form-control"
+                  class="text-dark my-1 w-100 form-control js--form-control"
                   type="file"
                   accept=".doc, .docx, .pdf, application/msword"
                   name="cv"
@@ -139,13 +139,34 @@
                 </div>
               </div>
 
+              <!-- Checkbox -->
+              <div class="col-lg-12 mb-3 js--form-group">
+                <label class="mb-0" for="privacy-policy">
+                  <input type="checkbox" required 
+                  class="form-check-input js--form-control mb-0 mt-1" 
+                  id="privacy-policy" 
+                  name="privacy_policy" 
+                  aria-describedby="feedback-privacy-policy"
+                  aria-errormessage="feedback-privacy-policy" >
+                  {{ i18n "privacy_disclosure" | markdownify }}
+                </label>
+
+                <div class="feedback-container" id="feedback-privacy-policy" role="alert"> </div>
+
+                <div class="feedback-msg-container">
+                  <div class="feedback-msg valueMissing invalid-feedback"> Privacy policy field {{ i18n "invalid_required"}}</div>
+                  <div class="feedback-msg valid-feedback visually-hidden">  Privacy policy field {{ i18n "field_valid"}} </div>
+                </div>
+              </div>
+ 
+
+              <!-- Button -->
               <button
                 class="btn btn-sm btn-primary"
                 type="submit"
                 aria-describedby="form-description-privacy-disclosure"
               >{{i18n `apply_now`}}</button>
 
-              <p class="form-legend mt-3 mb-0" id="form-description-privacy-disclosure">{{ i18n "privacy_disclosure" | markdownify }}</p>
             </fieldset>
           </form>
         </div>
