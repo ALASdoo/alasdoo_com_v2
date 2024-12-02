@@ -75,7 +75,7 @@
                           name="last_name" id="{{.id}}-last-name" required 
                           autocomplete="family-name" 
                           aria-describedby="{{.id}}-feedback-validation-last-name"
-                          maxlength="100"
+                          maxlength="50"
                           pattern="^[a-zA-ZÀ-ÖØ-öø-ÿ0-9\-.' ]*$"
                           >
 
@@ -114,7 +114,7 @@
                           name="message" 
                           id="{{.id}}-message" rows="4" required 
                           aria-describedby="{{.id}}-feedback-validation-message"
-                          maxlength="2000"
+                          maxlength="1000"
                         ></textarea>
 
                         <div class="feedback-container" id="{{.id}}-feedback-validation-message" role="alert"> </div>
