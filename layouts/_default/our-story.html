@@ -40,7 +40,12 @@
         data-aos-easing="ease-in-out-sine">
         <div class="px-0 px-lg-4">
           <div class="swiper-slide">
-            {{ partial "image" (dict "Src" .image "Alt" .alt "Class" "w-100 rounded-2") }}
+            {{ partial "image" (dict 
+              "Src" .image 
+              "Alt" .alt 
+              "Class" "w-100 rounded-2"
+              "LazyLoading" (not (eq $i 0))
+            )}}
           </div>
         </div>
       </div>

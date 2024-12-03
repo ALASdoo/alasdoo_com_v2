@@ -14,6 +14,7 @@
 {{ $command:= .Command | default "Resize" }}
 {{ $placeholder:= .Placeholder | default false }}
 {{ $placeholderQuality:= "40x q20" }}
+{{ $lazyLoading:= .LazyLoading | default true}}
 
 <!-- check content image  -->
 {{ with $context.Resources }}
@@ -159,7 +160,18 @@
   <source {{ if $placeholder }}src="data:image/jpeg;base64,{{ $placeholderImage.Content | base64Encode }}" data-srcset={{$imageFallback.RelPermalink}} {{else}} srcset="{{ $imageMD.RelPermalink }}" {{end}} media="(max-width: 767px)">
   <source {{ if $placeholder }}src="data:image/jpeg;base64,{{ $placeholderImage.Content | base64Encode }}" data-srcset={{$imageFallback.RelPermalink}} {{else}} srcset="{{ $imageLG.RelPermalink }}" {{end}} media="(max-width: 991px)">
   <source {{ if $placeholder }}src="data:image/jpeg;base64,{{ $placeholderImage.Content | base64Encode }}" data-srcset={{$imageFallback.RelPermalink}} {{else}} srcset="{{ $imageXL.RelPermalink }}" {{end}}>
-  <img {{ if $placeholder }}src="data:image/jpeg;base64,{{ $placeholderImage.Content | base64Encode }}" data-src={{$imageFallback.RelPermalink}} {{else}} loading="lazy" decoding="async" src="{{$imageFallback.RelPermalink}}"{{ end }}class="{{if $placeholder}}lazy{{end}} {{$class}} img-fluid" alt="{{.Alt}}" width="{{$image.Width}}" height="{{$image.Height}}">
+  <img {{ if $placeholder }}
+    src="data:image/jpeg;base64,{{ $placeholderImage.Content | base64Encode }}" 
+      data-src={{$imageFallback.RelPermalink}} 
+    {{else}} 
+      {{ if $lazyLoading }}loading="lazy"{{ end }}
+      decoding="async" 
+      src="{{$imageFallback.RelPermalink}}"
+    {{ end }}
+    class="{{if $placeholder}}lazy{{end}} {{$class}} img-fluid" 
+    alt="{{.Alt}}" 
+    width="{{$image.Width}}" 
+    height="{{$image.Height}}">
 </picture>
 {{ end }} <!-- end image processing -->
 {{ end }} <!-- end single image -->
