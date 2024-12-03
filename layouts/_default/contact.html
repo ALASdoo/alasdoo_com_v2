@@ -14,7 +14,7 @@
       <ul class="nav nav-tabs d-flex pb-5" id="contact-tabs" role="tablist">
         {{range $i, $e := .contact_item}}
         <li class="nav-item flex-fill {{.id}}" role="presentation">
-          <button class="nav-link {{if eq $i 0 }}active{{end}} w-100" id="{{.id}}" data-bs-toggle="tab" data-bs-target="#{{.id}}-tab-pane" type="button" role="tab" aria-controls="{{.id}}-tab-pane" aria-selected="true">{{.title}}</button>
+          <button class="nav-link {{if eq $i 0 }}active{{end}} w-100" id="{{.id}}-tab" data-bs-toggle="tab" data-bs-target="#{{.id}}-tab-pane" type="button" role="tab" aria-controls="{{.id}}-tab-pane" aria-selected="true">{{.title}}</button>
         </li>
         {{end}}
       </ul>
