@@ -232,38 +232,42 @@
   .block {
     z-index: 1;
     position: relative;
-    &::after {
-      position: absolute;
-      content: "";
-      height: calc(100% + 193px);
-      width: 2px;
-      top: -68px;
-      left: calc(50% - 1px);
-      background-color: rgba($color-primary, 0.2);
-      z-index: -1;
-      @include desktop {
-        display: none;
-      }
-    }
+    // History Timeline 
+    // &::after {
+    //   position: absolute;
+    //   content: "";
+    //   height: calc(100% + 193px);
+    //   width: 2px;
+    //   top: -68px;
+    //   left: calc(50% - 1px);
+    //   background-color: rgba($color-primary, 0.2);
+    //   z-index: -1;
+    //   @include desktop {
+    //     display: none;
+    //   }
+    // }
+
     .history-container {
       position: relative;
       z-index: 3;
-      &:after {
-        position: absolute;
-        content: "";
-        height: 25px;
-        width: 25px;
-        top: 12px;
-        left: -42px;
-        border: 5px solid lighten($color-primary, 3);
-        background-color: darken($color-primary, 3);
-        border-radius: 50%;
-        z-index: 3;
-        @include desktop {
-          display: none;
-        }
-      }
+      // History Timeline Bullets 
+      // &:after {
+      //   position: absolute;
+      //   content: "";
+      //   height: 25px;
+      //   width: 25px;
+      //   top: 12px;
+      //   left: -42px;
+      //   border: 5px solid lighten($color-primary, 3);
+      //   background-color: darken($color-primary, 3);
+      //   border-radius: 50%;
+      //   z-index: 3;
+      //   @include desktop {
+      //     display: none;
+      //   }
+      // }
     }
+
     &.block-right-image {
       .history-container::after {
         left: auto;
