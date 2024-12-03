@@ -188,13 +188,11 @@
           "label" "Read case study"
           "link" .RelPermalink
         }}
-        {{ $content := printf "%s | %s" .Params.job_nature .Params.category }}
         {{ $card := dict
           "name" .Title 
           "headingLevel" "3"
           "cardMarkup" "li"
           "button" $button
-          "content" $content
         }}
         {{ partial "card" $card }}
         {{ $count = add $count 1 }} {{ end }} {{ end }}
