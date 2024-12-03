@@ -4,7 +4,7 @@
  {{ $closeTag := printf "</%s>" $cardMarkup | safeHTML }}
 
 {{ $openTag }}
-  <div class="card {{.type}}-card bg-white rounded-2 border-0">
+  <div class="card {{.type}}-card bg-white rounded-2">
     {{ if .image }}
     <div class="card-header {{.type}}-image text-center bg-white rounded-2 border-0 p-0">
       {{ partial "image" (dict "Src" .image "alt" .alt "Class" "rounded-2") }}

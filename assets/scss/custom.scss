@@ -160,6 +160,7 @@ video {
 // Card Partials
 .card {
   width: 100%;
+  border-color: transparent;
   &.is-hoverable {
     &:hover {
       img {
