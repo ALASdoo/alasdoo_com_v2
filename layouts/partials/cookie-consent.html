@@ -6,8 +6,13 @@
     <div class="modal-content">
       {{with .Params}}
       <div class="modal-body">
-        {{ partial "image" (dict "Src" "images/cookies.svg" "alt" "Cookie image"
-        "Class" "modal-image") }} {{ .Params.cookieconsent.heading}}
+        {{ partial "image" (dict 
+          "Src" "images/cookies.svg" 
+          "alt" "Cookie image" 
+          "Class" "modal-image" 
+          "Size" "125x135") }} 
+
+          {{ .Params.cookieconsent.heading}}
 
         <h2 class="h3 text-center" id="modal-header">Analytics cookies only</h2>
 
