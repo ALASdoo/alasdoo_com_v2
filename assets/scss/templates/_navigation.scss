@@ -306,3 +306,13 @@
     }
   }
 }
+
+// Show dark theme logo when high contrast mode and dark color theme are enabled 
+@media (prefers-color-scheme: dark) and (forced-colors: active) {
+  .navbar-brand .only-light {
+    display: none;
+  }
+  .navbar-brand .only-dark {
+    display: block;
+  }
+}
