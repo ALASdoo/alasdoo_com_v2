@@ -35,7 +35,7 @@
   }
 
   .navbar-brand .logo-error {
-    font-size: 1rem;
+    font-size: rfs-value(16px);
     font-weight: 500;
     display: inline-block;
     white-space: break-spaces;
@@ -253,7 +253,7 @@
     outline: none !important;
     
     cursor: pointer;
-    font-size: 0.9rem;
+    font-size: rfs-value(15px);
     text-align: center;
     text-decoration: underline;
     background-color: $color-primary;

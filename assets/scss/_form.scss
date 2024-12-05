@@ -1,7 +1,7 @@
 
 // form control
 .form-legend {
-  font-size: 16px;
+  font-size: rfs-value(16px);
   color: $text-dark;
 }
 
@@ -61,6 +61,7 @@
   
   .invalid-feedback {
     color:  $color-invalid;
+    font-size: rfs-value(14px);
   }
 
   .form-check-input:invalid {
@@ -120,7 +121,7 @@ textarea.form-control {
 }
 
 form label {
-  font-size: 16px;
+  font-size: rfs-value(16px);
   font-weight: 500;
   @extend .text-dark;
 }

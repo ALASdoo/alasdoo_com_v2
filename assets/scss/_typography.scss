@@ -1,12 +1,13 @@
 html {
-  font-size: $font-size;
-  @include desktop {
-    font-size: calc(#{$font-size} * 0.95);
-  }
+  // font-size: $font-size;
 
-  @include tablet {
-    font-size: calc(#{$font-size} * 0.9);
-  }
+  // @include desktop {
+  //   font-size: calc(#{$font-size} * 1.2);
+  // }
+
+  // @include tablet {
+  //   font-size: calc(#{$font-size} * 1);
+  // }
 }
 
 body {
@@ -74,41 +75,41 @@ $type-levels: 6, 5, 4, 3, 2, 1;
   }
 
   h1, .h1 {
-    font-size: 26px;
+    font-size: rfs-value(26px);
     @media screen and (min-width: 768px) {
-      font-size: 30px;      
+      font-size: rfs-value(30px);
     }
     @media screen and (min-width: 992px) {
-      font-size: 46px;
+      font-size: rfs-value(46px);
     }
   }
 
   h2, .h2 {
-    font-size: 24px;
+    font-size: rfs-value(24px); 
     @media screen and (min-width: 768px) {
-      font-size: 28px;      
+      font-size: rfs-value(28px); 
     }
     @media screen and (min-width: 992px) {
-      font-size: 36px;
+      font-size: rfs-value(36px);
     }
   }
   
   h3, .h3 { 
-    font-size: 22px;
+     font-size: rfs-value(22px); 
     @media screen and (min-width: 768px) {
-      font-size: 24px;      
+      font-size: rfs-value(24px); 
     }
     @media screen and (min-width: 992px) {
-      font-size: 24px;
+      font-size: rfs-value(24px); 
     }
   }
 
   h4, .h4 {
-    font-size: 20px;
+    font-size: rfs-value(20px); 
   }
 
   h6, .h6 {
-    font-size: 20px;
+    font-size: rfs-value(20px); 
   }
 
   b, strong {
@@ -117,11 +118,11 @@ $type-levels: 6, 5, 4, 3, 2, 1;
 
   .nav-item,
   .navigation .dropdown-menu a.dropdown-item { 
-    font-size: 20px;
+    font-size: rfs-value(20px); 
   }
 
   .numbers-text {
-    font-size: 48px;
+    font-size: rfs-value(48px); 
     line-height: 1.5;
     * {
       font-size: inherit;
@@ -150,7 +151,7 @@ $type-levels: 6, 5, 4, 3, 2, 1;
   h1 {
     font-weight: 500;
     @media screen and (min-width: 992px) { 
-      font-size: 38px;
+      font-size: rfs-value(38px); 
     }
   }
 
@@ -158,25 +159,25 @@ $type-levels: 6, 5, 4, 3, 2, 1;
     font-weight: 500;
     font-family: $font-primary;
     @media screen and (min-width: 992px) {
-      font-size: 32px;
+      font-size: rfs-value(32px); 
     }
   }
 
   h3 {
     font-weight: 600;
-    font-size: 18px;
+    font-size: rfs-value(18px); 
     @media screen and (min-width: 768px) {
-      font-size: 22px;
+      font-size: rfs-value(22px); 
     }
   }
 
   h4 {
-    font-size: 18px;
+    font-size: rfs-value(18px); 
     font-weight: 700;
   }
 
   .table-of-content {
-    font-size: 18px;
+    font-size: rfs-value(18px); 
   }
 
   .content {
@@ -192,6 +193,23 @@ $type-levels: 6, 5, 4, 3, 2, 1;
   }
 }
 
+// footer-contact
+.footer-contact {
+  font-size: rfs-value(16px); 
+
+  .btn-link {
+    font-size: rfs-value(16px); 
+    i,
+    svg {
+      font-size: rfs-value(14px); 
+    }
+  }
+}
+
+.designation {
+  font-size: rfs-value(16px); 
+  // color: rgba($black, .5);
+}
  
 
 // typo for dark mode

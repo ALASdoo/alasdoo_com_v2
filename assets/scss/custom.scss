@@ -2,6 +2,8 @@ $alas-color-yellow: #FFB81F;
 $alas-color-orange: #FF8602;
 $alas-color-blue: #00A0A3;
 
+
+
 @media (prefers-reduced-motion: reduce) {
   [data-aos] {
     opacity: 1 !important;
@@ -82,7 +84,7 @@ video {
 }
 
 .subtitle {
-  font-size: 24px !important;
+  font-size: rfs-value(24px) !important;
 
   @include desktop {
     font-size: calc(24px * 0.95) !important;
@@ -123,7 +125,7 @@ video {
 .hero-text {
   position: relative;
   z-index: 100;
-  font-size: 20px;
+  font-size: rfs-value(20px);
 }
 
 .z-100 {
@@ -150,10 +152,10 @@ video {
 
 .btn-link {
   margin-left: 0 !important;
-  font-size: 20px;
+  font-size:rfs-value(20px);
   i,
   svg {
-    font-size: 18px;
+    font-size: rfs-value(18px);
   }
 }
 
@@ -214,7 +216,7 @@ video {
 
 /* Accordion */
 .accordion-button {
-  font-size: 20px;
+  font-size: rfs-value(20px);
   @media (min-width: 768px) {
     font-size: inherit;
   }
@@ -233,7 +235,7 @@ video {
 
 .technology-name {
   color: rgba($black, .6);
-  font-size: 14px;
+  font-size:  rfs-value(14px);
   padding-top: 10px;
 }
 .technology-logo {
@@ -245,22 +247,19 @@ video {
 
 .approach-text {
   .p {
-    font-size: 16px;
+    font-size: rfs-value(16px);
   }
 }
+
 .process-text {
   p {
-    font-size: 16px;
+    font-size: rfs-value(16px);
   }
 }
+
 .swiper-pagination-outer {
   position: relative;
   margin-top: 20px;
-}
-
-.designation {
-  font-size: 16px;
-  // color: rgba($black, .5);
 }
 
 #what-we-do-hero {
@@ -334,7 +333,7 @@ video {
 
   }
   .card-body {
-    font-size: 16px;
+    font-size: rfs-value(16px);
   }
 
   .jobs {
@@ -376,7 +375,7 @@ video {
 }
 
 .contact-person {
-  font-size: 16px;
+  font-size: rfs-value(16px);
 }
 
 #contact {
