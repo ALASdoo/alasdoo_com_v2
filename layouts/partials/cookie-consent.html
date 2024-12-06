@@ -1,41 +1,26 @@
-<dialog class="cookie-modal modal cookieconsent" 
-  tabindex="-1" 
-  role="dialog" 
-  aria-label="Cookie modal">
+<dialog class="cookie-modal modal cookieconsent" tabindex="-1" role="dialog" aria-label="Cookie modal">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
-      {{with .Params}}
+      {{ with .Params.cookiebanner }}
       <div class="modal-body">
-        {{ partial "image" (dict 
-          "Src" "images/cookies.svg" 
-          "alt" "Cookie image" 
-          "Class" "modal-image" 
-          "Size" "125x135") }} 
-
-          {{ .Params.cookieconsent.heading}}
-
-        <h2 class="h3 text-center" id="modal-header">Analytics cookies only</h2>
-
-        <p>
-          We use analytics cookies to improve your experience. No personal data
-          is collected. For more details on data storage and usage, see our
-          <a href="/cookies/">Cookies page</a>.
-        </p>
+        {{ partial "image" (dict
+          "Src" "images/cookies.svg"
+          "Alt" "Cookie image"
+          "Class" "modal-image"
+          "Size" "125x135") }}
+        
+        <h2 class="h3 text-center" id="modal-header">
+          {{ .heading }}
+        </h2>
+        
+        <p> {{ .description | markdownify }}  </p>
 
         <div class="modal-footer">
-          <button
-            class="btn btn-primary"
-            data-bs-dismiss="modal"
-            data-consent="true"
-          >
-            Accept cookies
+          <button class="btn btn-primary" data-bs-dismiss="modal" data-consent="true">
+            {{ .accept_btn_label }}
           </button>
-          <button
-            class="btn btn-primary"
-            data-bs-dismiss="modal"
-            data-consent="false"
-          >
-            Decline cookies
+          <button class="btn btn-primary" data-bs-dismiss="modal" data-consent="false">
+            {{ .decline_btn_label }}
           </button>
         </div>
       </div>
@@ -46,21 +31,148 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-    const COOKIE_STORAGE_KEY = "cookieconsent";
+    const COOKIE_STORAGE_KEY = "cookie-consent";
+    const googleAnalyticsId = "{{ .Site.GoogleAnalytics }}";
+
+    const consentScripts = [];
+    if (googleAnalyticsId) {
+      consentScripts.push(
+        {
+          id: 'gtag-src',
+          async: true,
+          src: `https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`,
+        },
+        {
+          id: 'gtag-inline',
+          async: false,
+          content: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${googleAnalyticsId}');
+          `,
+        })
+      }
+
+      const loadConsentScripts = (consentedScripts) => {
+      consentedScripts.forEach((script) => {
+        if (!document.querySelector('#' + script.id)) {
+          const scriptEl = document.createElement('script');
+          scriptEl.type = 'text/javascript';
+          script.src ? scriptEl.src = script.src : null;
+          script.content ? scriptEl.innerHTML = script.content : null;
+          script.id ? scriptEl.id = script.id : null;
+          
+          document.body.appendChild(scriptEl);
+        }
+      });
+    }
+
+    const createCookie = (name, value, days) => {
+      var expires = "";
+      if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        expires = "; expires=" + date.toUTCString();
+      }
+      document.cookie = name + "=" + value + expires + "; path=/";
+    }
+
+    const getCookiePreference = (name) => {
+      let cookieName = name + "=";
+      let decodedCookie = decodeURIComponent(document.cookie);
+      let ca = decodedCookie.split(';');
+      for (let i = 0; i < ca.length; i++) {
+        let c = ca[i];
+        while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(cookieName) == 0) {
+          return c.substring(cookieName.length, c.length);
+        }
+      }
+      return null;
+    }
+
+    const declineCookies = () => {
+      createCookie(COOKIE_STORAGE_KEY, "decline", 30);
+    }
+
+    const acceptCookies = () => {
+      createCookie(COOKIE_STORAGE_KEY, "accept", 30);
+      loadConsentScripts(consentScripts);
+    }
 
     const cookieModalEl = document.querySelector(".cookie-modal");
-    var cookieModalRef = new bootstrap.Modal(cookieModalEl, {
-      // keyboard: false,
-      // backdrop: 'static'
-    });
+    const allowCookiesBtn = cookieModalEl.querySelector('[data-consent="true"]');
+    const declineCookiesBtn = cookieModalEl.querySelector('[data-consent="false"]');
+    const innerModal = cookieModalEl.querySelector('.modal-content');
 
-    cookieModalEl.addEventListener("hidden.bs.modal", (event) => {
-      localStorage.setItem(COOKIE_STORAGE_KEY, "true");
-    });
+    var cookieModalRef = new bootstrap.Modal(cookieModalEl);
 
-    const storedConsent = localStorage.getItem(COOKIE_STORAGE_KEY);
-    if (!storedConsent) {
+    /* Show cookie consent modal */
+    const showModalEl = () => {
       cookieModalRef.show();
     }
+
+    /**
+     *  Cookie banner Event handlers
+    */
+    cookieModalEl.addEventListener("click", (event) => {
+      /* Accept cookies button clicked */
+      if (event.target.closest('[data-consent="true"]')) {
+        acceptCookies();
+        markCookieRadio(true);
+      }
+
+      /* Click on decline cookies button or click outside modal */
+      else if (declineCookiesBtn.contains(event.target) ||
+        !innerModal.contains(event.target)
+      ) {
+        declineCookies();
+        markCookieRadio(false);
+      }
+    });
+
+
+    /**
+     *  Cookie page radio buttons 
+    */
+    const acceptCookiesRadio = document.querySelector('#cookie-accept');
+    const declineCookiesRadio = document.querySelector('#cookie-decline');
+    const preference = getCookiePreference(COOKIE_STORAGE_KEY);
+
+    acceptCookiesRadio?.addEventListener('click', (event) => {
+      acceptCookies();
+    });
+
+    declineCookiesRadio?.addEventListener('click', (event) => {
+      declineCookies();
+    });
+
+    const markCookieRadio = (accepted) => {
+      if (acceptCookiesRadio && declineCookiesRadio) {
+        acceptCookiesRadio.checked = !!accepted;
+        declineCookiesRadio.checked = !accepted;
+      }
+    };
+
+
+    /**
+     * Shows Cookie Dialog if no user preferences 
+     * Loads scripts if cookies accepted 
+     * Marks radio button preferences 
+    */
+    if (!preference) {
+      showModalEl();
+      // Load consent scripts or mark radio buttons based on stored preference
+    } else if (preference === 'accept') {
+      loadConsentScripts(consentScripts);
+      markCookieRadio(true);
+    } else {
+      markCookieRadio(false)
+    }
+
+
   });
 </script>

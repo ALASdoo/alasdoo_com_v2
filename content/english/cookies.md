@@ -8,6 +8,12 @@ subtitle: 'Last updated: November 13, 2024
 
 At Alas doo, we are committed to protecting your privacy. The cookies we use do not store any personal information.'
 
+cookiebanner: 
+  heading: 'Analytics cookies only'
+  description: 'We use analytics cookies to improve your experience. No personal data is collected. For more details or to update your preferences, visit our [Cookies page](/cookies/).'
+  accept_btn_label: Accept cookies
+  decline_btn_label: Decline cookies
+
 cookies:
   policy_item:
     - title: 'What are cookies?'
@@ -25,22 +31,25 @@ cookies:
 
         - **Retention period**: Stored for a maximum of 26 months, after which data is automatically deleted.'
 
-    - title: 'How to manage or decline cookies'
-      content: 'You have the right to accept or decline non-essential cookies:
+  manage_cookies: 
+    title: How to manage or decline cookies
+    subtitle: 'You have the right to accept or decline non-essential cookies:'
+    content: 'Upon your first visit, a cookie popup will appear, allowing you to make your selection. You can adjust your cookie settings anytime by selecting “Cookies” in the footer or through your browser settings, where you can delete or block cookies.'
+    accept_cookie_label: '**Accept Cookies**:  You agree to the use of Google Analytics cookies'
+    decline_cookie_label: '**Decline Cookies**: No Google Analytics cookies will be placed, and your activity on our website will not be tracked.'
 
-      - **Accept Cookies**: You agree to the use of Google Analytics cookies.
+  your_data_privacy: 
+    title: 'Your data privacy'
+    content: 'All information collected by cookies is anonymous and will not be used to personally identify you. For more information on how we protect your privacy and handle your data, please refer to our [Privacy policy](/privacy-policy).'
+  
+  changes_to_our_cookies: 
+    title: 'Changes to our cookies'
+    content: 'We may update our cookie practices for operational, legal, or regulatory reasons. Please check this page periodically for the latest information.'
 
-      - **Decline Cookies**: No Google Analytics cookies will be placed, and your activity on our website will not be tracked.
+  contact_us: 
+    title: 'Contact us'
+    content: 'If you have any questions about our use of cookies or your data privacy, feel free to [contact us](https://www.alasdoo.com/contact/).'
 
-      Upon your first visit, a cookie popup will appear, allowing you to make your selection. You can adjust your cookie settings anytime by selecting “Cookies” in the footer or through your browser settings, where you can delete or block cookies.'
 
-    - title: 'Your data privacy'
-      content: 'All information collected by cookies is anonymous and will not be used to personally identify you. For more information on how we protect your privacy and handle your data, please refer to our [Privacy policy](/privacy-policy).'
-
-    - title: 'Changes to our cookies'
-      content: 'We may update our cookie practices for operational, legal, or regulatory reasons. Please check this page periodically for the latest information.'
-
-    - title: 'Contact us'
-      content: 'If you have any questions about our use of cookies or your data privacy, feel free to [contact us](https://www.alasdoo.com/contact/).'
 
 ---
