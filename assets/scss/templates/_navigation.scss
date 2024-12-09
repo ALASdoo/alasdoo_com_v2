@@ -196,7 +196,7 @@
       display: inline-block;
   
       font-size: 0.9rem;
-      color: $text-dark !important;
+      color: $text-dark;
       border-radius: 6px;
 
       @include desktop-lg {
@@ -206,6 +206,10 @@
       &.active {
         text-decoration: underline;
         color: $color-primary !important;
+      }
+
+      &:hover {
+        color: $color-primary;
       }
 
       &:focus,

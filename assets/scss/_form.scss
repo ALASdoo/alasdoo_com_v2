@@ -15,6 +15,10 @@
 }
 
 // Checkbox
+input[type="checkbox"] {
+  border: 1px solid $color-border-darker;
+}
+
 .form-check-input,
 .form-check-input.form-control,
 .was-validated .form-check-input:valid {
