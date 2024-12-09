@@ -163,13 +163,22 @@
     var isMobileNavigation = window.matchMedia("(max-width: 1199px)");
     const skipToContent = navigation.querySelector(".js-skip-to-content");
 
+    
+    document.addEventListener('keydown', (event) => {
+      if(event.key === "Escape") {
+        closeNavOnESC(event)
+      }
+    })
+
+
+
     document.addEventListener("click", function (event) {
       if (
         !navigation.contains(event.target) &&
         isMobileNavigation.matches &&
         navigationCollapse.classList.contains("show")
       ) {
-        navigationButton.click();
+        toggleDropdownNav();
       }
 
       /** close mobile nav when `skip-to-content` is clicked  */
@@ -178,7 +187,7 @@
         navigationCollapse.classList.contains("show") &&
         event.target === skipToContent
       ) {
-        navigationButton.click();
+        toggleDropdownNav();
       }
     });
 
@@ -186,11 +195,25 @@
     document.querySelector("main").id = "main";
 
     formHandler();
-    navigationHandler();
+    scrollToSectionHandler();
   });
 
+  const toggleDropdownNav = () => {
+    const navigationButton = document.querySelector(".navbar-toggler");
+    navigationButton.click();
+  }
+
+  const closeNavOnESC = (event) => {
+    const navbarDropdown = document.querySelector('.navbar-collapse');
+ 
+    if (navbarDropdown.classList.contains('show')) {
+      toggleDropdownNav();
+    }
+  }
+
+
   // Navigation handler
-  const navigationHandler = () => {
+  const scrollToSectionHandler = () => {
     const navigationEl = document.querySelector(".js-navigation");
     const navBarEl = navigationEl.querySelector(".js-navbar");
     const mainEl = document.querySelector("#main");
