@@ -43,7 +43,7 @@
         {
           id: 'gtag-inline',
           async: false,
-          content: `
+          inlineContent: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
@@ -58,7 +58,7 @@
           const scriptEl = document.createElement('script');
           scriptEl.type = 'text/javascript';
           script.src ? scriptEl.src = script.src : null;
-          script.content ? scriptEl.innerHTML = script.content : null;
+          script.inlineContent ? scriptEl.textContent = script.inlineContent : null;
           script.id ? scriptEl.id = script.id : null;
           
           document.body.appendChild(scriptEl);
