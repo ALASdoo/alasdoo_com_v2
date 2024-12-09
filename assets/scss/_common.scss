@@ -59,14 +59,14 @@ a:visited {
 
 a:focus,
 a:focus-visible {
-    color: $color_primary_darker;
+    color: $color-primary-darker;
     outline: 2px solid $color-primary-darker !important;
     outline-offset: 2px !important;
     border-radius: 1px;
   }
 
 a.text-dark:hover {
-  color: $color_primary_darker !important;
+  color: $color-primary-darker !important;
 }
 
 

@@ -123,12 +123,16 @@
     margin-bottom: 1px;
     transition: 0.2s ease;
   }
+  
+  &:visited {
+    color: $color-primary-darker;
+  }
 
   &:active,
   &:hover,
   &.focus,
   &.active {
-    color: $link-color;
+    color: $link-hover-color;
 
     i,
     svg {
