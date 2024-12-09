@@ -162,17 +162,62 @@
     var navigationButton = document.querySelector(".navbar-toggler");
     var isMobileNavigation = window.matchMedia("(max-width: 1199px)");
     const skipToContent = navigation.querySelector(".js-skip-to-content");
+    const navLinkArrays = document.querySelectorAll("#navigation .nav-link");
 
-    
-    document.addEventListener('keydown', (event) => {
-      if(event.key === "Escape") {
-        closeNavOnESC(event)
+    const toggleDropdownNav = () => {
+      navigationButton.click();
+    };
+
+    const closeNavOnESC = () => {
+      if (navigationCollapse?.classList.contains("show")) {
+        toggleDropdownNav();
+        navigationButton.focus();
       }
-    })
+    };
 
+    const handleMobileNavFocusTrapping = (event) => {
+      const firstFocusableEl = navLinkArrays[0];
+      const lastFocusableEl = navLinkArrays[navLinkArrays.length - 1];
+      console.log("ayoo", window.innerWidth);
 
+      if (window.innerWidth >= 1200) {
+        return;
+      }
+
+      if (event.shiftKey && document.activeElement === firstFocusableEl) {
+        event.preventDefault();
+        lastFocusableEl.focus();
+      } else if (
+        !event.shiftKey &&
+        document.activeElement === lastFocusableEl
+      ) {
+        event.preventDefault();
+        firstFocusableEl.focus();
+      }
+    };
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        closeNavOnESC();
+      }
+
+      if (event.key === "Tab") {
+        navLinkArrays.forEach((navLink) => {
+          if (navLink.contains(event.target)) {
+            handleMobileNavFocusTrapping(event);
+          }
+        });
+      }
+    });
 
     document.addEventListener("click", function (event) {
+      if (
+        navigationButton.contains(event.target) &&
+        !navigationButton.classList.contains("collapsed")
+      ) {
+        navLinkArrays[0].focus();
+      }
+
       if (
         !navigation.contains(event.target) &&
         isMobileNavigation.matches &&
@@ -197,20 +242,6 @@
     formHandler();
     scrollToSectionHandler();
   });
-
-  const toggleDropdownNav = () => {
-    const navigationButton = document.querySelector(".navbar-toggler");
-    navigationButton.click();
-  }
-
-  const closeNavOnESC = (event) => {
-    const navbarDropdown = document.querySelector('.navbar-collapse');
- 
-    if (navbarDropdown.classList.contains('show')) {
-      toggleDropdownNav();
-    }
-  }
-
 
   // Navigation handler
   const scrollToSectionHandler = () => {
@@ -282,7 +313,7 @@
              */
             handleTextareaValidation(input);
             handleFieldValidation(input);
- 
+
             // Updates aria-invalid
             if (input.checkValidity() === false) {
               input.ariaInvalid = true;
@@ -302,30 +333,31 @@
     });
   }
 
-
   function handleFieldValidation(inputField, isAlreadySubmitted) {
-    const formGroupEl = inputField.closest('.js--form-group');
+    const formGroupEl = inputField.closest(".js--form-group");
     const feedbackContainer = formGroupEl.querySelector(".feedback-container");
-    feedbackContainer.removeAttribute('role', 'alert')
+    feedbackContainer.removeAttribute("role", "alert");
     feedbackContainer.innerHTML = "";
-    
+
     if (isAlreadySubmitted) {
       /**
-       * Only announce error messages on input 
+       * Only announce error messages on input
        */
-      feedbackContainer.setAttribute("role","alert");
+      feedbackContainer.setAttribute("role", "alert");
     }
 
-    const feedbackMsgContainer = formGroupEl.querySelector(".feedback-msg-container");
+    const feedbackMsgContainer = formGroupEl.querySelector(
+      ".feedback-msg-container"
+    );
     let feedbackMessage = null;
-
 
     if (!inputField.checkValidity()) {
       const validity = inputField.validity;
       if (validity.valueMissing) {
         feedbackMessage = feedbackMsgContainer?.querySelector(".valueMissing");
       } else if (validity.patternMismatch) {
-        feedbackMessage = feedbackMsgContainer?.querySelector(".patternMismatch");
+        feedbackMessage =
+          feedbackMsgContainer?.querySelector(".patternMismatch");
       } else if (validity.customError) {
         const errMessageSelector = inputField.validationMessage;
         feedbackMessage = feedbackMsgContainer?.querySelector(
@@ -402,12 +434,12 @@
 
   /**
    * A11y: sets focus to the first invalid field when form is submitted
-   * so that screen readers announce it in correct order 
+   * so that screen readers announce it in correct order
    */
   function handleInvalidField(form) {
     const inputs = form.querySelectorAll(".js--form-control");
 
-    const firstInvalidField = [...inputs].find((input) => { 
+    const firstInvalidField = [...inputs].find((input) => {
       return input.checkValidity() === false;
     });
     firstInvalidField?.focus();
