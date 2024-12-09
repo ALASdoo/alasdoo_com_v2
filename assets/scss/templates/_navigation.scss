@@ -94,6 +94,10 @@
       margin-block: 0.5rem;
     }
     
+    .dropdown-item {
+      width: auto;
+    }
+
     // Fix: focus outline cut off 
     .nav-link {
       margin-inline-start: 4px;
@@ -190,7 +194,6 @@
     .dropdown-item {
       padding: 8px 15px;
       display: inline-block;
-      width: auto;
   
       font-size: 0.9rem;
       color: $text-dark !important;
