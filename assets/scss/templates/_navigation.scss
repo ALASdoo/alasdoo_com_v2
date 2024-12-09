@@ -157,9 +157,11 @@
         top: 13px;
         left: 12px;
       }
+
       &.active .dropdown-icon {
         color: $color-primary !important;
       }
+
       .dropdown-subtitle {
         display: block;
         color: $text-color;
@@ -196,6 +198,11 @@
 
       @include desktop-lg {
         padding: 6px;
+      }
+
+      &.active {
+        text-decoration: underline;
+        color: $color-primary !important;
       }
 
       &:focus,
