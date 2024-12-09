@@ -1,7 +1,7 @@
 {{ if .enable }}
 <a
   href="{{ .link | safeURL }}"
-  title="{{ .label }}"
+  {{ if .title }} title="{{ .title }}" {{ end }}
   target="{{ if .external }} _blank {{end}}"
   class='
     {{ if eq .type "primary" }}btn btn-primary{{ end }}
