@@ -141,3 +141,15 @@
 
 - id: menu_close
   translation: Close menu
+
+- id: cookiebanner_heading
+  translation: Analytics cookies only
+
+- id: cookiebanner_description
+  translation: We use analytics cookies to improve your experience. No personal data is collected. For more details or to update your preferences, visit our [Cookies page](/cookies/).
+
+- id: cookiebanner_accept
+  translation: Accept cookies
+
+- id: cookiebanner_decline
+  translation: Decline cookies

@@ -1,31 +1,29 @@
 <dialog class="cookie-modal modal cookieconsent" tabindex="-1" role="dialog" aria-label="Cookie modal">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
-      {{ with .Params.cookiebanner }}
-      <div class="modal-body">
-        {{ partial "image" (dict
-          "Src" "images/cookies.svg"
-          "Alt" "Cookie image"
-          "Class" "modal-image"
-          "Size" "125x135") }}
-        
-        <h2 class="h3 text-center" id="modal-header">
-          {{ .heading }}
-        </h2>
-        
-        <p> {{ .description | markdownify }}  </p>
+         <div class="modal-body">
+          {{ partial "image" (dict
+            "Src" "images/cookies.svg"
+            "Alt" "Cookie image"
+            "Class" "modal-image"
+            "Size" "125x135") }}
+          
+          <h2 class="h3 text-center" id="modal-header">
+            {{ i18n `cookiebanner_heading` }}
+          </h2>
+          
+          <p> {{ i18n `cookiebanner_description` | markdownify }} </p>
 
-        <div class="modal-footer">
-          <button class="btn btn-primary" data-bs-dismiss="modal" data-consent="true">
-            {{ .accept_btn_label }}
-          </button>
-          <button class="btn btn-primary" data-bs-dismiss="modal" data-consent="false">
-            {{ .decline_btn_label }}
-          </button>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-dismiss="modal" data-consent="true">
+              {{i18n `cookiebanner_accept`}}
+            </button>
+            <button class="btn btn-primary" data-bs-dismiss="modal" data-consent="false">
+              {{i18n `cookiebanner_decline`}}
+            </button>
+          </div>
         </div>
-      </div>
-      {{ end }}
-    </div>
+     </div>
   </div>
 </dialog>
 

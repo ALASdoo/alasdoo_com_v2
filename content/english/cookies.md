@@ -8,11 +8,6 @@ subtitle: 'Last updated: November 13, 2024
 
 At Alas doo, we are committed to protecting your privacy. The cookies we use do not store any personal information.'
 
-cookiebanner: 
-  heading: 'Analytics cookies only'
-  description: 'We use analytics cookies to improve your experience. No personal data is collected. For more details or to update your preferences, visit our [Cookies page](/cookies/).'
-  accept_btn_label: Accept cookies
-  decline_btn_label: Decline cookies
 
 cookies:
   policy_item:
