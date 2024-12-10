@@ -216,13 +216,7 @@
     document.addEventListener("click", function (event) {
       handleContactTabClick(event);
 
-      if (
-        navigationButton.contains(event.target) &&
-        !navigationButton.classList.contains("collapsed")
-      ) {
-        navLinkArrays[0].focus();
-      }
-
+      /** close mobile menu on click outside */
       if (
         !navigation.contains(event.target) &&
         isMobileNavigation.matches &&
