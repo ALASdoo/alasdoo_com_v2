@@ -178,7 +178,6 @@
     const handleMobileNavFocusTrapping = (event) => {
       const firstFocusableEl = navLinkArrays[0];
       const lastFocusableEl = navLinkArrays[navLinkArrays.length - 1];
-      console.log("ayoo", window.innerWidth);
 
       if (window.innerWidth >= 1200) {
         return;
@@ -208,9 +207,15 @@
           }
         });
       }
+
+      if (event.key === "ArrowRight" || event.key === "ArrowLeft") {
+        handleTabPanelFocusLoop(event);
+      }
     });
 
     document.addEventListener("click", function (event) {
+      handleContactTabClick(event);
+
       if (
         navigationButton.contains(event.target) &&
         !navigationButton.classList.contains("collapsed")
@@ -264,6 +269,69 @@
         heading.style.paddingTop = navBarEl.offsetHeight + 30 + "px";
       });
   };
+
+  /*==============================
+    Contact Page: Tab Panel 
+  *==============================*/
+  function handleTabPanelFocusLoop(keyboardEvent) {
+    const tabList = document.querySelectorAll("#contact-tabs .nav-link");
+    const firstFocusableEl = tabList[0];
+    const lastFocusableEl = tabList[tabList.length - 1];
+    const currentTabInFocus = event.target;
+
+    if (!tabList || !keyboardEvent.target.closest("#contact-tabs .nav-link")) {
+      // tab panel not found or event not fired on TabPanel
+      return;
+    }
+
+    if (keyboardEvent.key === "ArrowRight") {
+      if (currentTabInFocus === lastFocusableEl) {
+        firstFocusableEl.focus();
+      } else {
+        const tabIndex = [...tabList].indexOf(keyboardEvent.target);
+        tabList[tabIndex + 1].focus();
+      }
+    } else if (keyboardEvent.key === "ArrowLeft") {
+      if (currentTabInFocus === firstFocusableEl) {
+        lastFocusableEl.focus();
+      } else {
+        const tabIndex = [...tabList].indexOf(keyboardEvent.target);
+        tabList[tabIndex - 1].focus();
+      }
+    }
+  }
+
+  function handleContactTabClick(clickEvent) {
+    const tabList = document.querySelectorAll("#contact-tabs .nav-link");
+    const panelList = document.querySelectorAll("#contact .tab-pane");
+    const targetTab = clickEvent.target.closest(".nav-link");
+
+    if (!tabList || !clickEvent.target.closest("#contact-tabs .nav-link")) {
+      return;
+    }
+
+    /** Sets tab to active*/
+    tabList.forEach((tab) => {
+      tab.classList.remove("active");
+      tab.tabIndex = -1;
+      tab.setAttribute("aria-selected", false);
+
+      if (tab === targetTab) {
+        tab.classList.add("active");
+        tab.removeAttribute("tabindex");
+        tab.setAttribute("aria-selected", "true");
+      }
+    });
+
+    /** Sets panel to active*/
+    panelList.forEach((panel) => {
+      panel.classList.remove("show", "active");
+      if (panel.id === targetTab.dataset.target) {
+        panel.classList.add("show", "active");
+        panel.focus();
+      }
+    });
+  }
 
   /*==============================
     Form
@@ -375,7 +443,6 @@
 
   /**
    * TextArea validation
-   * @param {textarea} inputFieldEl
    */
   function handleTextareaValidation(inputFieldEl) {
     if (inputFieldEl.nodeName === "TEXTAREA") {
