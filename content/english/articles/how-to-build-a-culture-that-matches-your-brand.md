@@ -3,6 +3,7 @@ date: '2021-07-11'
 
 draft: false
 title: 'How to build a culture that matches your brand?'
+title_section: 'Articles'
 image: 'images/articles/company-culture.jpg'
 alt: 'Three collegues having a meeting and laughing in a colorful meeting room.'
 author: 'Aleksandra Krstic'

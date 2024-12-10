@@ -2,6 +2,7 @@
 date: '2021-07-13'
 draft: false
 title: 'What is the key to finding the ultimate match between a job candidate and a company?'
+title_section: 'Articles'
 image: 'images/articles/candidate-company-match.jpg'
 alt: 'A smiling man shaking hands with an interviewer after the job interview.'
 author: 'Jelena Obradovic'

@@ -2,6 +2,7 @@
 date: '2023-03-09'
 draft: false
 title: 'Air cargo transport solutions for airlines and forwarders'
+title_section: 'Case studies'
 subtitle: 'Leveraging manual testing and automation tools to guarantee high-quality application delivery'
 image: 'images/case-studies/Cargo.jpg'
 alt: 'Air cargo transport represented with boxes conected with a line and a toy plane.'

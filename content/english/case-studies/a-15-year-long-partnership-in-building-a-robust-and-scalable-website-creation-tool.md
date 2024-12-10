@@ -2,6 +2,7 @@
 date: '2023-03-09'
 draft: false
 title: 'A 15-year-long partnership in building a robust and scalable website creation tool'
+title_section: 'Case studies'
 subtitle: 'Supporting a website builder with backend development, testing, and project management services'
 image: 'images/case-studies/SimpleSite.jpg'
 alt: 'Laptop with website building elements on the screen'

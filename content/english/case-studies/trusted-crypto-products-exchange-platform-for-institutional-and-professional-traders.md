@@ -2,6 +2,7 @@
 date: '2023-03-09'
 draft: false
 title: 'Trusted crypto-products exchange platform for institutional and professional traders'
+title_section: 'Case studies'
 subtitle: 'Employing experience-based, cross-platform testing and KYC integration for a seamless trading experience'
 image: 'images/case-studies/Bitmex.jpg'
 industry: 'Cryptocurrency'

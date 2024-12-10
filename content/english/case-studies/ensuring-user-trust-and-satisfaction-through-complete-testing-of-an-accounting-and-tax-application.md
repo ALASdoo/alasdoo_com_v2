@@ -2,6 +2,7 @@
 date: '2023-03-09'
 draft: false
 title: 'Ensuring user trust and satisfaction through complete testing of an accounting & tax application'
+title_section: 'Case studies'
 subtitle: 'Design, functionality, and transaction testing for error-free cash flow and invoicing'
 image: 'images/case-studies/Coconut.jpg'
 alt: 'A woman doing her finances in an app.'

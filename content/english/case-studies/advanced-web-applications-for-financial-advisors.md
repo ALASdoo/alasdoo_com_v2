@@ -2,6 +2,7 @@
 date: '2023-03-09'
 draft: false
 title: 'Advanced Web applications for financial advisors'
+title_section: 'Case studies'
 subtitle: 'Improving retirement portfolios with complex calculations and user-friendly interfaces'
 image: 'images/case-studies/RetireUp.jpg'
 alt: 'An older couple doing together their finances.'

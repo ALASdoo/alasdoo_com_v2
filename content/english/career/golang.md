@@ -1,5 +1,6 @@
 ---
 title: Golang Software Developer
+title_section: 'Careers'
 job_nature: 'Full Time'
 category: 'Development'
 draft: true

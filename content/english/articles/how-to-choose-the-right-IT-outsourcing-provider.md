@@ -2,6 +2,7 @@
 date: '2021-07-14'
 draft: false
 title: 'How to choose the right IT outsourcing provider?'
+title_section: 'Articles'
 image: 'images/articles/choose-outsourcing-company.jpg'
 alt: 'Hands holding a globe created of connected dots, representing global access.'
 author: 'Vilmos Somogyi'

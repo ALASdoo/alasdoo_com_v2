@@ -2,6 +2,7 @@
 date: '2021-07-13'
 draft: false
 title: 'How to incorporate QA into a software development process?'
+title_section: 'Articles'
 image: 'images/articles/qa-dev-process.jpg'
 alt: 'A person is writing a checkmark next to a quality assurance hologram over a laptop.'
 author: 'Marta Gajin'

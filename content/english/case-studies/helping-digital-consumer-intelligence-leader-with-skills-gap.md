@@ -2,6 +2,7 @@
 date: '2023-03-10'
 draft: false
 title: 'Helping digital consumer intelligence leader with skills gap'
+title_section: 'Case studies'
 subtitle: 'Accelerating the process from ideation to realization'
 image: 'images/case-studies/Brandwatch.jpg'
 alt: 'A man looking at a social media data charts on a tablet.'

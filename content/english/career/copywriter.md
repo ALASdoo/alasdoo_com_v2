@@ -1,5 +1,6 @@
 ---
 title: 'A wizard with words: Russian-speaking copywriter'
+title_section: 'Careers'
 job_nature: 'Full Time'
 category: 'Development'
 draft: true

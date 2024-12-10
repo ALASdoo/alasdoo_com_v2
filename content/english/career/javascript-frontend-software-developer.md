@@ -1,5 +1,6 @@
 ---
 title: JavaScript frontend software developer
+title_section: 'Careers'
 job_nature: 'Full Time'
 category: 'Development'
 ---

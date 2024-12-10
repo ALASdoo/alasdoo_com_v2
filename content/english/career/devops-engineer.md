@@ -1,5 +1,6 @@
 ---
 title: DevOps engineer
+title_section: 'Careers'
 job_nature: 'Full Time'
 category: 'Development'
 ---

@@ -1,8 +1,8 @@
 <meta charset="utf-8">
 
 <title> 
- {{ if .Title }}
-  {{.Title}} | {{ .Site.Title }}
+{{ if .Title }}
+  {{.Title}} {{ if .Params.Title_section }}| {{ replace .Params.title_section "-" " " | strings.FirstUpper |   }}{{ end }} | {{ .Site.Title }}
  {{ else }}
     {{ .Site.Title }}
  {{end}}

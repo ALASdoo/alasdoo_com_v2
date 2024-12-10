@@ -2,6 +2,7 @@
 date: '2023-03-09'
 draft: false
 title: 'The platform for powering the cannabis industry with PoS, e-commerce, and payments'
+section: 'Case studies'
 subtitle: 'Helping in compliance with complex legal frameworks and regulations, and providing a seamless experience for customers'
 image: 'images/case-studies/Dutchie.jpg'
 industry: 'Cannabis'

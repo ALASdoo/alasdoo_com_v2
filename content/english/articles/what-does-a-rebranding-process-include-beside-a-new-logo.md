@@ -2,6 +2,7 @@
 date: '2021-07-12'
 draft: false
 title: 'What does a rebranding process include beside a new logo?'
+title_section: 'Articles'
 image: 'images/articles/rebranding-process.jpg'
 alt: 'Two people using affinity mapping to organize colorful post-its on the whiteboard.'
 author: 'Tajana Somogyi'

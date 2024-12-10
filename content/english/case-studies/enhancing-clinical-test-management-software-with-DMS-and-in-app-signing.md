@@ -2,6 +2,7 @@
 date: '2023-03-09'
 draft: false
 title: 'Enhancing clinical test management software with DMS and in-app signing'
+title_section: 'Case studies'
 subtitle: 'Employing automated and manual testing to ensure efficient and reliable software for medical and clinical studies'
 image: 'images/case-studies/SureClinical.jpg'
 alt: 'Clinical study being conducted in a lab.'

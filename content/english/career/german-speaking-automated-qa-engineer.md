@@ -1,5 +1,6 @@
 ---
 title: German-speaking Automated QA Engineer
+title_section: 'Careers'
 job_nature: 'Full Time'
 category: 'QA'
 draft: true

@@ -2,6 +2,7 @@
 date: '2023-03-09'
 draft: false
 title: 'Healthcare workflow platform with automated call answering and mobile messaging'
+title_section: 'Case studies'
 subtitle: 'Ensuring efficient communication and improved patient outcomes'
 image: 'images/case-studies/CareStratus.jpg'
 alt: 'Healthcare proffessionals looking at a workflow platform on a tablet.'

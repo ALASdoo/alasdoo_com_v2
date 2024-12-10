@@ -1,5 +1,6 @@
 ---
 title: QA engineer
+title_section: 'Careers'
 job_nature: 'Full Time'
 category: 'QA'
 draft: true
