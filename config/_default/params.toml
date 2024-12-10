@@ -3,10 +3,11 @@
 favicon = "images/favicon.png"
 # logo
 logo = "images/logo.svg"
-# logo_dark = "images/logo-w.png"
+logo_dark = "images/logo-dark.svg"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
 logo_width = "220px"
+logo_height =  "57px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = false
 # logo text will only show when logo is missing.
@@ -18,7 +19,7 @@ theme_default = "light" # available options [light/dark/automatic]
 mainSections = ["blog"]
 # contact form action
 contact_form_action = "/form-success" # contact form works with [https://airform.io/] or [https://formspree.io]
-career_form_action = "/form-success" # contact form works with [https://airform.io/] or [https://formspree.io]
+career_form_action = "/form-success"  # contact form works with [https://airform.io/] or [https://formspree.io]
 # demo form action
 demo_form_action = "#!" # demo form works with [https://airform.io/] or [https://formspree.io]
 # google tag manager, see https://developers.google.com/tag-manager/
@@ -27,7 +28,7 @@ google_tag_manager = "" # example: G-XXXXXXXXXX
 custom_script = ""
 # copyright
 theme_copyright = true
-copyright = "Copyright by ALAS doo"
+copyright = "&#169;	ALAS doo"
 
 # Preloader
 [preloader]
@@ -36,7 +37,7 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = true
+enable = false
 label = "Contact us"
 link = "contact/"
 
@@ -81,13 +82,6 @@ bing = ""     # Your verification code
 baidu = ""    # Your verification code
 facebook = "" # Your verification code
 
-# cookies
-[cookies]
-enable = true
-expire_days = 2
-content = "This site uses cookies. By continuing to use this website, you agree to their use."
-button = "I Accept"
-
 ############################# social site ########################
 # [[social]]
 # title = "twitter"
@@ -96,12 +90,12 @@ button = "I Accept"
 
 [[social]]
 title = "linkedin"
-icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+icon = "fab fa-linkedin"                           # fontawesome icon pack : https://fontawesome.com/icons/
 link = "https://www.linkedin.com/company/alas-doo"
 
 [[social]]
 title = "instagram"
-icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
+icon = "fab fa-instagram"                      # fontawesome icon pack : https://fontawesome.com/icons/
 link = "https://www.instagram.com/alasdoocom/"
 
 # [[social]]
@@ -111,6 +105,5 @@ link = "https://www.instagram.com/alasdoocom/"
 
 [[social]]
 title = "facebook"
-icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
+icon = "fab fa-facebook"                     # fontawesome icon pack : https://fontawesome.com/icons/
 link = "https://www.facebook.com/ALASdoocom"
-

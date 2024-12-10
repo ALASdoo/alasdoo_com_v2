@@ -8,7 +8,7 @@
   data-aos-offset="0"
   data-aos-duration="600"
   data-aos-easing="ease-in-out-sine">
-  <h1 class="h2">{{.subtitle | markdownify}}</h1>
+  <h1>{{.subtitle | markdownify}}</h1>
 </section>
 {{ $list := .blocks }}
 {{ $len := (len $list) }}
@@ -16,14 +16,14 @@
 <section class="section history {{if eq $i 0}} first-element {{end}} {{if eq (add $i 1) $len}} last-element {{if modBool $i 2}} has-bg-light {{end}} {{end}} overflow-hidden pt-0">
   <div class="container">
     <div class="block {{if modBool $i 2}}block-right-image{{end}} row align-items-center g-5">
-      <div class="col-lg-6 {{if modBool $i 2}}order-lg-0 text-lg-end{{end}} order-1">
+      <div class="col-lg-6 {{if modBool $i 2}}order-lg-0{{end}} order-1">
         <div class="px-0 px-lg-4 history-container">
           <div
             data-aos="{{if modBool $i 2}}fade-right{{else}}fade-left{{end}}"
             data-aos-offset="150"
             data-aos-duration="600"
             data-aos-easing="ease-in-out-sine">
-            <h2 class="section-title h4">
+            <h2 class="section-title js-section-title">
               {{ .title | markdownify }}
             </h2>
             <div>
@@ -40,7 +40,12 @@
         data-aos-easing="ease-in-out-sine">
         <div class="px-0 px-lg-4">
           <div class="swiper-slide">
-            {{ partial "image" (dict "Src" .image "Alt" .alt "Class" "w-100 rounded-2") }}
+            {{ partial "image" (dict 
+              "Src" .image 
+              "Alt" .alt 
+              "Class" "w-100 rounded-2"
+              "LazyLoading" (not (eq $i 0))
+            )}}
           </div>
         </div>
       </div>
@@ -80,7 +85,7 @@
           {{ range $i, $e := .values_list }}
           <div class="accordion-item border-0 mb-3 rounded-1">
             <h3 class="accordion-header mb-0" id="heading-{{ sha1 .title | urlize }}_">
-              <button class="accordion-button border rounded-1 shadow-none h6 mb-0 p-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-{{ sha1 .title | urlize }}_" aria-expanded="{{if eq $i 0 }}true{{else}}false{{end}}" aria-controls="id-{{ sha1 .title | urlize }}_">
+              <button class="accordion-button border rounded-1 shadow-none mb-0 p-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-{{ sha1 .title | urlize }}_" aria-expanded="{{if eq $i 0 }}true{{else}}false{{end}}" aria-controls="id-{{ sha1 .title | urlize }}_">
                 {{.title | markdownify}}
               </button>
             </h3>
@@ -112,7 +117,7 @@
 <section class="section bg-light-blue" id="specialites">
   <div class="container">
     {{ partial "content-block" .}}
-    <div class="row gy-4 pt-5"
+    <ul class="row gy-4 pt-5 list-unstyled"
       data-aos="fade-up"
       data-aos-offset="180"
       data-aos-duration="600"
@@ -120,7 +125,7 @@
       {{range .specialites_list}}
         {{ partial "card" . }}
       {{end}}
-    </div>
+    </ul>
   </div>
 </section>
 {{ end }}

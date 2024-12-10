@@ -1,19 +1,39 @@
 {{define "main"}}
-<h1 class="d-none">Clients</h1>
-
+<h1 class="d-none">Our clients</h1>
 {{with .Params}}
 <section class="section bg-light-gray-2">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4 align-items-center d-flex pb-5 pb-lg-0 text-center text-lg-start"
-        data-aos="fade-right"
-        data-aos-offset="0"
-        data-aos-duration="600"
-        data-aos-easing="ease-in-out-sine">
-        <div class="h5 mb-0">{{.cta.content | markdownify}}</div>
+      <div class="col-lg-4 pb-5 pb-lg-0 text-center text-lg-start d-flex align-items-center">
+        <div>
+          <h1 data-aos="fade-right"
+            data-aos-offset="0"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out-sine">
+            {{ .title | markdownify }}
+          </h1>
+          <div class="hero-text mb-0"
+            data-aos="fade-right"
+            data-aos-offset="0"
+            data-aos-duration="600"
+            data-aos-delay="200"
+            data-aos-easing="ease-in-out-sine">{{.cta.content | markdownify}}</div>
+        </div>
       </div>
       <div class="col-lg-8">
-        {{ partial "video" .cta.anim }}
+        {{ partial "image" (dict 
+          "Src" "images/clients-a11y.png" 
+          "Alt" "A world map showing locations of our clients. See all locations in the following link to the list." 
+          "Class" "mb-3"
+        )}}
+     
+        <div class="text-center" id="clients-longdes">
+          {{ partial "button" (dict 
+            "enable" "true"
+            "link" "/clients-locations/"
+            "label" "List of locations of our clients"
+          ) }}
+        </div>
       </div>
     </div>
   </div>
@@ -33,7 +53,7 @@
     {{ partial "content-block" .}}
     <div class="row justify-content-center pt-5">
       {{range .industries_item}}
-      <div class="col-sm-6 col-md-4 col-lg-3 p-4 text-center"
+      <div class="col-6 col-md-4 col-lg-3 p-4 text-center"
         data-aos="fade-up"
         data-aos-offset="180"
         data-aos-duration="600"
@@ -56,7 +76,7 @@
       data-aos-duration="600"
       data-aos-easing="ease-in-out-sine">
       <div class="col-lg-8 text-center">
-        <h2 class="text-center h3">{{.title | markdownify}}</h2>
+        <h2 class="text-center">{{.title | markdownify}}</h2>
       </div>
     </div>
     <div class="row justify-content-center align-items-center">
@@ -78,37 +98,28 @@
 <section class="section bg-light-gray">
   <div class="container">
     {{ partial "content-block" .}}
-    <div class="row pt-5"
-      data-aos="fade-up"
-      data-aos-offset="180"
-      data-aos-duration="600"
-      data-aos-easing="ease-in-out-sine">
-      <div class="swiper testimonial-carousel">
-        <div class="swiper-wrapper">
-          {{range .testimonials_item}}
-          <div class="swiper-slide text-center">
-            <div class="row justify-content-center">
-              <div class="col-lg-10">
-                <div class="card bg-white rounded-2 border-0">
-                  <div class="card-body p-5">
-                    <div class="quotation-marks pb-3">
-                      {{ partial "image" (dict "Src" "/images/quotation-marks.png" "Alt" "Quation mark") }}
-                    </div>
-                    <p class="mb-3 fst-italic">{{.content | markdownify}}</p>
-                    <p class="h6">{{.name | markdownify}}</p>
-                  </div>
-                </div>
+    <div class="row justify-content-center mt-4">
+      {{range .testimonials_item}}
+        <div class="col-12 col-lg-4 mb-4 d-lg-flex">
+          <div class="card bg-white rounded-2">
+            <div class="card-body p-5">
+              <div class="quotation-marks text-center pb-3">
+                {{ partial "image" (dict 
+                  "Src" "/images/quotation-marks.png" 
+                  "Alt" "Quote"
+                ) }}
               </div>
+              <p class="mb-3">{{.content | markdownify}}</p>
+              <p class="h6 text-center">{{.name | markdownify}}</p>
             </div>
           </div>
-          {{end}}
         </div>
-        <div class="swiper-pagination"></div>
-      </div>
+      {{end}}
     </div>
   </div>
+  {{end}}
+
 </section>
-{{end}}
 
 {{ with .casestudies }}
 <section class="section bg-light-blue" id="case-studies">
@@ -119,10 +130,10 @@
       data-aos-duration="600"
       data-aos-easing="ease-in-out-sine">
       <div class="col-lg-8 text-center">
-        <h2 class="h3">{{.title | markdownify}}</h2>
+        <h2>{{.title | markdownify}}</h2>
       </div>
     </div>
-    <div class="row gy-5 justify-content-center pb-5"
+    <ul class="row gy-5 justify-content-center pb-5 list-unstyled"
       data-aos="fade-up"
       data-aos-offset="180"
       data-aos-duration="600"
@@ -136,13 +147,13 @@
         }}
         {{ $card := dict
           "image" .Params.image
-          "category" .Params.industry
           "name" .Title
           "button" $button
+          "cardMarkup" "li"
         }}
         {{ partial "card" $card }}
       {{end}}
-    </div>
+    </ul>
     <div class="row"
       data-aos="fade-up"
       data-aos-offset="180"

@@ -1,5 +1,6 @@
 ---
 title: Office Manager
+title_section: 'Careers'
 job_nature: 'Full Time'
 category: 'Management'
 draft: true
@@ -7,7 +8,7 @@ draft: true
 
 ## Who are we?
 
-ALAS d.o.o. is an outsource Software Development and Quality Assurance company with broad experience in web development, project management, manual and automated testing.
+ALAS doo is an outsource Software Development and Quality Assurance company with broad experience in web development, project management, manual and automated testing.
 
 We have a cozy office with a yard in Novi Sad, where we develop some pretty useful skills, drink a lot of coffee, play darts, table tennis and board games, and create awesome software solutions along the way.
 
@@ -86,4 +87,4 @@ If you think so, simply send your resume to <jobs@alasdoo.com> and leave the res
 
 As soon as possible!
 We conduct interviews on a first&#8209;come, first&#8209;served basis, so be fast & fearless!
-Only short&#8209;listed candidates will be invited for an interview. We can’t wait to meet You!
+Only short&#8209;listed candidates will be invited for an interview. We can’t wait to meet you!

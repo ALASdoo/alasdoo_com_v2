@@ -22,25 +22,41 @@
     font-size: 0.9em;
   }
 
+  &:hover {
+    transform: scale3d(1.005,1.005,1.005);
+    box-shadow: 0px 8px 15px rgba($color-primary,.50) !important;
+  }
+  
   &:hover,
   &:focus,
   &.focus {
-    outline: 0;
+    color: #fff;
     // @extend .shadow;
-    background: $link-color !important;
-    border-color: $link-color !important;
+    background: $color-primary-darker !important;
+    border-color: $color-primary-darker !important;
     // transform: translateY(-1px);
-    transform: scale3d(1.005,1.005,1.005);
-    box-shadow: 0px 8px 15px rgba(0,160,163,.50) !important;
+  }
+
+  &:focus, 
+  &:focus-visible {
+    outline: 2px solid $color-primary-darker;
+    outline-offset: 2px;
+    border-radius: 50px;
+    box-shadow: unset;
   }
 
   &:active,
   &.active {
     outline: 0;
-    background: $color-primary !important;
-    border-color: $color-primary !important;
+    color: #fff;
+    background: $color-primary-darker !important;
+    border-color: $color-primary-darker !important;
     transform: translateY(0px);
     box-shadow: 0px 5px 7px rgba(0,160,163,.50) !important;
+  }
+  
+  &:visited {
+    color: #fff;
   }
 }
 
@@ -48,9 +64,11 @@
   background: $color-primary;
   color: $white;
   border-color: $color-primary;
+  cursor: pointer;
 }
 
-.btn-outline-primary {
+.btn-outline-primary,
+.btn-outline-primary:visited {
   color: $color-primary;
   border-color: $color-primary;
   &:hover,
@@ -105,12 +123,16 @@
     margin-bottom: 1px;
     transition: 0.2s ease;
   }
+  
+  &:visited {
+    color: $color-primary-darker;
+  }
 
   &:active,
   &:hover,
   &.focus,
   &.active {
-    color: $link-color;
+    color: $link-hover-color;
 
     i,
     svg {

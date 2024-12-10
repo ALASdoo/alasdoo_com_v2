@@ -1,5 +1,4 @@
 {{ define "main" }}
-<h1 class="d-none">Home</h1>
 <!-- banner -->
 {{ with .Params.banner }}
 <section class="hero">
@@ -8,12 +7,11 @@
       <div class="row">
         <div class="col-10 mx-auto text-center">
           <!-- {{ partial "slide-text" .title }} -->
-          <div class="hero-text"
-            data-aos="fade-up"
+          <h1 data-aos="fade-up"
             data-aos-offset="0"
             data-aos-duration="400"
             data-aos-delay="0"
-            data-aos-easing="ease-in-out-sine">{{ .title }}</div>
+            data-aos-easing="ease-in-out-sine">{{ .title }}</h1>
           <div class="pt-4"
             data-aos="fade-up"
             data-aos-offset="0"
@@ -67,8 +65,8 @@
 <section class="section bg-light-gray">
   <div class="container">
     {{ partial "content-block" .}}
-    <div
-      class="row gy-3 mt-xl-3 services-cards justify-content-center"
+    <ul
+      class="row gy-3 mt-xl-3 services-cards justify-content-center list-unstyled"
       data-aos="fade-up"
       data-aos-offset="180"
       data-aos-duration="400"
@@ -76,7 +74,7 @@
       {{ range .services_item }}
         {{ partial "card" . }}
       {{ end }}
-    </div>
+    </ul>
   </div>
 </section>
 {{ end }}
@@ -116,10 +114,10 @@
       data-aos-duration="600"
       data-aos-easing="ease-in-out-sine">
       <div class="col-xl-8 text-center">
-        <h3 class="h3">{{.title | markdownify}}</h3>
+        <h3 class="mb-4">{{.title | markdownify}}</h3>
       </div>
     </div>
-    <div class="row gy-lg-0 gy-4 justify-content-center"
+    <ul class="row gy-lg-0 gy-4 justify-content-center list-unstyled"
       data-aos="fade-up"
       data-aos-offset="50"
       data-aos-duration="600"
@@ -134,13 +132,14 @@
         }}
         {{ $card := dict
           "image" .Params.image
-          "category" .Params.industry
           "name" .Title
+          "headingLevel" "4"
+          "cardMarkup" "li"
           "button" $button
         }}
         {{ partial "card" $card }}
       {{end}}
-    </div>
+    </ul>
   </div>
 </section>
 {{ end }}
@@ -153,20 +152,26 @@
 <section class="section p-5 bg-primary">
   <div class="container">
     <div class="row justify-content-center text-center">
+      <h3 class="col-12 text-white mb-4">{{.numbers_title}}</h3>
       <div class="col-12">
-        <div class="row justify-content-center">
+        <ul class="row justify-content-center list-unstyled" 
+          aria-label="Our statistics">
           {{range .numbers_item}}
-          <div class="col-lg-4 col-sm-6 p-2 pb-5 pb-lg-0">
+          <li class="col-lg-4 col-sm-6 p-2 pb-5 pb-lg-0">
             <div class="block">
-              <span class="numbers-icon">
+              <span class="numbers-icon" aria-hidden="true">
                 {{ partial "image" (dict "Src" .icon "alt" "") }}
               </span>
-              <p class="h3 text-white mt-2 mt-lg-4 mb-1"><span class="counter" data-counter-time="1500">{{.counter}}</span>{{.counter_suffix}}</p>
-              <p class="text-white mb-0">{{.content | markdownify}}</p>
+
+              <p class="numbers-text text-white mt-2 mt-lg-4 mb-1" aria-hidden="true">
+                <span class="counter" data-counter-time="1500">{{.counter}}</span>{{.counter_suffix}}</p>
+              <p class="text-white mb-0" aria-hidden="true">{{.content | markdownify}}</p>
+
+              <p class="visually-hidden text-white"> {{ .content_sr_only }} </p>
             </div>
-          </div>
+          </li>
           {{end}}
-        </div>
+        </ul>
       </div>
     </div>
   </div>
@@ -185,29 +190,19 @@
         data-aos="fade-right"
         data-aos-offset="180"
         data-aos-duration="600">
-        <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
-        <subtitle class="h2">{{.title | markdownify}}</subtitle>
+        <h2>{{.title | markdownify}}</h2>
         {{ .content | markdownify }}
-        <div class="row text-center">
+        <div class="row">
           <div class="pt-4">
             {{ partial "button" .button }}
           </div>
         </div>
       </div>
       <div class="col-xl-6 pb-4 overflow-hidden">
-        <div class="swiper single-slider"
-          data-aos="fade-left"
-          data-aos-offset="180"
-          data-aos-duration="600">
-          <div class="swiper-wrapper">
-            {{range .image_item}}
-            <div class="swiper-slide">
-              {{ partial "image" (dict "Src" .image "Alt" .alt "Class" "rounded-2") }}
-            </div>
-            {{end}}
-          </div>
-        </div>
-        <div class="swiper-pagination swiper-pagination-outer"></div>
+        {{ partial "image" (dict 
+          "Src" .image_item.image
+          "Alt" .image_item.alt
+          "Class" "rounded-2") }}
       </div>
     </div>
   </div>
@@ -227,11 +222,10 @@
       data-aos-duration="600"
       data-aos-easing="ease-in-out-sine">
       <div class="col-xl-10 text-center">
-        <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
-        <subtitle class="h2">{{.title | markdownify}}</subtitle>
+        <h2>{{.title | markdownify}}</h2>
       </div>
     </div>
-    <div class="row gy-lg-0 gy-4 pb-5 justify-content-center"
+    <ul class="row gy-lg-0 gy-4 pb-5 justify-content-center list-unstyled"
       data-aos="fade-up"
       data-aos-offset="50"
       data-aos-duration="600"
@@ -247,11 +241,13 @@
         {{ $card := dict
           "image" .Params.image
           "name" .Title
+          "cardMarkup" "li"
+          "headingLevel" "3"
           "button" $button
         }}
         {{ partial "card" $card }}
       {{end}}
-    </div>
+    </ul>
     <div class="row justify-content-center"
       data-aos="fade-up"
       data-aos-offset="50"

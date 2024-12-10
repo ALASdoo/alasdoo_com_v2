@@ -1,41 +1,35 @@
 # main menu
 [[main]]
-name = "Home"
-url = ""
-weight = 1
-
-[[main]]
-name = "What we do"
-url = "/what-we-do/"
+name = "Services"
+url = "/services/"
 weight = 2
 
 [[main]]
 weight = 3
-name = "Who we are"
-url = "/who-we-are/"
+name = "About us"
+url = "/about-us/"
 hasChildren = true
 
 [[main]]
-parent = "Who we are"
+parent = "About us"
 name = "Our story"
 url = "our-story/"
 weight = 1
 
 [[main]]
-parent = "Who we are"
-name = "Team"
-url = "team/"
+parent = "About us"
+name = "Our team"
+url = "our-team/"
 weight = 2
 
 [[main]]
-parent = "Who we are"
-name = "Clients"
-url = "clients/"
+parent = "About us"
+name = "Our clients"
+url = "our-clients/"
 weight = 3
 
-
 [[main]]
-name = "Case Studies"
+name = "Case studies"
 url = "/case-studies/"
 weight = 4
 
@@ -49,37 +43,74 @@ name = "Articles"
 url = "/articles/"
 weight = 6
 
+[[main]]
+name = "Contact us"
+url = "/contact/"
+weight = 7
+
 # footer menu
 [[footer_menu]]
-name = "Home"
-url = "/"
+name = "Services"
+url = "/services/"
 weight = 1
 
 [[footer_menu]]
-name = "Who We Are"
-url = "/our-story/"
+name = "Our story"
+url = "our-story/"
 weight = 2
 
 [[footer_menu]]
-name = "What We Do"
-url = "/what-we-do/"
+name = "Our team"
+url = "our-team/"
 weight = 3
+
+[[footer_menu]]
+name = "Our clients"
+url = "our-clients/"
+weight = 4
 
 # footer menu 2
 [[footer_menu_2]]
-name = "Case Studies"
+name = "Case studies"
 url = "/case-studies/"
-weight = 4
+weight = 5
 
 [[footer_menu_2]]
 name = "Careers"
 url = "/careers/"
-weight = 5
+weight = 6
 
 [[footer_menu_2]]
 name = "Articles"
 url = "/articles/"
-weight = 4
+weight = 7
+
+[[footer_menu_2]]
+name = "Contact us"
+url = "/contact/"
+weight = 8
+
+
+# copyright menu
+[[copyright_menu]]
+name = "Cookies"
+url = "/cookies/"
+weight = 7
+
+[[copyright_menu]]
+name = "Privacy policy"
+url = "/privacy-policy/"
+weight = 8
+
+[[copyright_menu]]
+name = "Accessibility statement"
+url = "/accessibility-statement/"
+weight = 9
+
+[[copyright_menu]]
+name = "Site map"
+url = "/sitemap/"
+weight = 9
 
 # # footer menu left
 # [[footer_left]]
@@ -110,13 +141,13 @@ weight = 4
 # weight = 1
 
 # [[footer_middle]]
-# name = "What We Do"
-# url = "what-we-do/"
+# name = "Services"
+# url = "wservices"
 # weight = 2
 
 # [[footer_middle]]
-# name = "Who We Are"
-# url = "who-we-are/"
+# name = "About us"
+# url = "about-us/"
 # weight = 3
 
 # [[footer_middle]]

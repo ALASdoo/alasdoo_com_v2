@@ -9,9 +9,6 @@ path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
 path = "github.com/gethugothemes/hugo-modules/components/preloader"
 
 [[imports]]
-path = "github.com/gethugothemes/hugo-modules/components/cookie-consent"
-
-[[imports]]
 path = "github.com/gethugothemes/hugo-modules/components/render-link"
 
 [[imports]]

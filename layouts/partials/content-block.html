@@ -5,10 +5,9 @@
     data-aos-duration="600"
     data-aos-easing="ease-in-out-sine">
     <div class="text-center">
-      <h2 class="subtitle">{{.subtitle | markdownify}}</h2>
-      <subtitle class="h2">{{.title | markdownify}}</subtitle>
+      <h2>{{.title | markdownify}}</h2>
     </div>
-    <div class="text-start text-md-center">
+    <div class="text-start">
       {{ .content | markdownify }}
     </div>
   </div>

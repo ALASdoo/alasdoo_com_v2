@@ -1,14 +1,15 @@
 ---
-title: Automated QA Engineer
+title: Automated quality assurance (QA) engineer
+title_section: 'Careers'
 job_nature: 'Full Time'
 category: 'QA'
 ---
 
 ## Who are we?
 
-ALAS d.o.o. is a Software Development and Quality Assurance outsourcing company with extensive experience in web development, project management, manual and automated testing.
+ALAS doo is a Software Development and Quality Assurance outsourcing company with extensive experience in web development, project management, manual and automated testing.
 
-Our software QA services are recognized worldwide under [the WeDoQA brand](https://www.wedoqa.com/).
+Our software QA services are recognized worldwide under the WeDoQA brand.
 
 Aligning the product vision with the technical team is our specialty. Through open communication and a personal approach, we consider every aspect of the project so that we are empowered to assist and consult in every step of the development process.
 
@@ -25,11 +26,11 @@ Driven by these, we are looking for You - a reliable and talented Automated QA E
 - Work in an Agile development environment
 - Write and execute test cases, and document results
 - Verify that corrective actions meet quality objectives
-- View log files, understand them and assist developer in finding root cause of the bug
+- View log files, understand them and assist the developer in finding the root cause of the bug
 - Assist with investigating potential bugs, issues, etc.
 - Define required testing scope and test scenarios, and review with developers and product management
 - Contribute to automation test suites to support new functionality as well as regression coverage
-- Support and contribute to QA team by sharing best practices, learnings, and providing peer QA code reviews
+- Support and contribute to the QA team by sharing best practices, learnings, and providing peer QA code reviews
 - Work in an Agile development environment
 
 ---
@@ -54,6 +55,7 @@ Driven by these, we are looking for You - a reliable and talented Automated QA E
 - Experience with SQL programming and database technologies
 - Knowledge of Behavior Driven Testing methodologies like Cucumber
 - Bachelor’s degree in computer science or related field
+- Knowledge of web accessibility requirements and testing tools
 
 ---
 
@@ -75,6 +77,7 @@ Driven by these, we are looking for You - a reliable and talented Automated QA E
 
 - Enjoy sponsored lunch, fresh fruit, and delicious coffee at work
 - Enjoy a customized bonus you can use as you wish (gym/private health insurance, etc.)
+- Friday bars, table tennis tournaments, and gaming sessions on a PS5
 
 ---
 
@@ -89,4 +92,4 @@ If you think so, simply send your resume to <jobs@alasdoo.com> and leave the res
 As soon as possible!
 We conduct interviews on a first&#8209;come, first&#8209;served basis, so be fast & fearless!
 
-Only short&#8209;listed candidates will be invited for an interview. We can’t wait to meet You!
+Only short&#8209;listed candidates will be invited for an interview. We can’t wait to meet you!

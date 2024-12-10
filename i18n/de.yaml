@@ -47,7 +47,7 @@
   translation: "Teilen Sie diesen Job:"
 
 - id: other_jobs
-  translation: Andere Beschäftigungen
+  translation: Andere Stellenausschreibung
 
 - id: all_jobs
   translation: Alle Jobs
@@ -87,6 +87,36 @@
   
 - id: upload_cv
   translation: Lebenslauf hochladen
-  
+
+- id: cv_required
+  translation: Dieses Feld ist erforderlich. Bitte stellen Sie ein Dokument im .doc, .docx oder .pdf Format zur Verfügung
+
+- id: email_invalid_pattern
+  translation: Ungültiges E-Mail-Adressmuster
+
+- id: field_invalid_pattern 
+  translation: Ungültige Eingabe. Es sind nur Buchstaben und Leerzeichen erlaubt
+
 - id: search_faq
   translation: Klicken und suchen FAQ..
+
+- id: skip_link
+  translation: Navigationslinks überspringen
+
+- id: invalid_required
+  translation: Feld ist erforderlich
+
+- id: field_valid
+  translation: Feld ist gültig
+
+- id: form_legend
+  translation: (Bitte beachten Sie, dass alle Felder ausgefüllt werden müssen)
+
+- id: privacy_disclosure 
+  translation: Ich erkläre mich damit einverstanden, dass meine persönlichen Daten nur zur Beantwortung meiner Anfrage verwendet werden, und ich bin mit den  [Datenschutzrichtlinie](/privacy-policy).
+
+- id: menu_open
+  translation: Menü öffnen
+
+- id: menu_close
+  translation: Menü schließen

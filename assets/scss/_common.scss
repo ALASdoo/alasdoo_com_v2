@@ -1,7 +1,7 @@
-html {  
+html {
   opacity: 0;
   transition: 100ms ease;
-}
+ }
 
 html.wf-active {
   opacity: 1;
@@ -10,6 +10,9 @@ html.wf-active {
 body {
   background-color: $body-bg;
   overflow-x: hidden;
+  text-underline-offset: 0.1em;
+  hyphenate-character: "–";
+  text-wrap: pretty;
 }
 
 .preloader {
@@ -40,20 +43,33 @@ img {
   height: auto;
 }
 
-a,
-a:hover,
-a:focus {
-  color: $link-color;
-  text-decoration: none;
+a {
+  color: $text-color;
+  text-decoration: underline;
 }
-a:hover,
-a:focus {
+
+a:hover {
   color: $link-hover-color;
 }
 
-a.text-dark:hover {
-  color: $link-hover-color !important;
+a:visited {
+  color: $link-hover-color;
 }
+
+
+a:focus,
+a:focus-visible {
+    color: $color-primary-darker;
+    outline: 2px solid $color-primary-darker !important;
+    outline-offset: 2px !important;
+    border-radius: 1px;
+  }
+
+a.text-dark:hover {
+  color: $color-primary-darker !important;
+}
+
+
 
 a,
 button,
@@ -86,6 +102,7 @@ select {
   object-fit: cover !important;
 }
 
+// todo: replace border color
 .border-default {
   border-color: $border-color !important;
 }
@@ -152,10 +169,16 @@ select {
   border: 1px solid $text-dark;
   background-color: transparent;
   transition: 0.2s ease;
+  opacity: 1;
 
   &-active {
     background-color: $text-dark;
-    opacity: .5;
+  }
+
+  &:hover,
+  &:focus {
+    outline: 2px solid $color-primary-darker;
+    outline-offset: 2px;
   }
 }
 
@@ -234,91 +257,6 @@ select {
   box-shadow: 0 6px 24px -6px rgba(45, 67, 121, 0.15) !important;
 }
 
-// form control
-.form-select,
-.form-control {
-  padding: 1rem 1.2rem;
-  border: 1px solid rgba($black, 0.1);
-  height: 3rem;
-  transition: 0.3s ease;
-  border-radius: 4px;
-
-  &:focus {
-    border-color: rgba($color-primary, 0.5);
-  }
-}
-
-.input-group {
-  position: relative;
-
-  .form-control {
-    padding-left: 45px;
-    background-color: transparent;
-  }
-
-  .input-group-text {
-    border: 0;
-    top: 11px;
-    @extend .px-3;
-    z-index: 3;
-    background-color: transparent;
-    position: absolute;
-  }
-}
-
-.form-select {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-textarea.form-control {
-  height: auto;
-}
-
-.form-control[type="file"] {
-  padding: 11px 14px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-form label {
-  font-size: 95%;
-  font-weight: 500;
-  @extend .text-dark;
-}
-
-// list-unstyled
-.list-unstyled {
-  li {
-    margin-bottom: 0.8rem;
-  }
-}
-
-// check-mark
-.check-mark {
-  position: relative;
-  padding-left: 38px;
-
-  &::before {
-    position: absolute;
-    content: "\f058";
-    color: $color-primary;
-    font-size: 1.7rem;
-    font-family: $font-icon;
-    font-weight: 900;
-    left: 0;
-    top: 0;
-  }
-
-  svg {
-    position: absolute;
-    color: $color-primary;
-    font-size: 1.7rem;
-    left: -30px;
-    top: 3px;
-  }
-}
 
 // content style
 .content {
@@ -353,15 +291,10 @@ form label {
   h3 {
     margin-top: 2rem;
   }
-  h4,
-  h5,
-  h6 {
-    opacity: .8;
-  }
 
   b,
   strong {
-    font-weight: 500;
+    font-weight: 600;
   }
 
   ol,
@@ -376,24 +309,24 @@ form label {
   ul {
     padding-left: 0;
     margin-bottom: 1.2rem;
-    list-style-type: none;
-
+    padding-left: 1.2rem; 
     li {
-      padding-left: 1.2rem;
       position: relative;
-
-      &::before {
-        position: absolute;
-        content: "";
-        height: 8px;
-        width: 8px;
-        border-radius: 50%;
-        background: $color-primary;
-        left: 3px;
-        top: 14px;
+      &::marker {
+        color: $color-primary;
       }
     }
   }
+  
+  ul.list-unstyled {
+    li {
+      margin-bottom: 0.8rem;
+      &::before {
+        content: none;
+      }
+    }
+  }
+
   pre {
     padding: 1rem;
   }
@@ -454,15 +387,3 @@ form label {
   }
 }
 
-#js-cookie-button {
-  &:hover {
-    box-shadow: none !important;
-    transform: none !important;
-  }
-
-  @include tablet {
-    display: block;
-    margin-left: 0 !important;
-    margin-top: 1rem;
-  }
-}

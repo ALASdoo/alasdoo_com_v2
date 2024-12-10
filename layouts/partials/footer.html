@@ -1,25 +1,27 @@
 <footer class="bg-light-gray">
   <div class="container">
     <div class="row justify-content-center pt-5">
-      <div class="col-lg-3 col-sm-6 d-flex align-self-center justify-content-center text-center text-sm-start pb-4 pb-sm-0">
+      <div class="col-lg-3 col-sm-6 d-flex  justify-content-center justify-content-sm-start text-center text-sm-start pb-4 pb-sm-0">
+ 
         <div class="d-inline-block">
-          <a class="d-block h5 pb-2" href="{{ site.BaseURL | absLangURL}}">
+          <a class="d-block mb-3 pb-2" href="{{ site.BaseURL | absLangURL}}">
             {{ partial "logo.html" . }}
           </a>
           {{ with site.Params.social }}
-          <ul class="list-inline social-icons">
+          <ul class="list-inline social-icons" aria-label="Social Links">
             {{ range . }}
-            <li class="list-inline-item mb-0"><a href="{{ .link | safeURL }}" title="{{ .title }}" target="_blank"><i class="{{ .icon }}"></i></a></li>
+            <li class="list-inline-item mb-0"><a href="{{ .link | safeURL }}" target="_blank" title="{{ .title }}" aria-label="{{ .title }}"><i class="{{ .icon }}" aria-hidden="true"></i></a></li>
             {{ end }}
           </ul>
           {{ end }}
         </div>
       </div>
+
       <div class="col-lg-3 col-sm-6 d-none d-lg-flex justify-content-center footer-nav">
         {{ if site.Menus.footer_menu }}
         <ul class="list-unstyled footer-list mb-0">
           {{ range site.Menus.footer_menu }}
-          <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
+          <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
         {{ end }}
@@ -28,28 +30,31 @@
         {{ if site.Menus.footer_menu_2 }}
         <ul class="list-unstyled footer-list mb-0">
           {{ range site.Menus.footer_menu_2 }}
-          <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
+          <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
         {{ end }}
       </div>
-      <div class="col-lg-3 col-sm-6 d-flex align-self-center justify-content-center text-center text-sm-start footer-contact">
+      <div class="col-lg-3 col-sm-6 d-flex justify-content-center text-center text-sm-start footer-contact">
         <div class="d-inline-block">
           <div class="pb-2">{{ site.Params.footer_content | markdownify }}</div>
           <div>
-            {{ $button := dict
-              "enable" true
-              "type" "link"
-              "label" "Contact us"
-              "link" "/contact"
-            }}
-            {{ partial "button" $button }}
+            <!-- TODO -->
+            <!-- <a href="{{ site.Params.navigation_button.link | relLangURL }}">{{ site.Params.navigation_button.label }}</a> -->
           </div>
         </div>
       </div>
-      <div class="border-top border-default text-center py-1 mt-4 footer-copyright">
-        <small class="content">{{site.Params.copyright | markdownify}}</small>
-      </div>
+    </div>
+    <div class="border-top border-default text-center py-2 mt-4 footer-copyright row">
+      <small class="copyright-label col-sm-auto col-12 order-md-0 order-1">{{site.Params.copyright | markdownify}}</small>
+
+      {{ if site.Menus.copyright_menu }}
+      <ul class="list-unstyled copyright-menu mb-0 col-sm-auto col-12 order-md-1 order-0">
+        {{ range site.Menus.copyright_menu }}
+        <li class="mb-0"><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+      {{ end }}
     </div>
   </div>
 </footer>

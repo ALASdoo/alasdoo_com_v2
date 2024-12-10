@@ -35,6 +35,7 @@
     box-shadow: none !important;
   }
 }
+
 .dark {
   .is-hoverable {
     &.shadow-none {
@@ -51,7 +52,7 @@
   a {
     display: inline-block;
     padding: 5px 0;
-    font-size: 16px;
+    font-size: rfs-value(16px);
 
     &:hover {
       color: $color-primary;
@@ -67,25 +68,33 @@
   }
 }
 
-// footer-contact
-.footer-contact {
-  font-size: 16px;
 
-  .btn-link {
-    font-size: 16px;
-    i,
-    svg {
-      font-size: 14px;
-    }
-  }
-}
 
 // footer-copyright
 .footer-copyright {
-  color: rgba($black, 0.5);
-  border-color: rgba($black, 0.15) !important;
-  small {
-    font-size: 12px !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: rfs-value(16px);
+
+  border-color: $color-border-darker !important;
+  .copyright-label {
+    color: $text-dark;
+    text-wrap: nowrap;
+  }
+}
+
+.copyright-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  text-wrap: nowrap;
+  justify-content: center;
+
+  @media (min-width: 576px) {
+    justify-content: unset;
   }
 }
 
@@ -213,38 +222,42 @@
   .block {
     z-index: 1;
     position: relative;
-    &::after {
-      position: absolute;
-      content: "";
-      height: calc(100% + 193px);
-      width: 2px;
-      top: -68px;
-      left: calc(50% - 1px);
-      background-color: rgba($color-primary, 0.2);
-      z-index: -1;
-      @include desktop {
-        display: none;
-      }
-    }
+    // History Timeline 
+    // &::after {
+    //   position: absolute;
+    //   content: "";
+    //   height: calc(100% + 193px);
+    //   width: 2px;
+    //   top: -68px;
+    //   left: calc(50% - 1px);
+    //   background-color: rgba($color-primary, 0.2);
+    //   z-index: -1;
+    //   @include desktop {
+    //     display: none;
+    //   }
+    // }
+
     .history-container {
       position: relative;
       z-index: 3;
-      &:after {
-        position: absolute;
-        content: "";
-        height: 25px;
-        width: 25px;
-        top: 12px;
-        left: -42px;
-        border: 5px solid lighten($color-primary, 3);
-        background-color: darken($color-primary, 3);
-        border-radius: 50%;
-        z-index: 3;
-        @include desktop {
-          display: none;
-        }
-      }
+      // History Timeline Bullets 
+      // &:after {
+      //   position: absolute;
+      //   content: "";
+      //   height: 25px;
+      //   width: 25px;
+      //   top: 12px;
+      //   left: -42px;
+      //   border: 5px solid lighten($color-primary, 3);
+      //   background-color: darken($color-primary, 3);
+      //   border-radius: 50%;
+      //   z-index: 3;
+      //   @include desktop {
+      //     display: none;
+      //   }
+      // }
     }
+
     &.block-right-image {
       .history-container::after {
         left: auto;
@@ -256,30 +269,30 @@
       }
     }
   }
-  &.first-element {
-    .history-container::before {
-      position: absolute;
-      content: "";
-      height: 1500px;
-      width: 5px;
-      bottom: calc(100% - 13px);
-      right: -31px;
-      // background-color: $light;
-      background-color: $white;
-      z-index: 1;
-    }
-  }
+  // &.first-element {
+  //   .history-container::before {
+  //     position: absolute;
+  //     content: "";
+  //     height: 1500px;
+  //     width: 5px;
+  //     bottom: calc(100% - 13px);
+  //     right: -31px;
+  //     // background-color: $light;
+  //     background-color: $white;
+  //     z-index: 1;
+  //   }
+  // }
   &.last-element {
-    .history-container::before {
-      position: absolute;
-      content: "";
-      height: 1500px;
-      width: 5px;
-      top: 15px;
-      left: -31px;
-      background-color: $white;
-      z-index: 1;
-    }
+    // .history-container::before {
+    //   position: absolute;
+    //   content: "";
+    //   height: 1500px;
+    //   width: 5px;
+    //   top: 15px;
+    //   left: -31px;
+    //   background-color: $white;
+    //   z-index: 1;
+    // }
     &.has-bg-light .history-container::before {
       // background-color: $light;
       background-color: $white;

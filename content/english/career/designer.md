@@ -1,12 +1,14 @@
 ---
 title: Visual Designer
+title_section: 'Careers'
 job_nature: 'Full Time'
 category: 'Development'
+draft: true
 ---
 
 ## Who are we?
 
-ALAS d.o.o. is a Software Development and Quality Assurance outsourcing company with over 15 years of experience in web development, project management, branding and design, manual and automated testing.
+ALAS doo is a Software Development and Quality Assurance outsourcing company with over 15 years of experience in web development, project management, branding and design, manual and automated testing.
 
 Aligning the product vision with the technical team is our specialty. Through open communication and a personal approach, we consider every aspect of the project, enabling us to provide insightful support and guidance.
 

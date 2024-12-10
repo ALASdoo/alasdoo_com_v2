@@ -22,8 +22,19 @@
     color: rgba($black, 0.8);
   }
 
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-brand {
+    &:active {
+      outline: none;
+    }
+  }
+
   .navbar-brand .logo-error {
-    font-size: 1rem;
+    font-size: rfs-value(16px);
     font-weight: 500;
     display: inline-block;
     white-space: break-spaces;
@@ -34,20 +45,71 @@
     padding: 0;
     font-size: 1.8rem;
     width: 26px;
+    height: 26px;
     color: lighten($black, 13.33);
     border: 0;
     transition: 0.3s ease;
 
     &:focus {
       box-shadow: none;
+      outline: 2px solid $color-primary-darker;
+      outline-offset: 3px;
     }
     &:hover {
       color: $color-primary;
     }
   }
 
+  .navbar-toggler {
+    /**
+    * Toggle Menu button icon when mobile menu is open/close
+    */
+    .fa-bars {
+      display: block;
+    }
+    .fa-xmark {
+      display: none;
+    }
+  
+    &[aria-expanded="true"] {
+      .fa-bars {
+        display: none;
+      }
+      .fa-xmark {
+        display: block;
+      }
+    }
+  }
+ 
+  /** Scroll Dropdown nav menu on mobile screen
+    when 200% zoom in
+  */
+  @media (max-width: 1200px) {
+    .navbar > .container {
+      max-height: 100vh;
+    }
+    .navbar-nav {
+      max-height: calc(100vh - 100px);
+      overflow-y: auto;
+      margin-block: 0.5rem;
+    }
+    
+    .dropdown-item {
+      width: auto;
+    }
+
+    // Fix: focus outline cut off 
+    .nav-link {
+      margin-inline-start: 4px;
+      margin-block-start: 4px;
+      &:last-child {
+        margin-block-end: 4px;
+      }
+    }
+  }
+
+
   .nav-item {
-    font-size: 0.9rem;
     .nav-link {
       display: inline-block;
       line-height: 1;
@@ -66,6 +128,7 @@
     a.nav-link:active {
       color: darken($color-primary, 10) !important;
     }
+
     &.dropdown .nav-link::after {
       display: inline-block;
       vertical-align: 0.2em;
@@ -79,6 +142,7 @@
       border-radius: 2px;
       transform: rotate(45deg);
       transition: 0s;
+      margin-inline-start: 10px;
     }
   }
 
@@ -97,9 +161,11 @@
         top: 13px;
         left: 12px;
       }
+
       &.active .dropdown-icon {
         color: $color-primary !important;
       }
+
       .dropdown-subtitle {
         display: block;
         color: $text-color;
@@ -118,30 +184,38 @@
     padding: 10px;
     border-radius: 6px;
     @include desktop-lg {
-      text-align: center;
-      border: 1px solid $light;
       padding: 12px;
       width: 100%;
-      max-width: 300px;
-      margin-left: auto;
-      margin-right: auto;
+      padding-left: 30px;
       columns: 1 !important;
+      background-color: #E9FFFB;
     }
+
     .dropdown-item {
       padding: 8px 15px;
       display: inline-block;
+  
+      font-size: 0.9rem;
+      color: $text-dark;
+      border-radius: 6px;
+
       @include desktop-lg {
         padding: 6px;
       }
-      font-size: 0.9rem;
-      color: $text-dark !important;
-      border-radius: 6px;
+
+      &.active {
+        text-decoration: underline;
+        color: $color-primary !important;
+      }
+
+      &:hover {
+        color: $color-primary;
+      }
 
       &:focus,
       &:hover,
       &.active,
       &:active {
-        color: $color-primary !important;
         background-color: transparent;
       }
     }
@@ -180,7 +254,8 @@
       }
     }
 
-    .navbar .dropdown:hover .dropdown-menu {
+    .navbar .dropdown:hover .dropdown-menu,
+    .dropdown-menu.show {
       height: auto;
       overflow: visible;
       visibility: visible;
@@ -204,6 +279,29 @@
         }
       }
     }
+  }
+
+  /* Skip to content */
+  .skip-to-content {
+    position: absolute;
+    left: -999px;
+    top: -999px;
+    
+    width: 100%;
+    display: block;
+    margin-top: -10px;
+    outline: none !important;
+    
+    cursor: pointer;
+    font-size: rfs-value(15px);
+    text-align: center;
+    text-decoration: underline;
+    background-color: $color-primary;
+    color: $white;
+  }
+  .skip-to-content:focus,
+  .skip-to-content:focus-within {
+    position: unset;
   }
 }
 
@@ -246,5 +344,15 @@
         box-shadow: 0 6px 50px -1px rgba(0, 0, 0, 0.3);
       }
     }
+  }
+}
+
+// Show dark theme logo when high contrast mode and dark color theme are enabled 
+@media (prefers-color-scheme: dark) and (forced-colors: active) {
+  .navbar-brand .only-light {
+    display: none;
+  }
+  .navbar-brand .only-dark {
+    display: block;
   }
 }

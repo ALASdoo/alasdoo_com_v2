@@ -1,18 +1,30 @@
 {{ define "main" }}
-<h1 class="d-none">Careers</h1>
-
 {{with .Params.hero}}
 <section class="section bg-light-blue pb-5 pt-5">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 d-flex align-items-center pb-4 text-center text-lg-start">
-        <div
-          data-aos="fade-right"
-          data-aos-offset="0"
-          data-aos-duration="600"
-          data-aos-easing="ease-in-out-sine">
-          <div class="h5">{{.title | markdownify}}</div>
-          <div class="pt-4">
+        <div>
+          <h1 data-aos="fade-right"
+            data-aos-offset="0"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out-sine">
+            {{ .title | markdownify }}
+          </h1>
+          <div
+            data-aos="fade-right"
+            data-aos-offset="0"
+            data-aos-duration="600"
+            data-aos-delay="200"
+            data-aos-easing="ease-in-out-sine">
+            <p class="hero-text">{{.content | markdownify}}</p>
+          </div>
+          <div class="pt-4"
+            data-aos="fade-right"
+            data-aos-offset="0"
+            data-aos-duration="600"
+            data-aos-delay="400"
+            data-aos-easing="ease-in-out-sine">
             {{ partial "button" .button }}
           </div>
         </div>
@@ -21,18 +33,13 @@
         data-aos="fade-left"
         data-aos-offset="0"
         data-aos-duration="600"
-        data-aos-delay="0"
+        data-aos-delay="600"
         data-aos-easing="ease-in-sine">
-        <div class="swiper single-slider">
-          <div class="swiper-wrapper pt-4">
-            {{range .image_item}}
-            <div class="swiper-slide">
-              {{ partial "image" (dict "Src" .image "Alt" .alt "Class" "rounded-2") }}
-            </div>
-            {{end}}
-          </div>
-        </div>
-        <div class="swiper-pagination swiper-pagination-outer"></div>
+        {{ partial "image" (dict 
+          "Src" .image_item.image
+          "Alt" .image_item.alt
+          "Class" "rounded-2") }}
+        
       </div>
     </div>
   </div>
@@ -71,33 +78,40 @@
       data-aos-duration="600"
       data-aos-easing="ease-in-out-sine">
       <div class="col-lg-10 text-center">
-        <h3 class="h3">{{.title | markdownify}}</h3>
+        <h3 >{{.title | markdownify}}</h3>
       </div>
     </div>
 
-    <div class="row justify-content-center gy-4"
+    <ul class="row justify-content-center gy-4 mt-3 list-unstyled"
       data-aos="fade-up"
       data-aos-offset="100"
       data-aos-duration="600"
       data-aos-delay="300"
       data-aos-easing="ease-in-out-sine">
       {{range .perks_item}}
-      <div class="col-xl-4 col-md-6 d-lg-flex"
+      <li class="col-xl-4 col-md-6 d-lg-flex"
         data-aos="fade-up"
         data-aos-offset="100"
         data-aos-duration="600"
         data-aos-easing="ease-in-out-sine">
-        <div class="card bg-white rounded-2 border-0 h-100">
+        <div class="card bg-white rounded-2 h-100">
           <div class="card-header text-center bg-white rounded-2 border-0 p-0 mt-5">
             {{ partial "image" (dict "Src" .image "alt" "" "Class" "rounded-2 benefit-icon") }}
           </div>
           <div class="card-body pb-5 pt-0">
-            <div class="h6 content p-3 pb-0">{{ .name | markdownify }}</div>
+            <div class="h6 content p-3 pb-0">
+              <ul aria-label="{{ .label }}">
+                {{range .items}}
+                <li>{{ . | markdownify }}</li>
+                {{end}}
+              </ul>
+
+            </div>
           </div>
         </div>
-      </div>
+      </li>
       {{end}}
-    </div>
+    </ul>
     {{end}}
   </div>
 </section>
@@ -107,15 +121,20 @@
 <section class="section bg-light-gray">
   <div class="container">
     {{ partial "content-block" .}}
-    <div class="row gy-4 pt-5 process-text"
+    <ol class="row gy-4 pt-5 process-text list-unstyled"
       data-aos="fade-up"
       data-aos-offset="180"
       data-aos-duration="600"
       data-aos-easing="ease-in-out-sine">
     {{ range .process_item }}
-      {{ partial "flat-card" . }}
+      {{ $flatCard := dict
+          "name" .name
+          "content" .content
+          "cardMarkup" "li"
+      }}
+      {{ partial "flat-card" $flatCard }}
     {{ end }}
-    </div>
+    </ol>
   </div>
 </section>
 {{ end }}
@@ -146,7 +165,7 @@
 <section class="section bg-light-blue" id="jobs">
   <div class="container">
     {{ partial "content-block" .}}
-    <div class="row gy-4"
+    <ul class="row gy-4 list-unstyled"
       data-aos="fade-up"
       data-aos-offset="180"
       data-aos-duration="600"
@@ -163,10 +182,11 @@
           "image" .Params.logo
           "name" .Title
           "button" $button
+          "cardMarkup" "li"
         }}
         {{ partial "card" $card }}
       {{end}}
-    </div>
+    </ul>
   </div>
 </section>
 {{ end }}

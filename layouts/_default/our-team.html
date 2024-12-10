@@ -1,13 +1,20 @@
 {{define "main"}}
-
 {{with .Params}}
 <section class="section p-0">
   <div class="hero-bg backdrop-dark" {{ partial "bg-image" (dict "Src" .hero_image "Position" "bottom center" "Webp" false) | safeHTMLAttr }}>
-    <div class="container">
-      <div class="text-center text-white hero-text"
+    <div class="container row justify-content-center">
+      <h1 class="text-white text-center z-100"
         data-aos="fade-up"
-        data-aos-offset="180"
+        data-aos-offset="0"
         data-aos-duration="600"
+        data-aos-easing="ease-in-out-sine">
+        {{ .title | markdownify }}
+      </h1>
+      <div class="text-center text-white hero-text col-lg-10 text-center"
+        data-aos="fade-up"
+        data-aos-offset="0"
+        data-aos-duration="600"
+        data-aos-delay="200"
         data-aos-easing="ease-in-out-sine">{{.hero | markdownify}}</div>
     </div>
   </div>
@@ -21,7 +28,6 @@
     data-aos-easing="ease-in-out-sine">
     <div class="row text-center justify-content-center">
       <div class="col-lg-10">
-        <h1 class="subtitle">{{.intro.title | markdownify}}</h1>
         <h2 class="h2">{{.intro.quality.title | markdownify}}</h2>
         {{ .intro.quality.content | markdownify }}
       </div>
@@ -71,7 +77,7 @@
       data-aos-duration="600"
       data-aos-easing="ease-in-out-sine">
       <div class="col-lg-10 text-center">
-        <h3 class="h3">{{ .team_members_title | markdownify }}</h3>
+        <h2>{{ .team_members_title | markdownify }}</h2>
       </div>
     </div>
     <div class="row gy-5 team"
@@ -86,13 +92,12 @@
         data-aos-offset="100"
         data-aos-duration="600"
         data-aos-easing="ease-in-out-sine">
-        <div class="card bg-transparent border-0 text-center">
+        <div class="card bg-transparent text-center">
           <div class="team-card rounded-2 position-relative overflow-hidden transition">
             {{ partial "image" (dict "Src" .image "Alt" .name "Class" "card-img-top rounded-2") }}
-            <p class="p-4 mb-0 text-white designation w-100 position-absolute opacity-0" data-aos="ease-in-out-quart" data-aos-duration="500">{{.content | markdownify}}</p>
           </div>
           <div class="card-body px-0">
-            <h3 class="h6 mb-1">{{.name | markdownify }}</h3>
+            <h3 class="mb-1">{{.name | markdownify }}</h3>
             <p class="designation mb-0">{{.designation | markdownify }}</p>
           </div>
         </div>
@@ -110,29 +115,26 @@
         data-aos-offset="180"
         data-aos-duration="600"
         data-aos-easing="ease-in-out-sine">
-        <h2 class="h3">{{.join.title | markdownify}}</h2>
+        <h2>{{.join.title | markdownify}}</h2>
         {{.join.content | markdownify}}
-        <div class="row text-center">
+        <div class="row">
           <div class="pt-4">
             {{ partial "button" .join.button }}
           </div>
         </div>
       </div>
+
       <div class="col-xl-6 overflow-hidden"
         data-aos="fade-left"
         data-aos-offset="180"
         data-aos-duration="600"
         data-aos-easing="ease-in-out-sine">
-        <div class="swiper single-slider">
-          <div class="swiper-wrapper">
-            {{range .join.image_item}}
-            <div class="swiper-slide">
-              {{ partial "image" (dict "Src" .image "Alt" .alt "Class" "rounded-2") }}
-            </div>
-            {{end}}
-          </div>
-        </div>
-        <div class="swiper-pagination swiper-pagination-outer"></div>
+
+        {{ partial "image" (dict
+           "Src"  .join.image_item.image
+           "Alt" .join.image_item.alt
+           "Class" "rounded-2"
+          ) }}
       </div>
     </div>
   </div>

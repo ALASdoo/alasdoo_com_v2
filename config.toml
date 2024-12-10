@@ -1,6 +1,6 @@
 baseURL = 'https://www.alasdoo.com/'
 languageCode = 'en-us'
-title = 'ALAS d.o.o. website'
+title = 'ALAS doo website'
 
 # This file is for render site varibles and plugins
 # don't remove this file.
@@ -16,16 +16,19 @@ alas_color_yellow = "#FFB81F"
 alas_color_orange = "#FF8602"
 alas_color_blue = "#00A0A3"
 
-color_primary = "#00A0A3"
+color_primary = "#007d80"
+color_primary_darker = "#006566"
 color_secondary = "#376f92"
+color_invalid = "#D72413"
 color_scrollbar = "#B5BABA"
 body_color = "#fff"
 text_color = "rgba(0,0,0,.8)"
 text_dark = "rgba(49,49,49,.85)"
 text_light = "#959595"
-link_color = "#009598"
-link_hover_color = "#008083"
+link_color = "#007d80"
+link_hover_color = "#004D4F"
 border_color = "#ECECEC"
+color_border_darker = "rgba(49,49,49,.85)"
 dark_body_color = "#1E262C"
 dark_text_color = "#cbcbcb"
 dark_text_light = "#959595"
@@ -44,7 +47,7 @@ bg_light_gray_2 = "#F5F4F6"
 
 # font variables
 # base font size for full website,
-font_size = "20px" # default is 16px
+font_size = "16px" # default is 16px
 
 # Font Scale Sizes
 # "minorSecond": 1.067,
@@ -60,10 +63,10 @@ font_scale = "1.25" # default is "majorThird": 1.25
 # go to https://fonts.google.com/ to find the font you want to use. select your font and copy only the bold part from the URL. and paste it here.
 # example: "Work+Sans:wght@400;500;600"
 font_primary = "Inter:wght@500;600;700"
-font_primary_type = "sans-serif"           # [serif/sans-serif]
-font_secondary = "Comfortaa:wght@400;500"
-font_secondary_type = "sans-serif"         # [serif/sans-serif]
-font_icon = "Font Awesome 6 Free"          # https://fontawesome.com/v5.15/icons/
+font_primary_type = "sans-serif"          # [serif/sans-serif]
+font_secondary = "Inter:wght@500;600;700"
+font_secondary_type = "sans-serif"        # [serif/sans-serif]
+font_icon = "Font Awesome 6 Free"         # https://fontawesome.com/v5.15/icons/
 
 
 ############################# Plugins ##############################
@@ -89,8 +92,6 @@ link = "plugins/swiper/swiper-bundle.js"
 link = "plugins/webfont/webfont-loader-2.js"
 [[params.plugins.js]]
 link = "plugins/glightbox.js"
-[[params.plugins.js]]
-link = "plugins/cookie.js"
 [[params.plugins.js]]
 link = "plugins/lazy-loader.js"
 [[params.plugins.js]]

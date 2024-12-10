@@ -50,37 +50,37 @@
   translation: INDUSTRY
 
 - id: apply_for_position
-  translation: Apply for Position
+  translation: Apply for position
 
 - id: view_all_positions
-  translation: View All Positions
+  translation: View all job openings
 
 - id: details
   translation: Details
 
 - id: apply_now
-  translation: Apply Now
+  translation: Apply now
 
 - id: share_this_job
   translation: 'Share this job:'
 
 - id: other_jobs
-  translation: Other Jobs
+  translation: Other job openings
 
 - id: all_jobs
   translation: All Jobs
 
 - id: fname
-  translation: First Name
+  translation: First name
 
-- id: full_name
-  translation: Full Name
+- id: fullnname
+  translation: Full name
 
 - id: lname
-  translation: Last Name
+  translation: Last name
 
 - id: email
-  translation: Email Address
+  translation: Email address
 
 - id: website
   translation: Website
@@ -104,7 +104,52 @@
   translation: doc or pdf files
 
 - id: upload_cv
-  translation: Upload CV
+  translation: Upload CV (.doc, .docx or .pdf)
+
+- id: cv_required
+  translation: This field is required. Please provide a document in .doc, .docx or .pdf format
+
+- id: email_invalid_pattern
+  translation: Invalid email address pattern
+
+- id: field_invalid_pattern 
+  translation: Invalid input. Only letters and spaces are allowed
 
 - id: search_faq
   translation: Click and search FAQ..
+
+- id: skip_link
+  translation: Skip navigation links
+
+- id: invalid_required
+  translation: field is required
+
+- id: invalid_pattern
+  translation: field has invalid characters
+
+- id: field_valid
+  translation: field is valid
+
+- id: form_legend
+  translation: All fields are required
+
+- id: privacy_disclosure
+  translation: I agree that my personal information will only be used to respond to my inquiry, and I agree with the [Privacy policy](/privacy-policy).
+
+- id: menu_open
+  translation: Open menu
+
+- id: menu_close
+  translation: Close menu
+
+- id: cookiebanner_heading
+  translation: Analytics cookies only
+
+- id: cookiebanner_description
+  translation: We use analytics cookies to improve your experience. No personal data is collected. For more details or to update your preferences, visit our [Cookies page](/cookies/).
+
+- id: cookiebanner_accept
+  translation: Accept cookies
+
+- id: cookiebanner_decline
+  translation: Decline cookies

@@ -1,5 +1,12 @@
 <meta charset="utf-8">
-<title>{{.Title | default site.Title}}</title>
+
+<title> 
+{{ if .Title }}
+  {{.Title}} {{ if .Params.Title_section }}| {{ replace .Params.title_section "-" " " | strings.FirstUpper |   }}{{ end }} | {{ .Site.Title }}
+ {{ else }}
+    {{ .Site.Title }}
+ {{end}}
+</title>
 
 <!-- responsive meta -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
@@ -17,10 +24,7 @@
 
 <!-- opengraph and twitter card -->
 {{ partial "basic-seo.html" . }}
-
-<!-- google analytics -->
-{{ template "_internal/google_analytics.html" . }}
-
+ 
 <!-- google tag manager -->
 {{ partialCached "gtm.html" . }}
 
@@ -45,4 +49,5 @@
   })(document, window, "https://ltracking.de", "65155837cab9cfcdc4f239d0");
 </script>
 
-<script src="https://cdn.userway.org/widget.js" data-account="VOaHLM8hdh"></script>
+<!-- cookie modal  -->
+{{partial "cookie-consent.html" .}}

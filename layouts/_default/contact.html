@@ -14,44 +14,162 @@
       <ul class="nav nav-tabs d-flex pb-5" id="contact-tabs" role="tablist">
         {{range $i, $e := .contact_item}}
         <li class="nav-item flex-fill {{.id}}" role="presentation">
-          <button class="nav-link {{if eq $i 0 }}active{{end}} w-100" id="{{.id}}" data-bs-toggle="tab" data-bs-target="#{{.id}}-tab-pane" type="button" role="tab" aria-controls="{{.id}}-tab-pane" aria-selected="true">{{.title}}</button>
+          <button class="nav-link {{if eq $i 0 }}active{{end}} w-100" 
+            id="{{.id}}-tab" 
+            data-target="{{.id}}-tab-pane" 
+            type="button" 
+            role="tab" 
+            aria-controls="{{.id}}-tab-pane" 
+            aria-selected="{{ if eq $i 0 }}true{{ else }}false{{ end }}"
+            {{if gt $i 0 }} tabindex="-1" {{end}} 
+            >{{.title}}
+          </button>
         </li>
         {{end}}
       </ul>
       <div class="tab-content p-0" id="myTabContent">
         {{range $i, $e := .contact_item}}
-        <div class="tab-pane fade {{if eq $i 0 }}show active{{end}}" id="{{.id}}-tab-pane" role="tabpanel" aria-labelledby="{{.id}}-tab" tabindex="0">
+        <div class="tab-pane fade 
+          {{if eq $i 0 }}show active{{end}}" 
+          id="{{.id}}-tab-pane" 
+          role="tabpanel" 
+          aria-labelledby="{{.id}}-tab" 
+          aria-live="polite"
+          >
           <div class="container">
           <div class="row">
             <div class="col-lg-5 contact-person">
               <div class="mb-4 contact-img text-center">
                 {{ partial "image" (dict "Src" .image "Alt" .name "Class" "") }}
               </div>
-              <p class="h4 text-center">{{.name}}</p>
+              <h2 class="text-center">{{.name}}</h2>
               <p>{{.content | markdownify}}</p>
             </div>
             <div class="col-lg-7">
               <div class="card shadow bg-white rounded-2 border-0">
                 <div class="card-body p-4">
-                  <h2 class="h4">{{.form_title | markdownify}}</h2>
+                  <h2 class="">{{.form_title | markdownify}}</h2>
                   <p>{{.form_content | markdownify}}</p>
 
-                  <form method="POST" class="row g-4" action="{{site.Params.contact_form_action | safeURL}}" data-netlify="true" name="{{.id}}">
-                    <div class="col-lg-12">
-                      <label class="mb-1 opacity-75" for="fname">{{ i18n "full_name"}} *</label>
-                      <input class="form-control shadow-none" type="text" name="full_name" required>
-                    </div>
-                    <div class="col-lg-12">
-                      <label class="mb-1 opacity-75" for="email">{{i18n "email"}} *</label>
-                      <input class="form-control shadow-none" type="email" name="email_address" pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" required>
-                    </div>
-                    <div class="col-lg-12">
-                      <label class="mb-1 opacity-75" for="email">{{i18n "message"}} *</label>
-                      <textarea class="form-control shadow-none" name="message" rows="4" required></textarea>
-                    </div>
-                    <div class="col-lg-12">
-                      <button class="btn btn-primary mt-2" type="submit">{{ i18n "send"}}</button>
-                    </div>
+                  <form method="POST" class="contact-form" novalidate
+                    action="{{site.Params.contact_form_action | safeURL}}"
+                    data-netlify="true"
+                    name="{{.id}}">
+
+                   <fieldset class="row g-4 ">
+                      <legend class="form-legend mt-5 mb-0">{{ i18n "form_legend" }}</legend>
+                     
+                      <!-- First Name -->
+                      <div class="col-lg-12 js--form-group">
+                        <label class="mb-1" for="{{.id}}-first-name"> {{ i18n "fname"}} </label>
+                        <input class="form-control js--form-control shadow-none my-1" 
+                          type="text" 
+                          name="first_name" 
+                          id="{{.id}}-first-name" 
+                          required
+                          autocomplete="given-name"
+                          aria-describedby="{{.id}}-feedback-validation-first-name"
+                          maxlength="50"
+                          pattern="^[a-zA-ZÀ-ÖØ-öø-ÿ0-9\-.' ]*$"
+                        >
+
+                        <div class="feedback-container" id="{{.id}}-feedback-validation-first-name"> </div>
+
+                        <div class="feedback-msg-container">
+                          <div class="feedback-msg valueMissing invalid-feedback">{{ i18n "fname"}} {{ i18n "invalid_required"}}</div>
+                          <div class="feedback-msg patternMismatch invalid-feedback"> {{ i18n "fname"}} {{ i18n "invalid_pattern"}} </div>
+                          <div class="feedback-msg valid-feedback visually-hidden"> 
+                            {{ i18n "fname"}} {{ i18n "field_valid"}} </div>
+                        </div>
+                      </div>
+                      
+                      <!-- Last Name -->
+                      <div class="col-lg-12 js--form-group">
+                        <label class="mb-1" for="{{.id}}-last-name">{{ i18n "lname"}}</label>
+                        <input class="form-control js--form-control shadow-none my-1" type="text"
+                          name="last_name" id="{{.id}}-last-name" required 
+                          autocomplete="family-name" 
+                          aria-describedby="{{.id}}-feedback-validation-last-name"
+                          maxlength="50"
+                          pattern="^[a-zA-ZÀ-ÖØ-öø-ÿ0-9\-.' ]*$"
+                          >
+
+                        <div class="feedback-container" id="{{.id}}-feedback-validation-last-name"></div>
+                        <div class="feedback-msg-container">
+                          <div class="feedback-msg valueMissing invalid-feedback" > 
+                            {{ i18n "lname"}} {{ i18n "invalid_required"}}
+                           </div>
+                           <div class="feedback-msg patternMismatch invalid-feedback" > {{ i18n "lname"}} {{ i18n "invalid_pattern"}} </div>
+                           <div class="feedback-msg valid-feedback visually-hidden"> 
+                            {{ i18n "lname"}} {{ i18n "field_valid"}} </div>
+                        </div>
+                      </div>
+                     
+                      <!-- Email -->
+                      <div class="col-lg-12 js--form-group">
+                        <label class="mb-1" for="{{.id}}-email">{{i18n "email"}}</label>
+                        <input class="form-control js--form-control shadow-none my-1" type="email"
+                          name="email_address" id="{{.id}}-email"
+                          pattern="[a-z0-9.]+@[a-z]+\.[a-z]{2,3}" required autocomplete="email"
+                          aria-describedby="{{.id}}-feedback-validation-email" maxlength="254">
+
+                        <div class="feedback-container" id="{{.id}}-feedback-validation-email" > </div>
+                        <div class="feedback-msg-container">
+                          <div class="feedback-msg valueMissing invalid-feedback">{{ i18n "email"}} {{ i18n "invalid_required"}}</div>
+                          <div class="feedback-msg patternMismatch invalid-feedback"> {{ i18n "email_invalid_pattern"}} </div>
+                          <div class="feedback-msg valid-feedback visually-hidden"> 
+                          {{ i18n "email"}} {{ i18n "field_valid"}} </div>
+                         </div>
+                      </div>
+
+                      <!-- Message -->
+                      <div class="col-lg-12 js--form-group">
+                        <label class="mb-1" for="{{.id}}-message">{{i18n "message"}}</label>
+                        <textarea class="form-control js--form-control shadow-none my-1" 
+                          name="message" 
+                          id="{{.id}}-message" rows="4" required 
+                          aria-describedby="{{.id}}-feedback-validation-message"
+                          maxlength="1000"
+                        ></textarea>
+
+                        <div class="feedback-container" id="{{.id}}-feedback-validation-message" > </div>
+
+                        <div class="feedback-msg-container">
+                          <div class="feedback-msg valueMissing invalid-feedback">{{ i18n "message"}} {{ i18n "invalid_required"}}</div>
+                          <div class="feedback-msg patternMismatch js-invalid-pattern invalid-feedback"> {{ i18n "message"}} {{ i18n "invalid_pattern"}} </div>
+                          <div class="feedback-msg valid-feedback visually-hidden"> 
+                            {{ i18n "message"}} {{ i18n "field_valid"}} </div>
+                        </div>
+                      </div>
+
+
+                      <!-- Checkbox -->
+                      <div class="col-lg-12 js--form-group">
+                        <label class="mb-1" for="{{.id}}-privacy-policy">
+                          <input type="checkbox"  required 
+                          class="form-check-input js--form-control mt-1" 
+                          id="{{.id}}-privacy-policy" 
+                          name="privacy_policy" 
+                          aria-describedby="{{.id}}-invalid-feedback-privacy-policy"
+                          aria-errormessage="{{.id}}-invalid-feedback-privacy-policy" >
+                          {{ i18n "privacy_disclosure" | markdownify }}
+                        </label>
+                        
+                        <div class="feedback-container" id="{{.id}}-invalid-feedback-privacy-policy"> </div>
+
+                        <div class="feedback-msg-container">
+                          <div class="feedback-msg valueMissing invalid-feedback"> Privacy policy  {{ i18n "invalid_required"}}</div>
+                          <div class="feedback-msg valid-feedback visually-hidden">  Privacy policy {{ i18n "field_valid"}} </div>
+                        </div>
+                      </div>
+
+                      <!-- Button -->
+                      <div class="col-lg-12">
+                        <button class="btn btn-primary mt-2" type="submit"> 
+                          {{ i18n "send"}}
+                        </button>
+                      </div>
+                   </fieldset>
                   </form>
                 </div>
               </div>

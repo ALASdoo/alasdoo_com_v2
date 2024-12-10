@@ -1,0 +1,72 @@
+{{ define "main" }}
+
+<section class="pt-3 cookies-page">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-8 col-lg-10 mx-auto">
+        <h1 class="mb-3 mt-3 text-center">{{ .Title | markdownify }}</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto content">
+        <div>{{ .Params.subtitle | markdownify}}</div>
+        {{ with .Params.cookies }}
+          {{range $i, $e := .policy_item}} 
+            {{ if .title }} <h2>{{.title}}</h2> {{ end }}
+            {{ if .content }}
+            <p>{{.content | markdownify}}</p>
+            {{ end }} 
+          {{end}}
+        {{ end }}
+
+
+        <!-- User manage cookies -->
+        {{ with .Params.cookies }}
+        <!-- Manage Cookies section :: START -->
+        {{ with .manage_cookies}}
+        <h2>{{ .title }}</h2>
+        <p>{{ .subtitle }}</p>
+        <form>
+          <div class="form-check radio-field mb-2">
+            <input type="radio" class="form-check-input radio-button" name="cookie-policy" id="cookie-accept">
+            <label class="form-check-label" for="cookie-accept">
+              {{ .accept_cookie_label | markdownify}}
+            </label>
+          </div>
+
+          <div class="form-check radio-field">
+            <input type="radio" class="form-check-input radio-button" name="cookie-policy" id="cookie-decline">
+            <label class="form-check-label" for="cookie-decline">
+              {{ .decline_cookie_label | markdownify }}
+            </label>
+          </div>
+        </form>
+        <p>{{ .content }}</p>
+        {{ end }}
+        <!-- Manage Cookies section :: END -->
+
+
+        <h2>{{ .your_data_privacy.title | markdownify }}</h2>
+        <p>{{ .your_data_privacy.content | markdownify}}</p>
+
+        <h2>{{ .changes_to_our_cookies.title | markdownify }}</h2>
+        <p>{{ .changes_to_our_cookies.content | markdownify}}</p>
+
+        <h2>{{ .contact_us.title | markdownify}}</h2>
+        <p>{{ .contact_us.content | markdownify }}</p>
+
+      </div>
+    </div>
+    {{ end }}
+
+
+
+
+
+  </div>
+</section>
+
+{{ end }}

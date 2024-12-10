@@ -1,11 +1,3 @@
-github.com/gethugothemes/hugo-modules/components/cookie-consent v0.0.0-20220419050442-4d0cbaa3f6dc h1:HVqfW/1NJeVXqV1F89Ng2joWG6PwLrFHoFX+kHbYgRY=
-github.com/gethugothemes/hugo-modules/components/cookie-consent v0.0.0-20220419050442-4d0cbaa3f6dc/go.mod h1:sWzPbaJoZU+0ca82cv8xynDdCaFdr1WHMK1PTrK0EiM=
-github.com/gethugothemes/hugo-modules/components/cookie-consent v0.0.0-20220424091259-ddb1ebeff2bb h1:jH9Y6Fmv5IIHDQg5X128/wifM5xtwoKthQdw1Db6M2A=
-github.com/gethugothemes/hugo-modules/components/cookie-consent v0.0.0-20220424091259-ddb1ebeff2bb/go.mod h1:sWzPbaJoZU+0ca82cv8xynDdCaFdr1WHMK1PTrK0EiM=
-github.com/gethugothemes/hugo-modules/components/cookie-consent v0.0.0-20220509155302-5976ca1fea3c h1:LgtsZFOnksq9yPsUvsE7P0lnpXCBYRXyEzfZcFc1O/s=
-github.com/gethugothemes/hugo-modules/components/cookie-consent v0.0.0-20220509155302-5976ca1fea3c/go.mod h1:sWzPbaJoZU+0ca82cv8xynDdCaFdr1WHMK1PTrK0EiM=
-github.com/gethugothemes/hugo-modules/components/cookie-consent v0.0.0-20221107064025-f0e9ab8a7f27 h1:RNif571n0JbCp2e2Xf1mrHRnqhXd5aBRcLTkk13nAx4=
-github.com/gethugothemes/hugo-modules/components/cookie-consent v0.0.0-20221107064025-f0e9ab8a7f27/go.mod h1:sWzPbaJoZU+0ca82cv8xynDdCaFdr1WHMK1PTrK0EiM=
 github.com/gethugothemes/hugo-modules/components/cookie-consent v0.0.0-20221112105926-def3fe496270 h1:wzZXTsSgVVx1vSIpKzGYrxVVqNXJ18oOYn2HB7cMZQU=
 github.com/gethugothemes/hugo-modules/components/cookie-consent v0.0.0-20221112105926-def3fe496270/go.mod h1:sWzPbaJoZU+0ca82cv8xynDdCaFdr1WHMK1PTrK0EiM=
 github.com/gethugothemes/hugo-modules/components/preloader v0.0.0-20220419050442-4d0cbaa3f6dc h1:tV2Ottsw/Fm0RtCZTFrumcO8TkCTlS07Dr+STchanLk=

@@ -4,8 +4,8 @@
   <div class="container text-center">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 mx-auto">
-          <h1 class="h2 mb-3">{{ .Title | markdownify }}</h1>
+        <div class="col-xl-8 col-lg-10 mx-auto">
+          <h1 class="mb-3">{{ .Title | markdownify }}</h1>
           {{ with .Params.description }}
           <p class="mb-0">{{ . | markdownify }}</p>
           {{ end }}
@@ -15,66 +15,192 @@
   </div>
 </section>
 
-<section class="section">
+<section class="job-content content">
   <div class="container">
-    <div class="row gx-6 justify-content-center">
-      <div class="col-lg-8 col-md-10">
+    <div class="row">
+      <div class="col-xl-8 col-lg-10 mx-auto">
         <div class="pe-0 pe-lg-5">
-          <div class="job-content">
-            {{.Content}}
-          </div>
-
-					<a href="javascript:document.getElementById('name').focus()" class="btn btn-primary mt-5">{{i18n `apply_now`}}</a>
+          <div class="job-content">{{.Content}}</div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-10 mt-5 mt-lg-0">
-				<div id="career_form" class="sidebar-widget bg-white rounded-2 shadow">
-					<form action="{{site.Params.career_form_action}}" name="career_form" method="POST" data-netlify="true" enctype="multipart/form-data">
-            <input type="hidden" name="job" value="{{.Title}}" />
-						<div class="form-group mb-3">
-							<label class="mb-1 opacity-75" for="name">{{i18n `fname`}} *</label>
-							<input class="form-control rounded-sm text-dark shadow-none" name="name" type="text" required>
-						</div>
-						<div class="form-group mb-3">
-							<label class="mb-1 opacity-75" for="last-name">{{i18n `lname`}} *</label>
-							<input class="form-control rounded-sm text-dark shadow-none" name="last-name" type="text" required>
-						</div>
-						<div class="form-group mb-3">
-							<label class="mb-1 opacity-75" for="email">{{i18n `email`}} *</label>
-							<input class="form-control rounded-sm text-dark shadow-none" name="email" type="email" pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" required>
-						</div>
-						<div class="form-group mb-3">
-							<label class="mb-1 opacity-75" for="cv">{{i18n `upload_cv`}} *</label>
-							<input class="text-dark my-1 w-100" type="file" accept=".doc, .docx, .pdf, application/msword" name="cv" id="cv" required>
-							<small class="d-block opacity-50">{{i18n `cv_note`}}</small>
-						</div>
+    </div>
 
-						<button class="btn btn-sm btn-primary w-100" type="submit" aria-label="{{i18n `apply_now`}}">{{i18n `apply_now`}}</button>
-					</form>
-				</div>
+    <div class="row">
+      <div class="col-xl-8 col-lg-10 mx-auto mt-lg-0">
+        <div
+          id="career_form"
+          class="sidebar-widget bg-white rounded-2 shadow"
+        >
+          <form
+            action="{{site.Params.career_form_action}}"
+            name="career_form"
+            method="POST"
+            data-netlify="true"
+            enctype="multipart/form-data"
+            novalidate
+          >
+            <fieldset class="g-4">
+              <legend class="form-legend">{{ i18n "form_legend" }}</legend>
+              <input type="hidden" name="job" value="{{.Title}}" />
+              
+              <!-- First Name -->
+              <div class="form-group mb-3 js--form-group">
+                <label class="mb-1" for="first-name">{{ i18n `fname`}}</label>
+                <input 
+                  class="form-control js--form-control shadow-none my-1"
+                  type="text" 
+                  name="first_name" 
+                  id="first-name"
+                  required 
+                  autocomplete="given-name" 
+                  aria-describedby="feedback-validation-first-name"
+                  maxlength="50"
+                  pattern="^[a-zA-ZÀ-ÖØ-öø-ÿ0-9\-.' ]*$"
+                >
+                <div class="feedback-container" id="feedback-validation-first-name">  </div>
+                <div class="feedback-msg-container">
+                  <div class="feedback-msg valueMissing invalid-feedback"> 
+                    {{ i18n "fname"}} {{ i18n "invalid_required"}}</div>
+                  <div class="feedback-msg patternMismatch invalid-feedback"> 
+                    {{ i18n "fname"}} {{ i18n "invalid_pattern"}} </div>
+                  <div class="feedback-msg valid-feedback visually-hidden"> 
+                    {{ i18n "fname"}} {{ i18n "field_valid"}} </div>
+                </div>
+              </div>
 
-				<div class="sidebar-widget bg-white rounded-2 shadow">
-					<h4 class="mb-3 h5">{{i18n `other_jobs`}}</h4>
-          {{ $currentPage := . }}
-          {{ $pages := where site.RegularPages "Section" "career" }}
-          {{ $count := 0 }}
-          {{ range $pages}}
-            {{ if and (ne .Permalink $currentPage.Permalink) (lt $count 4) }}
-              <a href="{{.RelPermalink}}" class="p-4 rounded-2 is-hoverable border mb-3 text-reset d-block">
-                <p class="text-dark fw-bold mb-1">{{.Title | markdownify}}</p>
-                <p class="mb-0"><span>{{.Params.job_nature | markdownify}}</span> | {{.Params.category | markdownify}}</p>
-              </a>
-              {{ $count = add $count 1 }}
-            {{ end }}
-          {{ end }}
-					<div class="text-center mt-4">
-            <a href="/careers#jobs" class="btn btn-sm btn-outline-primary ">
-              {{i18n `view_all_positions`}}
-            </a>
-          </div>
-				</div>
+              <!-- Last Name -->
+              <div class="form-group mb-3 js--form-group">
+                <label class="mb-1" for="last-name">{{ i18n `lname`}}</label>
+                <input class="form-control js--form-control shadow-none my-1" 
+                  type="text"
+                  name="last_name"
+                  id="last-name"
+                  required 
+                  autocomplete="family-name" 
+                  aria-describedby="feedback-validation-last-name"
+                  maxlength="50"
+                  pattern="^[a-zA-ZÀ-ÖØ-öø-ÿ0-9\-.' ]*$"
+                  >
+
+                <div class="feedback-container" id="feedback-validation-last-name"> </div>
+               
+                <div class="feedback-msg-container">
+                  <div class="feedback-msg valueMissing invalid-feedback"> 
+                    {{ i18n "lname"}} {{ i18n "invalid_required"}}</div>
+                  <div class="feedback-msg patternMismatch invalid-feedback"> 
+                    {{ i18n "lname"}} {{ i18n "invalid_pattern"}} </div>
+                  <div class="feedback-msg valid-feedback visually-hidden"> 
+                      {{ i18n "lname"}} {{ i18n "field_valid"}} </div>
+                </div>
+              </div>
+
+              <!-- Email -->
+              <div class="form-group mb-3 js--form-group">
+                <label class="mb-1" for="email">{{i18n "email"}}</label>
+                <input class="form-control js--form-control shadow-none my-1" 
+                  type="email" 
+                  name="email_address" id="email" 
+                  pattern="[a-z0-9.]+@[a-z]+\.[a-z]{2,3}"
+                  required 
+                  autocomplete="email" 
+                  aria-describedby="feedback-validation-email"
+                  maxlength="254" >
+
+                <div class="feedback-container" 
+                  id="feedback-validation-email" > </div>
+                <div class="feedback-msg-container">
+                  <div class="feedback-msg valueMissing invalid-feedback">{{ i18n "email"}} {{ i18n "invalid_required"}}</div>
+                  <div class="feedback-msg patternMismatch invalid-feedback"> {{ i18n "email_invalid_pattern"}} </div>
+                  <div class="feedback-msg valid-feedback visually-hidden"> 
+                  {{ i18n "email"}} {{ i18n "field_valid"}} </div>
+                  </div>
+              </div>
+
+              <!-- Resume -->
+              <div class="form-group mb-3 js--form-group">
+                <label class="mb-1" for="cv">{{i18n `upload_cv`}} </label>
+                <input
+                  class="text-dark my-1 w-100 form-control js--form-control"
+                  type="file"
+                  accept=".doc, .docx, .pdf, application/msword"
+                  name="cv"
+                  id="cv"
+                  required
+                  aria-describedby="feedback-validation-cv">
+
+                <div class="feedback-container" 
+                 id="feedback-validation-cv" 
+                 > </div>
+                <div class="feedback-msg-container">
+                 <div class="feedback-msg valueMissing invalid-feedback">{{ i18n "cv_required"}}</div>
+                 <div class="feedback-msg js-invalid-file-type invalid-feedback">Invalid file type. Please upload a file in .pdf, .doc or .docx format</div>
+                 <div class="feedback-msg js-too-large-file invalid-feedback"> File is too large. Please upload a file smaller than 2MB </div>
+                 <div class="feedback-msg valid-feedback visually-hidden"> CV {{ i18n "field_valid"}} </div>
+                </div>
+              </div>
+
+              <!-- Checkbox -->
+              <div class="col-lg-12 mb-3 js--form-group">
+                <label class="mb-0" for="privacy-policy">
+                  <input type="checkbox" required 
+                  class="form-check-input js--form-control mb-0 mt-1" 
+                  id="privacy-policy" 
+                  name="privacy_policy" 
+                  aria-describedby="feedback-privacy-policy"
+                  aria-errormessage="feedback-privacy-policy" >
+                  {{ i18n "privacy_disclosure" | markdownify }}
+                </label>
+
+                <div class="feedback-container" id="feedback-privacy-policy"> </div>
+
+                <div class="feedback-msg-container">
+                  <div class="feedback-msg valueMissing invalid-feedback"> Privacy policy  {{ i18n "invalid_required"}}</div>
+                  <div class="feedback-msg valid-feedback visually-hidden">  Privacy policy  {{ i18n "field_valid"}} </div>
+                </div>
+              </div>
+ 
+
+              <!-- Button -->
+              <button
+                class="btn btn-sm btn-primary"
+                type="submit"
+                aria-describedby="form-description-privacy-disclosure"
+              >{{i18n `apply_now`}}</button>
+
+            </fieldset>
+          </form>
+        </div>
       </div>
     </div>
+     
+
+    <ul class="row mt-5 p-0 column-gap-3 list-unstyled justify-content-center">
+      <h2 class="mb-3 text-center">{{i18n `other_jobs`}}</h2>
+        {{ $currentPage := . }} 
+        {{ $pages := where site.RegularPages "Section"
+        "career" }} 
+        {{ $count := 0 }} {{ range $pages}} {{ if and (ne .Permalink
+        $currentPage.Permalink) (lt $count 4) }}
+
+        {{ $button := dict
+          "enable" true
+          "type" "link-stretched"
+          "label" "Read case study"
+          "link" .RelPermalink
+        }}
+        {{ $card := dict
+          "name" .Title 
+          "headingLevel" "3"
+          "cardMarkup" "li"
+          "button" $button
+        }}
+        {{ partial "card" $card }}
+        {{ $count = add $count 1 }} {{ end }} {{ end }}
+     
+        <div class="text-center mt-4">
+          <a href="/careers#jobs"> {{i18n `view_all_positions`}} </a>
+        </div>
+      </ul>
   </div>
 </section>
 

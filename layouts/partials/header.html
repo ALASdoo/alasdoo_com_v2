@@ -1,12 +1,18 @@
 <!-- navigation -->
-<header class="navigation">
+<header class="navigation js-navigation">
   <div class="container">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-xl navbar-light fixed-top bg-white shadow">
-      <div class="container">
+    <nav class="navbar navbar-expand-xl navbar-light fixed-top bg-white shadow js-navbar">
+      <a href="#main" class="skip-to-content js-skip-to-content" role="link" >  
+        {{ i18n `skip_link` }}
+      </a>
+
+        <div class="container">
+
       <!-- navbar brand/logo -->
       <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
         {{ partial "logo.html" . }}
+        <span class="visually-hidden">Visit Alas homepage</span>
       </a>
 
       <div class="d-flex align-items-center">
@@ -32,9 +38,18 @@
         </select>
         {{ end }}
         <!-- navbar toggler -->
-        <button aria-label="navbar toggler" class="navbar-toggler border-0 h4 mb-0" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navigation">
-          <i class="fas fa-bars"></i>
+        <button class="navbar-toggler border-0 h4 mb-0" type="button" 
+          data-bs-toggle="collapse"
+          data-bs-target="#navigation"
+          data-bs-auto-close="true"
+          aria-haspopup="true"
+          aria-expanded="false" >
+          <i class="fas fa-bars">
+            <span class="sr-only"> {{ i18n "menu_open" }} </span>
+          </i>
+          <i class="fas fa-xmark">
+            <span class="sr-only"> {{ i18n "menu_close" }} </span>
+          </i>
         </button>
 
         {{ if site.Params.theme_switcher }}
@@ -52,7 +67,7 @@
         {{ end }}
       </div>
 
-      <div class="collapse navbar-collapse text-center justify-content-end" id="navigation">
+      <div class="collapse navbar-collapse justify-content-end" id="navigation">
         <ul class="navbar-nav">
           <!-- menu active -->
           {{ $currentPage := . }}
@@ -67,20 +82,29 @@
           {{- $active := eq $childURL $pageURL -}}
           {{- if $active }}active{{ end -}}
           {{- end -}}">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" 
+              data-bs-toggle="dropdown" 
+              data-toggle="dropdown"
+              aria-haspopup="true" 
+              aria-expanded="false" 
+              id={{ replaceRE "(\\s)" "" .Name | lower }}>
               {{ .Name }}
             </a>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu" aria-labelledby={{ replaceRE "(\\s)" "" .Name | lower}}>
               {{ range .Children }}
               {{ $childURL := .URL | absLangURL }}
               {{ $active := eq $childURL $pageURL }}
               <li>
-                <a class="dropdown-item {{ if $active }}active{{ end }}" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
-                href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{.Pre}}{{ .Name }}{{.Post}}</a>
+                <a class="dropdown-item {{ if $active }}active{{ end }}" 
+                  {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
+                href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">
+                {{.Pre}}{{ .Name }}{{.Post}}
+                </a>
               </li>
               {{ end }}
             </ul>
           </li>
+
           {{ else }}
           <li class="nav-item {{ if $active }}active{{ end }}">
             <a class="nav-link" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}

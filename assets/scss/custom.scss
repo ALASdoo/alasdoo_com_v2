@@ -2,6 +2,21 @@ $alas-color-yellow: #FFB81F;
 $alas-color-orange: #FF8602;
 $alas-color-blue: #00A0A3;
 
+
+
+@media (prefers-reduced-motion: reduce) {
+  [data-aos] {
+    opacity: 1 !important;
+    transform: translate(0) scale(1) !important;
+  }
+
+  a, button,
+  .card.is-hoverable:hover .card-header img {
+    transition: none;
+    transform: none;
+  }
+}
+ 
 video {
   max-inline-size: inherit;
   max-inline-size: -moz-available;
@@ -10,11 +25,20 @@ video {
   min-height: 91px;
 
   .nav-item {
+    &.active {
+      .nav-link {
+        text-decoration: underline;
+      }
+    }
     .nav-link:hover,
     &.active .nav-link {
       color: $link-color !important;
     }
   }
+}
+
+.opacity-70 {
+  opacity: .7 !important;
 }
 
 .team-card {
@@ -41,6 +65,8 @@ video {
     margin-left: 12px;
   }
 }
+
+
 .slide-text-container {
   display: inline-block;
   height: 3rem;
@@ -52,7 +78,7 @@ video {
 }
 
 .subtitle {
-  font-size: 24px !important;
+  font-size: rfs-value(24px) !important;
 
   @include desktop {
     font-size: calc(24px * 0.95) !important;
@@ -93,15 +119,11 @@ video {
 .hero-text {
   position: relative;
   z-index: 100;
-  font-size: 2rem;
+  font-size: rfs-value(20px);
+}
 
-  @include desktop {
-    font-size: 1.5rem;
-  }
-
-  @include tablet {
-    font-size: 1.4rem;
-  }
+.z-100 {
+  z-index: 100;
 }
 
 .backdrop-dark {
@@ -124,15 +146,17 @@ video {
 
 .btn-link {
   margin-left: 0 !important;
-  font-size: 20px;
+  font-size:rfs-value(20px);
   i,
   svg {
-    font-size: 18px;
+    font-size: rfs-value(18px);
   }
 }
 
+// Card Partials
 .card {
   width: 100%;
+  border-color: transparent;
   &.is-hoverable {
     &:hover {
       img {
@@ -141,35 +165,60 @@ video {
       }
     }
   }
+
   .card-header {
     overflow: hidden;
     border-bottom-right-radius: 0 !important;
     border-bottom-left-radius: 0 !important;
   }
+
+  .card-tagline {
+    color: #737373;
+  }
+
   .illustration-image img {
     padding: 1.5rem;
   }
+
+  .btn-link {
+    @extend h6;
+    .fa-arrow-right {
+      display: none;
+    }
+    &:hover {
+      text-decoration: underline;
+      color: $text-dark;
+    }
+  }
+
   ul {
     padding-left: 0;
     margin-bottom: 1.2rem;
-    list-style-type: none;
+    padding-left: 1.2rem;
+    list-style-type: disc;
+
+    ul {
+      list-style: circle;
+    }
 
     li {
-      padding-left: 1.2rem;
-      position: relative;
-
-      &::before {
-        position: absolute;
-        content: "";
-        height: 8px;
-        width: 8px;
-        border-radius: 50%;
-        background: $color-primary;
-        left: 3px;
-        top: 14px;
-      }
+      position: relative;  
     }
   }
+}
+
+
+/* Accordion */
+.accordion-button {
+  font-size: rfs-value(20px);
+  @media (min-width: 768px) {
+    font-size: inherit;
+  }
+}
+
+.accordion-button:focus {
+  outline: 3px solid $color-primary-darker;
+  outline-offset: 2px;
 }
 
 .accordion-button.collapsed {
@@ -180,7 +229,7 @@ video {
 
 .technology-name {
   color: rgba($black, .6);
-  font-size: 14px;
+  font-size:  rfs-value(14px);
   padding-top: 10px;
 }
 .technology-logo {
@@ -191,29 +240,20 @@ video {
 }
 
 .approach-text {
-  padding-left: 20px;
-
   .p {
-    font-size: 16px;
+    font-size: rfs-value(16px);
   }
 }
+
 .process-text {
-  .h6 {
-    color: $alas-color-blue;
-    font-size: 25px;
-  }
   p {
-    font-size: 16px;
+    font-size: rfs-value(16px);
   }
 }
+
 .swiper-pagination-outer {
   position: relative;
   margin-top: 20px;
-}
-
-.designation {
-  font-size: 16px;
-  color: rgba($black, .5);
 }
 
 #what-we-do-hero {
@@ -246,6 +286,7 @@ video {
   font-family: $font-primary;
 }
 
+/** Contact Page */
 .contact-img {
   border-bottom: 5px solid;
 }
@@ -254,6 +295,7 @@ video {
   .shadow {
     box-shadow: 0 1px 0 rgba(0,0,0,.02), 0 2px 6px rgba(0,0,0,.05), 0 10px 20px rgba(0,0,0,.05) !important;
   }
+
   .nav-tabs {
     border: 0;
     padding: 0;
@@ -266,19 +308,28 @@ video {
   .tab-content {
     border: 0;
   }
+
   .nav-link {
     border: 0;
     border-radius: 0;
     color: $text-dark;
-    text-transform: uppercase;
     margin-bottom: -1px;
     &.active {
-      border-bottom: 5px solid;
+      border-bottom: 5px solid $color-primary !important;
     }
+
+    &:hover {
+      outline: 2px solid $color-primary-darker;
+      background-color: transparent !important;
+      border-color: transparent;
+    }
+
+
   }
   .card-body {
-    font-size: 16px;
+    font-size: rfs-value(16px);
   }
+
   .jobs {
     .nav-link:hover {
       background-color: rgba($alas-color-yellow, .1);
@@ -314,11 +365,25 @@ video {
     .active {
       border-color: $alas-color-orange;
     }
-  }
+   }
 }
 
 .contact-person {
-  font-size: 16px;
+  font-size: rfs-value(16px);
+}
+
+#contact {
+  .nav-link:focus,
+  .nav-link:focus-visible {
+    outline: 2px solid $color-primary-darker;
+    outline-offset: 3px;
+    border-radius: 1px;
+  }
+}
+
+#myTabContent .tab-pane:focus-visible,
+#myTabContent .container:focus-visible {
+    outline: none;
 }
 
 #partnerships-tab-pane {
@@ -337,41 +402,6 @@ video {
   }
 }
 
-.article,
-.case-study,
-.job-content {
-  h1,
-  h2,
-  h3 {
-    font-weight: 400;
-    font-family: $font-primary;
-  }
-  h1 {
-    @include font-size(40px);
-  }
-  h2 {
-    @include font-size(35px);
-    font-weight: 400;
-    font-family: $font-primary;
-  }
-  h3 {
-    @include font-size(30px);
-  }
-  h4 {
-    @include font-size(28px);
-  }
-}
-.job-content {
-  h2 {
-    @include font-size(30px);
-  }
-  h3 {
-    @include font-size(25px);
-  }
-  h4 {
-    @include font-size(22px);
-  }
-}
 
 .process-step {
   background: #FFF;

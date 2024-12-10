@@ -1,10 +1,15 @@
 // main script
 (function () {
-  "use strict";
+  ("use strict");
+
+  // Detect prefers-reduced-motion config from the user
+  const hasPrefersReducedMotion =
+    window.matchMedia(`(prefers-reduced-motion: reduce)`) === true ||
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   // aos
   AOS.init({
-    disable: 'mobile',
+    disable: "mobile",
   });
 
   // gallery slider
@@ -83,11 +88,12 @@
       );
     };
 
-    // Funciton that will get fired uppon scrolling
+    // Function that will get fired upon scrolling
     var handleScroll = function handleScroll() {
       elements.forEach(function (item, id) {
         if (true === item.counterAlreadyFired) return;
         if (!isElementVisible(item)) return;
+        if (hasPrefersReducedMotion) return;
         item.updateCounter();
         item.counterAlreadyFired = true;
       });
@@ -149,30 +155,354 @@
     },
   });
 
-  // Check the size of uploaded file (max 2MB ~ 2097152 bytes)
-  // document.addEventListener("DOMContentLoaded", function () {
-  //   var uploadField = document.getElementById("cv");
-
-  //   uploadField.onchange = function() {
-  //     if(this.files[0].size > 2097152) {
-  //       alert("Max size of the file is 2MB");
-  //       this.value = ""
-  //     }
-  //   }
-  // })
-
   // Close mobile navigation when user click outside
   document.addEventListener("DOMContentLoaded", function () {
     var navigation = document.querySelector(".navbar");
     var navigationCollapse = document.getElementById("navigation");
     var navigationButton = document.querySelector(".navbar-toggler");
     var isMobileNavigation = window.matchMedia("(max-width: 1199px)");
-    
-    document.addEventListener("click", function(event) {
-      if(!navigation.contains(event.target) && isMobileNavigation.matches && navigationCollapse.classList.contains("show")) {
-        navigationButton.click();
+    const skipToContent = navigation.querySelector(".js-skip-to-content");
+    const navLinkArrays = document.querySelectorAll("#navigation .nav-link");
+
+    const toggleDropdownNav = () => {
+      navigationButton.click();
+    };
+
+    const closeNavOnESC = () => {
+      if (navigationCollapse?.classList.contains("show")) {
+        toggleDropdownNav();
+        navigationButton.focus();
       }
-      
-    })
-  })
+    };
+
+    const handleMobileNavFocusTrapping = (event) => {
+      const firstFocusableEl = navLinkArrays[0];
+      const lastFocusableEl = navLinkArrays[navLinkArrays.length - 1];
+
+      if (window.innerWidth >= 1200) {
+        return;
+      }
+
+      if (event.shiftKey && document.activeElement === firstFocusableEl) {
+        event.preventDefault();
+        lastFocusableEl.focus();
+      } else if (
+        !event.shiftKey &&
+        document.activeElement === lastFocusableEl
+      ) {
+        event.preventDefault();
+        firstFocusableEl.focus();
+      }
+    };
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        closeNavOnESC();
+      }
+
+      if (event.key === "Tab") {
+        navLinkArrays.forEach((navLink) => {
+          if (navLink.contains(event.target)) {
+            handleMobileNavFocusTrapping(event);
+          }
+        });
+      }
+
+      if (event.key === "ArrowRight" || event.key === "ArrowLeft") {
+        handleTabPanelFocusLoop(event);
+      }
+    });
+
+    document.addEventListener("click", function (event) {
+      handleContactTabClick(event);
+
+      /** close mobile menu on click outside */
+      if (
+        !navigation.contains(event.target) &&
+        isMobileNavigation.matches &&
+        navigationCollapse.classList.contains("show")
+      ) {
+        toggleDropdownNav();
+      }
+
+      /** close mobile nav when `skip-to-content` is clicked  */
+      if (
+        isMobileNavigation.matches &&
+        navigationCollapse.classList.contains("show") &&
+        event.target === skipToContent
+      ) {
+        toggleDropdownNav();
+      }
+    });
+
+    // adds anchor for Scroll-to-content link
+    document.querySelector("main").id = "main";
+
+    formHandler();
+    scrollToSectionHandler();
+  });
+
+  // Navigation handler
+  const scrollToSectionHandler = () => {
+    const navigationEl = document.querySelector(".js-navigation");
+    const navBarEl = navigationEl.querySelector(".js-navbar");
+    const mainEl = document.querySelector("#main");
+
+    const caseStudiesPage = document.querySelector(".case-studies");
+    const headings = caseStudiesPage?.querySelectorAll("h2, h3, h4");
+
+    navigationEl.style.minHeight = navBarEl.offsetHeight + "px";
+    // prevents navBar from overlapping the content
+    mainEl.style.paddingTop = navBarEl.offsetHeight + "px";
+    mainEl.style.marginTop = "-" + navBarEl.offsetHeight + "px";
+
+    // spacing for Case Studies page
+    headings &&
+      headings.forEach((heading) => {
+        heading.style.marginTop = "-" + navBarEl.offsetHeight + "px";
+        heading.style.paddingTop = navBarEl.offsetHeight + 30 + "px";
+      });
+  };
+
+  /*==============================
+    Contact Page: Tab Panel 
+  *==============================*/
+  function handleTabPanelFocusLoop(keyboardEvent) {
+    const tabList = document.querySelectorAll("#contact-tabs .nav-link");
+    const firstFocusableEl = tabList[0];
+    const lastFocusableEl = tabList[tabList.length - 1];
+    const currentTabInFocus = event.target;
+
+    if (!tabList || !keyboardEvent.target.closest("#contact-tabs .nav-link")) {
+      // tab panel not found or event not fired on TabPanel
+      return;
+    }
+
+    if (keyboardEvent.key === "ArrowRight") {
+      if (currentTabInFocus === lastFocusableEl) {
+        firstFocusableEl.focus();
+      } else {
+        const tabIndex = [...tabList].indexOf(keyboardEvent.target);
+        tabList[tabIndex + 1].focus();
+      }
+    } else if (keyboardEvent.key === "ArrowLeft") {
+      if (currentTabInFocus === firstFocusableEl) {
+        lastFocusableEl.focus();
+      } else {
+        const tabIndex = [...tabList].indexOf(keyboardEvent.target);
+        tabList[tabIndex - 1].focus();
+      }
+    }
+  }
+
+  function handleContactTabClick(clickEvent) {
+    const tabList = document.querySelectorAll("#contact-tabs .nav-link");
+    const panelList = document.querySelectorAll("#contact .tab-pane");
+    const targetTab = clickEvent.target.closest(".nav-link");
+
+    if (!tabList || !clickEvent.target.closest("#contact-tabs .nav-link")) {
+      return;
+    }
+
+    /** Sets tab to active*/
+    tabList.forEach((tab) => {
+      tab.classList.remove("active");
+      tab.tabIndex = -1;
+      tab.setAttribute("aria-selected", false);
+
+      if (tab === targetTab) {
+        tab.classList.add("active");
+        tab.removeAttribute("tabindex");
+        tab.setAttribute("aria-selected", "true");
+      }
+    });
+
+    /** Sets panel to active*/
+    panelList.forEach((panel) => {
+      panel.classList.remove("show", "active");
+      if (panel.id === targetTab.dataset.target) {
+        panel.classList.add("show", "active");
+        panel.focus();
+      }
+    });
+  }
+
+  /*==============================
+    Form
+  *==============================*/
+  function formHandler() {
+    const formValidation = (form) => {
+      const inputs = form.querySelectorAll(".js--form-control");
+
+      handleResumeFileValidation(form);
+
+      inputs.forEach((input) => {
+        /**
+         * Validate fields on change / autocomplete
+         */
+        ["input", "change"].forEach((event) => {
+          input.addEventListener(event, () => {
+            if (!form.classList.contains("was-validated")) return;
+
+            handleTextareaValidation(input);
+            handleFieldValidation(input, true);
+
+            if (input.checkValidity() === false) {
+              input.ariaInvalid = true;
+            } else {
+              input.removeAttribute("aria-invalid");
+            }
+          });
+        });
+      });
+
+      /**
+       * Form Submit Validation
+       */
+      form.addEventListener(
+        "submit",
+        (event) => {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+
+          form.classList.add("was-validated");
+
+          inputs.forEach((input) => {
+            /**
+             * Shows error messages on submit
+             */
+            handleTextareaValidation(input);
+            handleFieldValidation(input);
+
+            // Updates aria-invalid
+            if (input.checkValidity() === false) {
+              input.ariaInvalid = true;
+            } else {
+              input.removeAttribute("aria-invalid");
+            }
+          });
+          handleInvalidField(form);
+        },
+        false
+      );
+    };
+
+    const forms = document.querySelectorAll("form");
+    forms.forEach((form) => {
+      formValidation(form);
+    });
+  }
+
+  function handleFieldValidation(inputField, isAlreadySubmitted) {
+    const formGroupEl = inputField.closest(".js--form-group");
+    const feedbackContainer = formGroupEl.querySelector(".feedback-container");
+    feedbackContainer.removeAttribute("role", "alert");
+    feedbackContainer.innerHTML = "";
+
+    if (isAlreadySubmitted) {
+      /**
+       * Only announce error messages on input
+       */
+      feedbackContainer.setAttribute("role", "alert");
+    }
+
+    const feedbackMsgContainer = formGroupEl.querySelector(
+      ".feedback-msg-container"
+    );
+    let feedbackMessage = null;
+
+    if (!inputField.checkValidity()) {
+      const validity = inputField.validity;
+      if (validity.valueMissing) {
+        feedbackMessage = feedbackMsgContainer?.querySelector(".valueMissing");
+      } else if (validity.patternMismatch) {
+        feedbackMessage =
+          feedbackMsgContainer?.querySelector(".patternMismatch");
+      } else if (validity.customError) {
+        const errMessageSelector = inputField.validationMessage;
+        feedbackMessage = feedbackMsgContainer?.querySelector(
+          "." + errMessageSelector
+        );
+      }
+    } else {
+      // Mark as valid
+      feedbackMessage = feedbackMsgContainer?.querySelector(".valid-feedback");
+    }
+
+    feedbackMessage?.classList.add("d-block");
+    feedbackContainer.innerHTML = feedbackMessage?.outerHTML;
+  }
+
+  /**
+   * TextArea validation
+   */
+  function handleTextareaValidation(inputFieldEl) {
+    if (inputFieldEl.nodeName === "TEXTAREA") {
+      const textAreaPattern = [
+        /[<>]/,
+        /(\balert\b|\bscript\b)/i,
+        /(\bSELECT\b|\bDROP\b|\bINSERT\b|\bDELETE\b|--|;)/i,
+      ];
+      const hasInvalidPattern = textAreaPattern.some((pattern) =>
+        pattern.test(inputFieldEl.value)
+      );
+
+      if (hasInvalidPattern) {
+        inputFieldEl.setCustomValidity("js-invalid-pattern");
+      } else {
+        inputFieldEl.setCustomValidity("");
+      }
+    }
+  }
+
+  /**
+   * Resume validation (input[type=file])
+   * @param {textarea} inputFieldEl
+   */
+  function handleResumeFileValidation(form) {
+    const inputFileEl = form.querySelector('input[type="file"]');
+
+    if (!inputFileEl) return;
+    inputFileEl.ariaInvalid = true;
+
+    const isValidFile = (fileName) => {
+      if (!fileName) return;
+      const supportedFileTypes = ["doc", "docx", "pdf", "msword"];
+      const uploadedFileType = fileName.split(".").pop().toLowerCase();
+
+      return supportedFileTypes.includes(uploadedFileType);
+    };
+
+    inputFileEl.addEventListener("change", (event) => {
+      const file = event.target.files[0];
+      if (!file) return;
+
+      if (!isValidFile(file.name)) {
+        inputFileEl.setCustomValidity("js-invalid-file-type");
+      } else if (file.size > 2097152) {
+        inputFileEl.setCustomValidity("js-too-large-file");
+      } else {
+        // Remove custom validation
+        inputFileEl.setCustomValidity("");
+        inputFileEl.removeAttribute("aria-invalid");
+      }
+
+      handleFieldValidation(inputFileEl);
+    });
+  }
+
+  /**
+   * A11y: sets focus to the first invalid field when form is submitted
+   * so that screen readers announce it in correct order
+   */
+  function handleInvalidField(form) {
+    const inputs = form.querySelectorAll(".js--form-control");
+
+    const firstInvalidField = [...inputs].find((input) => {
+      return input.checkValidity() === false;
+    });
+    firstInvalidField?.focus();
+  }
 })();

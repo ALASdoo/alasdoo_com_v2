@@ -1,12 +1,13 @@
 html {
-  font-size: $font-size;
-  @include desktop {
-    font-size: calc(#{$font-size} * 0.95);
-  }
+  // font-size: $font-size;
 
-  @include tablet {
-    font-size: calc(#{$font-size} * 0.9);
-  }
+  // @include desktop {
+  //   font-size: calc(#{$font-size} * 1.2);
+  // }
+
+  // @include tablet {
+  //   font-size: calc(#{$font-size} * 1);
+  // }
 }
 
 body {
@@ -48,45 +49,168 @@ footer {
   .footer-nav a {
     color: $text-dark;
   }
+  .footer-nav a:hover {
+    color: #006365;
+  }
+}
 
+
+.card-heading {
+  font-family: $font-primary;
+  font-weight: 400;
+  line-height: 1; // todo: test all places
 }
 
 // List in descending order to prevent extra sort function
 $type-levels: 6, 5, 4, 3, 2, 1;
 
-@each $level in $type-levels {
-  $font-size: $font-size * $font-scale;
+ 
 
-  // Output heading styles
-  h#{$level},
-  .h#{$level} {
-    font-size: $font-size;
+  .h1, .h2, .h3, .h4, .h5, .h6, 
+  h1, h2, h3, h4, h5, h6 {
     line-height: 1.5;
+    font-weight: 500;
     margin-bottom: 0.65em;
+    color: #505050;
+  }
 
-    // responsive for h1, h2, h3, h4
-    &:not(h5, .h5, h6, .h6) {
-      @include desktop {
-        font-size: calc(#{$font-size} * 0.75);
-        margin-bottom: 0.55em;
-      }
-
-      @include tablet {
-        font-size: calc(#{$font-size} * 0.7);
-      }
+  h1, .h1 {
+    font-size: rfs-value(26px);
+    @media screen and (min-width: 768px) {
+      font-size: rfs-value(30px);
     }
-
-    // responsive for h5, h6
-    @include desktop {
-      font-size: calc(#{$font-size} * 0.95);
-      margin-bottom: 0.55em;
+    @media screen and (min-width: 992px) {
+      font-size: rfs-value(46px);
     }
+  }
 
-    @include tablet {
-      font-size: calc(#{$font-size} * 0.9);
+  h2, .h2 {
+    font-size: rfs-value(24px); 
+    @media screen and (min-width: 768px) {
+      font-size: rfs-value(28px); 
+    }
+    @media screen and (min-width: 992px) {
+      font-size: rfs-value(36px);
+    }
+  }
+  
+  h3, .h3 { 
+     font-size: rfs-value(22px); 
+    @media screen and (min-width: 768px) {
+      font-size: rfs-value(24px); 
+    }
+    @media screen and (min-width: 992px) {
+      font-size: rfs-value(24px); 
+    }
+  }
+
+  h4, .h4 {
+    font-size: rfs-value(20px); 
+  }
+
+  h6, .h6 {
+    font-size: rfs-value(20px); 
+  }
+
+  b, strong {
+    font-weight: 700;
+  }
+
+  .nav-item,
+  .navigation .dropdown-menu a.dropdown-item { 
+    font-size: rfs-value(20px); 
+  }
+
+  .numbers-text {
+    font-size: rfs-value(48px); 
+    line-height: 1.5;
+    * {
+      font-size: inherit;
+    }
+  }
+
+
+// Legal Pages
+.article,
+.case-study,
+.job-content,
+.form-success,
+.cookies-page,
+.single-page,
+.regular-page,
+.case-studies {
+  margin-bottom: 5rem;
+  
+  h1,
+  h2,
+  h3 {
+    font-weight: 400;
+    font-family: $font-primary;
+  }
+
+  h1 {
+    font-weight: 500;
+    @media screen and (min-width: 992px) { 
+      font-size: rfs-value(38px); 
+    }
+  }
+
+  h2 {
+    font-weight: 500;
+    font-family: $font-primary;
+    @media screen and (min-width: 992px) {
+      font-size: rfs-value(32px); 
+    }
+  }
+
+  h3 {
+    font-weight: 600;
+    font-size: rfs-value(18px); 
+    @media screen and (min-width: 768px) {
+      font-size: rfs-value(22px); 
+    }
+  }
+
+  h4 {
+    font-size: rfs-value(18px); 
+    font-weight: 700;
+  }
+
+  .table-of-content {
+    font-size: rfs-value(18px); 
+  }
+
+  .content {
+    ul {
+      ul {
+        margin-top: 0.8rem;
+      }
+  
+      li:before {
+        top: 10px;
+      }
     }
   }
 }
+
+// footer-contact
+.footer-contact {
+  font-size: rfs-value(16px); 
+
+  .btn-link {
+    font-size: rfs-value(16px); 
+    i,
+    svg {
+      font-size: rfs-value(14px); 
+    }
+  }
+}
+
+.designation {
+  font-size: rfs-value(16px); 
+  // color: rgba($black, .5);
+}
+ 
 
 // typo for dark mode
 body.dark {
