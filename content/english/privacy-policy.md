@@ -47,7 +47,7 @@ Under Data Protection Law, you have the following rights regarding your personal
 - **Deletion**: You can request that we delete your personal data from our records.
 - **Objection**: You have the right to object to the processing of your data for certain purposes.
 
-If you wish to exercise any of these rights, please [contact us](https://www.alasdoo.com/contact/).
+If you wish to exercise any of these rights, please [contact us](/contact/).
 
 ## Changes to this Privacy policy
 

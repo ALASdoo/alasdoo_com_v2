@@ -5,7 +5,7 @@ title: 'Accessibility statement for ALAS doo'
 subtitle: ''
 ---
 
-This accessibility statement applies to the [www.alasdoo.com](https://www.alasdoo.com) website.
+This accessibility statement applies to the [www.alasdoo.com](/) website.
 
 ## Commitment to accessibility
 

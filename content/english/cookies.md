@@ -43,7 +43,7 @@ cookies:
 
   contact_us: 
     title: 'Contact us'
-    content: 'If you have any questions about our use of cookies or your data privacy, feel free to [contact us](https://www.alasdoo.com/contact/).'
+    content: 'If you have any questions about our use of cookies or your data privacy, feel free to [contact us](/contact/).'
 
 
 
