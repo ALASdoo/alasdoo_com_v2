@@ -146,7 +146,7 @@
   translation: Analytics cookies only
 
 - id: cookiebanner_description
-  translation: We use analytics cookies to improve your experience. No personal data is collected. For more details or to update your preferences, visit our [Cookies page](/cookies/).
+  translation: We use analytics cookies to improve your experience. No personal data is collected. For more details or to update your preferences, visit our <a href="/cookies/" data-consent="false"> Cookies page</a>.
 
 - id: cookiebanner_accept
   translation: Accept cookies

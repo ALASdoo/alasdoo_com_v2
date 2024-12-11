@@ -122,7 +122,7 @@
       }
 
       /* Click on decline cookies button or click outside modal */
-      else if (declineCookiesBtn.contains(event.target) ||
+      if (declineCookiesBtn.contains(event.target) ||
         !innerModal.contains(event.target)
       ) {
         declineCookies();
