@@ -156,7 +156,12 @@ video {
 // Card Partials
 .card {
   width: 100%;
-  border-color: transparent;
+  border-color: #f4f4f4;
+
+  &.no-border {
+    border-color: transparent;
+  }
+
   &.is-hoverable {
     &:hover {
       img {
@@ -185,9 +190,14 @@ video {
     .fa-arrow-right {
       display: none;
     }
+
     &:hover {
       text-decoration: underline;
-      color: $text-dark;
+      color: inherit;
+    }
+
+    &:visited {
+      color: inherit;
     }
   }
 
