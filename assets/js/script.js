@@ -176,10 +176,13 @@
     };
 
     const handleMobileNavFocusTrapping = (event) => {
-      const firstFocusableEl = navLinkArrays[0];
+      const firstFocusableEl = navigationButton;
       const lastFocusableEl = navLinkArrays[navLinkArrays.length - 1];
+      const isNavigationOpen = document
+        .querySelector(".navbar-collapse")
+        .classList.contains("show");
 
-      if (window.innerWidth >= 1200) {
+      if (window.innerWidth >= 1200 || !isNavigationOpen) {
         return;
       }
 
@@ -201,6 +204,10 @@
       }
 
       if (event.key === "Tab") {
+        if (navigationButton.contains(event.target)) {
+          handleMobileNavFocusTrapping(event);
+        }
+
         navLinkArrays.forEach((navLink) => {
           if (navLink.contains(event.target)) {
             handleMobileNavFocusTrapping(event);
