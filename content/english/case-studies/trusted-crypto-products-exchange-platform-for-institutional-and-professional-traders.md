@@ -25,8 +25,8 @@ In this case study you can read about:
 - [About the client](#about-the-client)
 - [Client’s challenges](#clients-challenges)
 - [Our approach](#our-approach)
-  - [Experience‑based testing](#experience8209based-testing)
-  - [Cross‑browser and cross‑platform testing](#cross8209browser-and-cross8209platform-testing)
+  - [Experience‑based testing](#experience-based-testing)
+  - [Cross‑browser and cross‑platform testing](#cross-browser-and-cross-platform-testing)
   - [KYC integration, system, and acceptance testing](#kyc-integration-system-and-acceptance-testing)
   - [Retesting and verifying defects, user stories, and features](#retesting-and-verifying-defects-user-stories-and-features)
 - [Value delivered](#value-delivered)
@@ -51,13 +51,13 @@ In order to effectively test the exchange platform, it is essential to have a fu
 
 It was important to continuously compare testnet environment functionalities with the live environment’s ones. We paid close attention to features like withdrawals, deposits, and placing orders, with parameters such as leverage, trigger price, and stop&#8209;losses.
 
-### Experience&#8209;based testing
+### Experience-based testing
 
 To ensure the P2P crypto&#8209;product trading platform performs effectively in real&#8209;world scenarios, we employed a diverse range of testing techniques, including exploratory testing, usability testing, and user acceptance testing. Our testing team simulated experiences of various users, from novices to experts, and thoroughly tested the platform's functionality, usability, and overall user experience.
 
 We created numerous trading scenarios to assess the platform's ability to execute orders, handle various assets and currencies, and provide real&#8209;time market data. Through testing these scenarios, we could detect and resolve issues before they affected users.
 
-### Cross&#8209;browser and cross&#8209;platform testing
+### Cross-browser and cross-platform testing
 
 Order creation underwent a rigorous functional testing process that involved comparing values on the mobile application with those displayed on the web application. It was important to conduct cross&#8209;platform testing since users may choose to trade cryptocurrencies on different devices and platforms. This included testing on desktop browsers as well as various mobile operating systems and versions.
 
