@@ -49,8 +49,17 @@ email = "info@alasdoo.com"
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
-keywords = ["Hugo", "Themefisher", "GetHugoThemes"]
-description = "This is meta description"
+keywords = [ 
+    "quality assurance",
+    "software testing",
+    "software engineers ",
+    "software developer ",
+    "information technology ",
+    "web accessibility ",
+    "website accessibility audit ",
+    "project management "
+]
+description = "Optimize software development with ALAS expert IT outsourcing: development, testing, and accessibility solutions."
 author = "ALAS doo"
 image = "images/logo.png"                           # this image will be used as fallback if a page has no image of its own
 

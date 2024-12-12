@@ -2,7 +2,7 @@
 title: 'Our clients'
 subtitle: ''
 # meta description
-description: 'This is meta description'
+# description: 'This is meta description'
 draft: false
 layout: 'our-clients'
 

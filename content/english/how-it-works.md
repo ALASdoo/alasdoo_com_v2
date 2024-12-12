@@ -2,7 +2,7 @@
 title: "How it Works"
 subtitle: ""
 # meta description
-description: "This is meta description"
+# description: "This is meta description"
 draft: false
 layout: "how-it-works"
 
