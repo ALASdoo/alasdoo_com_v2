@@ -100,8 +100,6 @@
     }
 
     const cookieModalEl = document.querySelector(".cookie-modal");
-    const allowCookiesBtn = cookieModalEl.querySelector('[data-consent="true"]');
-    const declineCookiesBtn = cookieModalEl.querySelector('[data-consent="false"]');
     const innerModal = cookieModalEl.querySelector('.modal-content');
 
     var cookieModalRef = new bootstrap.Modal(cookieModalEl);
@@ -121,8 +119,10 @@
         markCookieRadio(true);
       }
 
-      /* Click on decline cookies button or click outside modal */
-      if (declineCookiesBtn.contains(event.target) ||
+      /* Declines cookies when user clicks on 
+         Decline button, outside modal or "Cookie Page" link
+       */
+      if (event.target.closest('[data-consent="false"]') ||
         !innerModal.contains(event.target)
       ) {
         declineCookies();
