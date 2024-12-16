@@ -4,14 +4,14 @@
          <div class="modal-body">
           {{ partial "image" (dict
             "Src" "images/cookies.svg"
-            "Alt" "Cookie image"
+            "Alt" ""
             "Class" "modal-image"
             "Size" "125x135") }}
-          
+
           <h2 class="h3 text-center" id="modal-header">
             {{ i18n `cookiebanner_heading` }}
           </h2>
-          
+
           <p> {{ i18n `cookiebanner_description` | markdownify }} </p>
 
           <div class="modal-footer">
@@ -46,7 +46,7 @@
           inlineContent: "window.dataLayer = window.dataLayer || []; " +
             "function gtag(){dataLayer.push(arguments);}" +
             "gtag('js', new Date()); " +
-            "gtag('config', '"+ googleAnalyticsId +"');" 
+            "gtag('config', '"+ googleAnalyticsId +"');"
         })
       }
 
@@ -58,7 +58,7 @@
           script.src ? scriptEl.src = script.src : null;
           script.inlineContent ? scriptEl.textContent = script.inlineContent : null;
           script.id ? scriptEl.id = script.id : null;
-          
+
           document.body.appendChild(scriptEl);
         }
       });
@@ -119,7 +119,7 @@
         markCookieRadio(true);
       }
 
-      /* Declines cookies when user clicks on 
+      /* Declines cookies when user clicks on
          Decline button, outside modal or "Cookie Page" link
        */
       if (event.target.closest('[data-consent="false"]') ||
@@ -132,7 +132,7 @@
 
 
     /**
-     *  Cookie page radio buttons 
+     *  Cookie page radio buttons
     */
     const acceptCookiesRadio = document.querySelector('#cookie-accept');
     const declineCookiesRadio = document.querySelector('#cookie-decline');
@@ -155,9 +155,9 @@
 
 
     /**
-     * Shows Cookie Dialog if no user preferences 
-     * Loads scripts if cookies accepted 
-     * Marks radio button preferences 
+     * Shows Cookie Dialog if no user preferences
+     * Loads scripts if cookies accepted
+     * Marks radio button preferences
     */
     if (!preference) {
       showModalEl();
