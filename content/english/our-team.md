@@ -219,6 +219,13 @@ team_members:
   content: By far the best table tennis player the company has ever had; sports fan, animal and nature lover, retired javelin thrower
   link: ''
 
+- name: Dalibor Petrovic
+  image: images/team/dalibor.jpg
+  categories: ['Automated QA']
+  designation: Automated QA Engineer
+  content: ''
+  link: ''
+
 - name: Dániel Snejder
   image: images/team/daniel.jpg
   categories: ['Manual QA']
@@ -254,6 +261,13 @@ team_members:
   categories: ['Manual QA']
   designation: QA Engineer
   content: Interested in the physical world and everything in it, but lives in a virtual one.
+  link: ''
+
+- name: Vladimir Pisacic
+  image: images/team/vladimir.jpg
+  categories: ['Manual QA']
+  designation: QA Engineer
+  content: ''
   link: ''
 
 - name: Valentino Milanov
