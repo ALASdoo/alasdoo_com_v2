@@ -4,10 +4,9 @@
 {{ if .Title }}
   {{.Title}} {{ if .Params.Title_section }}| {{ replace .Params.title_section "-" " " | strings.FirstUpper |   }}{{ end }} | {{ .Site.Title }}
  {{ else }}
-    {{ .Site.Title }}
+    {{ .Site.Params.homeTitle }}
  {{end}}
 </title>
-
 <!-- responsive meta -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 <meta name="theme-name" content="bigspring-hugo" />
