@@ -15,7 +15,7 @@ banner:
     experts, as well as in&#8209;depth analyses
     and consulting on improving software
     development and QA processes.
-    
+
 
     Contact us to get free recommendations for your project.'
   button:
@@ -65,6 +65,23 @@ what_we_do:
 
 
       Service packages vary per client’s needs, from manual and automated quality assurance, QA lead, project consulting to full project management.'
+      button:
+        enable: false
+        external: true
+        type: 'link'
+        label: 'Learn about our QA approach'
+        link: 'https://www.wedoqa.com/files/WeDoQA_Brochure.pdf'
+
+    - title: 'Web accessibility solutions beyond compliance'
+      id: 'accessibility'
+      img: 'images/accessibility.png'
+      content: "AccessLiaison builds on ALAS's expertise by focusing specifically on web accessibility. From accessibility audits and remediation to training and automated testing, we ensure your digital platforms are not only inclusive but also user-friendly.
+
+
+      ### Turn web accessibility into a strategic asset
+
+
+      We focus on user experience, quality, and long-term accessibility, helping you reduce legal risks while boosting your brand’s visibility. By creating accessible and engaging experiences for all users, we support both your compliance goals and enhance your reputation in the process."
       button:
         enable: false
         external: true

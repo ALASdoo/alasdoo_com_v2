@@ -91,18 +91,30 @@ Each project is unique and requires a customized approach. We supply [a vast ran
         label: 'More about the service'
         link: '/services#qa'
 
-
     # services item loop
-    - name: 'IT consulting and project management'
+    - name: 'Web accessibility solutions beyond compliance'
       type: 'illustration'
-      image: 'images/PM.png'
-      alt: "Project manager consulting a client, showing him data presented through graphs and charts."
+      image: 'images/accessibility.png'
+      alt: ""
       cardMarkup: "li"
       button:
         enable: true
         type: 'link'
         label: 'More about the service'
-        link: '/services#pm'
+        link: '/services#accessibility'
+
+
+    # # services item loop
+    # - name: 'IT consulting and project management'
+    #   type: 'illustration'
+    #   image: 'images/PM.png'
+    #   alt: "Project manager consulting a client, showing him data presented through graphs and charts."
+    #   cardMarkup: "li"
+    #   button:
+    #     enable: true
+    #     type: 'link'
+    #     label: 'More about the service'
+    #     link: '/services#pm'
 
 
 ######################### Consulting #####################
@@ -150,7 +162,7 @@ jobs:
   image_item:
     image: "images/home-gallery/01.jpg"
     alt: "Workshop about testing in a pleasant homely meeting space."
-  
+
 
 ######################### Case studies #####################
 articles:
