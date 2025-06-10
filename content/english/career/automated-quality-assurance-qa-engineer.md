@@ -1,5 +1,5 @@
 ---
-title: Automated quality assurance (QA) engineer
+title: Senior automated quality assurance (QA) engineer
 title_section: 'Careers'
 job_nature: 'Full Time'
 category: 'QA'
@@ -37,11 +37,12 @@ Driven by these, we are looking for You - a reliable and talented Automated QA E
 
 ## What qualifies you?
 
-- 3+ years of practical experience testing web applications with Selenium/Cypress
+- 5+ years of practical experience testing web applications with Selenium/Cypress
 - Knowledge of Java/JavaScript
 - Knowledge of test management, test development, and/or test process
 - Experience with QA tools and techniques, bug-tracking systems, test design and execution
 - Experience with Git or similar code versioning tool
+- Experience with Cloud Testing in AWS, GCP, or Azure, seamlessly integrating cloud technologies into testing infrastructure
 - Working knowledge of SDLC and the following QA methods: unit, integration, functional regression and system testing
 - Self-starter able to quickly learn new applications, tools, and technologies
 - Attention to detail, outstanding analytical and problem-solving skills
@@ -64,8 +65,7 @@ Driven by these, we are looking for You - a reliable and talented Automated QA E
 ### ALAS is one energetic and exciting workplace
 
 - Stable and on&#8209;going employment with a steady stream of exciting duties
-- An easily accessible workplace by car, bus, bike or foot
-- A refreshing work environment with a yard and plenty chill&#8209;out areas
+- A refreshing work environment
 
 ### ALAS cares about its talents
 
@@ -75,9 +75,8 @@ Driven by these, we are looking for You - a reliable and talented Automated QA E
 
 ### ALAS mouthwatering perks
 
-- Enjoy sponsored lunch, fresh fruit, and delicious coffee at work
 - Enjoy a customized bonus you can use as you wish (gym/private health insurance, etc.)
-- Friday bars, table tennis tournaments, and gaming sessions on a PS5
+- Regular team building activities
 
 ---
 
