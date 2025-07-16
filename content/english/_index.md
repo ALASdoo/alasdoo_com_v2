@@ -77,7 +77,7 @@ Each project is unique and requires a customized approach. We supply [a vast ran
         enable: true
         type: 'link'
         label: 'More about the service'
-        link: '/services#dev'
+        link: '/services/#dev'
 
     # services item loop
     - name: 'Manual and automated software QA services'
@@ -89,7 +89,7 @@ Each project is unique and requires a customized approach. We supply [a vast ran
         enable: true
         type: 'link'
         label: 'More about the service'
-        link: '/services#qa'
+        link: '/services/#qa'
 
     # services item loop
     - name: 'Web accessibility solutions beyond compliance'
@@ -101,7 +101,7 @@ Each project is unique and requires a customized approach. We supply [a vast ran
         enable: true
         type: 'link'
         label: 'More about the service'
-        link: '/services#accessibility'
+        link: '/services/#accessibility'
 
 
     # # services item loop
@@ -134,7 +134,7 @@ clients:
   enable: true
   title: 'Proven track record'
   subtitle: 'Clients'
-  content: 'From small businesses and startups to well&#8209;established international corporations, we work with a wide range of industries. We have developed trustworthy relationships with [clients](/our-clients) and their development teams from all over the world.
+  content: 'From small businesses and startups to well&#8209;established international corporations, we work with a wide range of industries. We have developed trustworthy relationships with [clients](/our-clients/) and their development teams from all over the world.
 
 
   In our [case studies](/case-studies), you can read more about how we were able to help them improve company practices and increase revenue.'
@@ -150,7 +150,7 @@ jobs:
   enable: true
   title: 'Working at ALAS'
   subtitle: 'Careers'
-  content: 'ALAS is all about providing [a vibrant culture](/careers#culture) through a pleasant atmosphere, possibilities for professional growth, relaxation, entertainment, and social interaction.
+  content: 'ALAS is all about providing [a vibrant culture](/careers/#culture) through a pleasant atmosphere, possibilities for professional growth, relaxation, entertainment, and social interaction.
 
 
   We encourage people to have a healthy work/life balance and devote time and energy to their families and hobbies.'
@@ -158,7 +158,7 @@ jobs:
     enable: true
     type: 'primary'
     label: 'See job openings'
-    link: '/careers#jobs'
+    link: '/careers/#jobs'
   image_item:
     image: "images/home-gallery/01.jpg"
     alt: "Workshop about testing in a pleasant homely meeting space."

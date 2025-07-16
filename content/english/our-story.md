@@ -33,7 +33,7 @@ history:
   - title : "The company today"
     image: "images/nowdays.jpg"
     alt: "Co-founders Vilmos Somogyi and Tibor Dudjik standing in front of the new ALAS logo and company values mural on the wall."
-    content : "Nowadays, ALAS is located in Novi Sad, Serbia, with more than 30 experts on [our team](/our-team). Although the company has grown significantly, it still keeps its non‑corporate, people‑focused approach, home‑like atmosphere, and family values at its core. [Our clients](/our-clients) from all over the world appreciate our enthusiasm for innovation and dedication to quality. With our knowledge and experience, we successfully handle even the most demanding projects in the financial, accounting, and healthcare sectors - fields with zero tolerance for errors."
+    content : "Nowadays, ALAS is located in Novi Sad, Serbia, with more than 30 experts on [our team](/our-team/). Although the company has grown significantly, it still keeps its non‑corporate, people‑focused approach, home‑like atmosphere, and family values at its core. [Our clients](/our-clients/) from all over the world appreciate our enthusiasm for innovation and dedication to quality. With our knowledge and experience, we successfully handle even the most demanding projects in the financial, accounting, and healthcare sectors - fields with zero tolerance for errors."
 
 ######################### mission #####################
 mission:
@@ -134,7 +134,7 @@ specialites:
       enable: false
       type: 'link'
       label: 'View case studies'
-      link: '/case-studies'
+      link: '/case-studies/'
 
   - name: "Young and creative"
     type: "illustration"
@@ -152,7 +152,7 @@ specialites:
       enable: false
       type: 'link'
       label: 'Read our articles'
-      link: '/articles'
+      link: '/articles/'
 
   - name: "Being proactive"
     type: "illustration"
@@ -170,7 +170,7 @@ specialites:
       enable: false
       type: 'link'
       label: 'View our approach'
-      link: '/services#approach'
+      link: '/services/#approach'
 
   - name: "Always improving"
     type: "illustration"
@@ -190,7 +190,7 @@ specialites:
       enable: false
       type: 'link'
       label: 'Learn more about our culture'
-      link: '/careers#culture'
+      link: '/careers/#culture'
 
   - name: "Quality over quantity"
     type: "illustration"
@@ -208,6 +208,6 @@ specialites:
       enable: false
       type: 'link'
       label: 'Meet our team'
-      link: '/our-team#team'
+      link: '/our-team/#team'
 
 ---

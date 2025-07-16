@@ -9,7 +9,7 @@ subtitle: ''
 
 Overview of our services, experience, and career possibilities.
 
-## [Services](/services)
+## [Services](/services/)
 
 List of technologies we use and detailed descriptions of our services:
 
@@ -20,22 +20,21 @@ List of technologies we use and detailed descriptions of our services:
 
 ## About us
 
-### [Our story](/our-story)
+### [Our story](/our-story/)
 
 How we developed our expertise from 1988, when the company was founded, till today.
 
-### [Our team](/our-team)
+### [Our team](/our-team/)
 
 How we choose our experts and who they are.
 
-### [Our clients](/our-clients)
+### [Our clients](/our-clients/)
 
 Industries we have worked with, and some of our clients.
 
 - [List of locations of our clients](/clients-locations)
 
-
-## [Case studies](/case-studies)
+## [Case studies](/case-studies/)
 
 The challenges our clients faced and how we helped them overcome them.
 
@@ -52,7 +51,7 @@ The challenges our clients faced and how we helped them overcome them.
 - [The platform for powering the cannabis industry with PoS, e‑commerce, and payments](/case-studies/the-platform-for-powering-the-cannabis-industry-with-pos-e-commerce-and-payments/)
 - [Trusted crypto‑products exchange platform for institutional and professional traders](/case-studies/trusted-crypto-products-exchange-platform-for-institutional-and-professional-traders/)
 
-## [Articles](/articles)
+## [Articles](/articles/)
 
 In-depth guides and insights on outsourcing, quality assurance, and IT best practices.
 
@@ -63,7 +62,7 @@ In-depth guides and insights on outsourcing, quality assurance, and IT best prac
 - [What does a rebranding process include beside a new logo?](/articles/what-does-a-rebranding-process-include-beside-a-new-logo/)
 - [How to build a culture that matches your brand?](/articles/how-to-build-a-culture-that-matches-your-brand/)
 
-## [Careers](/careers)
+## [Careers](/careers/)
 
 Information about our culture and current job openings:
 
@@ -89,6 +88,6 @@ Information about the types of cookies we use, their purpose, and settings.
 
 Detailed explanation of how we protect user data.
 
-### [Accessibility statement](/accessibility-statement)
+### [Accessibility statement](/accessibility-statement/)
 
 Information on how we ensure our website meets accessibility standards.
