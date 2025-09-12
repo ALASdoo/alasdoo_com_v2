@@ -70,7 +70,7 @@
     .fa-xmark {
       display: none;
     }
-  
+
     &[aria-expanded="true"] {
       .fa-bars {
         display: none;
@@ -80,7 +80,7 @@
       }
     }
   }
- 
+
   /** Scroll Dropdown nav menu on mobile screen
     when 200% zoom in
   */
@@ -93,12 +93,12 @@
       overflow-y: auto;
       margin-block: 0.5rem;
     }
-    
+
     .dropdown-item {
       width: auto;
     }
 
-    // Fix: focus outline cut off 
+    // Fix: focus outline cut off
     .nav-link {
       margin-inline-start: 4px;
       margin-block-start: 4px;
@@ -194,7 +194,7 @@
     .dropdown-item {
       padding: 8px 15px;
       display: inline-block;
-  
+
       font-size: 0.9rem;
       color: $text-dark;
       border-radius: 6px;
@@ -254,7 +254,7 @@
       }
     }
 
-    .navbar .dropdown:hover .dropdown-menu,
+
     .dropdown-menu.show {
       height: auto;
       overflow: visible;
@@ -286,12 +286,12 @@
     position: absolute;
     left: -999px;
     top: -999px;
-    
+
     width: 100%;
     display: block;
     margin-top: -10px;
     outline: none !important;
-    
+
     cursor: pointer;
     font-size: rfs-value(15px);
     text-align: center;
@@ -347,7 +347,7 @@
   }
 }
 
-// Show dark theme logo when high contrast mode and dark color theme are enabled 
+// Show dark theme logo when high contrast mode and dark color theme are enabled
 @media (prefers-color-scheme: dark) and (forced-colors: active) {
   .navbar-brand .only-light {
     display: none;
