@@ -3,7 +3,9 @@ publish = "public"
 command = "hugo --minify --gc"
 
 [build.environment]
-HUGO_VERSION = "0.111.0"
+HUGO_VERSION = "0.163.3"
+NODE_VERSION = "24"
+GO_VERSION = "1.24"
 HUGO_BASEURL = "/"
 
 [[headers]]

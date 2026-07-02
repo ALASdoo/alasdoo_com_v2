@@ -1,10 +1,11 @@
 ################################### English language #####################################
 [en]
-languageName = "EN"
-languageCode = "en-US"
+label = "EN"
+locale = "en-US"
 contentDir = "content/english"
 weight = 1
 ########### footer content ##########
+[en.params]
 footer_contact_title = "Contact Info"
 footer_content = """
 Rudjera Boskovica 20

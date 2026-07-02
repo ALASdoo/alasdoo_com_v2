@@ -29,20 +29,24 @@
 
 // content switcher
 body {
-  .only-dark {
+  .only-dark,
+  .img-dark {
     display: none;
   }
 
-  .only-light {
+  .only-light,
+  .img-light {
     display: initial;
   }
 
   &.dark {
-    .only-light {
+    .only-light,
+    .img-light {
       display: none;
     }
 
-    .only-dark {
+    .only-dark,
+    .img-dark {
       display: initial;
     }
   }

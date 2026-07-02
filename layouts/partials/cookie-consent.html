@@ -30,7 +30,7 @@
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const COOKIE_STORAGE_KEY = "cookie-consent";
-    const googleAnalyticsId = "{{ .Site.GoogleAnalytics }}";
+    const googleAnalyticsId = "{{ site.Config.Services.GoogleAnalytics.ID }}";
 
     const consentScripts = [];
     if (googleAnalyticsId) {

@@ -36,7 +36,7 @@
             </div>
             <div class="col-lg-3 col-sm-6">
               <a class="d-block h5 mb-3" href="{{ site.BaseURL | absLangURL}}">
-                {{ partial "logo.html" . }}
+                {{ partial "logo.html" (dict "Src" site.Params.logo "DarkSrc" site.Params.logo_dark) }}
               </a>
               <p class="mb-4">{{ site.Params.footer_content | markdownify }}</p>
               {{ with site.Params.social }}

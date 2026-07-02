@@ -349,10 +349,12 @@
 
 // Show dark theme logo when high contrast mode and dark color theme are enabled
 @media (prefers-color-scheme: dark) and (forced-colors: active) {
-  .navbar-brand .only-light {
+  .navbar-brand .only-light,
+  .navbar-brand .img-light {
     display: none;
   }
-  .navbar-brand .only-dark {
+  .navbar-brand .only-dark,
+  .navbar-brand .img-dark {
     display: block;
   }
 }

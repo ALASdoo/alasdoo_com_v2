@@ -11,7 +11,7 @@
 
       <!-- navbar brand/logo -->
       <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
-        {{ partial "logo.html" . }}
+        {{ partial "logo.html" (dict "Src" site.Params.logo "DarkSrc" site.Params.logo_dark) }}
         <span class="visually-hidden">Visit Alas homepage</span>
       </a>
 

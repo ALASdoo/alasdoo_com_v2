@@ -5,7 +5,7 @@
  
         <div class="d-inline-block">
           <a class="d-block mb-3 pb-2" href="{{ site.BaseURL | absLangURL}}">
-            {{ partial "logo.html" . }}
+            {{ partial "logo.html" (dict "Src" site.Params.logo "DarkSrc" site.Params.logo_dark) }}
           </a>
           {{ with site.Params.social }}
           <ul class="list-inline social-icons" aria-label="Social Links">
